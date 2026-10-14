@@ -16,7 +16,7 @@ excerpt: "Les clients proches appellent l’une des trois premières entreprises
 
 Quelqu’un, à quelques rues de votre boutique, de votre agence ou de votre showroom, cherche exactement ce que vous vendez et appelle l’une des trois entreprises que Google affiche en tête de la carte. Placez la vôtre parmi elles, et le téléphone sonne plus souvent, dans chaque ville où vous avez des clients, à Lyon comme à Bruxelles, à Genève comme à Valence. Pour une entreprise francophone installée en Espagne, notre guide du [référencement local à Valencia](/fr/referencement-local-valencia/) détaille l’approche quartier par quartier.
 
-Voici comment être référencé, ce qui donne une place sur la carte, où se placent les avis, les publications, les annonces et les réponses de l’IA, et comment voir ce qui fait sonner le téléphone.
+Voici comment être référencé, ce qui donne une place sur la carte, où figurent les avis, les publications, les annonces et les réponses de l’IA, et comment voir ce qui fait sonner le téléphone.
 
 ## Ajoutez votre entreprise à Google Maps
 
@@ -30,7 +30,7 @@ Une fiche validée est votre place sur la carte. Votre présence sur Maps passe 
 > « Les méthodes de validation sont déterminées automatiquement par Google et ne peuvent pas être modifiées. »
 > Source : [Google Business Profile Help, « Verify your business on Google »](https://support.google.com/business/answer/7107242?hl=en)
 
-Une fois la validation faite, votre entreprise apparaît sur Google Maps. Si vous avez une adresse dans plusieurs pays, prévoyez une fiche par adresse, rédigée dans la langue de vos clients sur place. Notre [service de référencement local](/fr/services/referencement-local/) peut prendre en charge la création et la validation de vos fiches.
+Une fois votre fiche validée, votre entreprise apparaît sur Google Maps. Si vous avez une adresse dans plusieurs pays, prévoyez une fiche par adresse, rédigée dans la langue de vos clients sur place. Notre [service de référencement local](/fr/services/referencement-local/) peut prendre en charge la création et la validation de vos fiches.
 
 ## Complétez votre fiche avec des informations exactes
 
@@ -76,7 +76,7 @@ Quand votre adresse s’écrit de la même façon dans tous les annuaires, Googl
 
 ## Demandez des avis à vos clients
 
-Les avis sont la première chose qu’un client proche lit avant d’appeler, et ils comptent dans votre classement dans les résultats locaux.
+Les avis sont la première chose qu’un client proche lit avant d’appeler, et ils comptent pour votre classement dans les résultats locaux.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 120" role="img" aria-label="Trois étapes pour les avis : demander aux clients, l’avis est publié, puis répondre à chacun.">
@@ -109,7 +109,7 @@ Une fiche active ressemble à une entreprise ouverte. Google Business Profile vo
 - les événements
 - les changements d’horaires
 
-Pour trouver des sujets, puisez dans vos articles de blog : beaucoup fonctionnent aussi comme publications Google. Pour en écrire de nouveaux, nos [idées d’articles qui attirent des clients](/fr/idees-articles-de-blog/) vous donnent quinze points de départ.
+Pour trouver des sujets, puisez dans vos articles de blog : beaucoup se prêtent aussi à des publications Google. Pour en écrire de nouveaux, nos [idées d’articles qui attirent des clients](/fr/idees-articles-de-blog/) vous donnent quinze points de départ.
 
 ## Préparez-vous à la recherche par IA dans Maps
 
@@ -135,7 +135,7 @@ Google a intégré ses modèles Gemini à Maps : les utilisateurs posent des qu
 > « Ask Maps, une nouvelle expérience conversationnelle qui répond à des questions complexes du monde réel auxquelles une carte ne pouvait pas répondre auparavant. » Google l’a lancé le 12 mars 2026 aux États-Unis et en Inde, sur Android et iOS, puis l’a étendu le 6 août 2026 à plus de 150 pays et territoires, en anglais.
 > Source : [Google, « Ask Maps and Immersive Navigation », 12 mars 2026](https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/) ; [Google, « Ask Maps gets more helpful with food ordering and more », 6 août 2026](https://blog.google/products-and-platforms/products/maps/order-food-in-ask-maps/)
 
-Gardez vos informations exactes et précises, répondez aux questions courantes dans votre description et vos publications, et appuyez vos formulations sur une [recherche de mots-clés locale](/fr/services/referencement-local/).
+Gardez vos informations exactes et précises, répondez aux questions courantes dans votre description et vos publications, et basez vos formulations sur une [recherche de mots-clés locale](/fr/services/referencement-local/).
 
 <aside class="post-cta">
 <p><strong>Votre ville cherche-t-elle en plusieurs langues ?</strong> Notre <a href="/fr/services/referencement-local/">référencement local pour les villes multilingues</a> couvre chaque langue de vos clients, avec une routine d’avis et une réponse à chaque avis. <a href="/fr/nous-contacter/">Réservez l’appel de découverte</a>.</p>
@@ -153,7 +153,7 @@ La visibilité naturelle se construit sur plusieurs mois ; les annonces l’app
 > Performance Max pour les objectifs en magasin promeut vos points de vente « sur les plus grandes propriétés de Google, dont le réseau de recherche Google, Google Maps, Waze, YouTube, Gmail et le réseau Display de Google. »
 > Source : [Google Ads Help, « About Performance Max for store goals »](https://support.google.com/google-ads/answer/12971048?hl=en)
 
-Votre budget média entier achète de la publicité : il va directement à Google, et la gestion est facturée à part. Pour piloter des campagnes dans plusieurs langues, voyez notre [SEM multilingue](/fr/services/sem-multilingue/).
+Tout votre budget média sert à acheter de la publicité : il est versé directement à Google, et nous facturons la gestion à part. Pour piloter des campagnes dans plusieurs langues, découvrez notre [SEM multilingue](/fr/services/sem-multilingue/).
 
 | Levier | Coût | Ce qu’il améliore |
 |---|---|---|
@@ -171,7 +171,7 @@ Les chiffres disent quel changement a fait sonner le téléphone. Le rapport Per
 - les termes de recherche qu’elles ont utilisés
 - les appels, les clics vers votre site et les demandes d’itinéraire
 
-Utilisez ces données pour ajuster votre fiche et vos publications. Pour suivre ce que font les visiteurs une fois sur votre site, comparez les [alternatives à Google Analytics](/fr/alternatives-a-google-analytics/).
+Utilisez ces données pour ajuster votre fiche et vos publications. Pour suivre ce que font les visiteurs une fois arrivés sur votre site, comparez les [alternatives à Google Analytics](/fr/alternatives-a-google-analytics/).
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 160" role="img" aria-label="Le rapport Performances suit les clients depuis la recherche et Maps, en passant par les termes utilisés, jusqu’aux appels, aux clics et aux itinéraires.">
@@ -189,4 +189,4 @@ Utilisez ces données pour ajuster votre fiche et vos publications. Pour suivre 
 
 ## Cinq leviers pour être choisi sur Maps
 
-Promouvoir une entreprise locale sur Google Maps repose sur une fiche validée et complète, des citations cohérentes, un flux régulier d’avis avec leurs réponses, des publications fréquentes et, quand vous voulez de la visibilité rapidement, de la publicité payante.
+Promouvoir une entreprise locale sur Google Maps passe par une fiche validée et complète, des citations cohérentes, un flux régulier d'avis auxquels vous répondez, des publications fréquentes et, lorsque vous souhaitez une visibilité rapide, de la publicité payante.

@@ -15,13 +15,13 @@ excerpt: "SEO technique d’un site allemand : URL propres, versions pour l’A
 
 ## Le SEO technique, base de vos ventes en Allemagne
 
-Vous vendez déjà en Allemagne, et vos pages allemandes sont bien écrites. La couche technique qui se trouve dessous décide du nombre d’acheteurs allemands qui les liront. Quand elle est bien réglée, la version allemande apparaît en Allemagne et la version suisse en Suisse, un lien transmis par e-mail reste propre, et la page se charge vite sur un téléphone, dans le train entre Cologne et Francfort.
+Vous vendez déjà en Allemagne, et vos pages allemandes sont bien écrites. La couche technique sous-jacente décide du nombre d’acheteurs allemands qui les liront. Quand elle est bien réglée, la version allemande apparaît en Allemagne et la version suisse en Suisse, un lien envoyé par e-mail reste propre, et la page se charge vite sur un téléphone, dans le train entre Cologne et Francfort.
 
-Les corrections sont en général modestes, et elles sont propres au marché germanophone. Pour la stratégie d’ensemble (moteurs utilisés, recherche de mots-clés, contenu et netlinking), notre guide des [bonnes pratiques du SEO allemand](/fr/seo-allemand-bonnes-pratiques/) couvre le marché. Ici, nous entrons dans les réglages : la structure des URL, les versions régionales pour l’Allemagne, l’Autriche et la Suisse, la vitesse, le mobile, et l’ordre dans lequel les traiter pour un [référencement en Allemagne qui rapporte](/fr/services/seo-allemand/).
+Les corrections sont en général modestes, et elles sont propres au marché germanophone. Pour la stratégie d’ensemble (moteurs utilisés, recherche de mots-clés, contenu et netlinking), notre guide des [bonnes pratiques du SEO allemand](/fr/seo-allemand-bonnes-pratiques/) traite du marché. Ici, nous passons aux réglages : la structure des URL, les versions régionales pour l’Allemagne, l’Autriche et la Suisse, la vitesse, le mobile, et l’ordre dans lequel les traiter pour un [référencement en Allemagne qui rapporte](/fr/services/seo-allemand/).
 
 ## Des URL allemandes propres et lisibles
 
-Une URL est souvent la première chose qu’un acheteur voit, dans les résultats ou dans un lien transmis par un collègue. Une URL allemande propre gagne des clics et de la confiance, et montre que la page a été construite pour des lecteurs allemands.
+Une URL est souvent la première chose qu’un acheteur voit, dans les résultats ou dans un lien envoyé par un collègue. Une URL allemande propre gagne des clics et la confiance, et montre que la page a été construite pour des lecteurs allemands.
 
 La structure des URL fait partie des fondations du [SEO technique d’un site multilingue](/fr/services/seo-technique/), et l’allemand y ajoute quelques règles propres à la langue.
 
@@ -33,7 +33,7 @@ Le cas que nous voyons le plus souvent chez les entreprises francophones : le d
 
 ### Translittérer les umlauts et le ß
 
-L’allemand compte des umlauts (ä, ö, ü) et le ß, qui apparaissent encodés en pourcentage quand une URL est copiée ou partagée. Google sait les lire, mais la forme encodée paraît illisible dans un e-mail, un tableur ou certains outils d’analyse.
+L’allemand comporte des umlauts (ä, ö, ü) et le ß, qui apparaissent encodés en pourcentage quand une URL est copiée ou partagée. Google les comprend, mais la forme encodée paraît illisible dans un e-mail, un tableur ou certains outils d’analyse.
 
 La plupart des sites allemands les translittèrent donc :
 
@@ -66,11 +66,11 @@ Les liens restent ainsi propres partout où ils sont collés. En Suisse, l’all
 
 Des **mots-clés allemands** dans l’URL aident les utilisateurs comme les moteurs. Google traite les mots de l’URL comme un signal léger, et une URL descriptive obtient aussi plus de clics dans les résultats et dans les liens partagés.
 
-Utilisez chaque mot-clé une fois, pour des URL nettes. Un `/deutschland-reiseangebote` épuré en fait plus qu’une URL chargée de termes répétés.
+Utilisez chaque mot-clé une fois, pour des URL nettes. Un `/deutschland-reiseangebote` épuré en dit plus long qu’une URL chargée de termes répétés.
 
 ### Une arborescence logique
 
-Une structure prévisible aide les acheteurs à se repérer sur un grand site, surtout en e-commerce. Les utilisateurs allemands l’apprécient claire et logique : `/produkte/haushaltsgeraete/waschmaschinen` les guide dans la navigation et montre aux moteurs comment les rubriques s’articulent.
+Une structure prévisible aide les acheteurs à se repérer sur un grand site, surtout en e-commerce. Les utilisateurs allemands la trouvent claire et logique : `/produkte/haushaltsgeraete/waschmaschinen` les guide dans la navigation et montre aux moteurs comment les rubriques s’articulent.
 
 ## Hreflang pour l’Allemagne, l’Autriche et la Suisse
 
@@ -117,11 +117,11 @@ Décidez d’abord des variantes allemandes dont vous avez réellement besoin, p
 
 ### Garder les versions régionales distinctes
 
-Avec hreflang, les moteurs lisent plusieurs versions allemandes presque identiques (une pour l’Allemagne et une pour l’Autriche, par exemple) comme les versions régionales d’une même page, et chacune peut se positionner ; les balises leur évitent d’être traitées comme des doublons et gardent ensemble l’autorité SEO de votre site.
+Avec hreflang, les moteurs considèrent plusieurs versions allemandes presque identiques (une pour l’Allemagne et une pour l’Autriche, par exemple) comme les versions régionales d’une même page, et chacune peut se positionner ; les balises leur évitent d’être traitées comme des doublons et préservent l’autorité SEO de votre site dans son ensemble.
 
 ### Contrôler la cohérence des balises
 
-Vérifiez que les balises sont cohérentes d’une version à l’autre, que les références sont réciproques et que les codes de langue sont valides. Chaque page de langue doit désigner les autres versions, et elle-même. Search Console a retiré son rapport de ciblage international : contrôlez donc votre configuration avec un robot d’exploration ou un outil dédié aux tests hreflang.
+Vérifiez que les balises sont cohérentes d’une version à l’autre, que les références sont réciproques et que les codes de langue sont valides. Chaque page de langue doit désigner les autres versions, ainsi qu’elle-même. Search Console a retiré son rapport de ciblage international : contrôlez donc votre configuration avec un robot d’exploration ou un outil dédié aux tests hreflang.
 
 <aside class="post-cta">
 <p><strong>Vous voulez que vos pages autrichiennes, suisses et allemandes se positionnent chacune dans leur pays ?</strong> Notre <a href="/fr/services/seo-technique/">SEO technique pour sites multilingues</a> vérifie si vos versions de langue s’additionnent, puis corrige ce qui les sépare. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
@@ -148,13 +148,13 @@ Google fixe un seuil pour chacun des trois **Core Web Vitals**. Interaction to N
 ### Trois leviers pour accélérer vos pages
 
 **Compression des images et chargement différé :**  
-Les images sont le point de départ habituel. Compressez-les avec un outil comme TinyPNG pour réduire leur poids à rendu identique, et chargez-les en différé, pour que chaque image se charge au moment où elle va entrer dans l’écran.
+Les images sont le point de départ habituel. Compressez-les avec un outil comme TinyPNG pour réduire leur poids à rendu identique, et chargez-les en différé, pour que chaque image se charge au moment où elle entre dans l’écran.
 
 **Minification du code :**  
 Retirez les espaces superflus, les commentaires et le code redondant de vos fichiers JavaScript, CSS et HTML. Des fichiers plus légers se chargent plus vite.
 
 **Réseau de diffusion de contenu (CDN) :**  
-Un CDN sert vos pages depuis un serveur proche de l’utilisateur. Il apporte le plus quand votre site allemand a des acheteurs en Allemagne, en Autriche, en Suisse et dans le reste de l’Europe, et quand le site lui-même est hébergé en France ou en Belgique.
+Un CDN sert vos pages depuis un serveur proche de l’utilisateur. Il est le plus utile quand votre site allemand vise des acheteurs en Allemagne, en Autriche, en Suisse et dans le reste de l’Europe, et quand le site lui-même est hébergé en France ou en Belgique.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 120" role="img" aria-label="Trois leviers pour accélérer un site allemand, dans l’ordre : compresser et différer les images, minifier le code, puis servir les pages depuis un CDN proche de l’acheteur.">
@@ -217,7 +217,7 @@ AMP peut encore convenir aux éditeurs de presse qui disposent déjà d’une co
 Google a retiré son test d’optimisation mobile en décembre 2023. Contrôlez les performances mobiles avec Lighthouse dans Chrome, PageSpeed Insights et le rapport Core Web Vitals de Search Console.
 
 **Connexions plus lentes :**  
-La couverture 5G de l’Allemagne s’étend, et beaucoup d’utilisateurs naviguent encore sur des connexions irrégulières, à la campagne ou dans le train. Gardez des pages légères, qui fonctionnent sur n’importe quel réseau.
+La couverture 5G de l’Allemagne s’étend, et beaucoup d’utilisateurs utilisent encore des connexions irrégulières, à la campagne ou dans le train. Gardez des pages légères, qui fonctionnent sur n’importe quel réseau.
 
 <aside class="post-cta">
 <p><strong>Les réglages techniques sont faits, et vous êtes prêts pour davantage de demandes allemandes ?</strong> Notre <a href="/fr/services/seo-allemand/">agence de SEO allemand</a> audite vos pages allemandes face à trois concurrents allemands directs, puis valide avec vous un plan en français. <a href="/fr/nous-contacter/">Parlez-nous de votre site allemand</a>.</p>

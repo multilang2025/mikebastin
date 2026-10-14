@@ -15,17 +15,17 @@ excerpt: "Hreflang, hébergement, pages proches, structure de domaine : les ré
 
 ## Montrez à chaque pays la bonne version de votre site
 
-Vos pages en anglais, en allemand et en espagnol peuvent s’additionner, chacune se positionnant sur son propre marché. Quand les réglages sont justes, Google montre la bonne version à chaque pays, l’acheteur arrive dans sa langue, et chaque traduction que vous avez payée devient visible.
+Vos pages en anglais, en allemand et en espagnol peuvent se cumuler, chacune se positionnant sur son propre marché. Quand les réglages sont justes, Google montre la bonne version à chaque pays, l’acheteur arrive dans sa langue, et chaque traduction que vous avez payée devient visible.
 
-Sur un [site multilingue](/fr/bonnes-pratiques-seo-multilingue/), cette addition tient en quatre réglages techniques : l’étiquetage de chaque version de langue, l’endroit d’où le site est servi, la gestion des pages proches et la structure du domaine. Voici ce que fait chacun, les corrections que nous apportons le plus souvent, et la façon de les régler pour qu’ils portent votre [référencement multilingue](/fr/services/referencement-multilingue/).
+Sur un [site multilingue](/fr/bonnes-pratiques-seo-multilingue/), ce cumul tient en quatre réglages techniques : l’étiquetage de chaque version de langue, l’hébergement, la gestion des pages similaires et la structure du domaine. Voici ce que fait chacun, les corrections que nous apportons le plus souvent, et la façon de les régler pour qu’ils soutiennent votre [référencement multilingue](/fr/services/referencement-multilingue/).
 
 ## Faites travailler vos versions ensemble avec hreflang
 
-Bien posées, elles font travailler vos versions de langue ensemble, et chaque visiteur arrive sur une page dans sa langue. Les balises hreflang indiquent aux moteurs quelle version de langue et de région montrer à chaque utilisateur. Nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) couvrent la stratégie d’ensemble.
+Bien posées, elles font collaborer vos versions de langue, et chaque visiteur arrive sur une page dans sa langue. Les balises hreflang indiquent aux moteurs quelle version de langue et de région montrer à chaque utilisateur. Nos [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) couvrent la stratégie d’ensemble.
 
 ### Mettre en place hreflang correctement
 
-Chaque page porte des annotations qui désignent la page elle-même et chaque autre version de langue ou de région. Google accepte trois emplacements équivalents, et un seul suffit :
+Chaque page comporte des annotations qui désignent la page elle-même et chaque autre version de langue ou de région. Google accepte trois emplacements équivalents, et un seul suffit :
 
 | Méthode | Emplacement | Convient à |
 |---|---|---|
@@ -62,10 +62,10 @@ Chaque annotation est réciproque : si la page A désigne la page B, la page B 
 
 - Pointez chaque annotation vers l’URL finale et active, celle qui renvoie un statut 200.
 - Commencez chaque valeur par un code de langue ISO 639-1, suivi si besoin d’un code de pays ISO 3166-1 : `fr-BE` pour la Belgique francophone, `en-GB` pour le Royaume-Uni. Le code du pays y est GB, et la forme `en-UK`, pourtant fréquente, sort de la norme.
-- Ajoutez `x-default`, la version de repli pour les utilisateurs dont la langue sort de la liste, souvent un sélecteur de langue.
+- Ajoutez `x-default`, la version de repli pour les utilisateurs dont la langue ne figure pas dans la liste, souvent un sélecteur de langue.
 - Ajoutez les liens retour, comme ci-dessus.
 
-Chacun de ces contrôles protège vos chances de positionnement et le travail de [localisation de site web](/fr/services/localisation-de-site-web/) qui se trouve derrière les pages.
+Chacun de ces contrôles protège votre positionnement et le travail de [localisation de site web](/fr/services/localisation-de-site-web/) qui sous-tend vos pages.
 
 <aside class="post-cta">
 <p><strong>Vous voulez savoir si vos versions de langue fonctionnent bien ensemble ?</strong> Notre <a href="/fr/services/seo-technique/">SEO technique pour sites multilingues</a> vérifie si vos langues se concurrencent sur votre site, puis corrige ce qui le provoque. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
@@ -75,7 +75,7 @@ Chacun de ces contrôles protège vos chances de positionnement et le travail de
 
 L’hébergement détermine la vitesse de chargement de vos pages sur chaque marché ; vos positions par pays viennent surtout d’autres signaux. Google décrit l’emplacement du serveur comme un signal possible et non déterminant, puisque beaucoup de sites passent par un réseau de diffusion de contenu : menez donc votre ciblage géographique avec hreflang et la structure du domaine, comme le détaille son guide des [sites multirégionaux et multilingues](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites).
 
-Si votre site vise plusieurs pays, un réseau de diffusion de contenu (CDN) sert les pages depuis des emplacements proches de chaque utilisateur, ce qui maintient des temps de chargement bas partout. Associez-le à hreflang et à une structure de domaine claire.
+Si votre site vise plusieurs pays, un réseau de diffusion de contenu (CDN) sert les pages depuis des emplacements proches de chaque utilisateur, ce qui garde des temps de chargement bas partout. Associez-le à hreflang et à une structure de domaine claire.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Hreflang et la structure du domaine portent les signaux de ciblage géographique les plus forts ; l’emplacement du serveur reste un simple indice sur le marché visé.">
@@ -122,7 +122,7 @@ Les versions d’une même langue pour deux pays, par exemple l’anglais pour l
 
 ## Faites relire la traduction automatique
 
-La [post-édition par un linguiste professionnel](/fr/services/postedition-ia/) transforme une traduction automatique brute en un texte qui se lit naturellement, garde le contexte et porte l’intention de l’original. Les [règles de Google contre le spam](https://developers.google.com/search/docs/essentials/spam-policies) visent les pages produites en masse par des outils automatiques sans valeur ajoutée pour le lecteur : un texte relu et édité protège donc le trafic organique et garde les lecteurs.
+La [post-édition par un linguiste professionnel](/fr/services/postedition-ia/) transforme une traduction automatique brute en un texte qui se lit naturellement, garde le contexte et transmet l’intention de l’original. Les [règles de Google contre le spam](https://developers.google.com/search/docs/essentials/spam-policies) visent les pages produites en masse par des outils automatiques sans valeur ajoutée pour le lecteur : un texte relu et édité protège donc le trafic organique et fidélise les lecteurs.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 120" role="img" aria-label="La traduction automatique arrive en ligne en trois étapes : un brouillon automatique brut, la post-édition par un linguiste professionnel, puis une page qui se lit naturellement.">
@@ -152,7 +152,7 @@ Travaillez avec des [services de traduction](/fr/services/traduction-professionn
 
 ## Choisissez une structure de domaine
 
-La structure de domaine est le socle sur lequel repose le contenu : décidez-la une fois, tôt. Trois organisations courantes existent, et le bon choix dépend de vos marchés, de votre budget et de votre équipe.
+La structure de domaine est le socle sur lequel repose le contenu : décidez-la dès le départ. Trois organisations courantes existent, et le bon choix dépend de vos marchés, de votre budget et de votre équipe.
 
 | Structure | Exemple | Signal de ciblage géographique | Effort d’exploitation |
 |---|---|---|---|
@@ -160,7 +160,7 @@ La structure de domaine est le socle sur lequel repose le contenu : décidez-la
 | Sous-répertoire | exemple.fr/de/ | Clair avec hreflang | Faible, un domaine partage son autorité |
 | Sous-domaine | de.exemple.fr | Clair avec hreflang | Moyen, souvent traité davantage comme un site distinct |
 
-Google recommande une URL distincte pour chaque version de langue ; un paramètre d’URL comme `?lang=de` rend le ciblage plus difficile à lire, pour les moteurs comme pour les visiteurs.
+Google recommande une URL distincte pour chaque version de langue ; un paramètre d’URL comme `?lang=de` rend le ciblage moins lisible, pour les moteurs comme pour les visiteurs.
 
 ### Une structure de domaine qui passe à l’échelle
 
@@ -181,12 +181,12 @@ Rédigez des métadonnées neuves pour chaque version de langue, à destination 
 Une configuration multilingue saine se vérifie régulièrement, car une mise à jour d’extension ou une migration peut modifier un groupe de langues. Planifiez des [audits techniques réguliers](/fr/services/seo-technique/) qui vérifient :
 
 - la validité de hreflang et la présence de tous les liens retour ;
-- l’état du crawl dans chaque dossier ou domaine de langue ;
+- l’état de l’exploration dans chaque dossier ou domaine de langue ;
 - l’indexation de chaque version de langue ;
-- les redirections qui gardent les utilisateurs dans leur langue.
+- les redirections qui maintiennent les utilisateurs dans leur langue.
 
-Documentez votre architecture internationale pour que chacun dans l’équipe voie quelle URL sert quel marché. Quand les moteurs changent leurs exigences, une configuration documentée s’ajuste plus vite.
+Documentez votre architecture internationale pour que chaque membre de l’équipe voie quelle URL dessert quel marché. Quand les moteurs changent leurs exigences, une configuration documentée s’adapte plus vite.
 
 ## Ce qui fait tenir vos positions sur chaque marché
 
-De solides positions sur plusieurs marchés reposent sur une base technique saine : des groupes hreflang complets, une diffusion rapide dans chaque région, des versions de langue distinctes et auto-canoniques, et une structure de domaine unique. Quand ces éléments travaillent ensemble, les moteurs comprennent quelle page montrer à qui, et davantage de bons visiteurs atteignent votre site multilingue.
+De solides positions sur plusieurs marchés reposent sur une base technique saine : des groupes hreflang complets, une diffusion rapide dans chaque région, des versions de langue distinctes et auto-canoniques, et une structure sur un seul domaine. Quand ces éléments sont cohérents, les moteurs comprennent quelle page montrer à qui, et plus de visiteurs qualifiés atteignent votre site multilingue.

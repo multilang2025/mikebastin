@@ -169,9 +169,9 @@ La façon d’utiliser les outils décide si chaque nouveau marché coûte moins
 
 1. **Combinez les outils.** Chaque outil couvre une partie du test de localisation ; ensemble, ils couvrent tout.
 2. **Automatisez dès que possible.** Automatisez les contrôles répétitifs, et gardez des personnes sur ceux qui demandent du jugement. Nous détaillons ce partage des rôles dans [l’IA en traduction et localisation](/fr/ia-traduction-et-localisation/).
-3. **Faites intervenir des locuteurs natifs.** Associez les outils à une relecture native, pour la justesse linguistique et culturelle, comme dans notre [localisation de site web dans chaque langue](/fr/services/localisation-de-site-web/). Les [dix points à soigner pour localiser un site](/fr/localiser-son-site-points-a-soigner/) donnent la liste de ce qu’un site traduit doit soigner : ton, prix, formulaires et paiements.
-4. **Tenez les données de test à jour.** Gardez les cas de test et les données à jour dans votre outil de gestion des tests.
-5. **Pseudo-localisez tôt.** Lancez la pseudo-localisation [tôt dans le développement pour repérer les problèmes potentiels](https://daily.dev/blog/localization-testing-guide-best-practices-and-checklist) avant le début de la traduction.
+3. **Faites relire par des locuteurs natifs.** Associez les outils à cette relecture, pour la justesse linguistique et culturelle, comme dans notre [localisation de site web dans chaque langue](/fr/services/localisation-de-site-web/). Les [dix points à soigner pour localiser un site](/fr/localiser-son-site-points-a-soigner/) précisent ce qu’un site traduit doit prendre en compte : ton, prix, formulaires et paiements.
+4. **Tenez les données de test à jour.** Gardez les cas de test et les jeux de données à jour dans votre outil de gestion des tests.
+5. **Effectuez une pseudo-localisation tôt.** Intégrez cette étape [tôt dans le développement pour repérer les problèmes potentiels](https://daily.dev/blog/localization-testing-guide-best-practices-and-checklist) avant le début de la traduction.
 6. **Testez en continu.** Intégrez les tests de localisation à votre chaîne d’intégration et de déploiement continus (CI/CD).
 
 <aside class="post-cta">
@@ -180,4 +180,4 @@ La façon d’utiliser les outils décide si chaque nouveau marché coûte moins
 
 ## Lancez chaque marché avec l’assurance du premier
 
-La bonne combinaison d’outils et de pratiques permet à votre équipe d’aborder chaque nouveau marché avec la même assurance que le premier. Automatisez les contrôles répétitifs, et confiez à des locuteurs natifs les décisions qui demandent du jugement.
+La bonne combinaison d’outils et de pratiques permet à votre équipe d’aborder chaque nouveau marché avec la même assurance que pour le premier. Automatisez les contrôles répétitifs, et confiez à des locuteurs natifs les décisions qui demandent du jugement.

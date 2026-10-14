@@ -211,7 +211,7 @@ Priorisez les projets dont le retour est mesurable en moins de 18 mois, ou ceux 
 
 ## Alignez votre stratégie sur les tendances 2026
 
-Nous accompagnons des PME et des ETI internationales sur le SEO, la traduction et la stratégie numérique, avec des recommandations concrètes, en langage clair. Le premier échange est gratuit : nous regardons ensemble vos marchés et les priorités du trimestre.
+Nous accompagnons des PME et des ETI internationales sur le SEO, la traduction et la stratégie numérique, avec des recommandations concrètes dans un langage clair. Le premier échange est gratuit : nous examinons ensemble vos marchés et les priorités du trimestre.
 
 [Réserver votre premier échange gratuit](https://mikebastin.com/fr/nous-contacter/)
 

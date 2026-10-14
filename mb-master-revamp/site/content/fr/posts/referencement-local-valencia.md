@@ -144,7 +144,7 @@ Pour vérifier vos liens, [Xenu’s Link Sleuth](https://xenus-link-sleuth.en.so
 
 La plupart des recherches locales se font sur téléphone, et le site doit donc y fonctionner parfaitement : un design responsive, des images compressées et une mise en cache navigateur pour la vitesse, des menus et des boutons faciles à toucher sur un petit écran. Google a retiré le rapport Ergonomie mobile de la Search Console et le test d’optimisation mobile en décembre 2023 : testez donc avec Lighthouse dans Chrome ou avec une extension :
 
--   [Mobile View Switcher](https://chromewebstore.google.com/detail/mobile-view-switcher/bmhfelbhbkeoldaiphchjibggnoodpcj) : passez en vue mobile depuis la barre d’outils, avec des user agents personnalisés.
+-   [Mobile View Switcher](https://chromewebstore.google.com/detail/mobile-view-switcher/bmhfelbhbkeoldaiphchjibggnoodpcj) : passez en vue mobile depuis la barre d’outils, avec des agents utilisateurs personnalisés.
 -   [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en) : plusieurs appareils à la fois, y compris pour des sites hébergés en local.
 -   [Mobile View : Test responsive designs fast](https://chromewebstore.google.com/detail/mobile-view-test-responsi/clepmakjkiihmfoepipckkafafdepjne) : un défilement synchronisé entre appareils.
 -   [Dimensions](https://chromewebstore.google.com/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?hl=en) : mesurez les éléments pour contrôler rapidement la mise en page.
@@ -181,7 +181,7 @@ Dans Google Analytics, les rapports géographiques montrent la part du trafic ve
 
 ### Des outils de SEO local pour suivre vos positions et vos fiches à Valencia
 
-[BrightLocal](https://www.brightlocal.com/) suit les positions de vos mots-clés liés à Valencia, vérifie que les informations de votre entreprise concordent dans les annuaires locaux et aide à gérer les avis. [Moz Local](https://moz.com/products/local) diffuse les informations de votre entreprise dans les annuaires et rend compte de votre visibilité locale.
+[BrightLocal](https://www.brightlocal.com/) suit les positions de vos mots-clés liés à Valencia, vérifie que les informations de votre entreprise concordent dans les annuaires locaux et aide à gérer les avis. [Moz Local](https://moz.com/products/local) diffuse les informations de votre entreprise dans les annuaires et mesure votre visibilité locale.
 
 ## Cinq premières actions pour ce mois-ci
 
@@ -199,7 +199,7 @@ Dans Google Analytics, les rapports géographiques montrent la part du trafic ve
 
 ### Comment nous positionner sur les recherches liées à Valencia ?
 
-Ciblez des mots-clés locaux sur vos pages, publiez du contenu local utile, gardez votre fiche Google Business Profile complète et exacte, et obtenez des citations dans des annuaires locaux reconnus.
+Ciblez des mots-clés locaux sur vos pages, publiez du contenu local utile, gardez votre fiche Google Business Profile complète et exacte, et inscrivez-vous dans des annuaires locaux reconnus.
 
 ### Comment apparaître dans les recherches de proximité à Valencia ?
 

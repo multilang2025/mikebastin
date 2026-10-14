@@ -26,7 +26,7 @@ Située dans le quartier historique de _Poblats Marítims_, la plage du _Cabanya
 
 C’est un vrai petit coin de paradis si vous voulez combiner farniente et vie urbaine.
 
-Longue, large et dotée de sable fin, elle offre un accès facile **aux transports publics** (le tramway (ligne 6 ou 8) ou le bus EMT (ligne 32)) et aux **commerces environnants**.
+Longue, large et dotée de sable fin, elle offre un accès facile **aux transports publics** (le tramway (ligne 6 ou 8) ou le bus EMT (ligne 32)) et aux **commerces de proximité**.
 
 -   Bordée par la promenade de _Neptuno_, où vous pouvez déguster une _paella valenciana_ dans des établissements réputés comme _La Pepica_, un restaurant qui a accueilli _Ernest Hemingway_ dans les années 50.
 -   Si vous prévoyez de vivre définitivement dans le coin, pensez à jeter un œil à [immobilier à Valencia](https://mikebastin.com/fr/immobilier-a-valencia/) pour vous rapprocher de cette ambiance balnéaire.
@@ -49,7 +49,7 @@ Ambiance détendue garantie, surtout en fin d’après-midi quand la lumière ad
 
 ![Paseo\_playa\_de\_la\_Patacona](/images/legacy/2025/06/Paseo_playa_de_la_Patacona.webp)
 
-Située au nord de la Malvarrosa, dans la commune d’_Alboraya_, la _Playa de la Patacona_ conserve une atmosphère plus détendue, elle est réputée pour avoir un charme plus posé, avec moins de foule et des vues magnifiques au lever du soleil.
+Située au nord de la Malvarrosa, dans la commune d’_Alboraya_, la _Playa de la Patacona_ conserve une atmosphère plus détendue. Elle est réputée pour son charme plus posé, avec moins de foule et des vues magnifiques au lever du soleil.
 
 Les locaux y viennent pour sa tranquillité, et pour admirer le lever du soleil sur la _mer Baléare_.
 
@@ -63,7 +63,7 @@ Cette plage se prolonge vers le nord et séduit ceux qui rêvent de larges espac
 
 ![Playa El Saler, Valencia,](/images/legacy/2025/06/playa-el-saler.webp)
 
-À une quinzaine de kilomètres au sud, dans le _Parque Natural de la Albufera_, se trouve la plage d’[El Saler](https://www.comunitatvalenciana.com/es/valencia/valencia/playas/playa-de-el-saler), nichée au cœur d’une **zone naturelle protégée**, elle bénéficie du _microclimat méditerranéen_ qui caractérise cette région, avec plus de **320 jours de soleil par an**.
+À une quinzaine de kilomètres au sud, dans le _Parque Natural de la Albufera_, se trouve la plage d’[El Saler](https://www.comunitatvalenciana.com/es/valencia/valencia/playas/playa-de-el-saler), nichée au cœur d’une **zone naturelle protégée**. Elle bénéficie du _microclimat méditerranéen_ qui caractérise cette région, avec plus de **320 jours de soleil par an**.
 
 Son environnement est protégé par la Generalitat Valenciana, et des zones de nidification y sont surveillées pour la préservation d’espèces comme le _goéland d’Audouin_.
 
@@ -84,7 +84,7 @@ Ce parc naturel offre un panorama sur des plages moins fréquentées et des **co
 
 -   Vous pouvez y faire une promenade en _albuferenc_ (barque traditionnelle) depuis le village de _El Palmar_, mondialement connu pour sa culture du riz et ses _arroz a banda_, et observer la faune et la flore.  
     Outre les plages cachées et les couchers de soleil magiques, vous découvrirez un paysage de rizières qui inspirent les photographes et les amoureux de nature.
--   Après votre escapade, laissez-vous tenter par l’une des activités nautiques ou baladez-vous dans les rizières en toile de fond. Pour plus d’idées, découvrez [activités à Valencia](https://mikebastin.com/fr/activites-a-valencia/).
+-   Après votre escapade, laissez-vous tenter par l’une des activités nautiques ou baladez-vous au milieu des rizières. Pour plus d’idées, découvrez [activités à Valencia](https://mikebastin.com/fr/activites-a-valencia/).
 
 ## Emportez vos lunettes de soleil
 

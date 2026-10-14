@@ -14,13 +14,13 @@ excerpt: "Rédigez votre parcours professionnel en marketing digital pour que le
 
 ## Un parcours professionnel qui met vos résultats en avant
 
-Un client qui hésite entre deux agences, ou un recruteur face à quarante CV, accorde quelques secondes à votre parcours professionnel. Ouvrez ces secondes sur des résultats et vous décrochez le rendez-vous grâce à votre expérience. En marketing digital, où tout le monde revendique les mêmes outils, la façon de présenter votre expérience décide de qui reçoit l’appel.
+Un client qui hésite entre deux agences, ou un recruteur face à quarante CV, accorde quelques secondes à votre parcours professionnel. Ouvrez ces secondes sur des résultats et vous décrochez le rendez-vous grâce à votre expérience. En marketing numérique, où tout le monde revendique les mêmes outils, la façon de présenter votre expérience décide qui décroche l’appel.
 
 Les conseils qui suivent valent pour un CV, un profil LinkedIn ou le site de votre entreprise. Dans les exemples, [X] remplace un pourcentage : mettez-y votre propre résultat mesuré.
 
 ## Écrivez pour le lecteur qui décide
 
-Un client et un employeur ont besoin que votre parcours commence par des éléments différents : rédigez une version pour chacun.
+Un client et un employeur attendent des éléments différents de votre parcours : rédigez une version pour chacun.
 
 ### Adaptez le contenu au support
 
@@ -59,12 +59,12 @@ Les recruteurs parcourent les CV en diagonale : chaque ligne doit y mériter sa
 
 ### Repérez ce que votre lecteur cherche
 
-Quiconque recrute en marketing digital cherche quatre éléments, et un parcours qui les montre tous dès le premier écran est lu plus loin :
+Quiconque recrute en marketing numérique cherche quatre éléments, et un parcours qui les montre tous dès le premier écran est lu jusqu’au bout :
 
 -   **Une expertise en SEO, marketing des réseaux sociaux et marketing de contenu** : nommez vos spécialités et les résultats que vous y avez obtenus.
 -   **Des compétences techniques** : citez les outils que vous maîtrisez, comme Google Analytics (ou l’une des [alternatives à Google Analytics](/fr/alternatives-a-google-analytics/)), HubSpot ou Semrush.
--   **Des certifications** : les certifications du secteur vous donnent un avantage et montrent que vous continuez à vous former ; placez-les là où elles se voient.
--   **Des résultats chiffrés** : le marketing digital se juge sur les résultats, alors montrez les vôtres, comme la hausse du trafic du site, des taux de conversion ou de l’engagement.
+-   **Des certifications** : les certifications du secteur vous donnent un avantage et montrent que vous continuez à vous former ; mettez-les en évidence.
+-   **Des résultats chiffrés** : le marketing numérique se juge à ses résultats, alors montrez les vôtres, comme la hausse du trafic du site, des taux de conversion ou de l’engagement.
 
 ## Ouvrez sur un résumé qui vend à lui seul
 
@@ -75,14 +75,14 @@ Commencez par votre fonction et votre point fort. Remplacez les formules génér
 Exemple :  
 « Stratège en marketing digital, plus de 10 ans d’expérience à aider les entreprises à gagner en visibilité en ligne grâce à des stratégies SEO et de contenu fondées sur les données. »
 
-Une phrase donne votre spécialité, votre niveau et la valeur que vous apportez. Ajoutez ensuite un résultat, car un chiffre fait croire le lecteur au reste.
+Une phrase donne votre spécialité, votre niveau et la valeur que vous apportez. Ajoutez ensuite un résultat, car un chiffre crédibilise le reste.
 
 Exemple :  
 « Des campagnes qui ont fait progresser le trafic organique de [X] % en six mois, de façon régulière, avec une spécialité : faire des moteurs de recherche une source de conversions pour les clients. »
 
 ## Détaillez votre expérience professionnelle
 
-Votre historique professionnel est l’endroit où le lecteur vérifie que le résumé disait vrai.
+Votre historique professionnel est l’endroit où le lecteur vérifie l’exactitude de votre résumé.
 
 ### Structurez votre historique
 
@@ -124,7 +124,7 @@ Par exemple : « Pause de carrière en 2021 : certifications obtenues en Goog
 
 ## Mettez en avant vos certifications à jour
 
-En marketing digital, une certification à jour en dit souvent plus qu’un diplôme sur ce que vous savez faire dès le lundi matin, car elle prouve une maîtrise pratique des outils qu’utilise un client ou un employeur.
+En marketing numérique, une certification à jour en dit souvent plus qu’un diplôme sur ce que vous savez faire dès le lundi matin, car elle prouve une maîtrise pratique des outils qu’utilise un client ou un employeur.
 
 Indiquez d’abord votre diplôme le plus élevé. Si votre diplôme relève d’un autre domaine (lettres modernes ou droit, par exemple), laissez votre expérience porter l’argument. « Master en école de commerce, spécialisation marketing » reste pertinent à côté de postes opérationnels en marketing.
 
@@ -136,16 +136,16 @@ Exemple : « Certifié Google Analytics, HubSpot Content Marketing et Semrush 
 
 Une courte liste de compétences calquée sur le poste montre d’emblée que vous correspondez au profil.
 
-Les compétences techniques comme le SEO (savoir dérouler une [checklist d’audit SEO technique](/fr/checklist-audit-seo-technique/), par exemple), la publicité payante (SEA) et l’analyse de données sont très recherchées. Les savoir-être comme la créativité, la communication et la gestion de projet comptent tout autant, car le travail marketing se fait entre plusieurs équipes. Proposez un mélange de :
+Les compétences techniques comme le SEO (savoir appliquer une [checklist d’audit SEO technique](/fr/checklist-audit-seo-technique/), par exemple), la publicité payante (SEA) et l’analyse de données sont très recherchées. Les savoir-être comme la créativité, la communication et la gestion de projet comptent tout autant, car le marketing implique plusieurs équipes. Proposez un mélange de :
 
 -   **Compétences techniques** : SEO, Google Ads, gestion des réseaux sociaux, e-mailing et outils d’analyse (Google Analytics, Ahrefs, Semrush).
 -   **Savoir-être** : collaboration en équipe, communication client, gestion de projet et réflexion stratégique.
 
-Appuyez chaque savoir-être sur un moment précis : une équipe que vous avez dirigée, un projet complexe que vous avez livré, une solution créative à un problème marketing.
+Illustrez chaque savoir-être par un moment précis : une équipe que vous avez dirigée, un projet complexe que vous avez livré, une solution créative à un problème marketing.
 
 ## Choisissez les réalisations qui prouvent vos résultats
 
-Les réalisations sont ce dont le lecteur se souvient une fois la page fermée : choisissez celles qui prouvent que vous savez livrer ce dont il a besoin, avec résultats et contexte.
+Les réalisations sont ce dont le lecteur se souvient une fois la page fermée : choisissez celles qui prouvent que vous savez livrer ce dont il a besoin, avec les résultats et le contexte.
 
 -   « Hausse de [X] % des prospects qualifiés grâce à une stratégie marketing digital intégrée associant SEO, SEA et marketing de contenu. »
 -   « Conception d’une stratégie réseaux sociaux qui a augmenté l’engagement de [X] % en trois mois. »
@@ -158,7 +158,7 @@ Le contexte transforme un chiffre en une histoire que le lecteur peut se représ
 
 ## Adaptez votre parcours à chaque offre
 
-Un parcours rédigé pour un poste convainc le lecteur de ce poste. Adaptez-le à l’offre ou au client que vous avez en face de vous, car le marketing digital recouvre des métiers très différents.
+Un parcours rédigé pour un poste convainc le lecteur de ce poste. Adaptez-le à l’offre ou au client que vous avez en face de vous, car le marketing numérique recouvre des métiers très différents.
 
 Pour un poste en marketing de contenu, mettez en avant le SEO, l’analyse et votre capacité à bâtir une [stratégie de contenu ciblée](/fr/strategie-de-contenu-ciblee/). Pour un poste de spécialiste SEO, commencez par le [SEO technique des sites multilingues](/fr/services/seo-technique/), la recherche de mots-clés et les audits de site.
 
@@ -185,7 +185,7 @@ Pour un poste en marketing de contenu, mettez en avant le SEO, l’analyse et vo
 -   Pour un poste orienté contenu : « Conception de stratégies de contenu pilotées par le SEO, alignées sur le message de la marque et les attentes du public, avec un engagement en hausse de [X] %. »
 -   Pour un poste en SEO technique : « Spécialiste des audits de site, de la recherche de mots-clés et de l’optimisation on-page, avec [X] mots-clés très concurrentiels amenés en première page. »
 
-Beaucoup de compétences se transfèrent d’un poste ou d’un secteur à l’autre. La gestion de projet, l’analyse de données et la planification stratégique s’appliquent presque partout en marketing digital : rendez-les visibles.
+Beaucoup de compétences se transfèrent d’un poste ou d’un secteur à l’autre. La gestion de projet, l’analyse de données et la planification stratégique s’appliquent presque partout en marketing numérique : rendez-les visibles.
 
 La même règle vaut d’une langue à l’autre. Un parcours, ou une page de services, convainc un acheteur à Madrid ou à Munich quand il est écrit pour ce marché et s’adresse à lui dans ses propres termes.
 
@@ -195,13 +195,13 @@ La même règle vaut d’une langue à l’autre. Un parcours, ou une page de se
 
 ## Un texte court qui garde l’essentiel
 
-Les lecteurs pressés lisent les premières lignes : placez-y votre point le plus fort. Des phrases courtes et des listes à puces font voir votre meilleur contenu.
+Les lecteurs pressés lisent les premières lignes : placez-y votre point le plus fort. Des phrases courtes et des listes à puces mettent en valeur votre meilleur contenu.
 
-Employez des mots que le lecteur comprend tout de suite. Gardez les postes et les réalisations qui servent votre objectif actuel, et n’incluez une expérience éloignée que si elle montre une compétence transférable appréciée en marketing digital.
+Employez des mots que le lecteur comprend tout de suite. Gardez les postes et les réalisations qui servent votre objectif actuel, et n’incluez une expérience éloignée que si elle montre une compétence transférable appréciée en marketing numérique.
 
 ## Une relecture qui protège votre crédibilité
 
-Un texte soigné protège un parcours solide, car un lecteur qui juge votre souci du détail remarque d’abord les détails.
+Un texte soigné renforce un parcours solide, car un lecteur qui juge votre souci du détail remarque d’abord les détails.
 
 Passez votre texte dans Antidote ou LanguageTool, puis relisez-le vous-même plusieurs fois. Demandez à un collègue ou à un mentor de confiance de le relire : un second lecteur découvre le texte d’un œil neuf et repère où l’argument demande à être étoffé.
 

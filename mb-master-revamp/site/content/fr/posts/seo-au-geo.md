@@ -40,7 +40,7 @@ La prévision la plus citée date de février 2024, et 2026 est l’année qu’
 > Gartner prévoyait en février 2024 que le volume des moteurs de recherche traditionnels baisserait de 25 % d’ici 2026, au profit des chatbots et des agents virtuels.
 > Source : [Gartner, communiqué du 19 février 2024](https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026-due-to-ai-chatbots-and-other-virtual-agents)
 
-Traitez ce chiffre comme une indication de direction, et mesurez le déplacement réel dans vos propres données, marché par marché.
+Considérez ce chiffre comme une indication de direction, et mesurez le déplacement réel dans vos propres données, marché par marché.
 
 Le SEO reste la porte d’entrée, et cette porte s’élargit. Les AI Overviews puisent de plus en plus dans des requêtes voisines de celle tapée par l’internaute : une page classée sur les questions connexes à votre sujet gagne des citations au-delà de sa position principale.
 
@@ -96,7 +96,7 @@ Une page qui répond à la question complète de l’acheteur a plus de chances 
 > Une requête adressée à ChatGPT compte en moyenne une soixantaine de mots, contre 3,4 mots pour une recherche Google classique.
 > Source : [Similarweb, rapport GenAI Landscape 2025, cité dans « What is GEO », mars 2026](https://www.similarweb.com/blog/marketing/geo/what-is-geo/)
 
-- Couvrez les formulations naturelles de vos acheteurs, avec leurs précisions de taille, de budget ou de pays.
+- Ciblez les formulations naturelles de vos acheteurs, avec leurs précisions de taille, de budget ou de pays.
 - Traitez les questions voisines de votre sujet principal dans la même page ou dans des pages reliées entre elles.
 - Faites cette recherche dans chaque langue : les questions d’un acheteur allemand diffèrent de celles d’un acheteur espagnol.
 
@@ -169,7 +169,7 @@ Une marque citée par plusieurs sources indépendantes devient une réponse natu
 Search Engine Land en fait la synthèse dans son [guide du GEO](https://searchengineland.com/what-is-generative-engine-optimization-geo-444418).
 
 - Obtenez des liens de publications reconnues dans votre secteur et dans chaque pays visé.
-- Publiez des contenus que d’autres ont envie de reprendre : données propres, études, infographies, vidéos.
+- Publiez des contenus que d’autres souhaitent reprendre : données propres, études, infographies, vidéos.
 - Nouez des relations avec les médias spécialisés et les voix reconnues de votre marché.
 
 <aside class="post-cta">
@@ -178,7 +178,7 @@ Search Engine Land en fait la synthèse dans son [guide du GEO](https://searchen
 
 ## Gardez une expérience rapide et lisible
 
-Chaque clic venu de la recherche vaut davantage qu’hier. Le visiteur qui arrive depuis une réponse d’IA ou un résultat Google doit trouver son information dès le premier écran.
+Chaque clic venu de la recherche vaut davantage qu’hier. Le visiteur qui arrive depuis une réponse d’IA ou un résultat Google doit trouver son information dès l’arrivée.
 
 > Sur les recherches Google liées à l’actualité, la part de recherches sans clic vers un site est passée de 56 % en mai 2024 à 69 % en mai 2025.
 > Source : [Similarweb, cité dans « What is GEO », mars 2026](https://www.similarweb.com/blog/marketing/geo/what-is-geo/)
@@ -192,7 +192,7 @@ Chaque clic venu de la recherche vaut davantage qu’hier. Le visiteur qui arriv
 
 ## Mettez à jour vos contenus phares chaque trimestre
 
-La présence dans les réponses d’IA se renouvelle en permanence : une page tenue à jour garde sa place, et une marque régulière la conserve d’une réponse à l’autre.
+La présence dans les réponses d’IA se renouvelle en permanence : une page tenue à jour garde sa place, et une marque qui publie régulièrement la conserve d’une réponse à l’autre.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Deux pages face à une réponse d’IA : la page mise à jour chaque trimestre y garde sa place, la page à la date dépassée s’en éloigne.">
@@ -217,11 +217,11 @@ MegaOne AI recense d’autres travaux sur ce sujet dans son [guide du GEO](https
 
 - Adoptez un cycle trimestriel pour vos contenus phares : chiffres vérifiés, nouveautés du marché, date de mise à jour visible.
 - Passez en revue vos contenus secondaires chaque semestre.
-- Testez plusieurs formulations et gardez celles qui reviennent dans les réponses.
+- Testez plusieurs formulations et gardez celles qui apparaissent dans les réponses.
 
 ## Observez qui les réponses citent dans votre secteur
 
-Les sources que les IA citent dans votre secteur vous montrent précisément ce que vos pages peuvent ajouter. Cette veille fixe vos priorités de contenu et de liens.
+Les sources que les IA citent dans votre secteur vous montrent précisément ce que vos pages peuvent ajouter. Cette veille définit vos priorités de contenu et de liens.
 
 - Relevez, pour vos questions stratégiques, les sites cités dans ChatGPT, Perplexity et les AI Overviews, marché par marché.
 - Comparez leurs pages aux vôtres : format, données chiffrées, auteurs, liens reçus.
@@ -259,7 +259,7 @@ Une citation vaut par les demandes qu’elle fait naître. Rattachez votre visib
 
 - Suivez dans Google Analytics 4 le trafic venu de chatgpt.com, perplexity.ai, copilot.microsoft.com et gemini.google.com, par langue.
 - Reliez ces visites aux formulaires, aux appels et aux demandes de devis.
-- Revoyez vos budgets chaque trimestre en faveur des marchés et des canaux qui rapportent.
+- Revoyez vos budgets chaque trimestre au profit des marchés et des canaux qui rapportent.
 
 ## Par où commencer
 
@@ -277,17 +277,17 @@ Les neuf leviers demandent des efforts différents. Le tableau ci-dessous les cl
 | Veille concurrentielle | Des priorités claires | Relever les sources citées |
 | Mesure | Un budget mieux placé | Suivre le trafic IA par langue |
 
-Le SEO reste le socle de votre visibilité, et le GEO l’étend aux réponses qui se rédigent désormais à la place des listes de liens. Les entreprises qui travaillent les deux, marché par marché, gagnent les deux formes de visibilité.
+Le SEO reste le socle de votre visibilité, et le GEO l’étend aux réponses qui remplacent désormais les listes de liens. Les entreprises qui travaillent les deux, marché par marché, bénéficient des deux formes de visibilité.
 
 ## Questions fréquentes sur le SEO et le GEO
 
 ### Qu’est-ce que le GEO ?
 
-Le GEO, ou optimisation pour les moteurs génératifs, consiste à optimiser vos contenus pour qu’ils soient cités dans les réponses des moteurs de recherche assistés par l’IA : ChatGPT search, Google AI Overviews, Perplexity, Microsoft Copilot ou Claude. L’objectif s’ajoute à celui du SEO : être bien classé sur une page de résultats, et être la source que l’IA nomme quand elle compose sa réponse.
+Le GEO, ou optimisation pour les moteurs génératifs, consiste à optimiser vos contenus pour qu’ils soient cités dans les réponses des moteurs de recherche assistés par l’IA : ChatGPT search, Google AI Overviews, Perplexity, Microsoft Copilot ou Claude. L’objectif s’ajoute à celui du SEO : être bien classé dans une page de résultats, et être la source que l’IA nomme quand elle compose sa réponse.
 
 ### En quoi le GEO diffère-t-il du SEO traditionnel ?
 
-Le SEO vise à classer une page dans des résultats que l’internaute parcourt lui-même. Le GEO vise à faire sélectionner, reformuler et citer cette page par un modèle d’IA au sein d’une réponse rédigée. Le SEO récompense la pertinence et l’autorité ; le GEO récompense aussi les chiffres sourcés, les citations, la clarté de la structure et la cohérence de la marque d’une source à l’autre.
+Le SEO vise à classer une page dans les résultats que l’internaute parcourt lui-même. Le GEO vise à faire sélectionner, reformuler et citer cette page par un modèle d’IA au sein d’une réponse rédigée. Le SEO récompense la pertinence et l’autorité ; le GEO récompense aussi les chiffres sourcés, les citations, la clarté de la structure et la cohérence de la marque d’une source à l’autre.
 
 ### Le GEO remplace-t-il le SEO ?
 
