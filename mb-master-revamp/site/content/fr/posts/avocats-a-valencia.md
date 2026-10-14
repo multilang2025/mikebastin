@@ -18,15 +18,15 @@ Trouver le bon avocat à Valencia change tout pour un expatrié ou une entrepris
 
 J’ai travaillé en SEO et traduction pour plusieurs cabinets juridiques en Espagne, dont un cabinet valencien que je ne nommerai pas par discrétion. Ce qui suit n’est pas une liste sponsorisée. C’est une cartographie honnête des dix cabinets que je recommanderais en 2026 selon le profil du client et le type de dossier, avec leurs forces, leurs limites et le type de mission auquel chacun convient le mieux.
 
-~145 000avocats inscrits en Espagne (CGAE 2024)
+~145 000 avocats inscrits en Espagne (CGAE 2024)
 
-~7 600avocats au Barreau de Valencia (ICAV)
+~7 600 avocats au Barreau de Valencia (ICAV)
 
-+30 %de demandes de NIE par étrangers en Communauté valencienne sur 5 ans
++30 % de demandes de NIE par étrangers en Communauté valencienne sur 5 ans
 
-3eville d’Espagne, classée Best City for Expats 2024 (InterNations)
+3e ville d’Espagne, classée Best City for Expats 2024 (InterNations)
 
-L’Espagne compte environ 145 000 avocats inscrits selon le Conseil général des barreaux espagnols (CGAE), dont une part significative à Valencia. La ville s’est classée numéro 1 « Best City for Expats » de l’étude InterNations Expat Insider 2024, juste devant Mexico et Madrid. Cette attractivité génère un volume croissant de dossiers d’immigration, succession et acquisition immobilière qui demandent un accompagnement juridique compétent.
+L’Espagne compte environ 145 000 avocats inscrits selon le Conseil général des barreaux espagnols (CGAE), dont une part significative exerce à Valencia. La ville s’est classée numéro 1 « Best City for Expats » de l’étude InterNations Expat Insider 2024, juste devant Mexico et Madrid. Cette attractivité génère un volume croissant de dossiers d’immigration, succession et acquisition immobilière qui demandent un accompagnement juridique compétent.
 
 Source : [CGAE](https://www.abogacia.es/) et [InterNations Expat Insider 2024](https://www.internations.org/expat-insider/2024/best-cities-for-expats-40486)
 
@@ -44,13 +44,13 @@ Spécialité réelle
 
 Domaine principal du cabinet : immigration, fiscal, immobilier, droit des affaires, succession internationale
 
-Un cabinet généraliste vous coûtera plus cher pour un dossier technique. Un boutique spécialisé sera moins cher et plus précis
+Un cabinet généraliste vous coûtera plus cher pour un dossier technique. Une boutique spécialisée sera moins chère et plus précise
 
 Langues de travail
 
-Français, anglais, allemand, néerlandais selon votre besoin. Vérifier que ce n’est pas juste « on a un stagiaire qui parle… »
+Français, anglais, allemand, néerlandais selon votre besoin. Vérifiez que ce n’est pas juste « on a un stagiaire qui parle… »
 
-Les nuances juridiques se jouent à la traduction. Un mauvais transfert linguistique peut rendre un contrat caduc ou retoquer un dossier d’immigration
+Les nuances juridiques se jouent dans la traduction. Un mauvais transfert linguistique peut rendre un contrat caduc ou retoquer un dossier d’immigration
 
 Inscription au Barreau
 
@@ -60,19 +60,19 @@ Sans inscription active, l’avocat n’a pas le droit d’exercer en Espagne. C
 
 Tarification
 
-Forfait, tarif horaire (généralement 120 à 350 €/h à Valencia), success fee. Devis écrit avant signature
+Forfait, tarif horaire (généralement 120 à 350 €/h à Valencia), honoraires de résultat. Devis écrit avant signature
 
-Les écarts vont de 1 à 5 entre boutique et grande structure. Le devis écrit protège des suppléments surprises
+Les écarts vont de 1 à 5 entre boutique et grande structure. Le devis écrit protège des suppléments inattendus
 
 Reconnaissance externe
 
-Présence dans les rankings reconnus : Chambers Europe, Legal500, Best Lawyers, Iberian Lawyer
+Présence dans les classements reconnus : Chambers Europe, Legal500, Best Lawyers, Iberian Lawyer
 
 Les classements ne sont pas absolus mais filtrent les cabinets opérationnels et reconnus par leurs pairs
 
 Adéquation client
 
-Type de clientèle servie : grandes entreprises, PME, particuliers, expatriés. Demander des références
+Type de clientèle servie : grandes entreprises, PME, particuliers, expatriés. Demandez des références
 
 Un cabinet habitué aux multinationales facturera et opérera différemment d’un cabinet centré sur la clientèle individuelle
 
@@ -96,7 +96,7 @@ Cabinet valencien spécialisé en droit des affaires, droit des sociétés, fran
 
 ### Cuatrecasas
 
-Tier 1 Espagne Full-service M&A Fiscal
+Tier 1 Espagne Généraliste M&A Fiscal
 
 L’un des trois plus grands cabinets espagnols (avec Garrigues et Uría Menéndez), classé régulièrement Tier 1 dans Chambers Europe et Legal500 sur la quasi-totalité des disciplines. Bureau important à Valencia. Pratique reconnue en M&A, fiscal, droit financier, énergie et grandes opérations transfrontalières.
 
@@ -110,9 +110,9 @@ L’un des trois plus grands cabinets espagnols (avec Garrigues et Uría Menénd
 
 Tier 1 Espagne Fiscal Affaires
 
-Le plus grand cabinet ibérique, particulièrement reconnu en fiscal, droit social et droit des sociétés. Présent à Valencia avec une équipe locale qui couvre la Communauté valencienne. Très bien classé Chambers Europe et Legal500. Pratique éprouvée auprès de groupes français, allemands et latino-américains implantés en Espagne.
+Le plus grand cabinet ibérique, particulièrement reconnu en fiscal, droit social et droit des sociétés. Présent à Valencia avec une équipe locale qui couvre la Communauté valencienne. Très bien classé par Chambers Europe et Legal500. Pratique éprouvée auprès de groupes français, allemands et latino-américains implantés en Espagne.
 
-**Profil idéal :** ETI et grands groupes étrangers ayant besoin d’un partenaire espagnol full-service avec couverture nationale. Excellent pour les dossiers fiscaux complexes et le droit du travail.
+**Profil idéal :** ETI et grands groupes étrangers ayant besoin d’un partenaire espagnol à service complet avec couverture nationale. Excellent pour les dossiers fiscaux complexes et le droit du travail.
 
 [garrigues.com →](https://www.garrigues.com/en_GB)
 
@@ -122,7 +122,7 @@ Le plus grand cabinet ibérique, particulièrement reconnu en fiscal, droit soci
 
 Local Valencia Civil Famille Affaires
 
-Cabinet valencien établi de taille intermédiaire, couvrant une palette large entre droit civil, droit de la famille, droit immobilier et droit des affaires. Bonne option pour les particuliers qui ont des dossiers mixtes (séparation avec enjeux patrimoniaux, succession avec héritiers à l’étranger).
+Cabinet valencien établi de taille intermédiaire, couvrant une large palette : droit civil, droit de la famille, droit immobilier et droit des affaires. Bonne option pour les particuliers qui ont des dossiers mixtes (séparation avec enjeux patrimoniaux, succession avec héritiers à l’étranger).
 
 **Profil idéal :** particuliers et PME, dossiers patrimoniaux familiaux, contentieux civils.
 
@@ -134,9 +134,9 @@ Cabinet valencien établi de taille intermédiaire, couvrant une palette large e
 
 Tier 1 Espagne M&A Financier Litiges
 
-Le troisième pilier du big three espagnol avec Cuatrecasas et Garrigues. Très fort en droit financier, M&A, fiscalité internationale et arbitrage. Le cabinet a une réputation académique solide (beaucoup de ses associés enseignent). Présence à Valencia.
+Le troisième pilier des trois grands cabinets espagnols avec Cuatrecasas et Garrigues. Très fort en droit financier, M&A, fiscalité internationale et arbitrage. Le cabinet a une réputation académique solide (beaucoup de ses associés enseignent). Présence à Valencia.
 
-**Profil idéal :** opérations transfrontalières sophistiquées, contentieux complexes, restructurations financières. Comme Cuatrecasas et Garrigues : pricing haut de gamme.
+**Profil idéal :** opérations transfrontalières sophistiquées, contentieux complexes, restructurations financières. Comme Cuatrecasas et Garrigues : tarification haut de gamme.
 
 [uria.com →](https://www.uria.com/)
 
@@ -144,7 +144,7 @@ Le troisième pilier du big three espagnol avec Cuatrecasas et Garrigues. Très 
 
 ### TLA Lawyers : Spanish Solicitors
 
-Expat-focus Anglophone Immobilier Immigration
+Focus expatriés Anglophone Immobilier Immigration
 
 Cabinet positionné explicitement sur la clientèle anglo-saxonne et nord-européenne installée en Espagne. Pratique courante en achat immobilier, NIE, résidence, succession transfrontalière. Communication très directe en anglais, ce qui rassure les clients qui ne parlent pas espagnol.
 
@@ -158,7 +158,7 @@ Cabinet positionné explicitement sur la clientèle anglo-saxonne et nord-europ�
 
 Fiscal Conseil Patrimoine
 
-Cabinet valencien à dominante fiscale et conseil aux entreprises. Bon choix pour les questions de fiscalité espagnole appliquées à des résidents étrangers (régime Beckham, déclarations patrimoine mondial via Modelo 720, optimisation des structures sociales).
+Cabinet valencien à dominante fiscale et conseil aux entreprises. Bon choix pour les questions de fiscalité espagnole appliquées à des résidents étrangers (régime Beckham, déclarations patrimoine mondial via Modelo 720, optimisation des structures sociétaires).
 
 **Profil idéal :** contribuables à patrimoine international, dirigeants sous régime Beckham, optimisation fiscale des structures sociétaires.
 
@@ -258,7 +258,7 @@ TLA Lawyers, cabinets immigration spécialisés
 
 800 à 2 000 €
 
-_Tarifs indicatifs basés sur les fourchettes communément observées en 2024-2026. Ils dépendent de la complexité du dossier et de la notoriété du cabinet. Demandez systématiquement un devis écrit._
+_Tarifs indicatifs issus des fourchettes couramment pratiquées en 2024-2026. Ils dépendent de la complexité du dossier et de la notoriété du cabinet. Demandez systématiquement un devis écrit._
 
 ## FAQ : choisir un avocat à Valencia
 
@@ -268,11 +268,11 @@ La fourchette de tarif horaire à Valencia se situe entre 120 €/h pour un cabi
 
 Comment vérifier qu’un avocat est bien inscrit à Valencia ?
 
-L’[ICAV (Ilustre Colegio de Abogados de Valencia)](https://www.icav.es/) propose un annuaire en ligne pour vérifier le numéro de colegiación d’un avocat. C’est la garantie minimale qu’il a le droit d’exercer. Sans inscription active, l’avocat ne peut pas vous représenter en justice ni signer un acte. La vérification prend moins d’une minute.
+L’[ICAV (Ilustre Colegio de Abogados de Valencia)](https://www.icav.es/) propose un annuaire en ligne pour vérifier le numéro de colegiación d’un avocat. C’est la garantie minimale qu’il est habilité à exercer. Sans inscription active, l’avocat ne peut pas vous représenter en justice ni signer un acte. La vérification prend moins d’une minute.
 
 Faut-il choisir un cabinet français ou espagnol pour un dossier en Espagne ?
 
-Pour un dossier qui se traite en Espagne (achat propriété, succession espagnole, droit des affaires espagnol), choisissez un avocat inscrit en Espagne. Un avocat français ne peut pas représenter votre dossier devant un tribunal espagnol. Les cabinets espagnols francophones offrent le meilleur compromis : compétence locale + communication fluide. Pour un litige binational complexe, l’idéal reste un binôme avocat français + avocat espagnol qui se coordonnent.
+Pour un dossier qui se traite en Espagne (achat de propriété, succession espagnole, droit des affaires espagnol), choisissez un avocat inscrit en Espagne. Un avocat français ne peut pas représenter votre dossier devant un tribunal espagnol. Les cabinets espagnols francophones offrent le meilleur compromis : compétence locale et communication fluide. Pour un litige binational complexe, l’idéal reste un binôme avocat français et avocat espagnol qui se coordonnent.
 
 Quels documents préparer pour un premier rendez-vous ?
 
@@ -280,19 +280,19 @@ Le minimum : passeport, NIE si déjà obtenu, livret de famille traduit (pour l
 
 L’avocat doit-il parler ma langue ou suffit-il qu’il parle anglais ?
 
-L’anglais suffit pour les transactions standardisées (achat propriété, NIE, création de société simple). Pour le droit de la famille, le pénal ou les contentieux complexes, choisissez un avocat dans votre langue maternelle ou prévoyez un interprète juridique certifié. Les nuances émotionnelles et techniques se perdent vite dans une langue de travail intermédiaire.
+L’anglais suffit pour les transactions standardisées (achat de propriété, NIE, création de société simple). Pour le droit de la famille, le pénal ou les contentieux complexes, choisissez un avocat dans votre langue maternelle ou prévoyez un interprète juridique certifié. Les nuances émotionnelles et techniques se perdent vite dans une langue de travail intermédiaire.
 
 Que faire si mon avocat à Valencia ne répond pas ?
 
-Demandez d’abord un point hebdomadaire écrit dès la mission (par e-mail). Si le silence persiste plus de 15 jours sans motif sérieux, vous pouvez signaler le manquement à l’ICAV via leur procédure de réclamation. C’est rare mais le mécanisme existe. Avant ça, gardez par écrit chaque échange et chaque date pour pouvoir documenter les retards.
+Demandez d’abord un point hebdomadaire écrit dès la mission (par e-mail). Si le silence persiste plus de 15 jours sans motif sérieux, vous pouvez signaler le manquement à l’ICAV via leur procédure de réclamation. C’est rare mais le mécanisme existe. Avant cela, gardez par écrit chaque échange et chaque date pour pouvoir documenter les retards.
 
 Vaut-il mieux un cabinet local ou un cabinet national à Valencia ?
 
-Cela dépend du type de dossier. Pour des opérations transactionnelles courantes (immobilier, NIE, fiscalité personnelle), un cabinet valencien local connaît parfaitement les administrations régionales et les notaires de la zone. Pour des opérations multi-juridictions, des contentieux à fort enjeu ou des mandats avec des contreparties internationales, un cabinet national avec couverture nationale est généralement plus pertinent.
+Cela dépend du type de dossier. Pour des opérations transactionnelles courantes (immobilier, NIE, fiscalité personnelle), un cabinet valencien local connaît parfaitement les administrations régionales et les notaires de la zone. Pour des opérations multijuridictionnelles, des contentieux à fort enjeu ou des mandats avec des contreparties internationales, un cabinet national avec couverture nationale est généralement plus pertinent.
 
 ### Vous cherchez un cabinet d’avocats à Valencia adapté à votre dossier ?
 
-Je travaille avec des cabinets juridiques en Espagne sur leur SEO, leur traduction et leur stratégie digitale. Je peux vous orienter vers le cabinet le mieux adapté à votre situation, sans commission de mise en relation.
+Je travaille avec des cabinets juridiques en Espagne sur leur SEO, leur traduction et leur stratégie numérique. Je peux vous orienter vers le cabinet le mieux adapté à votre situation, sans commission de mise en relation.
 
 [Me poser une question](https://mikebastin.com/fr/nous-contacter/)
 

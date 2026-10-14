@@ -39,11 +39,11 @@ export const FR_SERVICE_LAYOUTS: Record<string, FrServiceLayout> = {
     cluster: "Search",
     pillar: true,
     angle: "Le moteur derrière le résultat",
-    lede: "Mike Bastin pilote un seul plan de SEO multilingue pour tous les marchés où vous vendez. Chaque langue est étudiée à partir de ses propres recherches et rédigée par un natif : vos pages anglaises, allemandes et espagnoles vous apportent des demandes autant que des visites.",
+    lede: "Mike Bastin pilote un seul plan de SEO multilingue pour tous les marchés où vous vendez. Chaque langue est étudiée à partir de ses propres recherches et rédigée par un natif : vos pages anglaises, allemandes et espagnoles vous apportent des demandes aussi bien que des visites.",
     sections: [],
     body: [
       {
-        heading: "Ce que vous apporte une mission de SEO multilingue",
+        heading: "Ce qu'une mission de SEO multilingue vous apporte",
         art: {
           src: "/images/scenes/multilingual-seo-1-engagement-fr.webp",
           alt: "Une liste de marchés classés sur des données, une page rédigée par un natif en français à côté de l’anglais, de l’espagnol, de l’allemand et du néerlandais, une structure d’adresses par langue et un rapport mensuel par marché.",
@@ -94,7 +94,7 @@ export const FR_SERVICE_LAYOUTS: Record<string, FrServiceLayout> = {
         q: "Des marchés classés sur des données",
         a: [
           "Nous notons vos marchés candidats, en général huit à douze au départ, sur cinq critères : le volume de recherche, la difficulté concurrentielle, l’adéquation commerciale avec ce que vous vendez, le coût de la localisation et les contraintes réglementaires propres au pays.",
-          "Vous recevez un classement qui fixe l’ordre sur des éléments mesurés, et qui place parfois en tête un autre marché que celui que vous attendiez. Au bout de six mois environ, un point d’étape désigne les marchés tests qui passent en programme complet et ceux qui marquent une pause.",
+          "Vous recevez un classement qui établit l’ordre à partir d’éléments mesurés, et qui place parfois en tête un autre marché que celui que vous attendiez. Au bout de six mois environ, un point d’étape désigne les marchés tests qui passent en programme complet et ceux qui marquent une pause.",
         ],
       },
       {
@@ -134,15 +134,15 @@ export const FR_SERVICE_LAYOUTS: Record<string, FrServiceLayout> = {
       },
       {
         title: "Un périmètre écrit",
-        text: "Après le premier échange, vous recevez un périmètre écrit qui nomme les marchés, les pages et les livrables, dans l’ordre où les marchés seront ouverts.",
+        text: "Après le premier échange, vous recevez un périmètre écrit qui nomme les marchés, les pages et les livrables, dans l’ordre d’ouverture des marchés.",
       },
       {
         title: "Une recherche native par marché",
-        text: "Nous menons la recherche de chaque marché dans sa langue, nous classons les marchés candidats sur des données et nous fixons la structure du domaine avant la première page.",
+        text: "Nous effectuons les recherches sur chaque marché dans sa langue, nous classons les marchés candidats selon des données et nous fixons la structure du domaine avant la première page.",
       },
       {
         title: "Des pages natives dans chaque langue",
-        text: "Nous rédigeons directement le français, l’anglais, l’espagnol et le néerlandais, et nous briefons des rédacteurs natifs du réseau BeTranslated pour l’allemand, l’italien et le portugais, avec le socle technique vérifié langue par langue.",
+        text: "Nous rédigeons directement en français, en anglais, en espagnol et en néerlandais, et nous donnons les consignes à des rédacteurs natifs du réseau BeTranslated pour l’allemand, l’italien et le portugais, avec le socle technique vérifié langue par langue.",
       },
       {
         title: "Un rapport mensuel par marché",

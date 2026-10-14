@@ -68,7 +68,7 @@ Cuando hablas el idioma cultural de tu público, pasas a ser «uno de los nuestr
 
 ## Lo que cambia de un mercado a otro
 
-Conocer las diferencias concretas te permite decidirlas desde el primer día. Estas son algunas de las que más se notan en los mercados donde suelen vender nuestros clientes:
+Conocer las diferencias concretas te permite aplicarlas desde el primer día. Estas son algunas de las que más se notan en los mercados donde suelen vender nuestros clientes:
 
 | Aspecto | Francia | Alemania | Países Bajos | Reino Unido |
 |---|---|---|---|---|
@@ -147,7 +147,7 @@ En Alemania, muchos festivos cambian de un estado federado a otro; en los Paíse
 
 El conocimiento de primera mano vale oro. Trabaja con un equipo diverso o consulta con personas de tus mercados objetivo: detectan matices que escapan a la investigación más cuidada.
 
-Cuando ese trabajo se traslada al contenido, lo vemos en nuestro servicio de [redacción SEO multilingüe](https://mikebastin.com/es/services/redaccion-seo-multilingue/).
+Cuando ese trabajo se traslada al contenido, lo aplicamos en nuestro servicio de [redacción SEO multilingüe](https://mikebastin.com/es/services/redaccion-seo-multilingue/).
 
 > La mayoría de los fracasos internacionales que he visto no fueron por mala traducción. Fueron por dar por hecho que lo que funciona en un mercado funciona igual en todos. Nunca es así.
 >
@@ -171,4 +171,4 @@ Llevar tu contenido a otros mercados empieza por una pregunta sencilla. La próx
 
 Empieza por las páginas que más venden en tu mercado más importante, revisa con un nativo el tono, las imágenes y los formatos, y aplica lo aprendido al resto de idiomas.
 
-¿Quieres que tu web hable de verdad el idioma cultural de cada mercado? [Escríbenos y lo revisamos juntos](/es/contactanos/), con más de dos décadas de traducción y posicionamiento multilingüe de nuestro lado.
+¿Quieres que tu web hable de verdad el idioma cultural de cada mercado? [Escríbenos y lo revisamos juntos](/es/contactanos/), con más de dos décadas de traducción y posicionamiento multilingüe que nos avalan.

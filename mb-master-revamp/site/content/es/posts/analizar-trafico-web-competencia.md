@@ -25,7 +25,7 @@ A continuación: qué métricas mirar, cómo leer las estimaciones, qué herrami
 
 **Resumen rápido:**
 
-- **Objetivo:** encontrar los canales y las páginas que funcionan a tus rivales y que tú puedes trabajar.
+- **Objetivo:** encontrar los canales y las páginas que les funcionan a tus rivales y que tú puedes trabajar.
 - **Métricas clave:** tráfico orgánico, fuentes de tráfico, páginas principales y comportamiento de los visitantes.
 - **Herramientas:** plataformas gratuitas, de pago y análisis asistido por IA.
 - **Más allá de Google:** las respuestas de motores de IA como Perplexity (GEO).
@@ -139,7 +139,7 @@ Para dar ese paso en tu web, una [consultoría de IA](https://mikebastin.com/es/
 
 Tres pasos, en este orden, te dan lo esencial de un rival en una tarde.
 
-1. **Identifica sus páginas estrella.** A menudo unas pocas páginas generan la mayor parte de su tráfico. Encuéntralas y escribe una mejor.
+1. **Identifica sus páginas estrella.** A menudo unas pocas páginas generan la mayor parte de su tráfico. Encuéntralas y crea una versión mejor.
 2. **Estudia la estacionalidad.** ¿Sube su tráfico en Navidad o en septiembre? Usa esos picos para planificar tus campañas de [marketing digital](/es/services/).
 3. **Recorre su web como cliente.** ¿Es fácil pedir presupuesto? ¿Las llamadas a la acción son claras? A veces la ventaja está en convertir mejor el tráfico que ya tiene.
 
@@ -188,7 +188,7 @@ Mucho. Analizar competidores en Francia, Alemania o los Países Bajos te enseña
 
 ## Dedica una tarde a dos rivales
 
-Elige un mercado y dos rivales, y dedica una tarde a este flujo. Saldrás con una lista de páginas y canales para el próximo trimestre.
+Elige un mercado y dos rivales, y dedica una tarde a este proceso. Obtendrás una lista de páginas y canales para el próximo trimestre.
 
 [Pide tu auditoría estratégica](/es/services/)  
 [Mira cómo trabajamos tu visibilidad en la IA](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/)

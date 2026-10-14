@@ -72,7 +72,7 @@ Las versiones gratuitas cambian con frecuencia y limitan el número de consultas
 
 ### Entiende su lógica y encuentra tu ángulo
 
-Ver lo que hace un rival te ahorra probar a ciegas lo que otros ya han probado. Se trata de entender su lógica para encontrar tu propio ángulo.
+Ver lo que hace un rival te ahorra hacer a ciegas lo que otros ya han probado. Se trata de entender su lógica para encontrar tu propio ángulo.
 
 Al [analizar el tráfico web de la competencia](https://mikebastin.com/es/analizar-trafico-web-competencia/) ves si apuestan por SEO, redes o publicidad, y actúas con más precisión.
 
@@ -84,7 +84,7 @@ La primera pregunta es cuánto tráfico recibe tu competidor y de dónde viene, 
 
 **Similarweb** muestra gratis las visitas estimadas, los canales principales, el comportamiento de los visitantes y las palabras clave principales de cualquier dominio. Usa esos datos en tu [análisis SEO competitivo](https://mikebastin.com/es/analisis-competitivo-seo/) para fijar metas realistas.
 
-Si un rival saca mucho tráfico de LinkedIn o de TikTok, ahí hay una comunidad activa a tener en cuenta. Que la relación con tu propia comunidad sea tuya es la idea central de una [economía de los creadores más humana](/es/economia-de-los-creadores/). Esa información te ayuda a [analizar el tráfico de la competencia de forma efectiva](https://mikebastin.com/es/analizar-trafico-web-competencia/) y a decidir dónde invertir tu tiempo.
+Si un rival saca mucho tráfico de LinkedIn o de TikTok, ahí hay una comunidad activa que conviene tener en cuenta. Que la relación con tu propia comunidad sea tuya es la idea central de una [economía de los creadores más humana](/es/economia-de-los-creadores/). Esa información te ayuda a [analizar el tráfico de la competencia con eficacia](https://mikebastin.com/es/analizar-trafico-web-competencia/) y a decidir dónde invertir tu tiempo.
 
 **Ubersuggest** muestra qué páginas de tu competencia generan más tráfico y con qué palabras clave. Úsalo como punto de partida para [rastrear posiciones de keywords de competidores](https://mikebastin.com/es/rastrear-posiciones-de-keywords-de-competidores/) y ver qué temas interesan a vuestra audiencia común.
 
@@ -171,7 +171,7 @@ Una prueba gratuita y rápida: haz a varios asistentes las preguntas de tu compr
 
 ### Lo que dicen los clientes y los anuncios
 
-Además de ver qué publica la competencia, mira qué pregunta su audiencia. [AnswerThePublic](https://answerthepublic.com/) revela dudas reales alrededor de un término, y puedes usarlas para [diseñar soluciones de marketing digital](/es/services/) que respondan a esas necesidades.
+Aparte de ver qué publica la competencia, mira qué pregunta su audiencia. [AnswerThePublic](https://answerthepublic.com/) revela dudas reales alrededor de un término, y puedes usarlas para [diseñar soluciones de marketing digital](/es/services/) que respondan a esas necesidades.
 
 Suma la [Biblioteca de anuncios de Meta](https://www.facebook.com/ads/library/), que muestra los anuncios activos de tus rivales en Facebook e Instagram, y el Centro de transparencia de anuncios de Google para sus campañas en Google. Al [analizar sus fuentes publicitarias](https://mikebastin.com/es/analizar-trafico-web-competencia/) descubres los argumentos de venta que repiten.
 
@@ -179,9 +179,9 @@ Suma la [Biblioteca de anuncios de Meta](https://www.facebook.com/ads/library/),
 
 Los datos rinden cuando se convierten en tareas. Revisa las [posiciones de tus palabras clave](/es/services/seo-tecnico/) cada semana o cada mes, y cuando un rival baja en visibilidad, refuerza tus páginas en esas búsquedas.
 
-En mercados internacionales, adapta lo que funciona a cada país. El [SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/) te enseña qué formatos (vídeo, artículo, guía) funcionan en cada cultura, y así aciertas con el tono y con los recursos.
+En mercados internacionales, adapta lo que funciona a cada país. El [SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/) te enseña qué formatos (vídeo, artículo, guía) encajan en cada cultura, y así aciertas con el tono y con los recursos.
 
-Revisa también los enlaces de forma continua. Al [analizar backlinks de competidores](https://mikebastin.com/es/analizar-backlinks-competidores/) descubres oportunidades de colaboración y de artículos como invitado, y un [perfil de enlaces sólido](/es/services/seo-tecnico/) da estabilidad a tus posiciones frente a los cambios de Google.
+Revisa también los enlaces de forma continua. Al [analizar backlinks de competidores](https://mikebastin.com/es/analizar-backlinks-competidores/) descubres oportunidades de colaboración y de artículos de invitado, y un [perfil de enlaces sólido](/es/services/seo-tecnico/) da estabilidad a tus posiciones frente a los cambios de Google.
 
 ## Preguntas frecuentes
 
@@ -203,11 +203,11 @@ Sí, en la Biblioteca de anuncios de Meta y en el Centro de transparencia de anu
 
 ### ¿Cuándo pasar a herramientas de pago?
 
-Cuando necesitas historial, varios mercados a la vez o el seguimiento continuo de varios rivales. Para el detalle de cada análisis, mira cómo [analizar sus backlinks](https://mikebastin.com/es/analizar-backlinks-competidores/) con datos completos.
+Cuando necesitas historial, varios mercados a la vez o el seguimiento continuo de varios rivales. Para ver cada análisis al detalle, mira cómo [analizar sus backlinks](https://mikebastin.com/es/analizar-backlinks-competidores/) con datos completos.
 
 ## Del análisis gratuito a la estrategia
 
 Las herramientas gratuitas son el punto de partida. El paso siguiente es una estrategia por mercado, con IA donde aporta y con textos escritos para cada país.
 
 - **Visibilidad internacional:** [mira cómo trabajamos el SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/)
-- **Visibilidad en la IA:** [mira cómo te ayudamos a aparecer en la IA](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/)
+- **Visibilidad en la IA:** [mira cómo te ayudamos a conseguirla](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/)

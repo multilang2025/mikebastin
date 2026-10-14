@@ -195,11 +195,11 @@ Le diagnostic d’un plateau de croissance, quand votre équipe « fait tout ce 
 
 Les décisions de prix ou de positionnement de services, quand vous envisagez un changement et voulez savoir quel espace est déjà occupé.
 
-Entre ces moments, une actualisation régulière garde le tableau à jour.
+Entre ces moments, des actualisations régulières tiennent le tableau à jour.
 
 ## Faites vérifier votre liste de concurrents
 
-Si vous voulez vérifier que votre équipe se compare à la bonne liste, nous pouvons réaliser en moins d’une heure une **analyse concurrentielle** ciblée, au niveau des pages de résultats, sur l’une de vos requêtes prioritaires.
+Si vous voulez vérifier que votre équipe se situe par rapport à la bonne liste, nous pouvons réaliser en moins d’une heure une **analyse concurrentielle** ciblée, au niveau des pages de résultats, sur l’une de vos requêtes prioritaires.
 
 Nous le faisons pour des clients dans le juridique, le fret, l’immobilier et la traduction, dans plusieurs langues, depuis Valence. Pour un suivi sur plusieurs pays, notre [référencement multilingue marché par marché](/fr/services/referencement-multilingue/) donne à chaque langue sa propre stratégie.
 

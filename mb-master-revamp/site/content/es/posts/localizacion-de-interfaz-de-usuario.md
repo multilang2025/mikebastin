@@ -16,7 +16,7 @@ excerpt: "Localización de interfaz para cada mercado donde vendes: textos, form
 
 Tu producto ya vende en Francia, Alemania o el Reino Unido y la traducción está bien hecha. El siguiente paso es mejorar las cifras: más registros completados, más compras terminadas y etiquetas que suenan naturales a quien las lee.
 
-Esas mejoras llegan cuando adaptas la interfaz alrededor de la traducción: el texto, las imágenes, el diseño y el comportamiento de cada pantalla. Aquí tienes qué aporta a tu negocio, qué capas hay que trabajar y cómo planificarlo para que cada idioma nuevo encaje en el diseño que ya tienes.
+Esas mejoras llegan cuando adaptas la interfaz más allá de la traducción: el texto, las imágenes, el diseño y el comportamiento de cada pantalla. Aquí tienes qué aporta a tu negocio, qué capas hay que trabajar y cómo planificarlo para que cada idioma nuevo encaje en el diseño que ya tienes.
 
 ## La interfaz, donde el usuario decide si el producto es para él
 
@@ -67,7 +67,7 @@ Las imágenes y los símbolos necesitan [contenido adaptado culturalmente](/es/s
 
 El formulario de dirección muestra bien lo que cambia de un mercado a otro. Un cliente en España rellena calle, número, código postal de cinco cifras, localidad y provincia.
 
-En otros países cambian el orden de los campos, el formato del código postal o la forma de escribir el teléfono. El formulario que respeta esas costumbres se completa con menos fricción y entrega más pedidos.
+En otros países cambian el orden de los campos, el formato del código postal o la forma de escribir el teléfono. El formulario que respeta esas costumbres se completa con menos fricción y consigue más pedidos.
 
 ## Cuatro hábitos que abaratan la localización
 
@@ -90,7 +90,7 @@ Casi todo el coste se decide antes de traducir la primera cadena de texto. Cuatr
 <figcaption>Planificar desde el principio y probar con usuarios locales enmarcan la traducción, y así cada mercado nuevo cuesta menos.</figcaption>
 </figure>
 
-- **Planifica desde el principio.** Integra la localización en el proceso de diseño, de modo que los diseños y las funciones admitan cualquier idioma a medida que llegue.
+- **Planifica desde el principio.** Integra la localización en el proceso de diseño, de modo que la interfaz y las funciones admitan cualquier idioma a medida que llegue.
 - **Trabaja con traductores profesionales.** En las cadenas de la interfaz, los traductores humanos transmiten el contexto, el tono y el significado que cada una necesita.
 - **Prueba con usuarios locales.** Las pruebas de usabilidad con personas reales de cada mercado son la comprobación fiable de que la interfaz localizada funciona.
 - **Trabaja de cerca con los desarrolladores.** Asegúrate de que el equipo conoce las necesidades de localización, como la expansión del texto y la escritura de derecha a izquierda.

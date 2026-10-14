@@ -36,7 +36,7 @@ El volumen de sitios es enorme y la autoridad editorial está concentrada en poc
 >
 > Fuente: [Dominios.es (Red.es), nota sobre los registros de dominios .es a finales de 2024, publicada en abril de 2025](https://www.dominios.es/en/informacion-de-interes/noticias/es-domains-reach-2094772-registrations-end-2024)
 
-Una mención en La Vanguardia, El País, ABC, El Confidencial, El Español o 20minutos pesa más que meses de artículos como invitado genéricos. El mercado, además, se apoya en una población muy conectada.
+Una mención en La Vanguardia, El País, ABC, El Confidencial, El Español o 20minutos pesa más que meses de artículos de invitado genéricos. El mercado, además, se apoya en una población muy conectada.
 
 > El 96,3 % de las personas de 16 a 74 años usó Internet en los últimos tres meses, con la Comunidad de Madrid (98,0 %), Cataluña (97,8 %) y Baleares (97,3 %) a la cabeza de las comunidades autónomas.
 >
@@ -72,7 +72,7 @@ Casi todo lo que nos funciona en proyectos españoles cabe en cuatro bloques, y 
 
 **Cámaras de Comercio y directorios de asociaciones.** Lento, duradero y discreto. Cada Cámara provincial tiene su directorio de miembros (en Valencia, empieza por la Cámara de Comercio de Valencia y las asociaciones de tu sector en la Comunitat Valenciana), y las asociaciones sectoriales (AECOC en gran consumo, ANETI en el sector lingüístico) transmiten autoridad. Piden trabajo administrativo más que difusión, y por eso hay espacio en ellas.
 
-**Patrocinios y agendas de eventos.** Apoyar o asistir a una feria del sector (DES en Málaga, eShow, FITUR para turismo, SIL Barcelona para logística, o los salones de Feria Valencia para una empresa valenciana) consigue una mención en la web del evento, a menudo una nota en prensa regional y, a veces, un pódcast o una entrevista. La actividad real fuera de la red alimenta enlaces genuinos. Nuestras [estrategias de networking para profesionales](/es/arte-del-networking/) te ayudan a preparar cada encuentro y a hacer el seguimiento.
+**Patrocinios y agendas de eventos.** Apoyar o asistir a una feria del sector (DES en Málaga, eShow, FITUR para turismo, SIL Barcelona para logística, o los salones de Feria Valencia para una empresa valenciana) consigue una mención en la web del evento, a menudo una nota en prensa regional y, a veces, un pódcast o una entrevista. La actividad real fuera de internet alimenta enlaces genuinos. Nuestras [estrategias de networking para profesionales](/es/arte-del-networking/) te ayudan a preparar cada encuentro y a hacer el seguimiento.
 
 | Táctica | Esfuerzo | Autoridad típica del sitio | Lo que consigues |
 |---|---|---|---|
@@ -91,7 +91,7 @@ Estos tres puntos aparecen casi siempre que auditamos un programa de enlaces esp
 
 **Elegir bien el inventario .es.** Publisuites y Prensalink tienen editores legítimos en su catálogo. Filtra por tráfico real, por temática y por criterio editorial, y quédate con los sitios que tienen lectores propios.
 
-**Escribir en español a editores españoles.** Lo comprobamos con un cliente estadounidense que quería hacer el contacto en inglés. Enviamos propuestas personalizadas en inglés durante dos meses y apenas hubo respuestas. Repetimos la misma lista en español, con una lingüista de nuestro equipo, y las respuestas llegaron. Mismos editores, mismo ángulo, misma temporada.
+**Escribir en español a editores españoles.** Lo comprobamos con un cliente estadounidense que quería contactar en inglés. Enviamos propuestas personalizadas en inglés durante dos meses y apenas hubo respuestas. Repetimos la misma lista en español, con una lingüista de nuestro equipo, y las respuestas llegaron. Mismos editores, mismo ángulo, misma temporada.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 134" role="img" aria-label="La misma lista de editores recibe dos propuestas: en inglés apenas hay respuestas, en español llegan las respuestas.">
@@ -150,7 +150,7 @@ Un ritmo constante de enlaces editoriales, mes a mes, es la señal de un program
 
 ## Suma los enlaces a tu contenido y a tus palabras clave
 
-Los enlaces rinden más cuando la página que los recibe está bien escrita para su mercado. El trabajo de enlaces en España va junto a una buena investigación de palabras clave en español, contenido pensado para el usuario español y un plan que respete las diferencias regionales.
+Los enlaces rinden más cuando la página que los recibe está bien escrita para su mercado. El trabajo de enlaces en España va de la mano de una buena investigación de palabras clave en español, contenido pensado para el usuario español y un plan que respete las diferencias regionales.
 
 Un enlace de El Español rinde de verdad en una página de destino bien escrita en español, y una página bien escrita despega cuando crecen sus dominios de referencia. Las dos mitades funcionan juntas, en España y en cada mercado extranjero.
 

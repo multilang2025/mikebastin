@@ -135,9 +135,9 @@ El JSON-LD suele ir en el `<head>`, y el contenido visible coincide con él al 1
 
 ## Mira lo que hacen tus competidores
 
-Además de analizar palabras clave, conviene ver qué entidades dominan las respuestas de IA en tu sector. Usa [herramientas para analizar el tráfico de la competencia](https://mikebastin.com/es/analizar-trafico-web-competencia/) y descubre si reciben visitas desde asistentes de IA.
+Aparte de analizar palabras clave, conviene ver qué entidades dominan las respuestas de IA en tu sector. Usa [herramientas para analizar el tráfico de la competencia](https://mikebastin.com/es/analizar-trafico-web-competencia/) y descubre si reciben visitas desde asistentes de IA.
 
-Tus rivales en GEO pueden ser otros que los que imaginas: un blog o un medio de noticias puede competir por la misma cita que tú. Aprende [cómo identificar a esos competidores ocultos](https://mikebastin.com/es/competidores-seo/).
+Tus rivales en GEO pueden ser distintos a los que imaginas: un blog o un medio de noticias puede competir por la misma cita que tú. Aprende [cómo identificar a esos competidores ocultos](https://mikebastin.com/es/competidores-seo/).
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 160" role="img" aria-label="Tu empresa, un blog y un medio de noticias compiten por la misma cita en una respuesta de IA.">
@@ -171,10 +171,10 @@ Y compleméntalas con [herramientas gratuitas de análisis competitivo](https://
 Un orden claro evita rehacer el marcado cuando añades un idioma:
 
 1.  **Audita tus entidades:** qué productos, servicios, expertos y ubicaciones defines hoy con claridad.
-2.  **Asigna tipos de schema:** `Service`, `Person`, `Organization`, y propiedades como `knowsAbout` o `mainEntityOfPage`.
-3.  **Genera JSON-LD válido:** a mano o con scripts, y siempre validado.
+2.  **Asigna tipos de schema:** `Service`, `Person`, `Organization` y propiedades como `knowsAbout` o `mainEntityOfPage`.
+3.  **Genera JSON-LD válido:** a mano o con scripts, y valídalo siempre.
 4.  **Intégralo en tu CMS:** que se inserte de forma automática en cada página relevante y en cada idioma.
-5.  **Haz seguimiento:** sigue tus posiciones, tus resultados enriquecidos y tus apariciones en respuestas de IA.
+5.  **Haz seguimiento:** revisa tus posiciones, tus resultados enriquecidos y tus apariciones en respuestas de IA.
 
 ## La web ya se lee como una base de datos
 
@@ -220,11 +220,11 @@ Lo básico se resuelve con plugins. Para un grafo de entidades completo y multil
 
 ### ¿Cómo juzga la IA a un autor?
 
-Por las señales que encuentra sobre él: biografía, cargo, formación, temas que domina y perfiles profesionales. El schema `Person` (`jobTitle`, `alumniOf`, `knowsAbout`, `sameAs`) recoge esas señales de forma legible por máquina.
+Por las señales que encuentra sobre él: biografía, cargo, formación, temas que domina y perfiles profesionales. El schema `Person` (`jobTitle`, `alumniOf`, `knowsAbout`, `sameAs`) recoge esas señales de forma legible para las máquinas.
 
 ## Empieza por tus entidades
 
-Hoy es buen momento para posicionarte como fuente de referencia. Estructura tu contenido ahora y gana visibilidad en los canales que usan ya tus compradores.
+Hoy es un buen momento para posicionarte como fuente de referencia. Estructura tu contenido ahora y gana visibilidad en los canales que ya usan tus compradores.
 
 **¿Quieres que la IA describa tu marca con precisión?**  
 En Mike Bastin ayudamos a empresas que venden en varios mercados a preparar su web para los motores generativos: revisamos sus datos estructurados, ordenamos su contenido para los modelos de lenguaje y cuidamos su presencia en cada idioma.

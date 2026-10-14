@@ -16,7 +16,7 @@ excerpt: "Herramientas de pruebas de localización para lanzar cada idioma de tu
 
 ## Pruebas de localización antes de lanzar en otro idioma
 
-Vas a lanzar tu web o tu app en francés, alemán o neerlandés, y la traducción ya está encargada. Lo que decide la primera impresión del comprador está alrededor del texto: que quepa en su botón, que la fecha salga en el formato de su país y que una palabra con acento se ordene donde él espera.
+Vas a lanzar tu web o tu aplicación en francés, alemán o neerlandés, y la traducción ya está encargada. Lo que decide la primera impresión del comprador es lo que rodea al texto: que quepa en el botón, que la fecha salga en el formato de su país y que una palabra con acento se ordene donde él espera.
 
 Las herramientas de pruebas de localización revisan justo esos puntos, y lo hacen antes del lanzamiento, cuando corregir es rápido y barato. Aquí tienes los tipos de herramienta que conviene combinar, ejemplos actuales de cada uno y cómo encajarlos en tu proceso.
 
@@ -46,7 +46,7 @@ Una prueba de localización bien hecha te ahorra las incidencias que llegarían 
 
 También comprueban funciones propias de cada lengua: el texto de derecha a izquierda en árabe y hebreo, el salto de línea correcto en idiomas asiáticos y la ordenación de caracteres acentuados en lenguas europeas. Algunas señalan además imágenes, colores o símbolos que conviene adaptar a un mercado concreto, algo que cubrimos con más detalle en nuestras [pruebas de localización](/es/services/traduccion-de-paginas-web/).
 
-Las más modernas se integran en los flujos de integración continua y detectan los fallos pronto, cuando corregirlos cuesta poco. Pueden simular distintos entornos regionales y verificar que el comportamiento es coherente en todas las versiones de idioma. Ese enfoque sistemático [ayuda a acertar a nivel cultural](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/) y a lanzar un producto técnicamente limpio, bien recibido fuera de casa.
+Las más modernas se integran en los flujos de integración continua y detectan los fallos pronto, cuando corregirlos cuesta poco. Pueden simular distintos entornos regionales y comprobar que el comportamiento es coherente en todas las versiones de idioma. Ese enfoque sistemático [ayuda a acertar a nivel cultural](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/) y a lanzar un producto técnicamente limpio, bien recibido fuera de casa.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 214" role="img" aria-label="Cuatro momentos de prueba en orden: pseudolocalización antes de traducir, control en el TMS mientras se traduce, automatización en cada versión y revisión nativa antes de lanzar.">
@@ -90,7 +90,7 @@ Un TMS gestiona todo el proceso de localización y suele incluir funciones de co
 - [POEditor](https://poeditor.com/): comprobaciones automáticas que avisan de marcadores de posición, saltos de línea o signos de puntuación que faltan y de traducciones más largas que el original, además de glosarios y memoria de traducción.
 - [Lokalise](https://lokalise.com/): comprobaciones de calidad integradas, capturas de pantalla para dar contexto a quien traduce y prueba, e integraciones con otras herramientas.
 - [memoQ](https://www.memoq.com/): incluye un módulo de control de calidad para revisar el contenido localizado.
-- [Trados Studio](https://www.trados.com/product/studio/): la herramienta de traducción de RWS, con verificaciones de calidad dentro del propio flujo.
+- [Trados Studio](https://www.trados.com/product/studio/): la herramienta de traducción de RWS, con comprobaciones de calidad dentro del propio flujo.
 - [Transifex](https://www.transifex.com/): control de calidad y revisión de las versiones localizadas.
 - [Crowdin](https://crowdin.com/): traducción colaborativa pensada para escalar a muchos idiomas.
 - [Localize](https://localizejs.com/): plataforma de localización para webs y aplicaciones.
@@ -177,8 +177,8 @@ Elegir bien te ahorra cambiar de herramienta a mitad de proyecto. Al comparar, f
 3. Contexto para quien prueba, con capturas o descripciones.
 4. Funciones de colaboración para el equipo.
 5. Automatización de las tareas repetitivas.
-6. Informes claros para seguir incidencias y progreso.
-7. Soporte para varios dispositivos y sistemas operativos.
+6. Informes claros para el seguimiento de incidencias y del progreso.
+7. Compatibilidad con varios dispositivos y sistemas operativos.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 160" role="img" aria-label="Cuatro puntos para elegir una herramienta que te acompañe todo el proyecto: encaje con tu flujo, controles de calidad, contexto para quien prueba y automatización.">
@@ -205,7 +205,7 @@ Elegir bien te ahorra cambiar de herramienta a mitad de proyecto. Al comparar, f
 
 Las herramientas rinden cuando forman parte del proceso desde el principio:
 
-1. Combina varias herramientas para cubrir todas las facetas de la prueba.
+1. Combina varias herramientas para cubrir todas las facetas de las pruebas.
 2. Automatiza lo repetitivo y reserva a las personas lo que pide criterio.
 3. Cuenta con hablantes nativos para la precisión lingüística y cultural.
 4. Mantén los casos y los datos de prueba al día.

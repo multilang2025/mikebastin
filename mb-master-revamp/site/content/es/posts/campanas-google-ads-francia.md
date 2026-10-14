@@ -15,7 +15,7 @@ excerpt: "Campañas de Google Ads en Francia pensadas para cómo busca y compra 
 
 ## Google Ads en Francia: de los clics a las solicitudes de contacto
 
-Tu campaña en Francia está activa y los clics llegan; el siguiente paso es convertirlos en solicitudes. La clave suele estar en cómo está construida. Una campaña traducida de la que funciona en España puja por las palabras que usa el comprador español, muestra anuncios que suenan a traducción y lleva al visitante a una página pensada para otro mercado. Si la reconstruyes para Francia, el mismo presupuesto paga clics de personas con intención real de compra.
+Tu campaña en Francia está activa y los clics llegan; el siguiente paso es convertirlos en solicitudes. La clave suele estar en cómo está construida. Una campaña que traduce la que funciona en España puja por las palabras que usa el comprador español, muestra anuncios que suenan a traducción y lleva al visitante a una página pensada para otro mercado. Si la reconstruyes para Francia, el mismo presupuesto paga clics de personas con intención real de compra.
 
 Merece la pena hacerlo bien, porque compites con anunciantes que escriben para ese mercado en su idioma nativo.
 
@@ -67,15 +67,15 @@ La investigación te da los términos que un comprador de Lyon escribe de verdad
 
 Empieza por [identificar a tus competidores en Francia](/es/competidores-seo/). ¿Por qué palabras clave pujan y qué prometen sus anuncios? Herramientas como [SEMrush](https://www.semrush.com/) o [SpyFu](https://www.spyfu.com/) te muestran ambas cosas, y también cómo rinden sus anuncios en cada región de Francia, lo que te señala huecos de mercado que tu campaña puede ocupar.
 
-Después, fíjate en cómo compran tus compradores. El comprador francés prefiere medios de pago seguros y reconocidos, y muchos dan gran importancia a la transparencia en los precios. Un anuncio que muestra el precio desde el principio se gana el clic de ese comprador.
+Después, fíjate en cómo compran tus clientes. El comprador francés prefiere medios de pago seguros y reconocidos, y muchos dan gran importancia a la transparencia en los precios. Un anuncio que muestra el precio desde el principio se gana el clic de ese comprador.
 
-Para la [investigación de palabras clave](/es/services/seo-frances/), trabaja con términos propios de Francia y frases de cola larga, investigados en francés. El Planificador de Palabras Clave de Google y el de Microsoft Advertising te dan los volúmenes; un hablante nativo de francés te dice qué términos llevan [intención de compra real](/es/mapa-de-intencion-de-busqueda/). Ten en cuenta también las variantes regionales, porque un comprador de París puede buscar de otra forma que uno de Lyon o de Marsella.
+Para la [investigación de palabras clave](/es/services/seo-frances/), trabaja con términos propios de Francia y frases de cola larga, investigados en francés. El Planificador de Palabras Clave de Google y el de Microsoft Advertising te dan los volúmenes; un hablante nativo de francés te dice qué términos llevan [intención de compra real](/es/mapa-de-intencion-de-busqueda/). Ten en cuenta también las variantes regionales, porque un comprador de París puede buscar de forma distinta a uno de Lyon o de Marsella.
 
 ## Una estructura de cuenta que muestra lo que rinde cada región
 
 La estructura de la cuenta decide si más adelante podrás saber qué región y qué oferta se pagan solas. Separar las campañas por región te da esa respuesta.
 
-En Google Ads, segmenta Francia por país e idioma y usa la segmentación geográfica para las regiones que te interesan. Si tu cuenta ya sirve a España, crea campañas francesas propias: así Francia tiene sus propias palabras clave, sus propios anuncios y su propio presupuesto. Una campaña para París suele necesitar otras palabras clave y otros mensajes que una dirigida al sur de Francia, y una campaña separada permite a cada una ganarse su presupuesto.
+En Google Ads, segmenta Francia por país e idioma y usa la segmentación geográfica para las regiones que te interesan. Si tu cuenta ya sirve a España, crea campañas francesas propias: así Francia tiene sus propias palabras clave, sus propios anuncios y su propio presupuesto. Una campaña para París suele necesitar palabras clave y mensajes distintos a los de una dirigida al sur de Francia, y una campaña separada permite a cada una ganarse su presupuesto.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 160" role="img" aria-label="Una cuenta de Google Ads dividida en campañas regionales separadas, una para París y otra para el sur de Francia, cada una con su propio presupuesto.">
@@ -110,7 +110,7 @@ Microsoft Advertising (antes Bing Ads) te da un alcance más barato que merece u
 
 ## Escribe anuncios que convenzan al comprador francés
 
-Tu anuncio es la primera frase que un comprador francés lee de ti, y detecta una traducción al instante. Un francés de nivel nativo genera confianza: le dice al lector que atiendes su mercado y lo mantiene en tu anuncio.
+Tu anuncio es la primera frase que un comprador francés lee de ti, y detecta una traducción al instante. Un texto en francés nativo genera confianza: le dice al lector que atiendes su mercado y lo mantiene en tu anuncio.
 
 Escribe titulares y descripciones en torno a lo que le importa al comprador francés. Las referencias culturales o [expresiones locales, cuando suman relevancia](/es/crear-una-marca-global/), hacen que el anuncio parezca escrito para él, siempre que encajen con tu marca.
 

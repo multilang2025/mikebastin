@@ -64,7 +64,7 @@ Así los enlaces se mantienen limpios dondequiera que se peguen. En Suiza, el al
 
 ### Palabras clave en la URL, con medida
 
-Las **palabras clave en alemán** dentro de la URL ayudan a los usuarios y a los buscadores. Google trata las palabras de la URL como una señal ligera, y una URL descriptiva consigue también más clics en los resultados y en los enlaces compartidos.
+Las **palabras clave en alemán** dentro de la URL ayudan a los usuarios y a los buscadores. Google trata las palabras de la URL como un factor de menor peso, y una URL descriptiva consigue también más clics en los resultados y en los enlaces compartidos.
 
 Usa cada palabra clave una vez, para tener URL ordenadas. Un `/deutschland-reiseangebote` limpio rinde más que una URL cargada de términos repetidos.
 
@@ -78,7 +78,7 @@ Si vendes en Alemania, Austria y Suiza, unas etiquetas hreflang correctas muestr
 
 ### Qué hacen las etiquetas hreflang
 
-Las etiquetas hreflang indican a los buscadores qué versión de idioma y de región de una página deben servir, según el idioma o la ubicación del usuario. Con ellas en su sitio, un comprador en Austria o en Suiza ve la versión escrita para él. Nuestra guía de [ajustes hreflang para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) explica las tres formas de declararlas.
+Las etiquetas hreflang indican a los buscadores qué versión de idioma y de región de una página deben servir, según el idioma o la ubicación del usuario. Con ellas en tu web, un comprador en Austria o en Suiza ve la versión escrita para él. Nuestra guía de [ajustes hreflang para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) explica las tres formas de declararlas.
 
 ### Las variantes de alemán que conviene etiquetar
 
@@ -179,7 +179,7 @@ La mayoría de las búsquedas se hacen ya desde el móvil, también en alemán, 
 
 ### Google clasifica tu versión móvil
 
-Google rastrea y clasifica la versión móvil de tu web. Las posiciones siguen a la experiencia móvil, así que dale la misma calidad que a la versión de escritorio.
+Google rastrea y clasifica la versión móvil de tu web. Las posiciones dependen de la experiencia móvil, así que dale la misma calidad que a la versión de escritorio.
 
 ### Diseño para el usuario alemán en el móvil
 
@@ -217,7 +217,7 @@ AMP puede seguir encajando en medios de noticias que ya tienen una configuració
 Google retiró su prueba de optimización para móviles en diciembre de 2023. Revisa el rendimiento móvil con Lighthouse en Chrome, PageSpeed Insights y el informe de Core Web Vitals de Search Console.
 
 **Conexiones más lentas:**  
-La cobertura 5G de Alemania se amplía, y muchos usuarios siguen navegando con conexiones irregulares en zonas rurales o en el tren. Mantén las páginas ligeras para que funcionen en cualquier red.
+Aunque la cobertura 5G de Alemania se amplía, muchos usuarios siguen navegando con conexiones irregulares en zonas rurales o en el tren. Mantén las páginas ligeras para que funcionen en cualquier red.
 
 <aside class="post-cta">
 <p><strong>¿Ajustes técnicos hechos y lista tu web para más consultas desde Alemania?</strong> Nuestra <a href="/es/services/seo-aleman/">agencia de SEO en alemán</a> audita tus páginas en alemán frente a tres competidores alemanes directos y acuerda contigo un plan en español. <a href="/es/contactanos/">Cuéntanos cómo es tu web en alemán</a>.</p>
@@ -225,4 +225,4 @@ La cobertura 5G de Alemania se amplía, y muchos usuarios siguen navegando con c
 
 ## El orden de trabajo que da resultados antes
 
-Empieza por las versiones regionales si vendes en más de un país de habla alemana, y sigue con la velocidad y el móvil. Nuestra [lista de auditoría de SEO técnico](/es/lista-de-auditoria-seo-tecnica/) te ayuda a revisar cada punto a medida que cambia la búsqueda. Combina después el trabajo técnico con el contenido y los enlaces que cubre nuestra guía del mercado alemán.
+Empieza por las versiones regionales si vendes en más de un país de habla alemana, y sigue con la velocidad y el móvil. Nuestra [lista de auditoría de SEO técnico](/es/lista-de-auditoria-seo-tecnica/) te ayuda a revisar cada punto según cambian las búsquedas. Combina después el trabajo técnico con el contenido y los enlaces que cubre nuestra guía del mercado alemán.

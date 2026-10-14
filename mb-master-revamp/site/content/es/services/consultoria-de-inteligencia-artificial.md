@@ -36,7 +36,7 @@ Te entregamos una evaluación escrita de cinco decisiones concretas, pensada par
 - cómo aparecen tus contenidos en las respuestas de ChatGPT, Claude, Gemini o Perplexity, y qué cambia para que te citen;
 - cómo medir si todo eso funciona.
 
-En cada una señalamos dónde trabaja la herramienta y dónde toma el relevo una persona, y lo medimos contra el coste real de una respuesta equivocada en cada caso. Un texto de un blog admite más margen que una cláusula de condiciones de venta, y tú recibes ese criterio por escrito.
+En cada una señalamos dónde trabaja la herramienta y dónde toma el relevo una persona, y lo comparamos con el coste real de una respuesta equivocada en cada caso. Un texto de un blog admite más margen que una cláusula de condiciones de venta, y tú recibes ese criterio por escrito.
 
 ## Que las respuestas de la IA te citen en cada idioma
 
@@ -86,16 +86,16 @@ Para saber si la automatización funciona seguimos cuatro indicadores:
 - el coste por página publicada;
 - la opinión de las personas que usan el resultado: ¿elegirían quedárselo?
 
-Los acompañamos de cifras por mercado, para ver por separado un ahorro en alemán y un problema en español que un cuadro de mando global sumaría y taparía. Una automatización bien resuelta ahorra tiempo y conserva la confianza de cada mercado, y el recuento de consultas es donde se ve.
+Los acompañamos de cifras por mercado, para ver por separado un ahorro en alemán y un problema en español que un cuadro de mando global sumaría y taparía. Una automatización bien resuelta ahorra tiempo y conserva la confianza de cada mercado, y se nota en el recuento de consultas.
 
 ## Cómo trabajamos tu consultoría de IA en Valencia
 
 1. **Consulta gratuita.** Repasamos contigo tus herramientas actuales y tu flujo de trabajo multilingüe, en nuestra oficina o por videollamada, y señalamos dónde la IA podría ahorrarte tiempo, antes de que te comprometas a nada.
-2. **Alcance por escrito.** Tras la llamada te enviamos el alcance del primer trimestre: los flujos de trabajo sobre los que trabajamos, lo que entregamos y cómo mediremos cada punto.
-3. **Evaluación de dónde encaja la IA.** Recorremos tu flujo multilingüe paso a paso y te decimos dónde la máquina puede hacer el primer borrador y dónde una persona que lee el idioma lo mantiene exacto.
-4. **Puesta en marcha con un lector en cada idioma.** Montamos la traducción automática, el asistente de atención al cliente o el análisis de opiniones acordados en el alcance, con alguien que lee cada idioma de destino comprobando lo que sale.
+2. **Alcance por escrito.** Tras la llamada te enviamos el alcance del primer trimestre: los flujos en los que trabajamos, lo que entregamos y cómo mediremos cada punto.
+3. **Evaluación de dónde encaja la IA.** Recorremos tu flujo multilingüe paso a paso y te decimos dónde la máquina puede hacer el primer borrador y dónde una persona que lee el idioma comprueba que sea exacto.
+4. **Puesta en marcha con un lector en cada idioma.** Montamos la traducción automática, el asistente de atención al cliente o el análisis de opiniones acordados en el alcance, con alguien que lee cada idioma de destino para comprobar el resultado.
 5. **Medición de resultados.** Medimos la precisión sobre una muestra comprobada, el plazo, el coste por página publicada y los resultados por mercado, y te entregamos un informe escrito de lo que conviene conservar.
-6. **Mes a mes.** La colaboración es mes a mes, así que el trabajo continúa mientras te rinde.
+6. **Mes a mes.** La colaboración es mes a mes, así que el trabajo continúa mientras te compense.
 
 Llevamos más de dos décadas acompañando el posicionamiento multilingüe y los contenidos internacionales de empresas, y estamos en Valencia desde 2016, en Calle Rugat 12 - 2, 46021 Valencia. La redacción nativa y la traducción pasan por especialistas con nombre y apellidos, en su mayoría de la red BeTranslated, que dirigimos desde hace veinte años. Si tus contenidos extranjeros están por producir, mira también nuestra [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/).
 

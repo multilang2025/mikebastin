@@ -14,7 +14,7 @@ excerpt: "Herramientas de enlazado interno: seis plugins de WordPress comparados
 
 ## Enlazado interno que ayuda a tus páginas nuevas a posicionarse
 
-Publicas una página nueva y sólida, y empieza a leerse en cuanto el resto de tu web apunta hacia ella. En un sitio WordPress con cientos de entradas, a menudo en español, inglés y francés para tus mercados de exportación, una herramienta mantiene esos enlaces al día más rápido que la edición a mano y conecta las páginas que más te interesa que se encuentren.
+Publicas una página nueva y completa, y empieza a recibir visitas en cuanto el resto de tu web apunta hacia ella. En un sitio WordPress con cientos de entradas, a menudo en español, inglés y francés para tus mercados de exportación, una herramienta mantiene esos enlaces al día más rápido que editarlos a mano y conecta las páginas que más te interesa que se encuentren.
 
 Comparamos seis herramientas de enlazado interno y plugins de WordPress: en qué destaca cada una, cuánto cuesta y cómo elegir entre ellas.
 
@@ -78,11 +78,11 @@ Las herramientas se dividen en dos grupos: unas sugieren enlaces para que un edi
 
 ### Linksy
 
-[Linksy](https://linksyai.com/) lee las relaciones semánticas entre entradas y sugiere enlaces contextuales, con automatización, soporte de silos e informes. Se conecta con plugins de SEO y maquetadores, y lleva algo de tiempo configurarlo.
+[Linksy](https://linksyai.com/) lee las relaciones semánticas entre entradas y sugiere enlaces contextuales, con automatización, creación de silos e informes. Se conecta con plugins de SEO y maquetadores, y lleva algo de tiempo configurarlo.
 
 ### Internal Link Juicer
 
-[Internal Link Juicer](https://wordpress.org/plugins/internal-links/) añade enlaces de forma automática a partir de las palabras clave que defines, con variación del texto ancla y reglas de lista negra y lista blanca. Es ligero, fácil de configurar y tiene una versión gratuita muy capaz. Sus informes son más limitados que los de las herramientas centradas en el análisis.
+[Internal Link Juicer](https://wordpress.org/plugins/internal-links/) añade enlaces de forma automática a partir de las palabras clave que defines, con variación del texto ancla y listas negras y blancas. Es ligero, fácil de configurar y tiene una versión gratuita muy completa. Sus informes son más limitados que los de las herramientas centradas en el análisis.
 
 ### Link Manager (antes Interlinks Manager y Autolinks Manager)
 
@@ -111,7 +111,7 @@ DAEXT ha unido sus plugins [Interlinks Manager](https://wordpress.org/plugins/da
 - **Automatización sencilla y económica:** Internal Link Juicer.
 - **Enlaces de afiliación o de producto con seguimiento de clics:** Link Manager.
 
-La mayoría de estas herramientas ofrece una versión gratuita, una prueba o garantía de devolución, así que prueba una con tu propio contenido antes de comprometerte.
+La mayoría de estas herramientas ofrece una versión gratuita, una prueba o garantía de devolución, así que prueba una con tu propio contenido antes de decidirte.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 170" role="img" aria-label="Cuatro necesidades con sus herramientas: sugerencias mientras escribes con Link Whisper o Linkilo, silos semánticos con LinkBoss o Linksy, automatización sencilla con Internal Link Juicer y afiliación con seguimiento de clics con Link Manager.">

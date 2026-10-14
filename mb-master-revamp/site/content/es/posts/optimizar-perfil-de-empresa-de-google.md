@@ -24,7 +24,7 @@ Tu **Perfil de Empresa de Google en Valencia** lo leen clientes que buscan en ca
 
 El perfil alimenta ahora las respuestas de Gemini en Google Maps, así que lo que publicas en él decide lo que la IA dice de ti.
 
-Google empezó a retirar la sección pública de preguntas y respuestas a finales de 2025. En su lugar, Gemini responde a las preguntas sobre un sitio tirando de tu perfil, tus reseñas, tus fotos y tu web.
+Google empezó a retirar la sección pública de preguntas y respuestas a finales de 2025. En su lugar, Gemini responde a las preguntas sobre un sitio a partir de tu perfil, tus reseñas, tus fotos y tu web.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 166" role="img" aria-label="Tu perfil, tus reseñas, tus fotos y tu web alimentan a Gemini en Google Maps, que con ellos responde a las preguntas sobre tu negocio.">
@@ -97,7 +97,7 @@ Unos datos idénticos en todas partes le confirman a Google que todas esas menci
 <figcaption>Unos datos idénticos en todas partes le confirman a Google que todas esas menciones son tu negocio. Hasta el número de local cuenta.</figcaption>
 </figure>
 
-Escribe el número de local igual en tu web, en MindBody y en ClassPass: ese detalle basta a menudo para mantener la señal firme.
+Escribe el número de local igual en tu web, en MindBody y en ClassPass: ese detalle basta a menudo para dar una señal clara.
 
 Haz una auditoría de citaciones cada trimestre con Moz Local, BrightLocal o la gestión de fichas de Semrush, y corrige primero las incoherencias en los directorios de más peso.
 
@@ -143,7 +143,7 @@ Las fotos recientes son la prueba de que el negocio está activo, así que sube 
 
 Las directrices de Google piden que las fotos representen el negocio tal como es: interiores, profesores y clases reales en la galería principal. Las herramientas de edición sirven para mejorar una foto real.
 
-Para los negocios de bienestar, las fotos en acción son las que más trabajan: un profesor a mitad de secuencia, una terapeuta preparando la sala, un estudio recibiendo a sus habituales de la mañana. Los vídeos verticales cortos, como un avance de clase o un recorrido por el estudio, completan la galería.
+Para los negocios de bienestar, las fotos en acción son las que mejor funcionan: un profesor a mitad de secuencia, una terapeuta preparando la sala, un estudio recibiendo a sus habituales de la mañana. Los vídeos verticales cortos, como un avance de clase o un recorrido por el estudio, completan la galería.
 
 ## Pide reseñas todo el año y responde con datos concretos
 
@@ -151,7 +151,7 @@ Las reseñas son lo que el cliente lee antes de llamarte, y su ritmo le dice a G
 
 Desde noviembre de 2025, quien usa Google Maps puede publicar reseñas con un apodo y una foto personalizados. La reseña sigue asociada a una cuenta de Google y los filtros de reseñas falsas siguen activos.
 
-Google revisa ahora las respuestas del propietario antes de publicarlas, normalmente en unos diez minutos y, a veces, hasta en 30 días. Mantén las respuestas concretas, factuales y alejadas del tono promocional.
+Google revisa ahora las respuestas del propietario antes de publicarlas, normalmente en unos diez minutos y, a veces, hasta en 30 días. Mantén las respuestas concretas, objetivas y alejadas del tono promocional.
 
 Busca un flujo constante de reseñas a lo largo del año, pidiéndolas después de cada clase o servicio. Una media alta con reseñas detalladas y recientes convence más que una nota perfecta hecha de elogios genéricos.
 
@@ -161,7 +161,7 @@ Las publicaciones suben el porcentaje de clics dentro del perfil y alimentan las
 
 Desde noviembre de 2025, el panel permite programar publicaciones y publicarlas en varias ubicaciones a la vez, lo que hace realista preparar de golpe un mes de anuncios de talleres. Cada publicación necesita una llamada a la acción clara: reserva una clase, guarda tu plaza, apúntate a la lista de espera.
 
-La pestaña de Productos es la superficie con más margen del perfil, incluso en negocios de servicios. Un estudio de yoga puede listar sus bonos de clases, las cuotas ilimitadas y las sesiones privadas; un centro de bienestar, sus tratamientos, la duración de las sesiones y sus paquetes propios.
+La pestaña de Productos es el apartado con más potencial del perfil, incluso en negocios de servicios. Un estudio de yoga puede listar sus bonos de clases, las cuotas ilimitadas y las sesiones privadas; un centro de bienestar, sus tratamientos, la duración de las sesiones y sus paquetes propios.
 
 Cada ficha de producto da a la IA de Maps algo concreto que citar cuando alguien pregunta quién hace cerca yoga prenatal, baños de sonido o pilates con reformer.
 
@@ -173,11 +173,11 @@ Si vives de las clases, conecta tu sistema de reservas (MindBody, Momoyoga, Arke
 
 ## Sigue las tres métricas que cuentan
 
-Las métricas del panel te dicen si el perfil convierte las vistas en clientes. Céntrate en tres cosas:
+Las métricas del panel te dicen si el perfil convierte las visualizaciones en clientes. Céntrate en tres cosas:
 
 -   Las búsquedas que hicieron aparecer tu perfil.
--   Las acciones realizadas: llamadas, solicitudes de ruta, clics a la web, clics de reserva.
--   La evolución de las vistas mes a mes.
+-   Las acciones realizadas: llamadas, indicaciones para llegar, clics a la web, clics de reserva.
+-   La evolución de las visualizaciones mes a mes.
 
 Lee las impresiones junto a las acciones. Si tienes muchas impresiones y pocas acciones, retoca primero la descripción y las fotos.
 
@@ -227,13 +227,13 @@ Los enlaces a WhatsApp o a SMS en el perfil, junto a los botones de llamada y de
 
 Cinco comprobaciones, en orden:
 
--   Categoría principal: ¿es la coincidencia más concreta y cierta (estudio de yoga, estudio de pilates, centro de bienestar)?
--   Fotos: ¿cuándo fue la última subida de una clase, un profesor o una sala de tratamiento?
+-   Categoría principal: ¿es la coincidencia más concreta y exacta (estudio de yoga, estudio de pilates, centro de bienestar)?
+-   Fotos: ¿cuándo fue la última subida de una clase, un profesor o una sala de terapias?
 -   Reseñas: ¿cuántas en los últimos 90 días?
 -   Descripción: ¿nombra lo que de verdad enseñas, en palabras claras?
 -   Coherencia del NAP: ¿coinciden todos los directorios y plataformas de reserva con tu web?
 
-Con esas cinco al día, el perfil vuelve a trabajar para ti. En 2026 la constancia pesa más que cualquier truco: dos fotos y una actualización a la semana sostienen la visibilidad mes tras mes.
+Con esas cinco comprobaciones al día, el perfil vuelve a trabajar para ti. En 2026 la constancia pesa más que cualquier truco: dos fotos y una actualización a la semana sostienen la visibilidad mes tras mes.
 
 Llevamos más de dos décadas haciendo SEO y traducción. Entre nuestros clientes, un transitario de Houston está presente en el pack local de su sector, y llevamos también el SEO de un despacho de abogados de Valencia y de una inmobiliaria en la República Dominicana.
 

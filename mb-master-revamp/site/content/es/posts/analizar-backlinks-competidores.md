@@ -21,7 +21,7 @@ Tu rival francés o alemán tiene algo que tu web todavía está construyendo: s
 
 Un análisis de backlinks de competidores te da un plan de enlaces con nombres concretos, ordenado por lo que más pesa en cada mercado. Es el atajo más directo para que tus páginas extranjeras ganen autoridad.
 
-Aquí tienes cómo hacerlo: a quién analizar, cómo encontrar la brecha de enlaces, qué herramientas usar y cómo convertir los datos en enlaces publicados.
+Te explicamos cómo hacerlo: a quién analizar, cómo encontrar la brecha de enlaces, qué herramientas usar y cómo convertir los datos en enlaces publicados.
 
 **Lo que sacas en claro de analizar backlinks**
 
@@ -104,7 +104,7 @@ Cada herramienta responde a una pregunta distinta del análisis. Combinadas, te 
 
 Las [herramientas gratuitas](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) sirven para empezar; para datos históricos y volumen, las de pago.
 
-Un agente de IA ahorra horas en la parte repetitiva: lee el export, agrupa los dominios por tema y marca los que parecen de baja calidad. La decisión de a quién escribir sigue siendo de una persona que conoce el mercado.
+Un agente de IA ahorra horas en la parte repetitiva: lee el archivo exportado, agrupa los dominios por tema y marca los que parecen de baja calidad. La decisión de a quién escribir sigue siendo de una persona que conoce el mercado.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 120" role="img" aria-label="Tres pasos: el export de enlaces, un agente de IA que agrupa los dominios y marca los dudosos, y una persona que decide a quién escribir.">
@@ -167,13 +167,13 @@ Mira los perfiles de tus competidores para ver qué tácticas usan y quédate co
 
 ## Consigue los enlaces de tu lista, en este orden
 
-Un análisis vale por los enlaces publicados que salen de él. Con la lista en la mano, sigue este orden:
+Un análisis vale por los enlaces que consigues gracias a él. Con la lista en la mano, sigue este orden:
 
 1. **Empieza por lo importante:** los diez dominios con más autoridad de tu sector en ese mercado.
 2. **Crea contenido que invite a enlazar:** un estudio con datos propios da al editor un motivo concreto para citarte.
 3. **Personaliza el contacto:** menciona el artículo donde enlazaron a un competidor y explica qué aporta tu contenido a sus lectores.
 
-La personalización tiene un efecto medido:
+La personalización tiene un efecto comprobado:
 
 > En el análisis de 12 millones de correos de contacto, los mensajes con el cuerpo personalizado obtuvieron un 32,7 % más de respuestas que los no personalizados.
 >
@@ -189,7 +189,7 @@ Es investigar qué webs enlazan a tus rivales, entender por qué lo hacen y busc
 
 ### ¿Se pueden conseguir los mismos enlaces que la competencia?
 
-Sí. Contactar con webs que ya enlazaron a un competidor para ofrecerles un contenido mejor es una práctica legítima. Apóyate en el contacto con editores y en el contenido, que es lo que Google valora: la compra de enlaces y las redes de blogs privados (PBN) van contra sus políticas de spam. Si trabajas con plataformas de enlaces, nuestra lista comentada de [plataformas de compraventa de enlaces](/es/plataformas-compraventa-enlaces/) recoge los cinco controles que llevan tu presupuesto a enlaces que Google sí cuenta.
+Sí. Contactar con webs que ya enlazaron a un competidor para ofrecerles un contenido mejor es una práctica legítima. Apóyate en el contacto con editores y en el contenido, que es lo que Google valora: la compra de enlaces y las redes de blogs privados (PBN) van contra sus políticas de spam. Si trabajas con plataformas de enlaces, nuestra lista comentada de [plataformas de compraventa de enlaces](/es/plataformas-compraventa-enlaces/) recoge los cinco controles que dirigen tu presupuesto a enlaces que Google sí tiene en cuenta.
 
 ### ¿Por qué un rival con menos enlaces te gana en Google?
 
@@ -197,7 +197,7 @@ Porque Google mira la calidad por encima del número. Diez enlaces desde medios 
 
 ### ¿Cuánto tardan en notarse los backlinks nuevos?
 
-Depende del sitio que enlaza, de la frecuencia con que Google lo rastrea y de la competencia de la búsqueda. Cuenta con semanas para que se procesen y con varios meses para ver resultados claros en posiciones.
+Depende del sitio que enlaza, de la frecuencia con que Google lo rastrea y de la competencia de la búsqueda. Calcula unas semanas para que se procesen y varios meses para ver resultados claros en posiciones.
 
 ## Construye tu autoridad mercado a mercado
 

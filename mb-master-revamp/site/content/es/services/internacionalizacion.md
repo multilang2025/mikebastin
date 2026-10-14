@@ -25,27 +25,27 @@ La internacionalización es clave para empresas que buscan aumentar su facturaci
 
 Adaptar tu presencia digital implica mucho más que traducir tu web. Por ejemplo, una tienda online que opera en España y decide entrar en el mercado francés necesita adaptar su mensaje, su diseño web y hasta su estrategia SEO para captar clientes franceses.
 
-Según Statista, en 2024 el 68% de las empresas europeas consideran fundamental la adaptación cultural y lingüística para tener éxito fuera de su país.
+Según Statista, en 2024 el 68 % de las empresas europeas considera fundamental la adaptación cultural y lingüística para tener éxito fuera de su país.
 
 En MikeBastin, te ayudamos a conquistar mercados internacionales con servicios como [localización de e-commerce](https://mikebastin.com/es/services/localizacion-de-e-commerce/) y [SEO multilingüe](https://mikebastin.com/es/services/posicionamiento-multilingue/).
 
-Gestionamos la presencia en redes sociales multilingües y el [branding global](https://mikebastin.com/es/services/branding-multilingue/), asegurando que tu mensaje conecta con audiencias en cualquier país.
+Gestionamos la presencia en redes sociales multilingües y el [branding global](https://mikebastin.com/es/services/branding-multilingue/) para asegurar que tu mensaje conecta con el público de cualquier país.
 
-Trabajamos con proyectos en sectores como turismo, tecnología y comercio internacional, ayudando a empresas a captar clientes en mercados como Latinoamérica y Asia.
+Trabajamos con proyectos en sectores como turismo, tecnología y comercio internacional, y ayudamos a las empresas a captar clientes en mercados como Latinoamérica y Asia.
 
 ¿Listo para dar el salto internacional?  
-Contacta para crear una estrategia personalizada que impulse tu crecimiento fuera de España.
+Contacta con nosotros para crear una estrategia personalizada que impulse tu crecimiento fuera de España.
 
 Nuestros clientes
 
 ## Por qué elegir nuestros servicios de internacionalización
 
-Llevamos décadas combinando pericia técnica y conocimiento cultural para ayudar a que tu marca se expanda a nivel global con seguridad.
+Llevamos más de dos décadas combinando conocimientos técnicos y culturales para ayudar a que tu marca se expanda por todo el mundo con seguridad.
 
-Nuestras soluciones personalizadas garantizan una transición fluida a nuevos mercados, de manera que aumentan el engagement y promueven el crecimiento.
+Nuestras soluciones personalizadas garantizan una entrada sencilla en nuevos mercados para aumentar la interacción y fomentar el crecimiento.
 
 Somos expertos en la internacionalización de empresas
 
-Nuestros servicios de internacionalización reposan sobre una base de profunda comprensión de los mercados internacionales, los idiomas y los ecosistemas digitales. Con más de dos décadas de experiencia en SEO, [diseño web](/es/services/) y adaptación de contenido multilingüe, nos especializamos en preparar a las empresas para prosperar a nivel internacional.
+Nuestros servicios de internacionalización parten de un gran conocimiento de los mercados internacionales, los idiomas y los ecosistemas digitales. Con más de dos décadas de experiencia en SEO, [diseño web](/es/services/) y adaptación de contenido multilingüe, preparamos a las empresas para triunfar en todo el mundo.
 
-Nuestro equipo combina precisión técnica con sensibilidad cultural para garantizar que tu presencia digital se adapta a nuevas regiones fácilmente y sin perder la identidad única de tu marca. Desde localización de experiencias de usuario hasta optimización SEO multilingüe, ofrecemos soluciones integrales que te ayudan a penetrar en nuevos mercados y conectar con audiencias internacionales de manera exitosa.
+Nuestro equipo combina precisión técnica y conocimiento cultural para garantizar que tu presencia digital se adapta a nuevas regiones con facilidad y sin perder la identidad de tu marca. Desde la localización de la experiencia de usuario hasta el SEO multilingüe, ofrecemos soluciones integrales que te ayudan a entrar en nuevos mercados y conectar con el público internacional con éxito.

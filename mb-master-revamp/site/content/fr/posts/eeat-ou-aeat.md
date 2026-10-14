@@ -71,7 +71,7 @@ Tel est le rituel quotidien d’un SEO sérieux. Calme. Concentré. Légèrement
 
 ## AEAT, le juge espagnol
 
-Pour toute entreprise qui facture en Espagne, l’AEAT est le sigle que vous apprenez en premier, et le plus vite. Elle s’intéresse à la numérotation de vos factures et à sa logique ; la structure des contenus relève du département de Google.
+Pour toute entreprise qui facture en Espagne, l’AEAT est le sigle que vous apprenez en premier, et le plus vite. Elle s’intéresse à la numérotation de vos factures et à sa logique ; la structure des contenus relève de Google.
 
 Les deux envoient des messages. L’un arrive dans Search Console. L’autre arrive dans votre boîte aux lettres, avec une typographie très officielle.
 
@@ -151,7 +151,7 @@ Derrière la plaisanterie, la liste de contrôle est sérieuse. Sur un site juri
 - **Une entité cohérente.** Le nom du cabinet, son adresse et ses domaines d’exercice sont identiques sur toutes les versions de langue et sur les profils externes.
 - **Un vocabulaire juste.** Les termes juridiques et fiscaux sont ceux qu’emploie un lecteur du pays. Notre article sur le [SEO pour cabinets d’avocats](/fr/seo-cabinets-avocats/) détaille les pages d’expertise qui convainquent un futur client dans sa langue.
 
-Côté technique, chaque version doit être indexée et reliée à ses équivalents. Une [checklist d’audit SEO technique](/fr/checklist-audit-seo-technique/) permet de vérifier les balises hreflang, les URL canoniques et les pages bloquées avant de travailler les signaux de confiance. Et si le marché espagnol est votre priorité, notre [SEO en Espagne pour entreprises francophones](/fr/services/seo-espagnol/) prend en charge les mots-clés, les pages et les liens pensés pour l’acheteur espagnol.
+Côté technique, chaque version doit être indexée et reliée à ses équivalents. Une [liste de contrôle d’audit SEO technique](/fr/checklist-audit-seo-technique/) permet de vérifier les balises hreflang, les URL canoniques et les pages bloquées avant de travailler les signaux de confiance. Et si le marché espagnol est votre priorité, notre [SEO en Espagne pour entreprises francophones](/fr/services/seo-espagnol/) prend en charge les mots-clés, les pages et les liens pensés pour l’acheteur espagnol.
 
 <aside class="post-cta">
 <p><strong>Vous publiez en espagnol et en français, et voulez que les deux versions travaillent pour vous ?</strong> Notre <a href="/fr/services/seo-technique/">SEO technique pour sites multilingues</a> repère où vos versions de langue se concurrencent, et corrige la cause pour qu’elles s’additionnent. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>

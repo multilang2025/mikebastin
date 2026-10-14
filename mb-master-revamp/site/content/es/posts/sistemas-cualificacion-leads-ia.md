@@ -19,9 +19,9 @@ excerpt: "Sistemas de cualificación de leads con IA: puntúan cada consulta, en
 
 Tus mercados extranjeros envían consultas en francés, alemán, neerlandés o inglés, y tu equipo comercial decide a mano a cuáles llamar primero. Un sistema de cualificación de leads con IA ordena esa lista por probabilidad de compra, de modo que tus comerciales dedican su tiempo a las conversaciones que pueden cerrarse.
 
-Aquí tienes cómo funcionan estos sistemas, qué necesitan para acertar, cómo encajan con tu SEO en cada idioma y por dónde empezar.
+Te contamos cómo funcionan estos sistemas, qué necesitan para acertar, cómo encajan con tu SEO en cada idioma y por dónde empezar.
 
-**Resumen:** los sistemas de cualificación de leads con IA puntúan a cada prospecto con aprendizaje automático y procesamiento del lenguaje natural. Así tu equipo prioriza las oportunidades de más valor, acorta el ciclo de venta y alinea marketing y ventas en torno a una misma definición de lead.
+**Resumen:** los sistemas de cualificación de leads con IA puntúan a cada cliente potencial con aprendizaje automático y procesamiento del lenguaje natural. Así tu equipo prioriza las oportunidades de más valor, acorta el ciclo de venta y alinea marketing y ventas en torno a una misma definición de lead.
 
 ## Cómo funciona un sistema de cualificación con IA
 
@@ -31,7 +31,7 @@ Saber qué mira el sistema te dice qué datos tienes que darle. Hay dos piezas: 
 
 El núcleo de estos sistemas es el **lead scoring predictivo**: una puntuación construida a partir de tus datos históricos y de las señales de cada interacción. Los métodos clásicos asignan puntos fijos por cada acción; la IA evalúa el contexto completo y ajusta la puntuación con cada nueva interacción.
 
-Entran en juego el tiempo en las páginas clave, las páginas visitadas antes de escribir, el sector y el tamaño de la empresa, y el contenido del propio mensaje. Al ver qué contenidos consumen los compradores antes de convertirse en leads cualificados, el sistema también te indica qué páginas trabajan mejor para ventas. Puedes ver cómo encaja con el resto del marketing en [nuestros servicios](/es/services/).
+Entran en juego el tiempo en las páginas clave, las páginas visitadas antes de escribir, el sector y el tamaño de la empresa, y el contenido del propio mensaje. Al ver qué contenidos consumen los compradores antes de convertirse en leads cualificados, el sistema también te indica qué páginas funcionan mejor para ventas. Puedes ver cómo encaja con el resto del marketing en [nuestros servicios](/es/services/).
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 138" role="img" aria-label="Las páginas visitadas, el sector y tamaño de la empresa y el texto del mensaje alimentan una puntuación con IA, que ordena las consultas por prioridad de llamada.">
@@ -64,7 +64,7 @@ Esta capacidad pesa mucho cuando las consultas llegan en varios idiomas. Un sist
 
 ## Lo que ganas con la cualificación con IA
 
-Una cualificación rápida y coherente convierte más consultas en reuniones y lleva a tu equipo a decidir con datos. Cada prospecto se evalúa con los mismos criterios, sea cual sea el comercial que lo recibe o el idioma en que escribe.
+Una cualificación rápida y coherente convierte más consultas en reuniones y lleva a tu equipo a decidir con datos. Cada cliente potencial se evalúa con los mismos criterios, sea cual sea el comercial que lo recibe o el idioma en que escribe.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Los mismos criterios de puntuación para cada consulta, llegue en francés, en alemán, en neerlandés o en inglés.">
@@ -101,7 +101,7 @@ Un análisis competitivo te muestra qué tecnologías adoptan ya otras empresas 
 
 Un sistema de cualificación rinde más cuando está conectado al CRM y a las fuentes de tráfico. El SEO aporta los clics y, sobre todo, atrae a compradores cuya intención coincide con tus criterios de cualificación.
 
-Al alinear las palabras clave con las etapas de decisión del comprador, el sistema recibe datos más limpios y la puntuación acierta desde el primer contacto. Analizar el tráfico web de la competencia te ayuda a ver qué canales generan los mejores leads en tu nicho, y a menudo el tráfico que parece secundario trae a los prospectos más valiosos.
+Al alinear las palabras clave con las etapas de decisión del comprador, el sistema recibe datos más limpios y la puntuación acierta desde el primer contacto. Analizar el tráfico web de la competencia te ayuda a ver qué canales generan los mejores leads en tu nicho, y a menudo el tráfico que parece secundario trae a los clientes potenciales más valiosos.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 120" role="img" aria-label="El SEO atrae compradores con la intención correcta, el sistema recibe datos más limpios y la puntuación acierta desde el primer contacto.">
@@ -138,7 +138,7 @@ Como resume [Outbounders](https://outbounders.es/inteligencia-artificial-para-ve
 
 Conocer cómo captan tus competidores te dice dónde están los compradores que todavía buscan proveedor. Identifica a tus competidores SEO reales y mira más allá de los líderes del sector: empresas más pequeñas ganan cuota con sistemas automatizados.
 
-Las herramientas gratuitas de análisis competitivo ofrecen una primera base, y la ventaja está en interpretar esos datos con IA. Al cruzar la información de mercado con el rendimiento de tus propios leads, detectas huecos en la oferta de la competencia que tus prospectos buscan activamente.
+Las herramientas gratuitas de análisis competitivo ofrecen una primera base, y la ventaja está en interpretar esos datos con IA. Al cruzar la información de mercado con el rendimiento de tus propios leads, detectas huecos en la oferta de la competencia que tus clientes potenciales buscan activamente.
 
 Sigue también las posiciones de tus rivales en las palabras clave con más intención de compra. Cuando un competidor pierde terreno en esos términos, es el momento de reforzar tus campañas en esa área.
 
@@ -172,7 +172,7 @@ El tradicional se basa en reglas manuales y puntos fijos. La cualificación con 
 
 ### ¿Hace falta un gran volumen de datos?
 
-La IA aprende mejor con más datos, y los sistemas actuales pueden empezar con volúmenes moderados gracias a modelos preentrenados. A medida que el sistema procesa más prospectos, se adapta a las particularidades de tu sector y tus mercados.
+La IA aprende mejor con más datos, y los sistemas actuales pueden empezar con volúmenes moderados gracias a modelos preentrenados. A medida que el sistema procesa más clientes potenciales, se adapta a las particularidades de tu sector y tus mercados.
 
 ### ¿Cómo se protege la privacidad de los leads?
 

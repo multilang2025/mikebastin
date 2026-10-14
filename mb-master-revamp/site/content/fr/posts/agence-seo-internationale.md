@@ -170,7 +170,7 @@ Une grande part des recherches se conclut sur la page de Google elle-même, entr
 >
 > Source : [SparkToro et Datos, « 2024 Zero-Click Search Study », données de septembre 2022 à mai 2024, publié le 2 juillet 2024](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/)
 
-ChatGPT, Claude, Perplexity et les AI Overviews répondent dans la langue de celui qui pose la question, et citent leurs sources pays par pays. Des pages natives, des liens gagnés dans la presse et les annuaires de chaque pays, et une marque présente dans chaque langue vous placent dans ces réponses, marché par marché.
+ChatGPT, Claude, Perplexity et les AI Overviews répondent dans la langue de celui qui pose la question, et citent leurs sources pays par pays. Des pages natives, des liens gagnés dans la presse et les annuaires de chaque pays, et une marque présente dans chaque langue vous font apparaître dans ces réponses, marché par marché.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 160" role="img" aria-label="Des pages natives, des liens locaux et une marque présente dans chaque langue placent votre site dans les réponses des IA, marché par marché.">
@@ -190,7 +190,7 @@ ChatGPT, Claude, Perplexity et les AI Overviews répondent dans la langue de cel
 <figcaption>Chaque langue réunit ses pages, ses liens et sa marque, et les IA citent ce qu’elles trouvent dans la langue de la question.</figcaption>
 </figure>
 
-La recherche elle-même se renouvelle en continu, ce qui fait du suivi mensuel une partie du métier :
+La recherche elle-même se renouvelle en continu, ce qui fait du suivi mensuel un volet du métier :
 
 > Chaque jour, 15 % des requêtes que Google reçoit sont nouvelles.
 >
@@ -210,17 +210,17 @@ Le marché des prestataires est vaste :
 >
 > Source : [Mordor Intelligence, « SEO Services Market », 2026](https://www.mordorintelligence.com/industry-reports/seo-market), chiffres repris par [AIOSEO](https://aioseo.com/seo-statistics/)
 
-Le choix se fait donc sur quelques critères vérifiables, sous forme de questions à poser à chaque candidat :
+Le choix repose donc sur quelques critères vérifiables, sous forme de questions à poser à chaque candidat :
 
-- **Qui écrit chaque langue ?** Des natifs, langue par langue, relus avant publication.
+- **Qui rédige dans chaque langue ?** Des natifs, langue par langue, relus avant publication.
 - **Que contient le rapport ?** Des chiffres par langue, demandes reçues comprises.
-- **À qui parlez-vous ?** Aux personnes qui pensent la stratégie et lisent les rapports.
-- **Quand la structure du site est-elle décidée ?** Au début, une fois, avec vous.
-- **Quelles références dans vos marchés ?** Des sites nommés, que vous pouvez consulter.
+- **À qui parlez-vous ?** Aux personnes qui définissent la stratégie et lisent les rapports.
+- **Quand la structure du site est-elle décidée ?** Dès le départ, une seule fois, avec vous.
+- **Quelles références dans vos marchés ?** Des sites cités, que vous pouvez consulter.
 
-Si votre besoin tient davantage du conseil, notre article sur le rôle d’un [consultant en référencement international](/fr/consultant-referencement-international/) décrit la mission mois par mois, et celui sur l’[expert SEO international](/fr/expert-en-seo-international/) détaille les décisions prises pour chaque marché. Pour un besoin qui couvre tout le marketing digital, notre comparaison [conseiller en marketing digital ou agence](/fr/conseiller-marketing-digital/) vous aide à trancher.
+Si votre besoin relève davantage du conseil, notre article sur le rôle d’un [consultant en référencement international](/fr/consultant-referencement-international/) décrit la mission mois par mois, et celui sur l’[expert SEO international](/fr/expert-en-seo-international/) détaille les décisions prises pour chaque marché. Pour un besoin qui couvre tout le marketing numérique, notre comparaison [conseiller en marketing numérique ou agence](/fr/conseiller-marketing-digital/) vous aide à trancher.
 
-Réservez un premier échange de trente minutes sur votre projet de référencement international : nous situons ensemble le potentiel de votre site sur les marchés francophones, anglophones ou hispanophones, et vous décidez ensuite librement de la suite.
+Réservez un premier échange de trente minutes sur votre projet de référencement international : nous évaluons ensemble le potentiel de votre site sur les marchés francophones, anglophones ou hispanophones, et vous décidez ensuite librement de la suite.
 
-- Email : [mike@mikebastin.com](mailto:mike@mikebastin.com)
+- E-mail : [mike@mikebastin.com](mailto:mike@mikebastin.com)
 - [Formulaire de contact](/fr/nous-contacter/)

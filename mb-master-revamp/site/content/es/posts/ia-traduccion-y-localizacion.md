@@ -14,7 +14,7 @@ excerpt: "La IA en la traducción y la localización te lleva a más mercados co
 
 ## Traducción con IA para llegar a seis mercados
 
-Tu presupuesto de traducción cubre dos mercados y tu equipo comercial quiere seis: Francia, Bélgica, Países Bajos, Alemania, Reino Unido y uno más por decidir. La traducción con IA cierra buena parte de esa distancia.
+Tu presupuesto de traducción cubre dos mercados y tu equipo comercial quiere seis: Francia, Bélgica, Países Bajos, Alemania, Reino Unido y uno más por decidir. La traducción con IA salva gran parte de esa distancia.
 
 Un revisor nativo hace el resto: garantiza que cada frase fluida de tu ficha de producto en alemán o en francés sea además una frase correcta. A continuación verás dónde la IA se gana su sitio, dónde un hablante nativo aporta más y cómo organizar el trabajo para tener la velocidad y la precisión a la vez.
 
@@ -69,7 +69,7 @@ Para la mayoría de las empresas, la pregunta útil es en qué puntos la IA nece
 
 ### Plazos más cortos
 
-Cada mes que adelantas las páginas de un mercado es un mes de demanda que captas tú primero. La IA traduce miles de palabras en minutos, y la formación online muestra la escala que ya es posible:
+Cada mes que adelantas las páginas de un mercado es un mes de demanda que captas tú primero. La IA traduce miles de palabras en minutos, y el entrenamiento online muestra la escala que ya es posible:
 
 > Coursera desplegó en 2023 traducciones de texto con IA que «han permitido que casi 3 millones de estudiantes realicen más de 5.000 cursos en 25 idiomas». En abril de 2025 añadió cursos doblados con IA en español, francés, alemán y portugués de Brasil.
 >
@@ -120,7 +120,7 @@ Cada uno de estos puntos cuesta menos resolverlo antes de publicar que después.
 | Seguridad de los datos | Texto confidencial expuesto a través de herramientas en la nube | Proveedores verificados, conformes con el RGPD, y normas claras sobre los datos |
 | Exceso de confianza | Menos aportación creativa de los traductores, contenido más plano | Los traductores conservan el mando del tono y del mensaje |
 
-Las herramientas lingüísticas en la nube piden el mismo cuidado de seguridad que cualquier sistema que guarde tus textos. El [estudio de Citizen Lab de 2024 sobre aplicaciones de teclado en la nube](https://citizenlab.ca/2024/04/vulnerabilities-across-keyboard-apps-reveal-keystrokes-to-network-eavesdroppers/) mostró cómo puede filtrarse el texto que se envía a la nube:
+Las herramientas lingüísticas en la nube exigen el mismo cuidado de seguridad que cualquier sistema que guarde tus textos. El [estudio de Citizen Lab de 2024 sobre aplicaciones de teclado en la nube](https://citizenlab.ca/2024/04/vulnerabilities-across-keyboard-apps-reveal-keystrokes-to-network-eavesdroppers/) mostró cómo puede filtrarse el texto que se envía a estos servidores:
 
 > «Nuestro análisis reveló vulnerabilidades críticas en aplicaciones de teclado de ocho de los nueve proveedores, que pudimos explotar para revelar por completo el contenido de las pulsaciones de los usuarios en tránsito».
 >

@@ -15,15 +15,15 @@ excerpt: "Una agencia de marketing 360 en Valencia te da un solo plan que conect
 
 ## Qué entrega una agencia de marketing 360 en Valencia
 
-Tu empresa trabaja desde Valencia y firmaste con una **agencia de marketing 360 en Valencia** para tener un plan coordinado. Lo que llega cada mes quizá siga pareciendo cuatro informes de canal grapados; lo que buscas es un solo juego de indicadores, una sola definición de la audiencia y una persona, sentada a tu mesa en tu misma ciudad, capaz de decirte qué canal paga a los demás.
+Tu empresa trabaja desde Valencia y has firmado con una **agencia de marketing 360 en Valencia** para tener un plan coordinado. Lo que llega cada mes quizá siga pareciendo cuatro informes de canal grapados; lo que buscas es un solo juego de indicadores, una sola definición de la audiencia y una persona, sentada en tu mesa en tu misma ciudad, capaz de decirte qué canal financia a los demás.
 
-El trabajo coordinado devuelve más de lo que cuesta la cuota: la búsqueda de pago invierte en los clics que tus páginas orgánicas aún no han ganado, tus clientes de Valencia te encuentran en castellano y en inglés, y tus versiones en francés, neerlandés o alemán parten de un plan completo. Llevamos más de dos décadas en este sector, trabajamos desde nuestra oficina de la Calle Rugat 12 - 2, en Valencia, y sabemos cómo es el trabajo coordinado visto desde dentro.
+El trabajo coordinado rinde más de lo que cuesta la cuota: las campañas de pago invierten en los clics que tus páginas orgánicas aún no han ganado, tus clientes de Valencia te encuentran en castellano y en inglés, y tus versiones en francés, neerlandés o alemán parten de un plan completo. Llevamos más de dos décadas en este sector, trabajamos desde nuestra oficina de la calle Rugat 12 - 2, en Valencia, y sabemos cómo es el trabajo coordinado visto desde dentro.
 
 ## Cómo es una integración que funciona
 
-Pagas por decisiones tomadas entre canales. Cinco elementos, conectados de verdad, las hacen posibles.
+Pagas por decisiones conjuntas entre canales. Cinco elementos, conectados de verdad, las hacen posibles.
 
--   Un documento de estrategia que nombra la restricción real: calidad de los contactos, visibilidad en búsqueda en tres idiomas, oportunidades de las ferias, la que sea de verdad.
+-   Un documento de estrategia que identifica el obstáculo real: calidad de los contactos, visibilidad en búsqueda en tres idiomas, oportunidades de las ferias, el que sea de verdad.
 -   Un plan de medición breve que todo el equipo lee cada semana.
 -   Una voz de marca y un posicionamiento que conservan su fuerza en la traducción, de un mercado a otro, como explicamos en la guía para [crear una marca global](/es/crear-una-marca-global/).
 -   Un único conjunto de herramientas al que todo el equipo accede directamente.
@@ -53,9 +53,9 @@ Pagas por decisiones tomadas entre canales. Cinco elementos, conectados de verda
 
 Cada hábito de esta lista lleva el presupuesto al canal donde el problema sigue abierto.
 
-**Equipos de canal que deciden juntos.** Una reunión mensual en la que cada equipo copia sus indicadores en la misma presentación mantiene a todos ocupados. El trabajo coordinado consiste en que los equipos se solapen y tomen decisiones compartidas.
+**Equipos de canal que deciden juntos.** Una reunión mensual en la que cada equipo copia sus indicadores en la misma presentación solo sirve para mantener a todos entretenidos. El trabajo coordinado consiste en que los equipos colaboren y tomen decisiones compartidas.
 
-**Una estrategia que el equipo relee.** Un plan guía el trabajo mientras el equipo lo abre. Mantenlo lo bastante corto para releerlo cada semana; un documento de 90 páginas, por bien estructurado que esté, suele leerse una vez, el primer día.
+**Una estrategia que el equipo relee.** Un plan guía el trabajo solo si el equipo lo abre. Hazlo lo bastante breve para poder releerlo cada semana: un documento de 90 páginas, por bien estructurado que esté, suele leerse una vez, el primer día.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 120" role="img" aria-label="Un plan de 90 páginas se lee una vez, el primer día; un plan corto se relee cada semana y sigue guiando el trabajo.">
@@ -71,7 +71,7 @@ Cada hábito de esta lista lleva el presupuesto al canal donde el problema sigue
 <figcaption>Un plan lo bastante corto para releerlo cada semana guía el trabajo mientras el equipo lo abre.</figcaption>
 </figure>
 
-**El multilingüe, planificado desde el inicio.** Cuando las versiones en francés y en neerlandés se planifican a la vez que la española, cada una parte de su propio plan completo y de un traspaso limpio. Como muestran nuestras [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/), el marketing multilingüe que funciona incorpora la traducción a la planificación desde el primer día.
+**El marketing multilingüe, planificado desde el inicio.** Cuando las versiones en francés y en neerlandés se planifican a la vez que la española, cada una parte de su propio plan completo y de una base limpia. Como muestran nuestras [buenas prácticas de SEO multilingüe](/es/buenas-practicas-seo-multilingue/), el marketing multilingüe que funciona incorpora la traducción a la planificación desde el primer día.
 
 > El 76 % de los compradores en línea prefiere comprar productos con información en su lengua materna, y el 40 % nunca compra en webs en otros idiomas.
 >
@@ -81,11 +81,11 @@ Cada hábito de esta lista lleva el presupuesto al canal donde el problema sigue
 
 En diez minutos ves hasta qué punto está coordinado el trabajo de tu agencia. Haz estas tres preguntas sobre cualquier campaña activa.
 
--   ¿Qué palabra clave de pago podemos cortar porque ya posicionamos por ella en orgánico?
+-   ¿Qué palabra clave de pago podemos pausar porque ya posicionamos por ella en orgánico?
 -   ¿Qué artículo del blog en francés ganaría más con un píxel de remarketing?
--   ¿Qué aprendió la versión belga (.be) de la campaña que la versión francesa (.fr) puede aplicar a continuación?
+-   ¿Qué ha aprendido la versión belga (.be) de la campaña que la versión francesa (.fr) pueda aplicar ahora?
 
-Una agencia que trabaja de forma coordinada responde a las tres en el momento, a partir de un plan compartido.
+Una agencia que trabaja de forma coordinada responde a las tres al momento, a partir de un plan compartido.
 
 <aside class="post-cta">
 <p><strong>¿Quieres una agencia que responda en el momento a la tercera pregunta?</strong> Nuestra <a href="/es/services/publicidad-multilingue/">publicidad multilingüe</a> sigue cada mercado con su propio presupuesto y su propio informe, para que una campaña en Bélgica se valore por los contactos que trae de Bélgica. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
@@ -99,9 +99,9 @@ Durante los seis meses anteriores a nuestra llegada, esos canales funcionaban co
 
 Al reunirlo todo en un solo documento de estrategia y un solo plan de medición, aparecieron tres hallazgos en el primer mes.
 
--   **El 31 % de las palabras clave de pago ya estaba en primera posición en orgánico.** Cortamos esas pujas y llevamos el presupuesto a términos de la parte alta del embudo.
--   **Tres artículos del blog estaban entre los tres primeros resultados, listos para un píxel de remarketing.** Lo añadimos. La ruta de conversión apareció de un día para otro.
--   **La prospección en LinkedIn usaba una frase de posicionamiento distinta de la de la web.** Las alineamos. La tasa de respuesta se movió ese mismo mes.
+-   **El 31 % de las palabras clave de pago ya estaba en primera posición en orgánico.** Pausamos esas pujas y llevamos el presupuesto a términos de la parte alta del embudo.
+-   **Tres artículos del blog estaban entre los tres primeros resultados, listos para un píxel de remarketing.** Lo añadimos. La ruta de conversión quedó clara de un día para otro.
+-   **La prospección en LinkedIn usaba una frase de posicionamiento distinta de la de la web.** Las alineamos. La tasa de respuesta mejoró ese mismo mes.
 
 Cada mejora salió de tácticas que ya estaban en marcha: conectarlas produjo la subida.
 
@@ -124,7 +124,7 @@ Cada mejora salió de tácticas que ya estaban en marcha: conectarlas produjo la
 
 ## Lo que dicen los datos sobre las campañas coordinadas
 
-La conexión entre canales rinde más que su número. El análisis del IPA de más de 250 casos de campañas encontró una diferencia medible entre el trabajo integrado en varios canales y las campañas de un solo canal.
+La conexión entre canales rinde más que la cantidad de canales. El análisis del IPA de más de 250 casos de campañas reveló una diferencia medible entre el trabajo integrado en varios canales y las campañas de un solo canal.
 
 > «El 78 % de los casos con tres canales demuestra efectos de negocio tangibles, frente al 67 % de los que usan un solo canal».
 >
@@ -154,7 +154,7 @@ Para tu presupuesto, tres canales conectados rinden más que siete aislados.
 
 ## Qué pedir en una propuesta 360 antes de firmar
 
-Lee cada propuesta con la columna de la derecha delante: cada línea es algo que conviene pedir antes de firmar.
+Lee cada propuesta teniendo a mano la columna de la derecha: cada línea es algo que conviene pedir antes de firmar.
 
 | Lo que prometen los folletos 360 | Lo que pide de verdad la integración |
 | --- | --- |
@@ -172,15 +172,15 @@ Un socio 360 compensa en cuanto necesitas coordinación entre canales. Solemos r
 -   Quieres que tus informes muestren de dónde debe salir la facturación del próximo trimestre.
 -   Tu generalista interno cubre cinco puestos, y lo que más le ayuda es un respaldo estratégico.
 
-En los demás casos, un responsable sénior a tiempo parcial con dos especialistas externos suele dar mejores resultados que una agencia con cuota fija, con menos coste y más atención puesta en la restricción real. Nuestra comparación entre [asesor de marketing digital o agencia](/es/asesor-marketing-digital/) te ayuda a decidir.
+En los demás casos, un responsable sénior a tiempo parcial con dos especialistas externos suele dar mejores resultados que una agencia con cuota fija, con menos coste y más atención al problema real. Nuestra comparación entre [asesor de marketing digital o agencia](/es/asesor-marketing-digital/) te ayuda a decidir.
 
 ## Compara la cuota 360 con tu equipo interno
 
-Si estás comparando la cuota de una agencia de marketing 360 en Valencia con mantener el trabajo en casa, revisamos contigo las ventajas de cada opción, en persona en nuestra oficina de Valencia o por videollamada.
+Si estás comparando la cuota de una agencia de marketing 360 en Valencia con hacerlo internamente, revisamos contigo las ventajas de cada opción, en persona en nuestra oficina de Valencia o por videollamada.
 
 Trabajamos con clientes B2B de los sectores jurídico, transporte de mercancías, inmobiliario y traducción, en varios idiomas, desde Valencia.
 
-Para muchas empresas, la buena respuesta es mantener el equipo interno y sumar experiencia concreta justo donde está la restricción, por ejemplo un [SEO multilingüe llevado mercado a mercado](/es/services/posicionamiento-multilingue/). A veces es un socio 360 completo. En los dos casos, te conviene saber cuál es antes de firmar.
+Para muchas empresas, la mejor opción es mantener el equipo interno y sumar experiencia concreta justo donde está el problema, por ejemplo un [SEO multilingüe llevado mercado a mercado](/es/services/posicionamiento-multilingue/). A veces hace falta un socio 360 completo. En los dos casos, te conviene saber qué necesitas antes de firmar.
 
 <aside class="post-cta">
 <p><strong>¿Dudas entre una cuota 360 y tu equipo interno?</strong> Revisamos contigo las ventajas de cada opción, canal por canal. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>

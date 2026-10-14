@@ -178,7 +178,7 @@ Escribe metadatos propios para cada versión, con las palabras clave de cada idi
 
 ## Revisa la configuración con regularidad
 
-Un mantenimiento sistemático protege el rendimiento de tu sitio y te deja detectar los fallos cuando aún son pequeños.
+Un mantenimiento sistemático protege el rendimiento de tu sitio y te permite detectar los fallos cuando aún son pequeños.
 
 Programa [auditorías técnicas](/es/services/seo-tecnico/) periódicas para revisar el hreflang, vigilar los errores de rastreo y comprobar la indexación en todas las versiones de idioma. Cuando Google cambia su algoritmo o sus requisitos para el [SEO internacional](/es/services/posicionamiento-multilingue/), ajusta tu configuración cuanto antes.
 
@@ -186,6 +186,6 @@ Programa [auditorías técnicas](/es/services/seo-tecnico/) periódicas para rev
 
 El SEO técnico es el cimiento de cualquier web multilingüe que funcione. Empieza por el mapa de equivalencias entre idiomas y el hreflang, sigue con el contenido duplicado y la estructura de dominios, y termina con los metadatos. Cuando esas piezas encajan, Google entiende, indexa y posiciona tu contenido para el público de cada mercado.
 
-¿Quieres que tu web multilingüe rinda al máximo en cada país? [Pide una revisión de tu configuración técnica](/es/contactanos/), con la experiencia de más de dos décadas en SEO y traducción de nuestro lado.
+¿Quieres que tu web multilingüe rinda al máximo en cada país? [Pide una revisión de tu configuración técnica](/es/contactanos/) con nuestra experiencia de más de dos décadas en SEO y traducción.
 
 ![Pasos de implementación técnica para varias versiones de idioma](/images/legacy/2024/12/image.webp)

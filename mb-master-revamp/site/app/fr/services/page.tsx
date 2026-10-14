@@ -92,7 +92,7 @@ export default function FrenchServicesIndex() {
           </Reveal>
           <Reveal i={3}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              Vous vendez en Espagne, en Allemagne, au Benelux ou au Royaume-Uni, et vous voulez que chacun de ces marchés génère des demandes. Commencez par celui qui compte le plus pour vous{" "}: lors d’une consultation gratuite, nous vous montrons ce que ses acheteurs recherchent.
+              Vous vendez en Espagne, en Allemagne, au Benelux ou au Royaume-Uni, et vous voulez que chacun de ces marchés génère des demandes. Commencez par celui qui compte le plus pour vous{" "}: lors d’une consultation gratuite, nous vous montrons ce que ses acheteurs recherchent.
             </p>
           </Reveal>
           <Reveal i={4}>
@@ -131,7 +131,7 @@ export default function FrenchServicesIndex() {
       </section>
 
       {groups.map((g, gi) => (
-        <section key={g.heading} className="`band ${gi % 2 === 0 ? "band-a" : "band-b"} py-[clamp(48px,7vw,96px)]`}>
+        <section key={g.heading} className={`band ${gi % 2 === 0 ? "band-a" : "band-b"} py-[clamp(48px,7vw,96px)]`}>
           <div className="shell">
             <Reveal>
               <div

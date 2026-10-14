@@ -15,21 +15,21 @@ excerpt: "Economía de los creadores más humana: la visión de Jean Marie Corda
 
 ## Una audiencia propia en la economía de los creadores
 
-Si tu audiencia vive en la plataforma de otro, la tienes alquilada: tu alcance y tus ingresos dependen de algoritmos, proveedores de pago y normas de cuenta que fija otra empresa. Lo mismo vale para una empresa que vende en Francia, Alemania o el Reino Unido y cuya relación con el cliente pasa en parte por esos canales. Ser dueño de esa relación protege lo que has tardado años en construir.
+Si tu audiencia vive en la plataforma de otro, la tienes alquilada: tu alcance y tus ingresos dependen de algoritmos, proveedores de pago y normas de cuenta que fija otra empresa. Lo mismo ocurre con una empresa que vende en Francia, Alemania o el Reino Unido y cuya relación con el cliente pasa en parte por esos canales. Ser dueño de esa relación protege lo que has tardado años en construir.
 
-Jean Marie Cordaro, fundador de Bonzai.pro, ha construido su trabajo en torno a una convicción: la tecnología debe estar al servicio de las personas. A continuación verás por qué cree que la economía de los creadores se ha inclinado demasiado hacia las plataformas, cómo es en la práctica una alternativa centrada en las personas y qué significa para cualquiera que quiera ser dueño de la relación con su audiencia.
+Jean Marie Cordaro, fundador de Bonzai.pro, ha construido su trabajo en torno a una convicción: la tecnología debe estar al servicio de las personas. A continuación verás por qué cree que la economía de los creadores se ha inclinado demasiado hacia las plataformas, cómo es en la práctica una alternativa centrada en las personas y qué significa para quien quiera ser dueño de la relación con su audiencia.
 
 ## Una trayectoria construida sobre la conexión humana
 
 La postura de Jean Marie Cordaro nace de la experiencia. Como creador, aprendió lo que vale la independencia digital al ver cómo otros creadores perdían de la noche a la mañana el acceso a su trabajo, en sistemas que ponen los algoritmos por delante.
 
-Su conclusión fue que el éxito de un creador se apoya en las relaciones que construye con su audiencia, y ese principio guía hoy su manera de hacer negocios. Para cualquier empresa, la lección es la misma: la relación es el activo que te pertenece, esté donde esté el canal.
+Su conclusión fue que el éxito de un creador se apoya en las relaciones que construye con su audiencia, y ese principio guía hoy su manera de hacer negocios. Para cualquier empresa, la lección es la misma: la relación es el activo que te pertenece, sea cual sea el canal.
 
 ## Reequilibrar una economía muy tecnológica
 
-Mide el éxito por la fidelidad además de por las visualizaciones y los clics, y la audiencia crece junto con las cifras. Las herramientas digitales han hecho la creación más accesible que nunca: cualquiera puede compartir conocimiento, vender un producto o crear una comunidad global desde un portátil. Ese mismo progreso empuja también la creación hacia lo mecánico, y ese es el equilibrio que Cordaro quiere recuperar.
+Mide el éxito por la fidelidad y no solo por las visualizaciones y los clics, y la audiencia crece junto con las cifras. Las herramientas digitales han hecho la creación más accesible que nunca: cualquiera puede compartir conocimiento, vender un producto o crear una comunidad global desde un portátil. Ese mismo progreso empuja también la creación hacia lo mecánico, y ese es el equilibrio que Cordaro quiere recuperar.
 
-Todo se mide en visualizaciones, clics, tasas de conversión y retención. Cordaro quiere que el éxito se lea también en el vínculo emocional, que dio valor al trabajo de los creadores desde el principio: para él, las herramientas deben amplificar las relaciones.
+Todo se mide en visualizaciones, clics, tasas de conversión y retención. Cordaro quiere que el éxito se refleje también en el vínculo emocional, que dio valor al trabajo de los creadores desde el principio: para él, las herramientas deben amplificar las relaciones.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="El éxito leído de dos maneras: las cifras, como las vistas y los clics, y el relato, la fidelidad y el vínculo emocional que hay detrás.">
@@ -83,15 +83,15 @@ Cordaro se propuso crear una plataforma en la que los creadores se quedan porque
 <figcaption>Un solo lugar para todo el negocio creativo: contenido, productos, suscriptores y audiencia conviven en condiciones abiertas que el creador entiende.</figcaption>
 </figure>
 
-Bonzai reúne en un solo lugar el contenido, los productos, los suscriptores y la audiencia de un creador, en condiciones abiertas. Los usuarios son dueños de sus datos, entienden sus ingresos y son libres de irse cuando quieran. La visión se apoya en tres principios:
+Bonzai reúne en un solo lugar el contenido, los productos, los suscriptores y la audiencia de un creador, en condiciones abiertas. Los usuarios son dueños de sus datos, tienen claros sus ingresos y son libres de irse cuando quieran. La visión se apoya en tres principios:
 
 - simplificar cada paso;
 - acompañar a los creadores y dejarles el control;
 - humanizar, con la automatización en su justa medida.
 
-Cuando los usuarios escriben, hablan con una persona real que entiende su recorrido creativo.
+Cuando los usuarios escriben, hablan con una persona real que entiende su proceso creativo.
 
-Durante años, la economía de los creadores se vendió como independencia total, y para muchos todavía depende de algoritmos para la visibilidad, de terceros para los pagos y de plataformas para el acceso a la audiencia. Cordaro propone una economía basada en el sentido, la confianza y la responsabilidad, donde el valor se define por la profundidad de la conexión que logran los creadores.
+Durante años, la economía de los creadores se vendió como independencia total, aunque para muchos todavía depende de algoritmos para la visibilidad, de terceros para los pagos y de plataformas para el acceso a la audiencia. Cordaro propone una economía basada en el propósito, la confianza y la responsabilidad, donde el valor se define por la profundidad de la conexión que logran los creadores.
 
 ## Gana la confianza con transparencia
 
@@ -123,7 +123,7 @@ En Bonzai, cada transacción es clara, cada norma se entiende y cada creador con
 
 ## Lo humano en el centro del sistema
 
-El temor que comparten muchos creadores es sencillo: que la IA los vuelva reemplazables. Cordaro responde con una frase que repite a menudo:
+El temor que comparten muchos creadores es sencillo: que la IA los haga prescindibles. Cordaro responde con una frase que repite a menudo:
 
 > «La humanidad nunca debe convertirse en una función opcional dentro de un sistema tecnológico».
 
@@ -133,7 +133,7 @@ La misma mentalidad marca en Bonzai el equilibrio entre automatización y creati
 
 ## Una visión global e inclusiva
 
-Algunas de las audiencias que más rápido crecen están en lugares que necesitan herramientas pensadas para ellas. Cordaro imagina una economía de los creadores global en la que el acceso a herramientas fiables sea un derecho para todos, y por eso Bonzai se construyó para ser:
+Algunas de las audiencias que más rápido crecen están en lugares que necesitan herramientas pensadas para ellas. Cordaro imagina una economía de los creadores global en la que el acceso a herramientas fiables sea un derecho para todos, y por eso Bonzai se desarrolló para ser:
 
 - optimizado para conexiones a internet lentas;
 - compatible con varias monedas;
@@ -147,7 +147,7 @@ En muchas regiones emergentes, los creadores crecen más rápido en cuanto caen 
 
 ## El creador de mañana, una pequeña empresa
 
-El creador de mañana, tal como lo ve Jean Marie Cordaro, es una pequeña empresa en sí mismo: un medio independiente, un educador, un conector y un propietario con propósito. Para cumplir ese papel, los creadores necesitan herramientas éticas, transparentes y que les den poder.
+El creador de mañana, tal como lo ve Jean Marie Cordaro, es una pequeña empresa en sí mismo: un medio independiente, un educador, un conector y un propietario con propósito. Para cumplir ese papel, los creadores necesitan herramientas éticas, transparentes y que les den autonomía.
 
 Imagina una economía en la que los creadores son dueños de sus datos y sus ingresos, la transparencia es la norma y la tecnología apoya la creatividad mientras el creador la dirige. El rendimiento atrae la atención y los algoritmos amplían el alcance; la fidelidad y la confianza nacen de la relación.
 
@@ -171,9 +171,9 @@ Imagina una economía en la que los creadores son dueños de sus datos y sus ing
 
 ## Construye sobre un terreno propio
 
-La lección práctica para cualquiera con una audiencia: construye sobre un terreno que sea tuyo, mide lo que tu audiencia significa para ti y usa la automatización para ganar tiempo mientras conservas la relación. Para una empresa, ese terreno es ante todo su web, visible mercado a mercado gracias al [SEO internacional](/es/services/optimizacion-seo/), y su lista de suscriptores, que nuestros consejos para [mejorar la tasa de apertura de tus emails](/es/email-marketing-tasa-apertura-conversiones/) ayudan a mantener activa.
+La lección práctica para quien tenga una audiencia: construye sobre un terreno que sea tuyo, mide lo que tu audiencia significa para ti y usa la automatización para ganar tiempo mientras conservas la relación. Para una empresa, ese terreno es ante todo su web, visible mercado a mercado gracias al [SEO internacional](/es/services/optimizacion-seo/), y su lista de suscriptores, que nuestros consejos para [mejorar la tasa de apertura de tus emails](/es/email-marketing-tasa-apertura-conversiones/) ayudan a mantener activa.
 
-Para Cordaro, el futuro del mundo digital depende de nuestra capacidad de seguir siendo humanos, y Bonzai es su ejemplo práctico. Si estás construyendo tu propia marca personal, nuestra guía sobre [el arte del networking](/es/arte-del-networking/) cubre la parte presencial de la misma idea.
+Para Cordaro, el futuro del mundo digital depende de nuestra capacidad de seguir siendo humanos, y Bonzai es su ejemplo práctico. Si estás construyendo tu propia marca personal, nuestra guía sobre [el arte del networking](/es/arte-del-networking/) aborda la parte presencial de la misma idea.
 
 ## Preguntas frecuentes sobre Bonzai y su fundador
 
@@ -183,16 +183,16 @@ Porque cree que la creatividad debe seguir arraigada en la confianza, la liberta
 
 ### ¿Cómo refleja Bonzai esta filosofía?
 
-Dando a los creadores el control de sus datos, sus ingresos y sus relaciones, en un entorno transparente y centrado en las personas.
+Dar a los creadores el control de sus datos, sus ingresos y sus relaciones, en un entorno transparente y centrado en las personas.
 
 ### ¿Qué distingue a Bonzai de otras plataformas para creadores?
 
-Su foco en la claridad y la empatía. La tecnología apoya la relación.
+Su enfoque en la claridad y la empatía. La tecnología apoya la relación.
 
 ### ¿Qué lugar ocupa la accesibilidad en su visión?
 
-Uno esencial. Bonzai está diseñado para funcionar en todo el mundo, incluidas las regiones con conexiones más lentas y acceso bancario limitado.
+Es esencial. Bonzai está diseñado para funcionar en todo el mundo, incluso en regiones con conexiones más lentas y acceso bancario limitado.
 
 ### ¿Cuál es el objetivo a largo plazo de Jean Marie Cordaro?
 
-Ayudar a construir una economía de los creadores sostenible, ética y global, en la que los creadores puedan prosperar con su individualidad intacta.
+Ayudar a construir una economía sostenible, ética y global para los creadores, donde puedan prosperar con su individualidad intacta.

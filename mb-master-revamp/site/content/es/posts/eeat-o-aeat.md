@@ -122,7 +122,7 @@ Una diapositiva de presentación: «Optimización de la AEAT para la credibilida
 
 Un borrador de propuesta: «Incluye auditoría AEAT completa». Ahora el departamento financiero está muy interesado.
 
-Las noches largas suben las probabilidades. El café baja las defensas. Y de pronto tu documento SEO se lee como un informe de cumplimiento tributario.
+Las noches largas suben las probabilidades. El café baja las defensas. Y de pronto tu documento SEO parece un informe de cumplimiento tributario.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 158" role="img" aria-label="Una errata, tres lectores: en un mensaje de Slack llega a un compañero, en una diapositiva al cliente y en un borrador de propuesta al departamento financiero.">
@@ -151,7 +151,7 @@ Lo anterior es una sátira, y también la realidad.
 
 La precisión importa en SEO. Cada referencia construye autoridad. Cada entidad coherente mantiene unida la imagen. Cada directriz leída con atención protege la visibilidad.
 
-La precisión también importa ante Hacienda. Una numeración de facturas correcta mantiene lejos los requerimientos. Presentar a tiempo mantiene lejos los recargos. Un expediente completo mantiene lejos las cartas.
+La precisión también importa ante Hacienda. Una numeración de facturas correcta evita los requerimientos. Presentar a tiempo evita los recargos. Un expediente completo evita las cartas.
 
 Hacer SEO jurídico en España significa respetar a los dos jueces. Ambos premian la estructura. Solo uno acepta backlinks como moneda. Por eso cada propuesta pasa por una segunda lectura antes de salir: así la AEAT no se cuela donde tenía que ir el EEAT.
 
