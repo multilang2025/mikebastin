@@ -13,7 +13,7 @@
  *                in every locale (CLAUDE.md, owner 21 Aug 2026)
  *   register     "tú", never "usted/ustedes" (owner, 29 Sep 2026)
  *   punctuation  ¿ ¡ paired with ? !; « » or “ ”, never straight " "
- *   experience   "más de dos décadas", never 25 años or a start year
+ *   experience   "más de 20 años", never "dos décadas", 25 años or a start year
  *   vocabulary   the Spanish rendering of the forbidden list
  *   english      untranslated English left in a Spanish page
  *   headings     sentence case: no Title Case Across Every Word
@@ -44,7 +44,7 @@ const RULES = [
   { id: "punctuation", test: (t) => /[^¿]*\?/.test(t) && sentencesOf(t).some((s) => /\?\s*$/.test(s) && !s.includes("¿")),
     fix: "open with ¿ (and ¡ before !)" },
   { id: "punctuation", re: /"[^"]{2,}"/u, fix: "« » or “ ”, not straight quotes" },
-  { id: "experience", re: /\b25 años\b|veinticinco años|desde 1999/iu, fix: "más de dos décadas" },
+  { id: "experience", re: /\b25 años\b|veinticinco años|desde 1999|dos décadas/iu, fix: "más de 20 años" },
   { id: "vocabulary",
     re: word("exhaustiv[oa]s?|a medida(?! que)|sin fisuras|sin costuras|innovador[ae]?s?|robust[oa]s?|transformador[ae]?s?|en constante evolución|en conclusión|es importante señalar|es importante destacar|sin embargo|no obstante|asimismo"),
     fix: "the Spanish forbidden list (mirrors the English one in CLAUDE.md)" },

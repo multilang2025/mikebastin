@@ -200,6 +200,6 @@ Empieza por acordar con ventas qué cuenta como un lead, mide de qué mercado ll
 <p><strong>¿Qué parte de tu captación multilingüe puede llevar la IA?</strong> Nuestra <a href="/es/services/consultoria-de-inteligencia-artificial/">consultoría de inteligencia artificial</a> te dice qué conviene automatizar y dónde sigue haciendo falta una persona que lea el idioma, y cómo medir si funciona. <a href="/es/contactanos/">Pide tu auditoría gratuita de 20 minutos</a>.</p>
 </aside>
 
-**Sobre el autor:** Mike Bastin dirige un equipo de consultoría en SEO multilingüe e inteligencia artificial aplicada al marketing y a las ventas, con más de dos décadas de experiencia en SEO y traducción y en la puesta en marcha de sistemas automatizados para empresas internacionales.
+**Sobre el autor:** Mike Bastin dirige un equipo de consultoría en SEO multilingüe e inteligencia artificial aplicada al marketing y a las ventas, con más de 20 años de experiencia en SEO y traducción y en la puesta en marcha de sistemas automatizados para empresas internacionales.
 
 **Contacto:** Calle Rugat 12 - 2, 46021 Valencia, España. Teléfono: +34 671 17 57 74. [LinkedIn](https://www.linkedin.com/in/michaelbastin/) y [Google Business Profile](https://www.google.com/maps/place//data=!4m2!3m1!1s0xd6048f48e63ffff:0x1be84e97abaa5aa1?sa=X&ved=1t:8290&ictx=111)

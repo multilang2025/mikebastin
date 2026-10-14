@@ -24,7 +24,7 @@
  *   quotes       « » rather than straight double quotes
  *   spelling     localisation, optimiser: the US spellings are an English
  *                search-volume exception that does not travel
- *   experience   "plus de deux décennies", never 25 ans or a start year
+ *   experience   "plus de 20 ans", never "deux décennies", 25 ans or a start year
  *                (owner, 27 Sep 2026)
  *   headings     sentence case: no Title Case Across Every Word
  *   vocabulary   the French rendering of the forbidden list
@@ -62,7 +62,7 @@ const RULES = [
   { id: "spacing", re: new RegExp(`[${L}»)][;?!](?=\\s|$)`, "u"), fix: "missing non-breaking space before ; ? !" },
   { id: "quotes", re: /"[^"]{2,}"/u, fix: "« » with non-breaking spaces inside" },
   { id: "spelling", re: /optimiz|localiz|Localiz|Optimiz/u, fix: "optimiser, localisation" },
-  { id: "experience", re: /\b25 (ans|années)\b|vingt-cinq ans|depuis 1999/iu, fix: "plus de deux décennies" },
+  { id: "experience", re: /\b25 (ans|années)\b|vingt-cinq ans|depuis 1999|deux décennies/iu, fix: "plus de 20 ans" },
   // Formal register (owner, 30 Sep 2026: "French should be formal"): written
   // French for a buyer, so no "ça", no "on" standing in for "nous", no
   // exclamation marks in running text.

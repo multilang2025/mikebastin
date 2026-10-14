@@ -41,7 +41,7 @@ Las páginas en español, inglés, francés y neerlandés las redacta directamen
 
 ## Resultados de nuestro posicionamiento local
 
-Bemelman Spuiterij es un especialista en pintura en polvo de Noordwijkerhout, en la Bollenstreek neerlandesa, con más de dos décadas de reputación y una presencia en internet por construir. Montamos un SEO local en neerlandés pensado para el pequeño número de compradores profesionales que buscan este servicio. Para las empresas que venden en los Países Bajos o en Flandes, nuestro [SEO en neerlandés](/es/services/seo-neerlandes/) continúa ese trabajo.
+Bemelman Spuiterij es un especialista en pintura en polvo de Noordwijkerhout, en la Bollenstreek neerlandesa, con más de 20 años de reputación y una presencia en internet por construir. Montamos un SEO local en neerlandés pensado para el pequeño número de compradores profesionales que buscan este servicio. Para las empresas que venden en los Países Bajos o en Flandes, nuestro [SEO en neerlandés](/es/services/seo-neerlandes/) continúa ese trabajo.
 
 ValenciaMove es nuestra propia web sobre cómo instalarse en Valencia, construida con guías de barrio en cinco idiomas. Así se trabaja una ciudad que se busca en varios idiomas: cada idioma con sus propias páginas.
 

@@ -42,7 +42,7 @@ Vous avez un seul interlocuteur, une seule facture, et un allemand écrit par de
 
 Nous le disons dès le premier échange, pour que vous sachiez qui fait quoi. Notre allemand suffit pour piloter des projets SEO en allemand. Vos textes commerciaux allemands sont rédigés par des Allemands natifs, parce que le registre fait la vente et doit être exact.
 
-Ces rédacteurs sont les traducteurs et rédacteurs allemands natifs de BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans et que Mike Bastin a cofondée. Ils écrivent depuis des années pour des clients qui vendent en Allemagne, en Autriche et en Suisse, à partir de nos briefs rédigés pour la page allemande. La stratégie, elle, s’appuie sur plus de deux décennies de SEO.
+Ces rédacteurs sont les traducteurs et rédacteurs allemands natifs de BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans et que Mike Bastin a cofondée. Ils écrivent depuis des années pour des clients qui vendent en Allemagne, en Autriche et en Suisse, à partir de nos briefs rédigés pour la page allemande. La stratégie, elle, s’appuie sur plus de 20 ans de SEO.
 
 Chaque page passe par trois lectures : le rédacteur natif, un second natif avant la publication, puis votre propre équipe. Nous vérifions chacune par rapport au plan, pour qu’elle se lise bien et réponde à la recherche pour laquelle elle a été écrite. Vous avez aussi des documents à traduire hors du site ? Notre service de [traduction professionnelle](/fr/services/traduction-professionnelle/) s’en charge.
 

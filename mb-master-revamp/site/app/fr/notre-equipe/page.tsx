@@ -39,7 +39,7 @@ const POINTS = [
   {
     name: "Des spécialistes natifs, nommés",
     detail:
-      "La rédaction et la traduction dans chaque langue passent par des spécialistes que nous vous présentons, la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis plus de deux décennies. Chacun écrit dans sa langue maternelle et connaît le secteur qu’il traite.",
+      "La rédaction et la traduction dans chaque langue passent par des spécialistes que nous vous présentons, la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis plus de 20 ans. Chacun écrit dans sa langue maternelle et connaît le secteur qu’il traite.",
   },
   {
     name: "Quatre langues de travail",
@@ -72,7 +72,7 @@ export default function FrenchTeamPage() {
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Plus de deux décennies de référencement multilingue, et un rédacteur natif pour chaque langue où vous vendez.
+              Plus de 20 ans de référencement multilingue, et un rédacteur natif pour chaque langue où vous vendez.
             </h2>
           </Reveal>
           <Reveal i={3}>
@@ -89,7 +89,7 @@ export default function FrenchTeamPage() {
               <span className="flex flex-col gap-[2px]">
                 <span className="display text-[1.02rem] font-semibold">Mike Bastin</span>
                 <span className="text-[.88rem]" style={{ color: "var(--dim)" }}>
-                  Valencia, plus de deux décennies de référencement multilingue
+                  Valencia, plus de 20 ans de référencement multilingue
                 </span>
               </span>
             </div>

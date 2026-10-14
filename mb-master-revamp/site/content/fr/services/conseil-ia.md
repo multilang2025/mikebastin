@@ -59,7 +59,7 @@ Ces indicateurs s’accompagnent de chiffres par marché, pour que vous voyiez s
 
 ## Un accompagnement au mois, avec des spécialistes nommés
 
-Nous accompagnons le [référencement multilingue](/fr/services/referencement-multilingue/) et les contenus internationaux des entreprises depuis plus de deux décennies, et nous sommes basés à Valencia depuis 2016. La rédaction native et la traduction passent par des spécialistes nommés, la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans. Si vos contenus étrangers restent à produire, voyez aussi notre [création de contenu multilingue](/fr/services/creation-de-contenu-multilingue/).
+Nous accompagnons le [référencement multilingue](/fr/services/referencement-multilingue/) et les contenus internationaux des entreprises depuis plus de 20 ans, et nous sommes basés à Valencia depuis 2016. La rédaction native et la traduction passent par des spécialistes nommés, la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans. Si vos contenus étrangers restent à produire, voyez aussi notre [création de contenu multilingue](/fr/services/creation-de-contenu-multilingue/).
 
 ## Comment se déroule notre conseil en IA
 

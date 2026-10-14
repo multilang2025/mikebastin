@@ -235,7 +235,7 @@ Cinco comprobaciones, en orden:
 
 Con esas cinco comprobaciones al día, el perfil vuelve a trabajar para ti. En 2026 la constancia pesa más que cualquier truco: dos fotos y una actualización a la semana sostienen la visibilidad mes tras mes.
 
-Llevamos más de dos décadas haciendo SEO y traducción. Entre nuestros clientes, un transitario de Houston está presente en el pack local de su sector, y llevamos también el SEO de un despacho de abogados de Valencia y de una inmobiliaria en la República Dominicana.
+Llevamos más de 20 años haciendo SEO y traducción. Entre nuestros clientes, un transitario de Houston está presente en el pack local de su sector, y llevamos también el SEO de un despacho de abogados de Valencia y de una inmobiliaria en la República Dominicana.
 
 ¿Quieres una revisión directa de tu Perfil de Empresa de Google, de tu posición en el mapa o del SEO que lo rodea? [Pide tu revisión](/es/contactanos/) o conoce cómo trabajamos en la [página sobre nosotros](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/).
 

@@ -15,7 +15,7 @@ excerpt: "Las extensiones de Chrome para traductores que se ganan su sitio en 20
 
 ## Las extensiones de Chrome que aceleran tus traducciones
 
-Si tu empresa traduce desde el navegador, las extensiones deciden dos cosas: lo rápido que avanza un borrador y lo limpio que llega al documento del cliente o a la página publicada. Un grupo rápido ahorra tiempo en cada encargo; uno cuidadoso mantiene la confianza del cliente. Una lista guardada en 2022 ya pide una actualización: esta es la que tenemos instalada tras más de dos décadas trabajando entre inglés, francés, español y neerlandés, y el orden en que la usamos.
+Si tu empresa traduce desde el navegador, las extensiones deciden dos cosas: lo rápido que avanza un borrador y lo limpio que llega al documento del cliente o a la página publicada. Un grupo rápido ahorra tiempo en cada encargo; uno cuidadoso mantiene la confianza del cliente. Una lista guardada en 2022 ya pide una actualización: esta es la que tenemos instalada tras más de 20 años trabajando entre inglés, francés, español y neerlandés, y el orden en que la usamos.
 
 ## Manifest V3 y LLM: qué ha cambiado en el navegador
 
@@ -173,7 +173,7 @@ Cada extensión que conservas es otra ventana, otro atajo y otro permiso, así q
 >
 > Fuente: [DeepL API documentation, Languages supported](https://developers.deepl.com/docs/getting-started/supported-languages)
 
-> El mayor cambio en más de dos décadas de trabajo multilingüe: el navegador se ha convertido en el banco de trabajo. Todo lo que hacíamos entre Trados, un diccionario de papel y tres monitores ocurre ahora en una sola ventana de Chrome con siete extensiones.
+> El mayor cambio en más de 20 años de trabajo multilingüe: el navegador se ha convertido en el banco de trabajo. Todo lo que hacíamos entre Trados, un diccionario de papel y tres monitores ocurre ahora en una sola ventana de Chrome con siete extensiones.
 >
 > Mike Bastin, consultor de SEO multilingüe y traducción
 

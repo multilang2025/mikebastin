@@ -41,4 +41,4 @@ Habla con un consultor web en Valencia que trabaja con SEO e IA orientados a res
 
 ## Lo que dicen sobre nosotros
 
-**Lo que dicen nuestros clientes y colaboradores sobre nuestro trabajo.** Desde estrategias de SEO hasta [servicios de traducción](https://mikebastin.com/es/services/localizacion-de-contenido/), nuestra reputación destaca por más de dos décadas de experiencia, los resultados y el compromiso con cada cliente.
+**Lo que dicen nuestros clientes y colaboradores sobre nuestro trabajo.** Desde estrategias de SEO hasta [servicios de traducción](https://mikebastin.com/es/services/localizacion-de-contenido/), nuestra reputación destaca por más de 20 años de experiencia, los resultados y el compromiso con cada cliente.

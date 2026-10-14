@@ -38,7 +38,7 @@ Nos encargamos de tu visibilidad en neerlandés, desde la auditoría hasta el in
 
 ## Neerlandés y español, con el mismo equipo
 
-Escribimos el neerlandés directamente, con un año Erasmus en Utrecht y más de dos décadas de clientes neerlandeses y belgas. La investigación, la lectura de la competencia, las instrucciones y las reuniones con los equipos locales se hacen en neerlandés. Después, cada página comercial pasa por un lector nativo antes de publicarse, porque un nativo capta los matices que solo da la lengua materna.
+Escribimos el neerlandés directamente, con un año Erasmus en Utrecht y más de 20 años de clientes neerlandeses y belgas. La investigación, la lectura de la competencia, las instrucciones y las reuniones con los equipos locales se hacen en neerlandés. Después, cada página comercial pasa por un lector nativo antes de publicarse, porque un nativo capta los matices que solo da la lengua materna.
 
 Tú hablas con nosotros en español. Mantenemos separados el neerlandés de Flandes y el de los Países Bajos cuando te diriges a los dos mercados, porque las palabras y las normas cambian a cada lado de la frontera.
 
@@ -46,7 +46,7 @@ Después vienen los elementos que hacen que un comprador neerlandés o belga con
 
 ## Un sitio en neerlandés que llevamos
 
-Bemelman Spuiterij es un especialista en pintura en polvo de Noordwijkerhout, en la Bollenstreek, con más de dos décadas de reputación. Su web está escrita íntegramente en neerlandés, con una página por servicio y un formulario de presupuesto que pide el tipo de proyecto y la superficie a tratar: las peticiones llegan listas para presupuestar.
+Bemelman Spuiterij es un especialista en pintura en polvo de Noordwijkerhout, en la Bollenstreek, con más de 20 años de reputación. Su web está escrita íntegramente en neerlandés, con una página por servicio y un formulario de presupuesto que pide el tipo de proyecto y la superficie a tratar: las peticiones llegan listas para presupuestar.
 
 BeTranslated, la agencia de traducción que dirigimos en Valencia desde hace veinte años, tiene sus propios sitios en .be y .nl, cada uno construido sobre la investigación de su propio mercado.
 

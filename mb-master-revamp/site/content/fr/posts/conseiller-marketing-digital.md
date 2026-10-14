@@ -21,7 +21,7 @@ Un conseiller fixe la direction, une agence réalise le travail. Bien choisir, c
 
 ## Les deux modèles comparés en un coup d’œil
 
-Après plus de deux décennies des deux côtés de la barrière, nous savons en général en un échange de 20 minutes ce dont une entreprise a besoin. L’endroit où se trouve le goulet d’étranglement nous en dit bien plus que le budget.
+Après plus de 20 ans des deux côtés de la barrière, nous savons en général en un échange de 20 minutes ce dont une entreprise a besoin. L’endroit où se trouve le goulet d’étranglement nous en dit bien plus que le budget.
 
 | Critère | Conseiller en marketing digital | Agence marketing |
 |---|---|---|

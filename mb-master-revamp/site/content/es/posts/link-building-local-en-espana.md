@@ -18,7 +18,7 @@ excerpt: "Link building local en España con Valencia como ejemplo: prensa regio
 
 Tu empresa está en Valencia y vende en Valencia, en el resto de España y quizá más allá. Los enlaces de medios valencianos y españoles son la parte de tu autoridad que más tarda en construirse y la que más dura, y una web con autoridad en España llega además con ventaja a Francia o a Alemania.
 
-Llevamos más de dos décadas haciendo SEO, hoy desde Valencia, con campañas para un despacho de abogados de Valencia, una inmobiliaria de la República Dominicana que publica en cuatro idiomas y [nuestra propia agencia de traducción](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/), repartida entre dominios .es, .fr, .be, .nl, .co.uk y .com.
+Llevamos más de 20 años haciendo SEO, hoy desde Valencia, con campañas para un despacho de abogados de Valencia, una inmobiliaria de la República Dominicana que publica en cuatro idiomas y [nuestra propia agencia de traducción](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/), repartida entre dominios .es, .fr, .be, .nl, .co.uk y .com.
 
 Aquí tienes lo que funciona en España, con una empresa de Valencia como ejemplo práctico: dónde están los enlaces que cuentan, las cuatro tácticas a las que volvemos, tres ajustes que mejoran cualquier programa y los plazos con los que conviene contar.
 

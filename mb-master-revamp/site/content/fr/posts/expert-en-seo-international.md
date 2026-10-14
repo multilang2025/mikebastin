@@ -17,7 +17,7 @@ excerpt: "Un expert SEO international tranche pour chaque pays : ordre d’entr
 
 Votre site existe en plusieurs langues et vos marchés étrangers vous envoient des visites. Leur rendement se joue sur quelques choix faits pour chaque pays : par quel marché commencer, quels mots viser, comment organiser le site, où gagner sa crédibilité. Bien tranchés au début, ces choix s’additionnent pendant des années.
 
-Un expert SEO international est la personne qui prend ces décisions avec vous, à partir des données de chaque marché. Nous les prenons pour nos clients depuis plus de deux décennies, en Europe, aux États-Unis et dans les Caraïbes.
+Un expert SEO international est la personne qui prend ces décisions avec vous, à partir des données de chaque marché. Nous les prenons pour nos clients depuis plus de 20 ans, en Europe, aux États-Unis et dans les Caraïbes.
 
 Voici les arbitrages qui reviennent sur chaque mission, ce que nous regardons pour trancher chacun, et la manière dont ils se traduisent dans un site réel.
 
@@ -190,6 +190,6 @@ L’investissement se mesure en demandes : une première page obtenue sur un mar
 
 ## Où commencer
 
-Plus de deux décennies de SEO sur plusieurs marchés nous ont appris une chose : le SEO international se prépare marché par marché. Un site [bien conçu](/fr/) gagne en visibilité par le référencement, un contenu traduit prend toute sa valeur avec une [optimisation on-page](/fr/services/seo-technique/), et une refonte accompagnée préserve des années de travail.
+Plus de 20 ans de SEO sur plusieurs marchés nous ont appris une chose : le SEO international se prépare marché par marché. Un site [bien conçu](/fr/) gagne en visibilité par le référencement, un contenu traduit prend toute sa valeur avec une [optimisation on-page](/fr/services/seo-technique/), et une refonte accompagnée préserve des années de travail.
 
 Pour évaluer votre positionnement international ou ouvrir un nouveau marché, écrivez-nous via le [formulaire de contact](/fr/nous-contacter/) ou retrouvez nos coordonnées sur [notre site](https://mikebastin.com/fr/). Pour voir comment une équipe complète prend en charge ces décisions, de l’audit au rapport mensuel, lisez notre article sur l’[agence SEO internationale](https://mikebastin.com/fr/agence-seo-internationale/).

@@ -276,7 +276,7 @@ at a time.
   of this agent's checks, on the built `out/fr/`: *nous* voice (never je,
   mon, mes), vouvoiement, U+00A0 before `: ; ? !` and inside « »,
   localisation/optimiser (the US `optimiz*`/`localiz*` exception is
-  English only), "plus de deux décennies", sentence case, untranslated
+  English only), "plus de 20 ans", sentence case, untranslated
   English runs, and the French forbidden list (exhaustif, sur mesure, sans
   couture, tirer parti, innovant, robuste, transformateur, en constante
   évolution, en conclusion, il est important de noter, cependant, "De
@@ -293,7 +293,7 @@ at a time.
   by `lint:fr`'s "formal" rule.
 - Spanish is checked by `npm run lint:es` (`scripts/es-copy-lint.mjs`): *nosotros*
   (never yo, mi, mis, soy), *tú* (never usted), ¿ ¡ paired, no straight
-  quotes, "más de dos décadas", the Spanish forbidden words (exhaustivo,
+  quotes, "más de 20 años", the Spanish forbidden words (exhaustivo,
   a medida, sin fisuras, innovador, robusto, transformador, en constante
   evolución, sin embargo, no obstante, asimismo, "Además,"), untranslated
   English and sentence case. Plan: `docs/ES-REBUILD-PLAN.md`.

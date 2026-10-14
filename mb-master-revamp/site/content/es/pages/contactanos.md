@@ -104,7 +104,7 @@ hello@mikebastin.com
 
 Get in Touch
 
-Nuestro equipo trabaja desde Valencia, pero ofrecemos nuestros servicios en todo el mundo. Si buscas expertos en SEO, diseño web o internacionalización, te ayudamos a impulsar tu negocio en cualquier mercado. Con más de dos décadas de experiencia con clientes internacionales, entendemos los retos de llegar a nuevos públicos y te damos soluciones adaptadas a tus necesidades. Contáctanos hoy para hablar sobre cómo podemos apoyar tu crecimiento digital, estés donde estés.
+Nuestro equipo trabaja desde Valencia, pero ofrecemos nuestros servicios en todo el mundo. Si buscas expertos en SEO, diseño web o internacionalización, te ayudamos a impulsar tu negocio en cualquier mercado. Con más de 20 años de experiencia con clientes internacionales, entendemos los retos de llegar a nuevos públicos y te damos soluciones adaptadas a tus necesidades. Contáctanos hoy para hablar sobre cómo podemos apoyar tu crecimiento digital, estés donde estés.
 
 Let’s work together
 

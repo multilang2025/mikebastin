@@ -31,7 +31,7 @@ Análisis prácticos, guías estratégicas y reflexiones basadas en experiencia 
 
 por [Mike Bastin](# "Mensajes de Michael Bastin") | May 31, 2026 | [Sin categorizar](https://mikebastin.com/es/category/sin-categorizar/)
 
-Cómo optimizar tu Perfil de Empresa de Google en 2026: categorías, reseñas, fotos, Gemini en Maps y SEO local, con más de dos décadas de experiencia.
+Cómo optimizar tu Perfil de Empresa de Google en 2026: categorías, reseñas, fotos, Gemini en Maps y SEO local, con más de 20 años de experiencia.
 
 [leer más](https://mikebastin.com/es/optimizar-perfil-de-empresa-de-google/)
 
@@ -41,7 +41,7 @@ Cómo optimizar tu Perfil de Empresa de Google en 2026: categorías, reseñas, f
 
 por [Mike Bastin](# "Mensajes de Michael Bastin") | May 31, 2026 | [Sin categorizar](https://mikebastin.com/es/category/sin-categorizar/)
 
-Análisis de la competencia para SEO en 2026: rivales reales en la SERP, cuota de tráfico, oportunidades de palabras clave y citas en IA, con más de dos décadas de oficio.
+Análisis de la competencia para SEO en 2026: rivales reales en la SERP, cuota de tráfico, oportunidades de palabras clave y citas en IA, con más de 20 años de oficio.
 
 [leer más](https://mikebastin.com/es/analisis-competitivo-seo/)
 
@@ -51,7 +51,7 @@ Análisis de la competencia para SEO en 2026: rivales reales en la SERP, cuota d
 
 por [Mike Bastin](# "Mensajes de Michael Bastin") | May 31, 2026 | [Sin categorizar](https://mikebastin.com/es/category/sin-categorizar/)
 
-Link building en España: RR. PP. digitales, inserciones sectoriales y relaciones con editores españoles. Cómo ganar DR y tráfico, con más de dos décadas de oficio.
+Link building en España: RR. PP. digitales, inserciones sectoriales y relaciones con editores españoles. Cómo ganar DR y tráfico, con más de 20 años de oficio.
 
 [leer más](https://mikebastin.com/es/link-building-local-en-espana/)
 
@@ -61,7 +61,7 @@ Link building en España: RR. PP. digitales, inserciones sectoriales y relacione
 
 por [Mike Bastin](# "Mensajes de Michael Bastin") | May 31, 2026 | [Sin categorizar](https://mikebastin.com/es/category/sin-categorizar/)
 
-Las mejores herramientas de pruebas de localización: TMS, gestión de casos, capturas, automatización y pseudolocalización, con más de dos décadas de experiencia.
+Las mejores herramientas de pruebas de localización: TMS, gestión de casos, capturas, automatización y pseudolocalización, con más de 20 años de experiencia.
 
 [leer más](https://mikebastin.com/es/herramientas-pruebas-de-localizacion/)
 
@@ -71,7 +71,7 @@ Las mejores herramientas de pruebas de localización: TMS, gestión de casos, ca
 
 por [Mike Bastin](# "Mensajes de Michael Bastin") | May 31, 2026 | [Sin categorizar](https://mikebastin.com/es/category/sin-categorizar/)
 
-SEO multilingüe en 2026: cómo pasar de posicionar páginas a tener presencia total en buscadores, IA y GEO, con más de dos décadas de experiencia detrás.
+SEO multilingüe en 2026: cómo pasar de posicionar páginas a tener presencia total en buscadores, IA y GEO, con más de 20 años de experiencia detrás.
 
 [leer más](https://mikebastin.com/es/buenas-practicas-seo-multilingue/)
 
@@ -81,7 +81,7 @@ SEO multilingüe en 2026: cómo pasar de posicionar páginas a tener presencia t
 
 por [Mike Bastin](# "Mensajes de Michael Bastin") | May 31, 2026 | [Sin categorizar](https://mikebastin.com/es/category/sin-categorizar/)
 
-Cómo la localización adapta el contenido web multilingüe a cada mercado: SEO, UX, CMS y métodos de pago locales, con más de dos décadas de experiencia.
+Cómo la localización adapta el contenido web multilingüe a cada mercado: SEO, UX, CMS y métodos de pago locales, con más de 20 años de experiencia.
 
 [leer más](https://mikebastin.com/es/optimizar-contenido-web-multilingue/)
 
@@ -91,7 +91,7 @@ Cómo la localización adapta el contenido web multilingüe a cada mercado: SEO,
 
 por [Mike Bastin](# "Mensajes de Michael Bastin") | May 31, 2026 | [Sin categorizar](https://mikebastin.com/es/category/sin-categorizar/)
 
-Cómo las diferencias culturales cambian una web multilingüe: idioma, colores, símbolos y tiempos por mercado, con más de dos décadas de experiencia detrás.
+Cómo las diferencias culturales cambian una web multilingüe: idioma, colores, símbolos y tiempos por mercado, con más de 20 años de experiencia detrás.
 
 [leer más](https://mikebastin.com/es/diferencias-culturales-sitios-web-multilingues/)
 
@@ -101,11 +101,11 @@ Cómo las diferencias culturales cambian una web multilingüe: idioma, colores, 
 
 por [Mike Bastin](# "Mensajes de Michael Bastin") | May 31, 2026 |
 
-SEO técnico para sitios multilingües: hreflang, ubicación del servidor, contenido duplicado y estructura de dominios. Los errores que más vemos en más de dos décadas.
+SEO técnico para sitios multilingües: hreflang, ubicación del servidor, contenido duplicado y estructura de dominios. Los errores que más vemos en más de 20 años.
 
 [leer más](https://mikebastin.com/es/seo-tecnico-para-sitios-multilingues/)
 
-[![Trabajar en remoto desde Valencia: nuestra experiencia real después de más de dos décadas aquí](/images/legacy/2026/04/trabajar-en-remoto-valencia-estilo-de-vida-digital-400x250.webp)](https://mikebastin.com/es/trabajar-en-remoto-desde-valencia/)
+[![Trabajar en remoto desde Valencia: nuestra experiencia real después de más de 20 años aquí](/images/legacy/2026/04/trabajar-en-remoto-valencia-estilo-de-vida-digital-400x250.webp)](https://mikebastin.com/es/trabajar-en-remoto-desde-valencia/)
 
 ## [Trabajar en remoto desde Valencia: mi experiencia real después de una década aquí](https://mikebastin.com/es/trabajar-en-remoto-desde-valencia/)
 

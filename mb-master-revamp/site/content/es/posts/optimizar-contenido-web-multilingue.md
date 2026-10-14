@@ -19,7 +19,7 @@ excerpt: "Optimiza tu contenido web multilingüe con localización: páginas tra
 
 Tu web ya vende en español, y las versiones para Francia, Bélgica, Países Bajos o Alemania reciben visitas. El objetivo es que rindan igual: que un comprador de París, de Ámsterdam o de Múnich las encuentre precisas, familiares y fiables.
 
-Lo que cierra esa distancia es combinar [traducción y adaptación cultural](/es/services/traduccion-de-paginas-web/). En más de dos décadas de trabajo, es justo aquí donde hemos visto a las marcas empezar a crecer fuera. A continuación verás dónde rinde la localización, cómo se une a la búsqueda, dónde ayuda la IA y cómo comprobar que cada idioma funciona, de la búsqueda al pago.
+Lo que cierra esa distancia es combinar [traducción y adaptación cultural](/es/services/traduccion-de-paginas-web/). En más de 20 años de trabajo, es justo aquí donde hemos visto a las marcas empezar a crecer fuera. A continuación verás dónde rinde la localización, cómo se une a la búsqueda, dónde ayuda la IA y cómo comprobar que cada idioma funciona, de la búsqueda al pago.
 
 > El 76 % de los consumidores prefiere comprar productos presentados en su idioma, y el 40 % no compra en webs de otro idioma.
 >

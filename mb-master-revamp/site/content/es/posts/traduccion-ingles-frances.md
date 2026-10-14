@@ -101,7 +101,7 @@ El francés es lengua oficial o cooficial en una veintena de países africanos, 
 
 ## Cómo llevamos un proyecto de traducción de inglés a francés
 
-El francés es el idioma en el que más trabajamos: crecimos en Bélgica hablándolo, estudiamos marketing en francés en la universidad, vivimos en París y compartimos durante más de dos décadas una oficina en el Caribe con compañeros quebequeses. Los mismos cinco pasos se aplican tanto a una página de aterrizaje de 500 palabras como a una web de 60.000.
+El francés es el idioma en el que más trabajamos: crecimos en Bélgica hablándolo, estudiamos marketing en francés en la universidad, vivimos en París y compartimos durante más de 20 años una oficina en el Caribe con compañeros quebequeses. Los mismos cinco pasos se aplican tanto a una página de aterrizaje de 500 palabras como a una web de 60.000.
 
 ### Auditoría del texto de origen
 

@@ -27,7 +27,7 @@ const T = {
       { letter: "S", word: "SEO", desc: "Un référencement multilingue, conçu pour se positionner dans la langue que l’acheteur emploie réellement pour chercher.", slug: "referencement-multilingue" },
       { letter: "T", word: "Traduction", desc: "Des textes adaptés au marché qui les lit.", slug: "traduction-professionnelle" },
       { letter: "I", word: "Internationalisation", desc: "Le travail de fond fait avant le lancement, pour qu’un produit accueille une seconde langue sur la base de ce qu’il a déjà.", slug: "localisation-applications" },
-      { letter: "N", word: "Networking", desc: "Plus de deux décennies de recommandations, en quatre langues, toujours le canal qui fonctionne.", slug: null },
+      { letter: "N", word: "Networking", desc: "Plus de 20 ans de recommandations, en quatre langues, toujours le canal qui fonctionne.", slug: null },
     ] as Row[],
     stats: [
       { n: 20, s: "+", k: "Ans dans la recherche" },
@@ -45,7 +45,7 @@ const T = {
       { letter: "S", word: "SEO", desc: "SEO multilingüe, pensado para posicionar tus páginas en el idioma en el que el comprador realmente busca.", slug: "posicionamiento-multilingue" },
       { letter: "T", word: "Traducción", desc: "Textos adaptados al mercado que los lee.", slug: "traduccion-profesional" },
       { letter: "I", word: "Internacionalización", desc: "El trabajo de base hecho antes del lanzamiento para que un producto admita un segundo idioma sobre la estructura que ya tiene.", slug: "localizacion-de-aplicaciones" },
-      { letter: "N", word: "Networking", desc: "Más de dos décadas de recomendaciones, en cuatro idiomas, todavía el canal que funciona.", slug: null },
+      { letter: "N", word: "Networking", desc: "Más de 20 años de recomendaciones, en cuatro idiomas, todavía el canal que funciona.", slug: null },
     ] as Row[],
     stats: [
       { n: 20, s: "+", k: "Años en buscadores" },

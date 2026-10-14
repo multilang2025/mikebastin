@@ -19,7 +19,7 @@ excerpt: "Análisis competitivo SEO para empresas que exportan: quién gana tus 
 
 Ya vendes en Francia, en el Benelux o en Alemania, y en cada uno de esos mercados alguien se queda con las búsquedas de tus compradores. Quizá tienes ya datos exportados de Ahrefs o de Semrush y una idea bastante clara de quién te supera en Google. El paso más rentable ahora es decidir qué hacer con todo eso, en qué orden y en qué mercado.
 
-Un análisis de competencia SEO bien llevado termina en una lista corta de acciones con responsable y fecha. Esa lista es la que mueve posiciones y, sobre todo, la que trae consultas de clientes desde tus mercados extranjeros. En más de dos décadas hemos leído muchos informes de competencia, y los que dan resultado parten de lo que ve el comprador cuando busca y caben en una tarde de trabajo por mercado.
+Un análisis de competencia SEO bien llevado termina en una lista corta de acciones con responsable y fecha. Esa lista es la que mueve posiciones y, sobre todo, la que trae consultas de clientes desde tus mercados extranjeros. En más de 20 años hemos leído muchos informes de competencia, y los que dan resultado parten de lo que ve el comprador cuando busca y caben en una tarde de trabajo por mercado.
 
 Aquí tienes el método que seguimos: cómo dar con tus rivales reales, las cuatro cosas que conviene extraer de ellos, las herramientas y cómo leer sus cifras, y cómo repetirlo en cada idioma y en las respuestas de IA.
 

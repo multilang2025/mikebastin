@@ -15,7 +15,7 @@ excerpt: "Les extensions Chrome pour traducteurs qui méritent leur place en 202
 
 ## Des extensions Chrome qui accélèrent le premier jet
 
-Si votre équipe traduit dans le navigateur, vos extensions décident de deux choses : la vitesse à laquelle avance un premier jet, et sa netteté quand il arrive dans un document client ou sur une page en ligne. Une boîte à outils rapide fait gagner du temps sur chaque dossier ; une boîte à outils soignée garde la confiance du client. Une liste ajoutée aux favoris en 2022 mérite une mise à jour : voici celle que nous gardons installée après plus de deux décennies de travail entre l’anglais, le français, l’espagnol et le néerlandais, et l’ordre dans lequel nous l’utilisons.
+Si votre équipe traduit dans le navigateur, vos extensions décident de deux choses : la vitesse à laquelle avance un premier jet, et sa netteté quand il arrive dans un document client ou sur une page en ligne. Une boîte à outils rapide fait gagner du temps sur chaque dossier ; une boîte à outils soignée garde la confiance du client. Une liste ajoutée aux favoris en 2022 mérite une mise à jour : voici celle que nous gardons installée après plus de 20 ans de travail entre l’anglais, le français, l’espagnol et le néerlandais, et l’ordre dans lequel nous l’utilisons.
 
 ## Manifest V3 et LLM : ce qui a changé dans le navigateur
 
@@ -173,7 +173,7 @@ Chaque extension conservée ajoute une fenêtre, un raccourci et une autorisatio
 >
 > Source : [DeepL API documentation, Languages supported](https://developers.deepl.com/docs/getting-started/supported-languages)
 
-> Le plus grand changement en plus de deux décennies de travail multilingue : le navigateur est devenu l’établi. Tout ce que nous faisions entre Trados, un dictionnaire papier et trois écrans se passe aujourd’hui dans une seule fenêtre Chrome, avec sept extensions.
+> Le plus grand changement en plus de 20 ans de travail multilingue : le navigateur est devenu l’établi. Tout ce que nous faisions entre Trados, un dictionnaire papier et trois écrans se passe aujourd’hui dans une seule fenêtre Chrome, avec sept extensions.
 >
 > Mike Bastin, consultant en SEO multilingue et en traduction
 

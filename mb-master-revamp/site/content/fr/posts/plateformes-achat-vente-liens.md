@@ -16,7 +16,7 @@ excerpt: "27 plateformes d’achat et de vente de liens passées en revue, et le
 
 Votre entreprise achète des liens, ou une agence vous conseille de le faire, et vous voulez savoir lesquels compteront encore après la prochaine mise à jour de Google. Google neutralise désormais la plupart des liens faibles : les liens qui méritent votre budget sont ceux qui font bouger une position, sur votre marché français comme sur vos marchés en Espagne, au Benelux ou en Allemagne.
 
-Nous travaillons autour du marché des liens depuis plus de deux décennies. La liste ci-dessous réunit les plateformes que nous avons utilisées ou vu utiliser par des clients, avec les compromis observés : certaines sont excellentes, d’autres utiles pour des niches précises, et quelques-unes sont à laisser de côté pour qui vise des positions durables.
+Nous travaillons autour du marché des liens depuis plus de 20 ans. La liste ci-dessous réunit les plateformes que nous avons utilisées ou vu utiliser par des clients, avec les compromis observés : certaines sont excellentes, d’autres utiles pour des niches précises, et quelques-unes sont à laisser de côté pour qui vise des positions durables.
 
 **Contexte à connaître :** acheter des liens qui transmettent du crédit de classement enfreint les règles de Google relatives au spam (qui font partie de Google Search Essentials, les anciennes consignes aux webmasters). Le système **SpamBrain** de Google sait détecter et neutraliser (voire pénaliser) les schémas de liens artificiels. Le SEO le plus solide repose sur des liens éditoriaux obtenus, sur les relations presse numériques et sur des contenus que d’autres sites ont réellement envie de citer, comme le montre notre guide du [netlinking éditorial en Espagne](/fr/netlinking-en-espagne/).
 

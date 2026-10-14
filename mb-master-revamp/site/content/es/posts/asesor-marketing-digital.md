@@ -21,7 +21,7 @@ Un **asesor de marketing digital en Valencia** marca la dirección, junto a tu e
 
 ## Asesor o agencia: la comparación de un vistazo
 
-Tras más de dos décadas a ambos lados de la barrera, solemos saber en una llamada de 20 minutos qué necesita una empresa. Dónde está el cuello de botella nos dice mucho más que el presupuesto.
+Tras más de 20 años a ambos lados de la barrera, solemos saber en una llamada de 20 minutos qué necesita una empresa. Dónde está el cuello de botella nos dice mucho más que el presupuesto.
 
 | Aspecto | Asesor de marketing digital | Agencia de marketing |
 |---|---|---|

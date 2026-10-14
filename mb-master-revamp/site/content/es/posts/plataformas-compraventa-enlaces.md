@@ -16,7 +16,7 @@ excerpt: "Repasamos 27 plataformas de compraventa de enlaces y los cinco control
 
 Tu empresa compra enlaces, o una agencia te recomienda hacerlo, y quieres saber cuáles seguirán contando tras la próxima actualización de Google. Google neutraliza hoy la mayoría de los enlaces débiles, así que los que merecen tu presupuesto son los que te hacen subir posiciones, tanto en tu mercado nacional como en Francia, el Benelux o Alemania.
 
-Llevamos más de dos décadas trabajando en el mercado de enlaces. La lista que sigue reúne las plataformas que hemos usado o visto usar a clientes, con sus pros y contras: algunas son excelentes, otras sirven para nichos concretos, y unas pocas conviene dejarlas de lado si buscas posiciones duraderas.
+Llevamos más de 20 años trabajando en el mercado de enlaces. La lista que sigue reúne las plataformas que hemos usado o visto usar a clientes, con sus pros y contras: algunas son excelentes, otras sirven para nichos concretos, y unas pocas conviene dejarlas de lado si buscas posiciones duraderas.
 
 **Contexto que conviene conocer:** comprar enlaces que transmiten autoridad de posicionamiento infringe las políticas de spam de Google (parte de Google Search Essentials, las antiguas directrices para webmasters). El sistema **SpamBrain** de Google detecta y neutraliza (o penaliza) los patrones de enlaces artificiales.
 

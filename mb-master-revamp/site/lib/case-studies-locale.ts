@@ -31,8 +31,8 @@ export const CASES_FR: Record<string, CaseStudyCopy> = {
     metaTitle: "BeTranslated, étude de cas multi-domaines",
     metaDescription: "Vingt ans à diriger une agence de traduction sur dix domaines nationaux, chacun positionné sur son propre marché. Voyez ce que cette rigueur demande.",
     problem: `Une agence de traduction qui vend sur dix marchés a besoin de dix campagnes SEO, chacune construite pour son marché. Chaque domaine national (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl, .it) a ses propres concurrents, ses propres habitudes de recherche et ses propres signaux de confiance${N}: chacun est donc géré comme un site à part entière, construit pour tenir sa place face aux concurrents locaux.`,
-    work: `Mike a fondé l’agence et la dirige depuis plus de deux décennies. Chaque domaine régional bénéficie d’un travail de SEO technique qui lui est propre${N}: des sitemaps et des groupes hreflang distincts, et une recherche de mots-clés propre à chaque marché, construite à partir des recherches de ce marché.`,
-    outcome: "Dix sites nationaux, chacun positionné sur les termes de son marché, pour une agence toujours en activité depuis plus de deux décennies.",
+    work: `Mike a fondé l’agence et la dirige depuis plus de 20 ans. Chaque domaine régional bénéficie d’un travail de SEO technique qui lui est propre${N}: des sitemaps et des groupes hreflang distincts, et une recherche de mots-clés propre à chaque marché, construite à partir des recherches de ce marché.`,
+    outcome: "Dix sites nationaux, chacun positionné sur les termes de son marché, pour une agence toujours en activité depuis plus de 20 ans.",
     countries: ["International", "États-Unis", "Canada", "Royaume-Uni", "Belgique", "France", "Espagne", "Allemagne", "Pays-Bas", "Italie"],
   },
   globaprom: {
@@ -127,10 +127,10 @@ export const CASES_FR: Record<string, CaseStudyCopy> = {
 export const CASES_ES: Record<string, CaseStudyCopy> = {
   betranslated: {
     metaTitle: "BeTranslated, un caso de éxito multidominio",
-    metaDescription: "Más de dos décadas al frente de una agencia de traducción con diez dominios nacionales, cada uno posicionado en su mercado. Descubre lo que exige ese método.",
+    metaDescription: "Más de 20 años al frente de una agencia de traducción con diez dominios nacionales, cada uno posicionado en su mercado. Descubre lo que exige ese método.",
     problem: "Una agencia de traducción que vende en diez mercados necesita diez campañas SEO, cada una construida para su mercado. Cada dominio nacional (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl, .it) tiene sus propios competidores, sus propios hábitos de búsqueda y sus propias señales de confianza, así que cada uno se gestiona como una web independiente, preparada para competir con los rivales locales.",
     work: "Mike fundó la agencia y la dirige desde hace veinte años. Cada dominio regional recibe su propio trabajo de SEO técnico: sitemaps separados, grupos hreflang separados e investigación de palabras clave propia de cada mercado, a partir de lo que busca ese mercado.",
-    outcome: "Diez webs nacionales, cada una posicionada con los términos de su mercado, para una agencia que sigue en activo después de más de dos décadas.",
+    outcome: "Diez webs nacionales, cada una posicionada con los términos de su mercado, para una agencia que sigue en activo después de más de 20 años.",
     countries: ["Internacional", "Estados Unidos", "Canadá", "Reino Unido", "Bélgica", "Francia", "España", "Alemania", "Países Bajos", "Italia"],
   },
   globaprom: {
@@ -145,7 +145,7 @@ export const CASES_ES: Record<string, CaseStudyCopy> = {
     metaDescription: "SEO técnico y contenido para un transitario de Houston, construidos con el vocabulario que usan sus compradores, aprendido del propio sector.",
     problem: "Los compradores de carga industrial buscan a su manera, distinta de la del consumidor. Los términos con intención comercial son jerga del sector, así que la investigación de palabras clave parte del vocabulario del oficio para coincidir con lo que se busca de verdad.",
     work: "SEO técnico y contenido construidos con el vocabulario que usan de verdad los compradores de carga industrial de Houston, aprendido del propio sector.",
-    outcome: "Presencia en el pack local de Houston en las búsquedas de carga industrial, para un cliente con el que trabajamos desde hace más de dos décadas.",
+    outcome: "Presencia en el pack local de Houston en las búsquedas de carga industrial, para un cliente con el que trabajamos desde hace más de 20 años.",
   },
   c21perdomo: {
     metaTitle: "Century 21 Perdomo, caso de éxito",
@@ -171,10 +171,10 @@ export const CASES_ES: Record<string, CaseStudyCopy> = {
   },
   "bemelman-spuiterij": {
     metaTitle: "Bemelman Spuiterij, caso de éxito",
-    metaDescription: "Un especialista neerlandés en pintura en polvo, con más de dos décadas de reputación y una presencia online por construir. Descubre su SEO local.",
-    problem: "Una empresa con más de dos décadas de reputación necesitaba una presencia online a su altura, para que los pocos compradores que la buscan la encuentren. En B2B, en un oficio de nicho, el volumen de búsqueda es bajo, y cada una de esas búsquedas es un comprador real.",
+    metaDescription: "Un especialista neerlandés en pintura en polvo, con más de 20 años de reputación y una presencia online por construir. Descubre su SEO local.",
+    problem: "Una empresa con más de 20 años de reputación necesitaba una presencia online a su altura, para que los pocos compradores que la buscan la encuentren. En B2B, en un oficio de nicho, el volumen de búsqueda es bajo, y cada una de esas búsquedas es un comprador real.",
     work: "Una web en Divi junto con SEO local neerlandés, pensado para el volumen de búsqueda pequeño pero decisivo que un oficio especializado recibe de las empresas que compran.",
-    outcome: "Una web en Divi y SEO local neerlandés para una empresa que había vivido solo de su reputación durante más de dos décadas.",
+    outcome: "Una web en Divi y SEO local neerlandés para una empresa que había vivido solo de su reputación durante más de 20 años.",
     evidence: [
       {
         alt: "Google Search Console de bemelmanspuiterij.nl en dieciséis meses: 5,32 mil clics y 448 mil impresiones, y los clics diarios pasaron de unos 5 a mediados de 2025 a unos 15 en otoño de 2026",

@@ -15,11 +15,11 @@ excerpt: "Esta es nuestra agencia experta en SEO y profesional del marketing dig
 
 # Conoce MikeBastin
 
-SEO multilingüe, traducción y estrategia digital. Más de dos décadas demostrándolo con trabajo, no solo con palabras.
+SEO multilingüe, traducción y estrategia digital. Más de 20 años demostrándolo con trabajo, no solo con palabras.
 
 ## Nuestra experiencia
 
-Llevamos más de dos décadas trabajando en SEO y traducción. Suficiente para acordarnos de cuando AltaVista era un competidor serio, cuando Google todavía no tenía versión en español, y cuando «SEO multilingüe» quería decir traducir las meta keywords. El oficio ha cambiado mucho. Los principios de fondo, no tanto. Hoy ayudamos a empresas internacionales a posicionarse, comunicar y convertir en mercados que muchas veces no ven bien desde dentro.
+Llevamos más de 20 años trabajando en SEO y traducción. Suficiente para acordarnos de cuando AltaVista era un competidor serio, cuando Google todavía no tenía versión en español, y cuando «SEO multilingüe» quería decir traducir las meta keywords. El oficio ha cambiado mucho. Los principios de fondo, no tanto. Hoy ayudamos a empresas internacionales a posicionarse, comunicar y convertir en mercados que muchas veces no ven bien desde dentro.
 
 ## Conoce a nuestro equipo
 

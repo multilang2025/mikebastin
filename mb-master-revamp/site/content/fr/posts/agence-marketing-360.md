@@ -17,7 +17,7 @@ excerpt: "Une agence marketing 360 vous doit un seul plan qui relie tous vos can
 
 Vous avez signé avec une **agence marketing 360** pour obtenir un plan coordonné. Ce qui arrive chaque mois ressemble parfois encore à quatre rapports de canaux agrafés ensemble ; ce que vous attendez, c’est un seul ensemble d’indicateurs, une seule définition de l’audience, et une personne capable de dire quel canal finance les autres.
 
-Un travail coordonné rapporte plus que la mission ne coûte : la recherche payante investit dans les clics que vos pages organiques n’ont pas encore gagnés, et vos versions espagnole, allemande ou néerlandaise partent d’un plan complet. Nous pratiquons ce métier depuis plus de deux décennies, et nous savons à quoi ressemble un travail coordonné vu de l’intérieur.
+Un travail coordonné rapporte plus que la mission ne coûte : la recherche payante investit dans les clics que vos pages organiques n’ont pas encore gagnés, et vos versions espagnole, allemande ou néerlandaise partent d’un plan complet. Nous pratiquons ce métier depuis plus de 20 ans, et nous savons à quoi ressemble un travail coordonné vu de l’intérieur.
 
 ## Reconnaître une intégration qui fonctionne
 

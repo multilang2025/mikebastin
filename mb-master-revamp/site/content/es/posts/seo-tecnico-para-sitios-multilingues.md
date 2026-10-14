@@ -10,7 +10,7 @@ wpId: 24857721
 date: "2026-05-31T16:32:15"
 modified: "2026-05-31T16:32:15"
 sourceUrl: "https://mikebastin.com/es/seo-tecnico-para-sitios-multilingues/"
-excerpt: "SEO técnico para sitios multilingües: hreflang, servidor, contenido duplicado y estructura de dominios. Lo que más ajustamos tras más de dos décadas."
+excerpt: "SEO técnico para sitios multilingües: hreflang, servidor, contenido duplicado y estructura de dominios. Lo que más ajustamos tras más de 20 años."
 ---
 
 ![SEO técnico para sitios web multilingües](/images/legacy/2024/12/Technical-SEO-for-Multilingual-Websites-1024x457.webp)
@@ -25,7 +25,7 @@ Los compradores lo agradecen, porque leen y compran en su idioma:
 >
 > Fuente: [CSA Research, «Can't Read, Won't Buy» (2020, 8.709 consumidores de 29 países)](https://www.newswire.com/news/survey-of-8-709-consumers-in-29-countries-finds-that-76-prefer-21174283)
 
-Aquí tienes los puntos que más ajustamos cuando auditamos una web en varios idiomas, tras más de dos décadas de SEO y traducción, y cómo dejarlos resueltos.
+Aquí tienes los puntos que más ajustamos cuando auditamos una web en varios idiomas, tras más de 20 años de SEO y traducción, y cómo dejarlos resueltos.
 
 ## Por qué las etiquetas hreflang son el cimiento
 
@@ -186,6 +186,6 @@ Programa [auditorías técnicas](/es/services/seo-tecnico/) periódicas para rev
 
 El SEO técnico es el cimiento de cualquier web multilingüe que funcione. Empieza por el mapa de equivalencias entre idiomas y el hreflang, sigue con el contenido duplicado y la estructura de dominios, y termina con los metadatos. Cuando esas piezas encajan, Google entiende, indexa y posiciona tu contenido para el público de cada mercado.
 
-¿Quieres que tu web multilingüe rinda al máximo en cada país? [Pide una revisión de tu configuración técnica](/es/contactanos/) con nuestra experiencia de más de dos décadas en SEO y traducción.
+¿Quieres que tu web multilingüe rinda al máximo en cada país? [Pide una revisión de tu configuración técnica](/es/contactanos/) con nuestra experiencia de más de 20 años en SEO y traducción.
 
 ![Pasos de implementación técnica para varias versiones de idioma](/images/legacy/2024/12/image.webp)

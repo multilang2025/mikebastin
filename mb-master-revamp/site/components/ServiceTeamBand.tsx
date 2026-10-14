@@ -28,7 +28,7 @@ const COPY = {
     eyebrow: "Qui fait le travail",
     heading: "Mike Bastin et son équipe, depuis Valencia, dans les langues de vos acheteurs",
     bio:
-      "Mike travaille dans la recherche multilingue depuis plus de deux décennies et a fondé BeTranslated, l’agence de traduction qu’il dirige depuis plus de 20 ans, dont les dix sites nationaux se battent chacun sur leur propre marché. Il travaille en français, sa langue maternelle, couramment en anglais, en espagnol et en néerlandais, et suffisamment en allemand, en italien et en portugais pour y piloter des projets SEO.",
+      "Mike travaille dans la recherche multilingue depuis plus de 20 ans et a fondé BeTranslated, l’agence de traduction qu’il dirige depuis plus de 20 ans, dont les dix sites nationaux se battent chacun sur leur propre marché. Il travaille en français, sa langue maternelle, couramment en anglais, en espagnol et en néerlandais, et suffisamment en allemand, en italien et en portugais pour y piloter des projets SEO.",
     ownLead: "Nous gérons nos propres sites comme les vôtres. Voyez comment nous avons construit",
     ownTail: ", notre site de déménagement en cinq langues.",
     leads: "Mike pilote chaque mission et reste votre interlocuteur du premier appel au rapport mensuel.",

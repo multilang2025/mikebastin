@@ -18,7 +18,7 @@ excerpt: "Las diferencias culturales deciden si tu sitio web multilingüe vende 
 
 Tu web ya está traducida al francés, al alemán o al neerlandés, y cada versión recibe visitas. El siguiente salto en ventas llega cuando cada versión, además de estar en el idioma del comprador, encaja con sus costumbres: el trato que espera, los formatos que reconoce y las imágenes que le resultan cercanas.
 
-El idioma es la capa de arriba. Debajo están las costumbres, los colores, el humor y las expectativas de cada cultura, y ahí es donde se gana la confianza del usuario. Llevamos más de dos décadas traduciendo y posicionando webs en varios idiomas; aquí tienes lo que más pesa y cómo trabajarlo mercado a mercado.
+El idioma es la capa de arriba. Debajo están las costumbres, los colores, el humor y las expectativas de cada cultura, y ahí es donde se gana la confianza del usuario. Llevamos más de 20 años traduciendo y posicionando webs en varios idiomas; aquí tienes lo que más pesa y cómo trabajarlo mercado a mercado.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 214" role="img" aria-label="El idioma es la capa visible; debajo están las costumbres, los colores, el humor y las expectativas, donde se gana la confianza.">
@@ -171,4 +171,4 @@ Llevar tu contenido a otros mercados empieza por una pregunta sencilla. La próx
 
 Empieza por las páginas que más venden en tu mercado más importante, revisa con un nativo el tono, las imágenes y los formatos, y aplica lo aprendido al resto de idiomas.
 
-¿Quieres que tu web hable de verdad el idioma cultural de cada mercado? [Escríbenos y lo revisamos juntos](/es/contactanos/), con más de dos décadas de traducción y posicionamiento multilingüe que nos avalan.
+¿Quieres que tu web hable de verdad el idioma cultural de cada mercado? [Escríbenos y lo revisamos juntos](/es/contactanos/), con más de 20 años de traducción y posicionamiento multilingüe que nos avalan.

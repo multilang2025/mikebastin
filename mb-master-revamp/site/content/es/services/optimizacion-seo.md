@@ -20,7 +20,7 @@ Tu empresa trabaja en Valencia: atiendes a clientes de la ciudad y de su área m
 
 El potencial ya está ahí. En Valencia se busca en castellano y en inglés, porque la ciudad tiene una gran población internacional, y cada público escribe sus propias palabras. Lo que queda por ganar se juega en dos puntos: las palabras que tus clientes escriben de verdad, y páginas que les hablen como una empresa de su ciudad. Si además exportas, el mismo trabajo se extiende a cada país donde vendes: es el SEO internacional, la segunda mitad de este servicio. Nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) recoge cómo se busca en la ciudad, idioma por idioma.
 
-A esto nos dedicamos desde hace más de dos décadas, y lo medimos por las consultas que recibes. Nuestra oficina está en la calle Rugat 12 - 2, 46021 Valencia, y podemos reunirnos contigo en persona. Si dudas entre contratar a un consultor SEO o a una agencia, nuestra guía sobre el [asesor de marketing digital](/es/asesor-marketing-digital/) te ayuda a decidir.
+A esto nos dedicamos desde hace más de 20 años, y lo medimos por las consultas que recibes. Nuestra oficina está en la calle Rugat 12 - 2, 46021 Valencia, y podemos reunirnos contigo en persona. Si dudas entre contratar a un consultor SEO o a una agencia, nuestra guía sobre el [asesor de marketing digital](/es/asesor-marketing-digital/) te ayuda a decidir.
 
 <aside class="post-cta">
 <p><strong>¿Quieres que tu web te traiga más clientes?</strong> Encontramos las palabras que usan tus clientes, en tu ciudad y en cada país donde vendes, y escribimos las páginas que les llevan a contactarte. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>

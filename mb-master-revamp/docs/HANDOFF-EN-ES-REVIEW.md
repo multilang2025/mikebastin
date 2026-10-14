@@ -78,7 +78,7 @@ comments. Put any question only I can answer on Slack or in
 - Forbidden words include comprehensive, tailored, seamless, leverage, elevate,
   crafted, robust, delve, moreover, however and additionally. The Spanish lint
   has its own equivalent list.
-- Facts: "over two decades" ("más de dos décadas"), never a number of years or
+- Facts: "over two decades" ("más de 20 años"), never another number of years or
   a start year. Never invent a client result, testimonial, price or guarantee.
   Keep existing external links.
 - Spanish only: **tú** rather than usted, paired ¿ ¡, and « » or “ ” quotes.

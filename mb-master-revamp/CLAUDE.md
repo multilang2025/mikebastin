@@ -559,6 +559,10 @@ is in the rest, which the Master Content Protocol never covered:
   1999, but I don't want to show too many years"). Never "25 years" or a
   start year; the homepage counter reads 20+. BeTranslated's own age
   ("run for twenty years") is a separate fact about the agency.
+  In French and Spanish it is "plus de 20 ans" / "más de 20 años", with a
+  no-break space before ans/años (owner, 14 Oct 2026: "Plus de 20 ans is
+  more natural in French. Same in Spanish"); never "deux décennies" or
+  "dos décadas", which `lint:fr` and `lint:es` now flag.
 - No named testimonial or quote from a "real" customer or expat unless
   the person is verifiable (owner, 26 Sep 2026: the unverified expat
   testimonials in the Valencia posts were removed on that basis). Extends
@@ -807,7 +811,7 @@ is the one list of French pages; add a page there and it reaches the
 menu, sitemap and hreflang at once.
 `npm run lint:fr` (`scripts/fr-copy-lint.mjs`, in `verify`) checks every
 built French page for "nous" voice, vouvoiement, non-breaking spaces
-before `: ; ? !`, French spellings, "plus de deux décennies", sentence
+before `: ; ? !`, French spellings, "plus de 20 ans", sentence
 case, the French forbidden words and untranslated English; `npm run
 fix:fr` applies the mechanical half to `content/fr/`.
 The lead generation hub has FR and ES siblings (29 Sep 2026, owner
@@ -821,7 +825,7 @@ French one: `docs/ES-REBUILD-PLAN.md` (the reader is a Spanish-speaking
 company selling abroad, assumed to mirror the French decisions),
 `lib/es-pages-data.ts`, `scripts/gen-es-redirects.mjs`, and `npm run
 lint:es` (`scripts/es-copy-lint.mjs`: nosotros voice, tú, paired ¿ ¡, no
-straight quotes, "más de dos décadas", the Spanish forbidden words,
+straight quotes, "más de 20 años", the Spanish forbidden words,
 untranslated English, sentence case). The main Spanish page is
 `/es/services/optimizacion-seo/`; six services were built new
 (`traduccion-profesional`, `localizacion-de-aplicaciones`,

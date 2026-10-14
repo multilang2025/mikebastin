@@ -72,7 +72,7 @@ export default function SpanishTeamPage() {
           </Reveal>
           <Reveal i={2}>
             <h2 className="mb-6 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
-              Más de dos décadas de posicionamiento web, una oficina en Valencia y un redactor nativo para cada idioma en el que vendes.
+              Más de 20 años de posicionamiento web, una oficina en Valencia y un redactor nativo para cada idioma en el que vendes.
             </h2>
           </Reveal>
           <Reveal i={3}>
@@ -89,7 +89,7 @@ export default function SpanishTeamPage() {
               <span className="flex flex-col gap-[2px]">
                 <span className="display text-[1.02rem] font-semibold">Mike Bastin</span>
                 <span className="text-[.88rem]" style={{ color: "var(--dim)" }}>
-                  Valencia, más de dos décadas de SEO multilingüe
+                  Valencia, más de 20 años de SEO multilingüe
                 </span>
               </span>
             </div>

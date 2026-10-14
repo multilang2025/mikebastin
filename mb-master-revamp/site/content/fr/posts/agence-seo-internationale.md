@@ -125,7 +125,7 @@ Une agence vaut par les personnes qui touchent à votre site. Chez nous, vous pa
 <figcaption>Chaque métier part du même plan pour tous vos marchés, et vous parlez directement aux personnes qui le portent.</figcaption>
 </figure>
 
-- **La stratégie** est menée par Mike Bastin, qui travaille le SEO et la traduction depuis plus de deux décennies. Il travaille directement en français, en anglais, en espagnol et en néerlandais, avec un allemand, un italien et un portugais suffisants pour piloter des projets SEO.
+- **La stratégie** est menée par Mike Bastin, qui travaille le SEO et la traduction depuis plus de 20 ans. Il travaille directement en français, en anglais, en espagnol et en néerlandais, avec un allemand, un italien et un portugais suffisants pour piloter des projets SEO.
 - **La rédaction** est confiée à des natifs. Le français, l’anglais, l’espagnol et le néerlandais sont écrits par l’équipe qui pense la stratégie ; l’allemand, l’italien, le portugais et les autres langues par les rédacteurs natifs du réseau BeTranslated, relus par un second natif.
 - **La technique** s’appuie sur notre équipe informatique, qui compte un locuteur natif du portugais. Nous travaillons le plus souvent sur WordPress avec WPML, et aussi avec Polylang, TranslatePress, Weglot, Shopify et Webflow ; sur un développement propre, nous appliquons la stratégie avec votre équipe technique.
 - **Les données** viennent d’Ahrefs, de Google Search Console, de Screaming Frog et de Rank Math, qui fondent chaque décision sur des chiffres.
