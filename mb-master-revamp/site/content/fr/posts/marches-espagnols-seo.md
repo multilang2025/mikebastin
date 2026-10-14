@@ -122,7 +122,7 @@ L’espagnol se parle en Amérique latine, en Espagne et aux États-Unis, c’es
 
 ## Où cherchent vos acheteurs hispanophones
 
-Le lieu où vos acheteurs cherchent décide où va votre effort. Google domine dans l’ensemble du monde hispanophone, son avance varie selon les pays, et Bing pèse davantage dans certains marchés.
+Le lieu où vos acheteurs cherchent détermine où concentrer votre effort. Google domine dans l’ensemble du monde hispanophone, son avance varie selon les pays, et Bing pèse davantage dans certains marchés.
 
 > Part de Google dans les recherches en septembre 2026 : Espagne 93,81 %, Argentine 93,82 %, Colombie 93,3 %, Mexique 88,08 % (où Bing détient 9,43 %).
 >
@@ -162,7 +162,7 @@ L’audience continue de croître, et une position gagnée aujourd’hui rapport
 >
 > Source : [Instituto Cervantes, communiqué de presse du 28 octobre 2025](https://cervantes.org/es/sobre-nosotros/sala-prensa/notas-prensa/espanol-crece-30-millones-hablantes-ano-5-anterior)
 
-[Internet World Stats](https://www.internetworldstats.com/stats7.htm) publie des estimations plus anciennes du nombre d’internautes par langue, à lire en gardant leur date en tête.
+[Internet World Stats](https://www.internetworldstats.com/stats7.htm) publie des estimations plus anciennes du nombre d’internautes par langue, à consulter en gardant à l’esprit leur ancienneté.
 
 Le SEO permet à de plus petites entreprises de rivaliser avec de plus grandes et d’atteindre les acheteurs hispanophones à moindre coût.
 
