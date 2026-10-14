@@ -212,11 +212,11 @@ Les entreprises françaises peuvent exposer sur un [Pavillon France](https://www
 
 ## L’affiliation, payée à la vente
 
-Avec l’affiliation, vous payez à la vente : des partenaires locaux touchent une commission sur les ventes qu’ils génèrent, une façon peu coûteuse d’entrer sur un nouveau marché. Les affiliés locaux connaissent les préférences et les habitudes d’achat de leur audience, et chaque vente est suivie : vous voyez ce qui fonctionne sur chaque marché et déplacez l’effort en conséquence. Pour comparer les commissions et les durées de cookie pratiquées, consultez notre sélection de [programmes d’affiliation qui rémunèrent bien](/fr/programmes-affiliation/).
+Avec l’affiliation, vous payez à la vente : des partenaires locaux touchent une commission sur les ventes qu’ils génèrent, une façon peu coûteuse d’entrer sur un nouveau marché. Les affiliés locaux connaissent les préférences et les habitudes d’achat de leur audience, et vous suivez chaque vente : vous voyez ce qui fonctionne sur chaque marché et réorientez vos efforts en conséquence. Pour comparer les commissions et les durées de cookie pratiquées, consultez notre sélection de [programmes d’affiliation qui rémunèrent bien](/fr/programmes-affiliation/).
 
 ## Les assistants multilingues pour répondre à toute heure
 
-Un acheteur situé sur un autre fuseau horaire attend une réponse à son heure, dans sa langue. Les assistants multilingues répondent aux questions courantes, règlent les problèmes simples et guident le client jusqu’à l’achat dans sa propre langue, à toute heure. Ils captent aussi des demandes en posant des questions de qualification et en recommandant le bon produit ou le bon service. Notre article sur le [marketing et l’IA](/fr/marketing-ia/) détaille la mise en place et la relecture dans chaque langue.
+Un acheteur situé sur un autre fuseau horaire attend une réponse à son heure, dans sa langue. Les assistants multilingues répondent aux questions courantes, règlent les problèmes simples et guident le client jusqu’à l’achat dans sa propre langue, à toute heure. Ils génèrent aussi des demandes en posant des questions de qualification et en recommandant le bon produit ou le bon service. Notre article sur le [marketing et l’IA](/fr/marketing-ia/) détaille la mise en place et la relecture dans chaque langue.
 
 <aside class="post-cta">
 <p><strong>Vos marchés étrangers vous envoient des visiteurs et vous voulez des demandes en retour ?</strong> Notre <a href="/fr/services/generation-de-leads/">génération de leads</a> rattache chaque demande au marché et à la langue qui l’ont apportée, en commençant par le marché où les signaux sont les plus nets. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>
@@ -224,4 +224,4 @@ Un acheteur situé sur un autre fuseau horaire attend une réponse à son heure,
 
 ## Par où commencer
 
-Commencez par deux des dix leviers. Un premier assortiment raisonnable associe un canal rapide pour tester la demande, en général les annonces payantes, et un canal lent qui se cumule, en général le SEO avec des contenus localisés. Ajoutez partenariats, e-mailing et salons une fois que vous savez quel marché répond, et jugez chaque marché sur les demandes qu’il vous envoie.
+Commencez par deux des dix leviers. Une première combinaison raisonnable associe un canal rapide pour tester la demande, en général les annonces payantes, et un canal lent qui s’accumule, en général le SEO avec des contenus localisés. Ajoutez partenariats, e-mailing et salons une fois que vous savez quel marché répond, et évaluez chaque marché en fonction des demandes qu’il vous envoie.

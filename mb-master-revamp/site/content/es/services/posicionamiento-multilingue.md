@@ -67,7 +67,7 @@ Configuramos estos ajustes porque deciden qué página muestra Google a cada pa�
 
 ## Quién dirige tu SEO multilingüe
 
-Mike Bastin, cofundador de BeTranslated, se dedica al SEO y a la traducción desde hace más de dos décadas. Habla con fluidez español, francés, inglés y neerlandés, y su alemán, su italiano y su catalán son suficientes para gestionar proyectos SEO en esos idiomas. Los textos comerciales los escriben redactores nativos. Trabajamos desde nuestra oficina en Calle Rugat 12 - 2, 46021 Valencia, donde podemos reunirnos contigo en persona, y por videollamada con clientes de otras ciudades.
+Mike Bastin, cofundador de BeTranslated, se dedica al SEO y a la traducción desde hace más de 20 años. Habla con fluidez español, francés, inglés y neerlandés, y su alemán, su italiano y su catalán son suficientes para gestionar proyectos SEO en esos idiomas. Los textos comerciales los escriben redactores nativos. Trabajamos desde nuestra oficina en Calle Rugat 12 - 2, 46021 Valencia, donde podemos reunirnos contigo en persona, y por videollamada con clientes de otras ciudades.
 
 ### Los entregables del proyecto
 

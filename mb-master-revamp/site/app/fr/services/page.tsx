@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ...pageMeta({
     title: "Services SEO international, Mike Bastin",
     description:
-      "Référencement par marché, localisation et publicité multilingue pour les entreprises qui vendent à l’étranger, afin que chaque langue rapporte des demandes.",
+      "Référencement par marché, localisation et publicité multilingue pour les entreprises qui vendent à l’étranger, afin que chaque langue génère des demandes.",
     path: PATH,
     languages: frLanguages(PATH),
     ogLocale: "fr_FR",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
  */
 const GROUPS: { heading: string; slugs: string[]; scene: { src: string; alt: string; intro: string } }[] = [
   {
-    heading: "Le SEO pour chaque marché où vous vendez", scene: { src: "/images/scenes/svc-search.webp", alt: "La même page de services positionnée dans les résultats en français, en allemand et en espagnol, et citée dans une réponse d’IA", intro: "Trouvé dans la langue où chaque acheteur cherche, sur Google comme dans les réponses des IA." },
+    heading: "Le SEO pour chaque marché où vous vendez", scene: { src: "/images/scenes/svc-search.webp", alt: "La même page de services positionnée dans les résultats en français, en allemand et en espagnol, et citée dans une réponse d’IA", intro: "Présent dans la langue où chaque acheteur cherche, sur Google et dans les réponses des IA." },
     slugs: ["seo-espagnol", "seo-allemand", "seo-neerlandais", "seo-anglais", "seo-italien", "seo-portugais"],
   },
   {
@@ -50,7 +50,7 @@ const GROUPS: { heading: string; slugs: string[]; scene: { src: string; alt: str
     heading: "Contenu, traduction et IA", scene: { src: "/images/scenes/svc-ai.webp", alt: "Une réponse d’IA qui cite des pages allemandes et néerlandaises, et une traduction automatique corrigée par un relecteur natif", intro: "L’IA là où elle fait gagner du temps, et un relecteur natif partout où la confiance se joue." },
     slugs: ["creation-de-contenu-multilingue", "traduction-professionnelle", "postedition-ia", "conseil-ia", "referencement-ia-geo"],
   },
-  { heading: "Localisation de sites, de prix et de documents", scene: { src: "/images/scenes/svc-localization.webp", alt: "Une même page produit en Allemagne et en Suisse avec les prix et les moyens de paiement locaux, à côté d’une traduction assermentée tamponnée", intro: "Des sites, des prix et des documents qui sonnent local dans chaque marché où vous vendez." }, slugs: [] },
+  { heading: "Localisation de sites, de prix et de documents", scene: { src: "/images/scenes/svc-localization.webp", alt: "Une même page produit en Allemagne et en Suisse avec les prix et les moyens de paiement locaux, accompagnée d’une traduction assermentée tamponnée.", intro: "Des sites, des prix et des documents qui paraissent locaux dans chaque marché où vous vendez." }, slugs: [] },
 ];
 
 export default function FrenchServicesIndex() {
@@ -92,7 +92,7 @@ export default function FrenchServicesIndex() {
           </Reveal>
           <Reveal i={3}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.5vw,1.2rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              Vous vendez en Espagne, en Allemagne, au Benelux ou au Royaume-Uni, et vous voulez que chacun de ces marchés rapporte des demandes. Commencez par celui qui compte le plus pour vous{" "}: lors d’une consultation gratuite, nous vous montrons ce que ses acheteurs recherchent.
+              Vous vendez en Espagne, en Allemagne, au Benelux ou au Royaume-Uni, et vous voulez que chacun de ces marchés génère des demandes. Commencez par celui qui compte le plus pour vous{" "}: lors d’une consultation gratuite, nous vous montrons ce que ses acheteurs recherchent.
             </p>
           </Reveal>
           <Reveal i={4}>

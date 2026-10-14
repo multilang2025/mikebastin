@@ -34,7 +34,7 @@ const STAGES = [
   {
     name: "Une consultation gratuite",
     detail:
-      "Trente minutes sur les marchés et les langues qui comptent, ce qui se positionne déjà, ce qui a déjà été essayé, et ce qu’un bon résultat représente en demandes. Nous posons d’abord nos questions, puis nous recommandons.",
+      "Trente minutes sur les marchés et les langues qui comptent, ce qui se positionne déjà, ce qui a déjà été essayé, et ce qu’un bon résultat apporte en demandes. Nous posons d’abord nos questions, puis nous recommandons.",
   },
   {
     name: "Un périmètre écrit pour vos marchés",
@@ -49,7 +49,7 @@ const STAGES = [
   {
     name: "Une livraison à rythme fixe",
     detail:
-      "Le travail avance chaque mois, marché par marché, et chaque langue suit son propre calendrier. Les textes sont écrits par des natifs et relus au regard du brief avant leur mise en ligne.",
+      "Le travail avance chaque mois, marché par marché, et chaque langue suit son propre calendrier. Les textes sont écrits par des natifs et relus conformément au brief avant leur mise en ligne.",
   },
   {
     name: "Des rapports marché par marché",
@@ -78,7 +78,7 @@ const QUESTIONS = [
   },
   {
     q: "Qui fait le travail ?",
-    a: "Nous définissons et pilotons la stratégie nous-mêmes. La rédaction et la traduction dans chaque langue passent par des spécialistes que nous vous présentons, la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans.",
+    a: "Nous définissons et pilotons la stratégie nous-mêmes. La rédaction et la traduction dans chaque langue passent par des spécialistes que nous vous présentons, la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis plus de 20 ans.",
   },
   {
     q: "Comment est-ce facturé ?",

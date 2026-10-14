@@ -20,7 +20,7 @@ Tu empresa trabaja en Valencia: atiendes a clientes de la ciudad y de su área m
 
 El potencial ya está ahí. En Valencia se busca en castellano y en inglés, porque la ciudad tiene una gran población internacional, y cada público escribe sus propias palabras. Lo que queda por ganar se juega en dos puntos: las palabras que tus clientes escriben de verdad, y páginas que les hablen como una empresa de su ciudad. Si además exportas, el mismo trabajo se extiende a cada país donde vendes: es el SEO internacional, la segunda mitad de este servicio. Nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) recoge cómo se busca en la ciudad, idioma por idioma.
 
-A esto nos dedicamos desde hace más de dos décadas, medido por las consultas que recibes. Nuestra oficina está en Calle Rugat 12 - 2, 46021 Valencia, y podemos reunirnos contigo en persona. Si dudas entre contratar a un consultor SEO o a una agencia, nuestra guía sobre el [asesor de marketing digital](/es/asesor-marketing-digital/) te ayuda a decidir.
+A esto nos dedicamos desde hace más de 20 años, y lo medimos por las consultas que recibes. Nuestra oficina está en la calle Rugat 12 - 2, 46021 Valencia, y podemos reunirnos contigo en persona. Si dudas entre contratar a un consultor SEO o a una agencia, nuestra guía sobre el [asesor de marketing digital](/es/asesor-marketing-digital/) te ayuda a decidir.
 
 <aside class="post-cta">
 <p><strong>¿Quieres que tu web te traiga más clientes?</strong> Encontramos las palabras que usan tus clientes, en tu ciudad y en cada país donde vendes, y escribimos las páginas que les llevan a contactarte. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
@@ -69,9 +69,9 @@ Trabajamos tres o cuatro mercados a fondo, porque dan más resultados que nueve 
 1. **Consulta o auditoría gratuita.** Hablamos de tus mercados, tus idiomas y lo que ya has puesto en marcha, en nuestra oficina o por videollamada; también puedes pedir una auditoría gratuita de 20 minutos.
 2. **Alcance escrito.** Recibes por escrito las páginas, las palabras clave, los mercados por orden y quién hace qué durante el primer trimestre.
 3. **Entrega mensual por mercado.** Cada mes publicamos textos escritos por nativos y revisados antes de salir, mercado por mercado.
-4. **Informe mensual por idioma.** Visitas, posiciones y consultas recibidas, comentados con claridad, con las prioridades del mes siguiente.
+4. **Informe mensual por idioma.** Visitas, posiciones y consultas recibidas, comentadas con claridad, con las prioridades del mes siguiente.
 5. **Mes a mes.** El compromiso es mensual, con preaviso por ambas partes.
 
 La redacción y la traducción se presupuestan aparte, como un encargo, a partir de esa consulta. El detalle de nuestra facturación está en la página de [precios](/es/precios/).
 
-Hablas directamente con las personas que diseñan la estrategia, redactan los briefs y leen los informes. Respondemos a cada mensaje, por lo general en un día laborable.
+Hablas directamente con las personas que diseñan la estrategia, redactan las instrucciones y leen los informes. Respondemos a cada mensaje, por lo general en un día laborable.

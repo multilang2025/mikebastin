@@ -15,7 +15,7 @@ excerpt: "Tendencias globales de negocio para 2026: aranceles, IA y mercados en 
 
 ## Negocio global en 2026: dónde crece la economía y qué cambia la IA
 
-Si exportas desde España a Francia, al Benelux, a Alemania o al Reino Unido, tu plan de 2025 ha cambiado al menos una vez: los aranceles de Estados Unidos rehechos dos veces, una eurozona que apenas crece y presupuestos de IA que suben más deprisa que sus retornos. Planifica el próximo año con los datos de este y tu presupuesto irá a los mercados que crecen.
+Si exportas desde España a Francia, al Benelux, a Alemania o al Reino Unido, tu plan de 2025 ha cambiado al menos una vez: los aranceles de Estados Unidos modificados dos veces, una eurozona que apenas crece y presupuestos de IA que suben más deprisa que su rentabilidad. Planifica el próximo año con los datos de este y tu presupuesto irá a los mercados que crecen.
 
 > Se prevé un crecimiento mundial del 3,0 % en 2026 y del 3,4 % en 2027, por debajo de la media del 3,5 % de 2024 y 2025. Se prevé que el crecimiento del volumen del comercio mundial se modere del 5,0 % en 2025 al 3,5 % en 2026.
 >
@@ -38,13 +38,13 @@ Para una empresa española, la tabla dice algo concreto: tu mercado interior sig
 
 ## La IA en la empresa: de experimento a coste operativo
 
-Tus competidores ya pagan por la IA, y sus retornos todavía se están midiendo. La encuesta de Menlo Ventures a empresas estadounidenses muestra que el gasto se multiplicó por más de tres en un año.
+Tus competidores ya pagan por la IA, y su rentabilidad todavía se está midiendo. La encuesta de Menlo Ventures a empresas estadounidenses muestra que el gasto se multiplicó por más de tres en un año.
 
 > Las empresas gastaron 37.000 millones de dólares estadounidenses en IA generativa en 2025, frente a 11.500 millones en 2024, un aumento de 3,2 veces. La programación fue el mayor caso de uso por departamento, con 4.000 millones de dólares. La encuesta solo cubre empresas de Estados Unidos.
 >
 > Fuente: [Menlo Ventures, 2025: The State of Generative AI in the Enterprise, diciembre de 2025](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/)
 
-La encuesta global de McKinsey y el informe empresarial de Deloitte señalan la misma distancia entre uso y retorno.
+La encuesta global de McKinsey y el informe empresarial de Deloitte señalan la misma distancia entre uso y rentabilidad.
 
 > El 88 % de los encuestados afirma que su organización usa la IA de forma habitual en al menos una función del negocio, y solo el 39 % declara algún impacto en el EBIT a nivel de empresa.
 >
@@ -54,7 +54,7 @@ La encuesta global de McKinsey y el informe empresarial de Deloitte señalan la 
 >
 > Fuente: [Deloitte, State of AI in the Enterprise 2026](https://www.deloitte.com/global/en/issues/generative-ai/state-of-ai-in-enterprise.html)
 
-Las empresas que toman ventaja integran la IA en sus flujos de trabajo, en la atención al cliente y en su [estrategia SEO apoyada en IA](/es/ia-y-estrategias-seo/).
+Las empresas que toman la delantera integran la IA en sus flujos de trabajo, en la atención al cliente y en su [estrategia SEO apoyada en IA](/es/ia-y-estrategias-seo/).
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 120" role="img" aria-label="La IA generativa pasa de un experimento en pruebas a un coste operativo integrado en el trabajo diario.">
@@ -169,7 +169,7 @@ Repartir las ventas entre varios mercados y proveedores protege hoy tus precios,
 
 ## Ucrania: costes que planificar y un horizonte de reconstrucción
 
-Si compras energía, mueves mercancías o vendes en Europa, la guerra sigue fijando parte de tu estructura de costes: distorsiona la energía, el grano y la confianza europea, y el choque energético de Oriente Próximo añade presión.
+Si compras energía, mueves mercancías o vendes en Europa, la guerra sigue fijando parte de tu estructura de costes: distorsiona los precios de la energía y del grano, y la confianza europea, y el choque energético de Oriente Próximo añade presión.
 
 > Se prevé que la zona del euro crezca un 0,9 % en 2026, 0,2 puntos porcentuales menos que en abril, por el débil impulso y el encarecimiento de la energía.
 >
@@ -190,7 +190,7 @@ Un alto el fuego duradero abriría uno de los mayores programas de reconstrucci�
 
 ## Sostenibilidad: las fechas que mantienen tus mercancías en movimiento
 
-La sostenibilidad es hoy una condición para vender en la UE, y cumplir cada plazo mantiene tus mercancías en movimiento. La UE rebajó algunas normas en 2026; las obligaciones que quedan tienen fechas firmes.
+La sostenibilidad es hoy una condición para vender en la UE, y cumplir cada plazo garantiza que tus mercancías sigan circulando. La UE rebajó algunas normas en 2026; las obligaciones que quedan tienen fechas firmes.
 
 La Directiva sobre información corporativa en materia de sostenibilidad (CSRD) quedó acotada por la Directiva Ómnibus de sostenibilidad, publicada en el Diario Oficial el 26 de febrero de 2026, y ahora se aplica a empresas mucho más grandes de lo previsto.
 
@@ -226,20 +226,20 @@ El Mecanismo de Ajuste en Frontera por Carbono (CBAM) entró en su fase definiti
 
 ### Qué hacer ahora
 
--   Revisa tu cadena de suministro para el cumplimiento del EUDR y el abastecimiento ético
--   Comprueba si los nuevos umbrales de la CSRD siguen incluyéndote a ti, o a tus grandes clientes
+-   Revisa tu cadena de suministro para cumplir la normativa EUDR y asegurar un abastecimiento ético
+-   Comprueba si los nuevos umbrales de la CSRD te siguen incluyendo a ti o a tus grandes clientes
 
 ## Mercados emergentes: dónde está el crecimiento
 
 El sudeste asiático, Latinoamérica, la India y parte de África registran el mayor crecimiento del comercio electrónico, y quien gana allí localiza todo el recorrido de compra, de la primera búsqueda al pago.
 
-Para una empresa española, Latinoamérica parte con la ventaja del idioma, y aun así cada país busca con sus propias palabras: un comprador mexicano y uno argentino no escriben la misma consulta. Los compradores buscan, comparan y pagan en su idioma y en sus plataformas. Ganarlos pide [webs traducidas y localizadas por mercado](/es/services/traduccion-de-paginas-web/), [SEO multilingüe para varios mercados](/es/services/posicionamiento-multilingue/), medios de pago locales y un marketing adaptado a la cultura.
+Para una empresa española, Latinoamérica parte con la ventaja del idioma, y aun así cada país busca con sus propias palabras: un comprador mexicano y uno argentino no escriben la misma consulta. Los compradores buscan, comparan y pagan en su idioma y en sus plataformas. Para ganarlos necesitas [webs traducidas y localizadas por mercado](/es/services/traduccion-de-paginas-web/), [SEO multilingüe para varios mercados](/es/services/posicionamiento-multilingue/), medios de pago locales y un marketing adaptado a la cultura.
 
 ### Qué hacer ahora
 
 -   Adapta el posicionamiento del producto y la estrategia de contenido a cada público, con [la localización aplicada al contenido web](/es/optimizar-contenido-web-multilingue/)
 -   Alíate con proveedores regionales de logística y de pago
--   Usa la [contratación flexible en cuanto a ubicación](https://valenciamove.com/blog/valencia-remote-working/) para sumar talento de cada mercado, con políticas que respeten la normativa laboral de cada país
+-   Usa la [contratación en remoto](https://valenciamove.com/blog/valencia-remote-working/) para sumar talento de cada mercado, con políticas que respeten la normativa laboral de cada país
 -   Infórmate sobre los requisitos de registro y el marco normativo de cada país antes de entrar, como harías para [constituir una empresa en España](https://valenciamove.com/company-formation-spain/)
 
 <aside class="post-cta">

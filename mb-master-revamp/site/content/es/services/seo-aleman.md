@@ -20,7 +20,7 @@ Tu empresa trabaja desde Valencia, ya vende en Alemania, Austria o la Suiza alem
 
 Alemania es la mayor economía de Europa. Un sitio alemán que gana esa comparación abre a tu empresa valenciana el mercado más grande del continente, y cada página bien escrita sigue trabajando para ti los trimestres siguientes.
 
-Preparamos el plan contigo en español, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia, o por vídeo, y redactores alemanes nativos escriben las páginas.
+Preparamos el plan contigo en español, en nuestra oficina de la calle Rugat 12 - 2, 46021 Valencia, o por videollamada, y redactores alemanes nativos escriben las páginas.
 
 <aside class="post-cta">
 <p><strong>¿Quieres que tus visitantes alemanes se conviertan en clientes?</strong> Construimos contigo un sitio alemán redactado por alemanes, que inspira confianza al comprador de habla alemana. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
@@ -28,7 +28,7 @@ Preparamos el plan contigo en español, en nuestra oficina de Calle Rugat 12 - 2
 
 ## Qué incluye tu SEO en Alemania desde Valencia
 
-El SEO en Alemania pide dos competencias a la vez. La primera es el plan: qué páginas, qué búsquedas, qué mercado primero y cómo se organiza el sitio. La segunda es un alemán que un nativo lee como propio. La primera la hacemos contigo, directamente, en español o en inglés, en persona o por vídeo. La segunda la hacen redactores alemanes nativos.
+El SEO en Alemania pide dos competencias a la vez. La primera es el plan: qué páginas, qué búsquedas, qué mercado primero y cómo se organiza el sitio. La segunda es un alemán que un nativo lee como propio. La primera la hacemos contigo, directamente, en español o en inglés, en persona o por videollamada. La segunda la hacen redactores alemanes nativos.
 
 Concretamente, el trabajo incluye:
 
@@ -45,7 +45,7 @@ Tienes un único interlocutor, una única factura y un alemán escrito por alema
 
 Te lo decimos desde el primer contacto, para que sepas quién hace qué. Hablamos alemán lo suficiente para dirigir proyectos SEO en ese idioma: resultados de búsqueda, páginas de la competencia, briefs y reuniones. Tus textos comerciales en alemán los redactan alemanes nativos, porque el registro es lo que vende y tiene que ser exacto.
 
-Esos redactores son los traductores y redactores alemanes nativos de BeTranslated, la agencia de traducción que dirigimos en Valencia desde hace veinte años y que Mike Bastin cofundó. Llevan años escribiendo para clientes que venden en Alemania, Austria y Suiza, a partir de nuestros briefs pensados para la página alemana. La estrategia se apoya en más de dos décadas de SEO.
+Esos redactores son los traductores y redactores alemanes nativos de BeTranslated, la agencia de traducción que dirigimos en Valencia desde hace veinte años y que Mike Bastin cofundó. Llevan años escribiendo para clientes que venden en Alemania, Austria y Suiza, a partir de nuestros briefs pensados para la página alemana. La estrategia se apoya en más de 20 años de SEO.
 
 Cada página pasa por tres lecturas: la del redactor nativo, la de un segundo nativo antes de publicar y la de tu propio equipo. Comprobamos cada una frente al plan, para que se lea bien y responda a la búsqueda para la que se escribió. ¿Tienes también documentos que traducir fuera de la web? Nuestro servicio de [traducción profesional](/es/services/traduccion-profesional/) se encarga.
 
@@ -59,7 +59,7 @@ Cubrir los tres países es un compromiso editorial real, que se justifica cuando
 
 ## Los datos de empresa que dejamos listos para el comprador alemán
 
-Antes de confiar en un proveedor, el comprador alemán mira los datos de la empresa, y lo hace pronto. Por eso dejamos preparado un Impressum completo, con la inscripción en el registro mercantil, el número de IVA intracomunitario (USt-IdNr) y el nombre de la dirección. La política de privacidad (Datenschutzerklärung) queda alineada con el RGPD al pie de la letra y el consentimiento de cookies se configura como un consentimiento explícito de verdad. Un teléfono alemán, donde lo tengas, y el sello Trusted Shops en una tienda online completan el conjunto.
+Antes de confiar en un proveedor, el comprador alemán mira los datos de la empresa, y lo hace pronto. Por eso dejamos preparado un Impressum completo, con la inscripción en el registro mercantil, el número de IVA intracomunitario (USt-IdNr), el nombre y la dirección. La política de privacidad (Datenschutzerklärung) queda alineada con el RGPD al pie de la letra y el consentimiento de cookies se configura como un consentimiento explícito de verdad. Un teléfono alemán, donde lo tengas, y el sello Trusted Shops en una tienda online completan el conjunto.
 
 Nosotros montamos la parte técnica. Las cuestiones jurídicas, como los datos sensibles, el seguimiento de empleados o la elaboración de perfiles de marketing, corresponden a un abogado alemán, y lo indicamos desde el principio.
 
@@ -69,7 +69,7 @@ Alrededor del sitio, construimos la reputación en Alemania: directorios profesi
 
 1. **Auditoría gratuita de 20 minutos.** Miramos tus páginas en alemán junto a las de tus competidores alemanes y te mostramos dónde están las mayores ganancias, antes de que te comprometas a nada. Si ya existe una traducción al alemán, la auditoría señala qué páginas conviene reescribir en torno a la búsqueda alemana y cuáles se quedan como están; suele ser un puñado de páginas.
 2. **Estrategia y alcance por escrito.** Acordamos contigo en español la estrategia y el calendario editorial, y recibes un alcance por escrito para el primer trimestre: qué mercado primero, qué páginas y en qué orden.
-3. **Redacción de redactores nativos.** La investigación pone en el brief los términos alemanes que tus compradores escriben de verdad. Redactores alemanes nativos de BeTranslated escriben cada página a partir de ese brief, y un segundo nativo la lee antes de publicarla, así que la página sale bien a la primera.
+3. **Textos de redactores nativos.** La investigación pone en el brief los términos alemanes que tus compradores escriben de verdad. Redactores alemanes nativos de BeTranslated escriben cada página a partir de ese brief, y un segundo nativo la lee antes de publicarla, así que la página sale bien a la primera.
 4. **Datos de empresa que el comprador alemán comprueba.** Dejamos listos el Impressum, la política de privacidad y el consentimiento explícito como los espera el comprador alemán, para que la página gane su confianza además de su visita.
 5. **Informe mensual y reunión en español.** Cada mes, una reunión estratégica: presentamos las opciones y tú decides. El informe sigue tus posiciones en Google.de, las citas en respuestas de IA en alemán y las peticiones por mercado.
 6. **Mes a mes.** El acompañamiento SEO se paga mes a mes, y el trabajo continúa mientras te aporta peticiones.

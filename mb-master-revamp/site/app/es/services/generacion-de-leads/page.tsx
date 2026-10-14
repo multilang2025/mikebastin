@@ -45,13 +45,13 @@ const PARTS: { title: string; body: string; href?: string; link?: string }[] = [
   },
   {
     title: "Llegas a ellos desde el primer día",
-    body: "Campañas de pago en cada idioma que llegan al comprador antes que la búsqueda orgánica, con un presupuesto separado por mercado para que cada uno responda de su propio gasto.",
+    body: "Campañas de pago en cada idioma que llegan al comprador antes que la búsqueda orgánica, con un presupuesto separado por mercado para que cada uno justifique su propio gasto.",
     href: "/es/services/publicidad-multilingue/",
     link: "Publicidad multilingüe",
   },
   {
     title: "Cada contacto, en su mercado de origen",
-    body: "Cada contacto se atribuye al mercado y al idioma que lo generaron, y se sigue hasta tu CRM, para juzgar cada mercado por las conversaciones que abre.",
+    body: "Cada contacto se atribuye al mercado y al idioma que lo generaron, y se sigue hasta tu CRM, para valorar cada mercado por las conversaciones que abre.",
   },
 ];
 
@@ -67,20 +67,20 @@ const QUESTIONS = [
     q: "¿Qué cuenta como un lead?",
     a: [
       "La definición que reconoce tu propio equipo comercial, acordada antes de empezar a medir. Normalmente, un contacto que se convirtió en conversación.",
-      "El spam, las candidaturas y los envíos de prueba se cuentan aparte, para que cada mercado se juzgue por lo que de verdad llega a tu equipo.",
+      "El spam, las candidaturas y los envíos de prueba se cuentan aparte, para que cada mercado se valore por lo que de verdad llega a tu equipo.",
     ],
   },
   {
     q: "¿Quién escribe en los demás idiomas?",
     a: [
       "Escribimos directamente en español, inglés, francés y neerlandés. El alemán, el italiano, el portugués y los demás idiomas pasan por redactores nativos de la red BeTranslated, a quienes damos el briefing y cuyo trabajo revisamos.",
-      "En todos los casos la página se escribe para el mercado que la lee, a partir de su propia investigación.",
+      "En todos los casos la página se escribe para el mercado que la lee, a partir de una investigación propia.",
     ],
   },
   {
     q: "¿Hay una permanencia mínima?",
     a: [
-      "Trabajamos mes a mes. La consulta gratuita da lugar a un plan de trabajo por escrito que nombra las páginas y los entregables, y tú decides a partir de ahí.",
+      "Trabajamos mes a mes. La consulta gratuita da lugar a un plan de trabajo por escrito que detalla las páginas y los entregables, y tú decides a partir de ahí.",
     ],
   },
 ];
@@ -150,7 +150,7 @@ export default function SpanishLeadGenerationPage() {
               Una sola cifra para todo el sitio es el informe más cómodo de leer; el informe por mercado es el que sirve para decidir. Dentro de una media, el mercado que sostiene tus resultados y el que gasta tu presupuesto solo en visitas parecen exactamente iguales. Separados, se distinguen a simple vista.
             </p>
             <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Con una sola cifra, el dinero va adonde el tráfico parece más sano, y el idioma que de verdad vende recibe un poco menos cada trimestre: la decisión la toma el informe. Cuando cada mercado se ve por separado, el presupuesto va al mercado que debe crecer.
+              Con una sola cifra, el dinero va adonde el tráfico parece de mayor calidad, y el idioma que de verdad vende recibe un poco menos cada trimestre: la decisión la toma el informe. Cuando cada mercado se ve por separado, el presupuesto va al mercado que debe crecer.
             </p>
           </Reveal>
         </div>
@@ -164,7 +164,7 @@ export default function SpanishLeadGenerationPage() {
               La generación de leads B2B, idioma a idioma
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Tres piezas, trabajadas juntas y juzgadas por una sola cosa: si cada mercado envía a tu equipo comercial contactos que valen la pena. Por separado, cada una produce un informe. Juntas, producen una cartera de oportunidades que lees mercado a mercado.
+              Tres piezas, trabajadas juntas y valoradas por una sola cosa: si cada mercado envía a tu equipo comercial contactos que valen la pena. Por separado, cada una produce un informe. Juntas, producen una cartera de oportunidades que lees mercado a mercado.
             </p>
           </Reveal>
           <Reveal i={2}>
@@ -256,7 +256,7 @@ export default function SpanishLeadGenerationPage() {
           </Reveal>
           <Reveal i={1}>
             <p className="mb-9 max-w-[58ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Una consulta gratuita de treinta minutos sobre los mercados que importan, lo que ya posiciona y lo que ya se ha probado. Primero preguntamos y después recomendamos, y lo que recibes es un plan de trabajo por escrito que nombra páginas y entregables reales. Trabajamos mes a mes.
+              Una consulta gratuita de treinta minutos sobre los mercados que importan, lo que ya posiciona y lo que ya se ha probado. Primero preguntamos y después recomendamos, y lo que recibes es un plan de trabajo por escrito que detalla páginas y entregables reales. Trabajamos mes a mes.
             </p>
           </Reveal>
           <Reveal i={2}>

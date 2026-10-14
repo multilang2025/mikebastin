@@ -17,7 +17,7 @@ excerpt: "Une analyse concurrentielle SEO qui repère les sites qui gagnent vrai
 
 Vous vous comparez sans doute à l’entreprise que vous croisez en rendez-vous commercial, à Lyon, à Bruxelles ou à Madrid. Dans les résultats de recherche, votre concurrent est souvent un autre acteur. Le repérer oriente chaque mois de budget vers les pages qui peuvent gagner.
 
-Après plus de deux décennies dans le métier, nous avons lu un grand nombre de rapports d’« analyse concurrentielle », et ceux qui font bouger les performances en recherche partagent une habitude : ils partent des pages de résultats.
+Après plus de 20 ans dans le métier, nous avons lu un grand nombre de rapports d’« analyse concurrentielle », et ceux qui font bouger les performances en recherche partagent une habitude : ils partent des pages de résultats.
 
 Un cabinet d’avocats de Valence, client de notre [référencement pour cabinets d’avocats](/fr/seo-cabinets-avocats/) depuis trois ans, pensait que son principal rival était un cabinet réputé installé deux rues plus loin. Un après-midi passé à regarder qui apparaissait réellement sur les recherches de ses clients a fait ressortir trois avocats indépendants, avec des sites d’une douzaine de pages et des pages locales très soignées. Le cabinet réputé se classait bien en dessous de ces trois-là.
 
@@ -195,11 +195,11 @@ Le diagnostic d’un plateau de croissance, quand votre équipe « fait tout ce 
 
 Les décisions de prix ou de positionnement de services, quand vous envisagez un changement et voulez savoir quel espace est déjà occupé.
 
-Entre ces moments, une actualisation régulière garde le tableau à jour.
+Entre ces moments, des actualisations régulières tiennent le tableau à jour.
 
 ## Faites vérifier votre liste de concurrents
 
-Si vous voulez vérifier que votre équipe se compare à la bonne liste, nous pouvons réaliser en moins d’une heure une **analyse concurrentielle** ciblée, au niveau des pages de résultats, sur l’une de vos requêtes prioritaires.
+Si vous voulez vérifier que votre équipe se situe par rapport à la bonne liste, nous pouvons réaliser en moins d’une heure une **analyse concurrentielle** ciblée, au niveau des pages de résultats, sur l’une de vos requêtes prioritaires.
 
 Nous le faisons pour des clients dans le juridique, le fret, l’immobilier et la traduction, dans plusieurs langues, depuis Valence. Pour un suivi sur plusieurs pays, notre [référencement multilingue marché par marché](/fr/services/referencement-multilingue/) donne à chaque langue sa propre stratégie.
 

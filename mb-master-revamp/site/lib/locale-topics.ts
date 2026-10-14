@@ -156,7 +156,7 @@ const TOPICS: LocaleTopic[] = [
     name: "SEO multilingüe",
     heading: "SEO multilingüe: cómo hacer que cada idioma de tu web venda",
     blurb:
-      "El SEO técnico, la localización y las diferencias culturales que hacen que cada versión de tu web trabaje para tu negocio en su mercado.",
+      "El SEO técnico, la localización y las diferencias culturales que hacen que cada versión de tu web dé resultados a tu negocio en su mercado.",
     service: { href: "/es/services/posicionamiento-multilingue/", label: "Posicionamiento multilingüe" },
     posts: [
       "buenas-practicas-seo-multilingue",
@@ -210,7 +210,7 @@ const TOPICS: LocaleTopic[] = [
     metaTitle: "IA y traducción: de la máquina a la localización",
     heading: "IA y traducción: de la traducción automática a la localización",
     blurb:
-      "Cómo cambia la IA el trabajo de traducción y localización, y cómo usarla en tus contenidos multilingües con buena calidad.",
+      "Cómo cambia la IA el trabajo de traducción y localización, y cómo usarla en tus contenidos multilingües manteniendo una buena calidad.",
     service: { href: "/es/services/posedicion-de-ia/", label: "Posedición de IA" },
     posts: ["ia-traduccion-y-localizacion", "herramientas-ia-traduccion-automatica", "traduccion-ingles-frances", "extensiones-chrome-traductores"],
   },
@@ -220,7 +220,7 @@ const TOPICS: LocaleTopic[] = [
     name: "Análisis de la competencia",
     heading: "Análisis de la competencia SEO: qué mirar y con qué herramientas",
     blurb:
-      "Cómo identificar a tus competidores reales en Google, revisar su tráfico, sus backlinks y sus posiciones, y convertir lo que ves en un plan.",
+      "Cómo identificar a tus competidores reales en Google, revisar su tráfico, sus backlinks y sus posiciones, y convertir esos datos en un plan.",
     service: { href: "/es/services/optimizacion-seo/", label: "Optimización SEO" },
     posts: [
       "analisis-competitivo-seo",
@@ -247,10 +247,10 @@ const TOPICS: LocaleTopic[] = [
     locale: "es",
     slug: "contenido-y-marketing",
     name: "Contenido y marketing",
-    heading: "Contenido y marketing: los canales que traen a tus compradores",
+    heading: "Contenido y marketing: los canales que atraen a tus compradores",
     metaTitle: "Contenido y marketing: artículos, email y networking",
     blurb:
-      "Artículos de blog, email marketing, afiliación, publicidad y networking: las palancas que traen consultas a una empresa que vende en varios idiomas.",
+      "Artículos de blog, email marketing, afiliación, publicidad y networking: las palancas que generan consultas a una empresa que vende en varios idiomas.",
     service: { href: "/es/services/redaccion-seo-multilingue/", label: "Redacción SEO multilingüe" },
     posts: [
       "estrategia-de-contenido-segmentada",

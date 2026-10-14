@@ -49,7 +49,7 @@ const MARKETS: { slug: string; market: string; line: string }[] = [
 const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
   { slug: "referencement-multilingue", name: "Développer votre SEO international", line: "La stratégie par marché, et des rédacteurs natifs pour chaque langue." },
   { slug: "localisation-de-site-web", name: "Localiser votre site web", line: "Des prix, des formulaires et des pages qui paraissent locaux dans chaque pays." },
-  { slug: "sem-multilingue", name: "Lancer vos campagnes multilingues", line: "Votre budget média va entièrement à vos annonces, versé directement à Google, Microsoft ou Meta ; le pilotage fait l’objet d’honoraires à part." },
+  { slug: "sem-multilingue", name: "Lancer vos campagnes multilingues", line: "Votre budget média est entièrement consacré à vos annonces, versé directement à Google, Microsoft ou Meta ; le pilotage fait l’objet d’honoraires à part." },
 ];
 
 const HOW_IT_WORKS: HowCard[] = [
@@ -57,7 +57,7 @@ const HOW_IT_WORKS: HowCard[] = [
     theme: "Connaissance du marché",
     icon: "search",
     title: "Voyez où en est chaque marché",
-    body: "Nous repérons où votre site touche déjà des acheteurs, et où des améliorations techniques ou éditoriales peuvent créer davantage de demandes.",
+    body: "Nous repérons où votre site atteint déjà des acheteurs, et où des améliorations techniques ou éditoriales peuvent créer davantage de demandes.",
   },
   {
     theme: "Stratégie ciblée",
@@ -118,7 +118,7 @@ export default function FrenchHome() {
 
           <Reveal i={2}>
             <h2 className="mb-5 max-w-[34ch] text-[clamp(1.15rem,2.1vw,1.6rem)] font-medium leading-[1.3]">
-              Gagnez des clients sur de nouveaux marchés grâce au SEO international, à des contenus natifs et à la localisation de votre site.
+              Gagnez des clients sur de nouveaux marchés grâce au SEO international, à des contenus rédigés par des natifs et à la localisation de votre site.
             </h2>
           </Reveal>
           <Reveal i={3}>
@@ -126,7 +126,7 @@ export default function FrenchHome() {
               className="mb-8 max-w-[56ch] text-[clamp(1.02rem,1.4vw,1.14rem)] leading-[1.6]"
               style={{ color: "color-mix(in srgb, var(--dim) 65%, var(--ink))" }}
             >
-              Entreprise française, belge, suisse ou luxembourgeoise, travaillez directement avec Mike, votre consultant en SEO international. Il pilote la stratégie, des spécialistes natifs adaptent chaque marché, et nos rapports montrent quelles langues vous apportent des demandes.
+              Entreprise française, belge, suisse ou luxembourgeoise, travaillez directement avec Mike, votre consultant en SEO international. Il pilote la stratégie, des spécialistes natifs adaptent les contenus à chaque marché, et nos rapports montrent quelles langues vous apportent des demandes.
             </p>
           </Reveal>
           <Reveal i={4}>
@@ -158,7 +158,7 @@ export default function FrenchHome() {
               Un plan clair pour chaque marché, et des progrès que vous pouvez mesurer.
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
-              Nous transformons vos opportunités de marché en un travail ciblé et une croissance mesurable. Choisissez les services adaptés à vos objectifs.
+              Nous faisons de vos opportunités de marché un travail ciblé et une croissance mesurable. Choisissez les services adaptés à vos objectifs.
             </p>
           </Reveal>
           <ul className="grid gap-8 md:grid-cols-3">
@@ -212,7 +212,7 @@ export default function FrenchHome() {
             <Reveal>
               <h2 className="mb-3 text-[clamp(1.6rem,3vw,2.3rem)] font-semibold leading-[1.15]">Le marché où vous voulez vendre ensuite</h2>
               <p className="mb-10 max-w-[58ch]" style={{ color: "var(--dim)" }}>
-                Chaque pays cherche avec ses propres mots, et vos pages sont écrites à partir de ces mots-là.
+                Chaque pays a ses propres mots de recherche, et vos pages sont écrites à partir de ces mots-là.
               </p>
             </Reveal>
             <ul className="grid gap-px cells-2 sm:grid-cols-2" style={{ background: "var(--rule)" }}>

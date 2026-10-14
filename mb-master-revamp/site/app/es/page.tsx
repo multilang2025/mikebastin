@@ -49,7 +49,7 @@ const MARKETS: { slug: string; market: string; line: string }[] = [
 ];
 
 const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
-  { slug: "optimizacion-seo", name: "Mejora tu SEO", line: "Las búsquedas de tus clientes, investigadas una a una, y páginas que responden a cada una." },
+  { slug: "optimizacion-seo", name: "Mejora tu SEO", line: "Las búsquedas de tus clientes, investigadas una a una, y páginas que responden a ellas." },
   { slug: "seo-local", name: "Destaca en tu ciudad", line: "Tu ficha de Google, tus reseñas y tus páginas por barrio, para aparecer entre los primeros resultados del mapa." },
   { slug: "publicidad-multilingue", name: "Lanza tus campañas", line: "Tu presupuesto de medios va íntegro a tus anuncios, pagado directamente a Google, Microsoft o Meta; la gestión tiene una tarifa aparte." },
   { slug: "posicionamiento-multilingue", name: "Crece con SEO global", line: "Castellano, inglés y tus idiomas de exportación, cada uno con sus propias palabras clave." },
@@ -167,9 +167,7 @@ export default function SpanishHome() {
               Un plan claro para cada mercado, con avances que puedes medir.
             </h2>
             <p className="mb-10 max-w-[62ch] text-[1.05rem] leading-[1.65]" style={{ color: "var(--dim)" }}>
-              Convertimos tus oportunidades de mercado en trabajo enfocado y
-              crecimiento medible. Elige los servicios que mejor encajan con
-              tus objetivos.
+              Convertimos tus oportunidades de mercado en acciones concretas y crecimiento medible. Elige los servicios que mejor encajan con tus objetivos.
             </p>
           </Reveal>
 

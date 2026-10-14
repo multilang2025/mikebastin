@@ -16,7 +16,7 @@ excerpt: "Traducción de páginas web en Valencia: tu web adaptada a cada idioma
 
 ## Una web de Valencia que vende en cada idioma
 
-Tu empresa está en Valencia y tus clientes no hablan todos el mismo idioma. Quien te busca en la ciudad lo hace en castellano o en inglés, porque la ciudad tiene una gran población internacional. Si además vendes fuera, tus compradores franceses, alemanes o neerlandeses esperan encontrar lo mismo que en un proveedor de su país: los precios escritos como allí, un formulario con su código postal y sus medios de pago habituales.
+Tu empresa está en Valencia y tus clientes no hablan todos el mismo idioma. Quien te busca aquí lo hace en castellano o en inglés, porque la ciudad tiene una gran población internacional. Si además vendes fuera, tus compradores franceses, alemanes o neerlandeses esperan encontrar lo mismo que en un proveedor de su país: los precios escritos como allí, un formulario con su código postal y sus medios de pago habituales.
 
 La traducción de páginas web, con la localización que la completa, da ese paso. Una web que se lee como local en cada idioma convierte el tráfico que ya tienes en consultas y pedidos, en tu ciudad y en cada mercado al que apuntas.
 
@@ -60,7 +60,7 @@ Elegimos contigo el plugin multilingüe, a partir de cómo publicas, porque el c
 
 ### Diseños que acogen el texto más largo
 
-El alemán suele pedir un tercio más de espacio que un texto de origen en inglés, en botones, menús y títulos, y ajustamos el diseño para acogerlo. Lo probamos con el texto real donde importa: la navegación, la llamada a la acción, la tabla de precios. Para los idiomas que se escriben de derecha a izquierda, como el árabe, invertimos todo el diseño, y comprobamos la codificación de caracteres en los formularios, el buscador y todo lo que toca una base de datos.
+El alemán suele pedir un tercio más de espacio que un texto de origen en inglés, en botones, menús y títulos, y ajustamos el diseño para que quepa. Lo probamos con el texto real donde importa: la navegación, la llamada a la acción, la tabla de precios. Para los idiomas que se escriben de derecha a izquierda, como el árabe, invertimos todo el diseño, y comprobamos la codificación de caracteres en los formularios, el buscador y todo lo que toca una base de datos.
 
 ## Tu tienda localizada hasta el pedido
 
@@ -72,7 +72,7 @@ Configuramos estos ajustes en WooCommerce, Shopify y Magento, plataforma por pla
 
 Antes del lanzamiento, revisamos cada elemento de interfaz, formulario, menú, selector de idioma y medio en cada idioma: cómo se ve, cómo funciona y si encaja culturalmente. El selector de idioma lleva a la página correcta, el formulario acepta cada código postal local válido, una fecha se lee con el mes correcto. La prueba cubre también lo que el mercado exige en lo legal, del consentimiento de cookies a la accesibilidad.
 
-Cada punto hallado entra en un informe de pruebas, en el momento en que se corrige más rápido, mucho antes de llegar a tu servicio de atención al cliente.
+Cada fallo detectado entra en un informe de pruebas, en el momento en que se corrige más rápido, mucho antes de llegar a tu servicio de atención al cliente.
 
 ## Cómo trabajamos la traducción de tu web en Valencia
 
@@ -80,10 +80,10 @@ Cada punto hallado entra en un informe de pruebas, en el momento en que se corri
 2. **Alcance por escrito.** Tras la primera llamada recibes las páginas, los mercados y lo que entregamos, para que sepas exactamente qué localizamos y qué configuramos.
 3. **Elección y configuración del plugin.** Elegimos el plugin multilingüe que encaja con tu web y tu equipo, entre WPML, Polylang, TranslatePress o Weglot, o trabajamos en Shopify o Webflow, y lo configuramos idioma por idioma.
 4. **Texto, precios y pago localizados.** Adaptamos el texto, la moneda, los medios de pago y el proceso de pago en cada mercado, y ajustamos el diseño para que el texto más largo quepa en botones, menús y títulos.
-5. **Pruebas antes del lanzamiento.** Probamos cada idioma en pantalla, función y encaje, reunimos cada punto en un informe y lo corregimos antes de que tu web localizada salga en línea.
+5. **Pruebas antes del lanzamiento.** Probamos cada idioma en pantalla, función y encaje, recogemos cada fallo en un informe y lo corregimos antes de que tu web localizada se publique.
 
 La traducción y la redacción se presupuestan aparte, como un encargo, idioma por idioma; el detalle figura en [nuestros precios](/es/precios/).
 
 Si tus clientes están sobre todo en tu ciudad, la web traducida rinde más junto a nuestro [SEO local](/es/services/seo-local/), que te pone en el mapa de Google. Podemos vernos en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia, o por videollamada si estás en otra ciudad.
 
-Leemos cada solicitud nosotros mismos y respondemos en general en un día laborable.
+Leemos cada solicitud nosotros mismos y solemos responder en un día laborable.

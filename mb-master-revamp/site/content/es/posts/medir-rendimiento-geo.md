@@ -17,7 +17,7 @@ excerpt: "Mide cómo ChatGPT, Perplexity y Google AI Overviews citan tu marca: K
 
 ## Cómo medir el rendimiento GEO de tu empresa
 
-Tus compradores en Francia, Alemania o el Benelux preguntan ya a ChatGPT, Perplexity o los AI Overviews de Google qué proveedores considerar. Si sabes cuántas veces te nombran esas respuestas, cómo te describen y en qué idioma, puedes invertir en las páginas que te llevan a la lista corta.
+Tus compradores en Francia, Alemania o el Benelux preguntan ya a ChatGPT, Perplexity o los AI Overviews de Google qué proveedores considerar. Si sabes cuántas veces te nombran esas respuestas, cómo te describen y en qué idioma, puedes invertir en las páginas que te llevan a la selección final.
 
 Aquí tienes los indicadores que conviene seguir, las herramientas que los miden hoy y una rutina mensual que tu equipo puede mantener. Cómo preparar el contenido para que lo citen lo explicamos en nuestra guía de [estrategia de contenido dual para SEO y GEO](/es/optimizar-para-seo-y-geo/); aquí nos centramos en medirlo.
 
@@ -56,7 +56,7 @@ Estos indicadores se apoyan en un [análisis competitivo SEO actualizado](/es/an
 
 ## Métricas SEO y métricas GEO, lado a lado
 
-Cada métrica clásica tiene su equivalente en las respuestas de IA, y leerlas juntas evita juzgar un canal con la vara del otro.
+Cada métrica clásica tiene su equivalente en las respuestas de IA, y leerlas juntas evita medir un canal por el rasero del otro.
 
 | Métrica tradicional (SEO) | Métrica generativa (GEO) | Objetivo de negocio |
 |---|---|---|
@@ -110,7 +110,7 @@ Medir bien te dice qué páginas reescribir primero. Hoy el seguimiento combina 
 
 ## Medir la precisión: lo que la IA repite de ti
 
-La precisión es el indicador que más se corrige desde tu lado. Cuando una respuesta repite un servicio antiguo o un mercado equivocado, la fuente suele estar en tu propia web o en tus perfiles. Anota cada dato erróneo y localiza dónde se publica.
+La precisión es el indicador que más se corrige por tu parte. Cuando una respuesta repite un servicio antiguo o un mercado equivocado, la fuente suele estar en tu propia web o en tus perfiles. Anota cada dato erróneo y localiza dónde se publica.
 
 Dos sitios lo concentran casi siempre: los datos estructurados, que describen tu empresa en JSON-LD y que explicamos en nuestra guía de [datos estructurados y schema para GEO](/es/datos-estructurados-schema-optimizacion-geo/), y los perfiles de tus autores, como el de [LinkedIn](https://www.linkedin.com/in/michaelbastin/), que tienen que decir lo mismo que tu web. Nuestra guía para [redactar tu trayectoria profesional](/es/redactar-trayectoria-profesional/) te ayuda a escribir esas biografías.
 
@@ -155,7 +155,7 @@ Lanza tus consultas en cada idioma, con las palabras que usa el comprador de ese
 
 ## Qué consultas seguir según tu sector
 
-Las consultas que vale la pena seguir son las que haría tu comprador antes de elegir proveedor, en el idioma en que la haría. Dos ejemplos de sectores en los que trabajamos:
+Las consultas que vale la pena seguir son las que haría tu comprador antes de elegir proveedor, en el idioma en que las haría. Dos ejemplos de sectores en los que trabajamos:
 
 | Sector | Ejemplo de cliente | Consulta de ejemplo | Qué comprobar |
 |---|---|---|---|
@@ -176,7 +176,7 @@ Es el análisis de cuánto y cómo te citan los motores generativos (ChatGPT, Pe
 
 ## Empieza a medir tu presencia en la IA
 
-El mejor momento para empezar a medir es ahora: con una línea base de hoy, cada mejora del próximo trimestre se ve.
+El mejor momento para empezar a medir es ahora: con un punto de partida de hoy, cada mejora del próximo trimestre se ve.
 
 En **Mike Bastin** combinamos:
 

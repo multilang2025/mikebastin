@@ -16,7 +16,7 @@ excerpt: "El SEO sigue dando resultados aunque Google envíe menos clics. Qué e
 
 Tu negocio probablemente va mejor de lo que indica tu informe de tráfico orgánico. Hoy hacen clic menos personas desde Google, porque más preguntas se resuelven en la propia página de resultados o dentro de ChatGPT. Si mides la búsqueda por lo que aporta al negocio, conservas el canal que sigue enviando tus mejores contactos comerciales y llevas el presupuesto a lo que premian los resultados de ahora.
 
-Aquí verás hacia dónde va la búsqueda: qué ocupan ya las respuestas de IA, cómo trabajar con el cero clics, qué medidas han tomado el relevo de las antiguas y dónde poner el esfuerzo del próximo trimestre. Al final tienes una tabla de prioridades pensada para empresas que ya venden en Francia, el Benelux, Alemania o el Reino Unido.
+Aquí verás hacia dónde va la búsqueda: qué ocupan ya las respuestas de IA, cómo trabajar con las búsquedas sin clic, qué medidas han tomado el relevo de las antiguas y dónde poner el esfuerzo del próximo trimestre. Al final tienes una tabla de prioridades pensada para empresas que ya venden en Francia, el Benelux, Alemania o el Reino Unido.
 
 ## Las respuestas de IA ocupan la página de resultados
 
@@ -52,7 +52,7 @@ El listón del contenido sube con ellas. Si un competidor publica diez páginas 
 
 ## La optimización para motores generativos (GEO) acompaña al SEO
 
-Cuando un comprador pregunta a un asistente de IA a qué proveedores incluir en su lista corta, la respuesta nombra a dos o tres empresas, y el objetivo es que la tuya sea una de ellas. ChatGPT, Gemini, Perplexity y Microsoft Copilot se apoyan en contenido web para redactar esas respuestas. El GEO (generative engine optimization) trabaja esa presencia, y lo hacemos dentro de nuestra [optimización SEO](/es/services/optimizacion-seo/).
+Cuando un comprador pregunta a un asistente de IA a qué proveedores incluir en su selección, la respuesta nombra a dos o tres empresas, y el objetivo es que la tuya sea una de ellas. ChatGPT, Gemini, Perplexity y Microsoft Copilot se apoyan en contenido web para redactar esas respuestas. El GEO (generative engine optimization) trabaja esa presencia, y lo hacemos dentro de nuestra [optimización SEO](/es/services/optimizacion-seo/).
 
 > En junio de 2025, las plataformas de IA enviaron más de 1.130 millones de visitas a los 1.000 sitios web más visitados del mundo, un 357 % más que en junio de 2024. En el mismo mes, la búsqueda de Google envió 191.000 millones de visitas a esos sitios.
 >
@@ -88,7 +88,7 @@ El GEO funciona junto al SEO. La misma página sirve a los dos canales cuando fo
 
 ## Mide el valor de las búsquedas que se resuelven en Google
 
-Un informe que cuenta funcionalidades, impresiones y búsquedas de marca junto a los clics muestra el valor completo de la búsqueda. La mayoría de las búsquedas en Google ya se resuelven en la propia página de resultados.
+Un informe que incluye funcionalidades, impresiones y búsquedas de marca junto a los clics muestra el valor completo de la búsqueda. La mayoría de las búsquedas en Google ya se resuelven en la propia página de resultados.
 
 > El 58,5 % de las búsquedas de Google en Estados Unidos y el 59,7 % en la Unión Europea terminaron sin ningún clic, según datos de panel de Datos analizados de septiembre de 2022 a mayo de 2024.
 >
@@ -235,7 +235,7 @@ Sí, y muy vivo. Las búsquedas sin clic y las respuestas de IA han cambiado có
 
 ### ¿Qué es el GEO (generative engine optimization)?
 
-Es el trabajo para que tu contenido aparezca en las respuestas generadas por ChatGPT, Perplexity, Gemini, AI Mode y los AI Overviews de Google. Se centra en contenido que esos sistemas pueden citar: afirmaciones factuales claras, autoría visible y fuentes con autoridad.
+Es el trabajo para que tu contenido aparezca en las respuestas generadas por ChatGPT, Perplexity, Gemini, AI Mode y los AI Overviews de Google. Se centra en contenido que esos sistemas pueden citar: afirmaciones objetivas claras, autoría visible y fuentes con autoridad.
 
 ### ¿Sigue siendo importante el link building?
 

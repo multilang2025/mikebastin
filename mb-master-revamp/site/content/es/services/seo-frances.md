@@ -18,7 +18,7 @@ Tu empresa está en Valencia, ya vende en Francia y tu web en francés recibe vi
 
 El comprador francés distingue en la primera frase si una página se pensó en Francia: la palabra que elegiría un redactor francés, el tratamiento adecuado, un ejemplo que le resulta familiar. Francia es el mayor mercado francófono de Europa y el gran vecino de una empresa valenciana, y una web que suena local llega a la mayor parte del público para el que se construyó.
 
-Preparamos el plan contigo en español, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia, o por vídeo, y escribimos el francés directamente.
+Preparamos el plan contigo en español, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia, o por videollamada, y redactamos en francés directamente.
 
 <aside class="post-cta">
 <p><strong>¿Quieres que tus páginas en francés te traigan solicitudes de empresas francesas?</strong> Investigamos y escribimos directamente en francés, para el mercado al que vendes. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
@@ -26,7 +26,7 @@ Preparamos el plan contigo en español, en nuestra oficina de Calle Rugat 12 - 2
 
 ## Qué incluye tu SEO en Francia: investigación y textos en francés
 
-Trabajamos en francés igual que en español: la investigación de palabras clave, los textos y la lectura de lo que hacen tus visitantes francófonos se hacen en francés, por las mismas personas que fijan la estrategia. Nos explicas lo que necesitas en español y el plan llega intacto hasta la página.
+Trabajamos en francés igual que en español: la investigación de palabras clave, los textos y el análisis de lo que hacen tus visitantes francófonos los hacen en francés las mismas personas que fijan la estrategia. Nos explicas lo que necesitas en español y el plan llega intacto hasta la página.
 
 La investigación parte de lo que teclean tus compradores, y no siempre coincide con tu vocabulario. Un comprador español puede buscar «posicionamiento web», y uno francés teclea «référencement naturel». Una traducción da la palabra correcta; la investigación da la que la gente escribe de verdad. Por eso la investigación va antes que la traducción: pone los términos que busca el comprador francés en el encargo del traductor, y la página sale bien a la primera.
 
@@ -42,13 +42,13 @@ Matosurf es nuestro propio sitio de deportes de tabla en francés, con guías so
 
 ## Los ajustes técnicos que dejamos listos para Francia
 
-Decidimos contigo la estructura de dominio una vez y pronto. Un dominio .fr es la señal local más fuerte y el que más cuesta mantener. Un subdirectorio /fr/ conserva toda la autoridad que ya tiene tu web y es la opción habitual cuando una empresa de Valencia añade Francia. En un dominio .com u otro genérico, las etiquetas hreflang y un contenido pensado para Francia indican a Google el país al que te diriges.
+Decidimos contigo la estructura de dominio cuanto antes. Un dominio .fr es la señal local más fuerte y el que más cuesta mantener. Un subdirectorio /fr/ conserva toda la autoridad que ya tiene tu web y es la opción habitual cuando una empresa de Valencia añade Francia. En un dominio .com u otro genérico, las etiquetas hreflang y un contenido pensado para Francia indican a Google el país al que te diriges.
 
 Colocamos etiquetas hreflang en cada página, la de inicio incluida, con el código correcto (es-ES, fr-FR y los que necesites) y un enlace de vuelta a cada versión. El visitante francés llega a la versión francesa, el español a la española, y Search Console muestra un informe limpio. Ofrecemos además al usuario la opción de elegir su versión, para que cada persona llegue a la que prefiere y el rastreador vea todas.
 
 El francés ocupa más espacio que el inglés, así que escribimos las etiquetas title y las metadescripciones directamente al límite del francés, para que la frase completa se lea en el resultado que tiene que ganar el clic. El francés se escribe con acentos y se busca de las dos maneras: mucha gente teclea «référencement» y mucha «referencement», sobre todo en el móvil. Investigamos las dos formas, escribimos la acentuada correctamente y dejamos que la otra consulta llegue igualmente a la página.
 
-Una parte grande de las búsquedas francesas ocurre en el móvil, así que cuidamos la velocidad allí antes de que se lea una palabra. Google lleva el mercado y es donde concentramos el esfuerzo; Qwant es el buscador francés. Los ajustes de fondo forman parte de nuestro [SEO técnico](/es/services/seo-tecnico/).
+Gran parte de las búsquedas francesas se hace desde el móvil, así que cuidamos la velocidad de carga antes de que se lea una palabra. Google domina el mercado y es donde concentramos el esfuerzo; Qwant es el buscador francés. Los ajustes de fondo forman parte de nuestro [SEO técnico](/es/services/seo-tecnico/).
 
 Conseguimos los enlaces país por país: un artículo en la prensa profesional francesa o en una asociación sectorial de Francia pesa mucho más que un enlace internacional genérico, porque la relevancia se mide también por país.
 
@@ -66,7 +66,7 @@ Una empresa belga suele necesitar francés y neerlandés a la vez, y el comprado
 2. **Alcance por escrito.** Recibes por escrito el alcance del primer trimestre, con las páginas francesas, la investigación y los entregables por orden de valor para ti.
 3. **Investigación y redacción en francés.** Investigamos las búsquedas francesas mercado por mercado y escribimos o reescribimos directamente en francés las páginas que más pesan, para que suenen a Francia desde la primera frase.
 4. **Ajustes y señales de confianza para Francia.** Configuramos la segmentación por idioma, la velocidad en el móvil, el perfil de empresa de Google en francés y las fichas en los directorios franceses de tu sector.
-5. **Informe mensual de solicitudes francesas.** Cada mes, un informe sigue las solicitudes que llegan desde el mercado francófono, separadas de tus otros mercados, con lo que cambió y lo que sigue.
+5. **Informe mensual de solicitudes francesas.** Cada mes, un informe hace el seguimiento de las solicitudes que llegan desde el mercado francófono, separadas de tus otros mercados, con lo que ha cambiado y los próximos pasos.
 6. **Mes a mes.** La colaboración continúa mes a mes, mientras te aporta solicitudes.
 
 Respondemos, por lo general, en un día laborable. Si también quieres clientes en la propia Valencia, nuestro [SEO local](/es/services/seo-local/) te pone en el mapa de tu ciudad.

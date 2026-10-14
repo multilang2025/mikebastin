@@ -132,7 +132,7 @@ const FR: PrivacyCopy = {
     },
     {
       h: "Cookies et stockage local",
-      p: ["Le site conserve deux éléments dans votre navigateur. Tous deux restent sur votre appareil et servent uniquement à faire fonctionner le site comme vous l’avez réglé."],
+      p: ["Le site conserve deux éléments dans votre navigateur. Tous deux restent sur votre appareil et servent uniquement à faire fonctionner le site tel que vous l’avez réglé."],
       table: {
         head: ["Élément", "Rôle", "Durée"],
         rows: [
@@ -172,7 +172,7 @@ const FR: PrivacyCopy = {
       ],
     },
     { h: "Modifier vos choix de cookies", p: ["Ouvrez les réglages des cookies pour autoriser ou retirer la mesure d’audience et les contenus intégrés à tout moment."], settings: true },
-    { h: "Mises à jour", p: ["Dernière mise à jour : 2 octobre 2026. Nous modifions cette page lorsque ce que nous collectons change, et la date évolue avec elle."] },
+    { h: "Mises à jour", p: ["Dernière mise à jour : 2 octobre 2026. Nous modifions cette page lorsque ce que nous collectons change, et nous mettons la date à jour."] },
   ].map((s) => ({
     ...s,
     h: fr(s.h),
@@ -206,9 +206,9 @@ const ES: PrivacyCopy = {
     {
       h: "El formulario de contacto",
       p: [
-        "Cuando envías el formulario de contacto recibimos tu nombre, tu correo electrónico y tu mensaje. También puedes indicar el nombre de tu empresa, un presupuesto y el servicio que te interesa.",
+        "Cuando envías el formulario de contacto, recibimos tu nombre, tu correo electrónico y tu mensaje. También puedes indicar el nombre de tu empresa, un presupuesto y el servicio que te interesa.",
         "Usamos estos datos para responder a tu consulta, y solo para eso. La base legal es tu consentimiento, que das al marcar la casilla del formulario, y las gestiones que nos pides antes de cualquier contrato.",
-        "Hostinger, nuestro proveedor de alojamiento y de correo, gestiona el formulario y lo entrega en nuestro buzón. Guardamos una consulta durante un año desde nuestro último intercambio sobre ella, y más tiempo solo cuando lo exija una obligación legal.",
+        "Hostinger, nuestro proveedor de alojamiento y de correo, gestiona el formulario y lo entrega en nuestro buzón. Guardamos tu consulta durante un año desde nuestro último mensaje, y más tiempo solo cuando lo exija una obligación legal.",
       ],
     },
     {
@@ -224,7 +224,7 @@ const ES: PrivacyCopy = {
     },
     {
       h: "Analítica y contenido incrustado",
-      p: ["Para ver cómo se usa el sitio, utilizamos Google Analytics 4 (Google), Microsoft Clarity (Microsoft), que registra cómo se desplazan y se pulsan las páginas, y Ahrefs Web Analytics (Ahrefs). Las tres herramientas siguen desactivadas hasta que permitas la analítica en los ajustes de cookies, y puedes retirar ese permiso cuando quieras. No usamos cookies publicitarias. El contenido incrustado de otros sitios sigue la misma regla."],
+      p: ["Para ver cómo se usa el sitio, utilizamos Google Analytics 4 (Google), Microsoft Clarity (Microsoft), que registra cómo te desplazas por las páginas y dónde pulsas, y Ahrefs Web Analytics (Ahrefs). Las tres herramientas siguen desactivadas hasta que permitas la analítica en los ajustes de cookies, y puedes retirar ese permiso cuando quieras. No usamos cookies publicitarias. El contenido incrustado de otros sitios sigue la misma regla."],
     },
     {
       h: "Otros sitios",
@@ -253,7 +253,7 @@ const ES: PrivacyCopy = {
       ],
     },
     { h: "Cambiar tus decisiones sobre cookies", p: ["Abre los ajustes de cookies para permitir o retirar la analítica y el contenido incrustado cuando quieras."], settings: true },
-    { h: "Actualizaciones", p: ["Última actualización: 2 de octubre de 2026. Cambiamos esta página cuando cambia lo que recogemos, y la fecha cambia con ella."] },
+    { h: "Actualizaciones", p: ["Última actualización: 2 de octubre de 2026. Cambiamos esta página cuando cambia lo que recogemos, y actualizamos la fecha."] },
   ],
 };
 

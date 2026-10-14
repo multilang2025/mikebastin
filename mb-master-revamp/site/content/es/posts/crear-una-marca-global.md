@@ -14,23 +14,23 @@ excerpt: "¿Tu marca ya vende fuera, traducida con cuidado? Crear una marca glob
 
 ## De una marca traducida a una marca global
 
-Lanzaste tu marca en Francia, los Países Bajos y Alemania con la misma identidad, traducida con cuidado. Seis meses después, tus equipos o tus distribuidores en cada país reescriben los textos para que suenen bien a los compradores locales, y las versiones extranjeras de tu web tienen margen para alcanzar a la española.
+Lanzaste tu marca en Francia, los Países Bajos y Alemania con la misma identidad, traducida con cuidado. Seis meses después, tus equipos o tus distribuidores en cada país reescriben los textos para que suenen bien a los compradores locales, y las versiones extranjeras de tu web tienen margen para igualar a la española.
 
-La mayoría de los proyectos de «marca global» que vemos empiezan como proyectos de traducción. El paso de «traducida» a «global de verdad» es donde se construye una marca global, y donde tus otros mercados ganan ingresos.
+La mayoría de los proyectos de «marca global» que vemos empiezan como proyectos de traducción. El paso de «traducida» a «global de verdad» es donde se consolida esa identidad, y donde tus otros mercados generan ingresos.
 
-Aquí tienes qué partes de tu marca viajan tal cual, cuáles piden trabajo en cada mercado y una lista de comprobación para tu próximo lanzamiento.
+Aquí tienes qué partes de tu marca sirven tal cual, cuáles piden trabajo en cada mercado y una lista de control para tu próximo lanzamiento.
 
 ## Lo que cambia entre mercados aunque la marca sea la misma
 
-Pequeños cambios de énfasis deciden si un comprador sigue leyendo. Lo vemos en nuestros propios sitios: llevamos BeTranslated en diez dominios, .com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl y .it, con la misma agencia, el mismo servicio y el mismo posicionamiento estratégico. La ejecución cambia, y esos cambios pesan en la conversión.
+Pequeños cambios de énfasis deciden si un comprador sigue leyendo. Lo vemos en nuestros propios sitios: gestionamos BeTranslated en diez dominios, .com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl y .it, con la misma agencia, el mismo servicio y el mismo posicionamiento estratégico. La ejecución cambia, y esos cambios influyen en la conversión.
 
 -   **El comprador B2B belga quiere precisión funcional y precios claros desde el principio.** Pon los datos en el primer párrafo.
--   **El comprador B2B francés espera un registro más formal y más contexto** antes de cualquier propuesta comercial. El trato de «vous» es obligado.
--   **El comprador español responde a las señales de relación.** Una biografía del autor, fotos y un teléfono bien visible: una cara en el proceso de compra convierte. Es lo que tu web española probablemente ya hace bien, y lo que conviene revisar antes de copiarlo a otro mercado.
+-   **El comprador B2B francés espera un registro más formal y más contexto** antes de cualquier propuesta comercial. Tratar de «vous» es obligatorio.
+-   **El comprador español responde a las señales de cercanía.** Una biografía del autor, fotos y un teléfono bien visible: ponerle cara al proceso de compra convierte. Es lo que tu web española probablemente ya hace bien, y lo que conviene revisar antes de copiarlo a otro mercado.
 -   **El comprador neerlandés quiere franqueza y cifras concretas.** La transparencia en los precios convierte más que una lista de funciones.
--   **El comprador B2B británico está entre lo formal y lo directo.** El ingenio funciona, con un toque ligero en la venta.
+-   **El comprador B2B británico está entre lo formal y lo directo.** El ingenio funciona, sin presionar demasiado en la venta.
 
-Una misma marca, cinco énfasis distintos en la página. Cada uno de estos ajustes mantiene intacta la identidad y hace que llegue.
+Una misma marca, cinco énfasis distintos en la página. Cada uno de estos ajustes mantiene intacta la identidad y hace que conecte.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 196" role="img" aria-label="Una misma marca en el centro, con un énfasis distinto en cada mercado: precisión en Bélgica, contexto en Francia, relación en España, cifras en los Países Bajos y un toque ligero en el Reino Unido.">
@@ -75,17 +75,17 @@ Saber distinguirlo te dice dónde invertir el presupuesto de localización y dó
 
 ## Tres cosas que viajan tal cual
 
-Aquí es donde ahorras. Según nuestra experiencia, cruzan las fronteras tal como están.
+Aquí es donde ahorras. Según nuestra experiencia, funcionan en otros países tal cual.
 
-**La identidad visual.** Logotipo, paleta, tipografía y estilo fotográfico. Pasan de un mercado a otro intactos si el sistema original era riguroso.
+**La identidad visual.** Logotipo, paleta, tipografía y estilo fotográfico. Pasan de un mercado a otro intactos si el sistema original está bien definido.
 
-**El posicionamiento estratégico.** La respuesta en una frase a «qué haces y para quién» suele traducirse casi palabra por palabra. Lo que vendes se lee igual en todos los mercados.
+**El posicionamiento estratégico.** La respuesta en una frase a «qué haces y para quién» suele traducirse casi palabra por palabra. Lo que vendes se entiende igual en todos los mercados.
 
-**Las pruebas y las cifras.** Números, casos de cliente, premios. Lo concreto da credibilidad en cualquier país.
+**Las pruebas y las cifras.** Números, casos de éxito, premios. Lo concreto da credibilidad en cualquier país.
 
 ## Tres cosas que piden trabajo mercado a mercado
 
-Estas deciden si la marca llega, así que el presupuesto va aquí.
+Estos elementos deciden si la marca conecta, así que el presupuesto va aquí.
 
 **El tono de voz.** La franqueza que encaja en los Países Bajos se suaviza para Francia. La cercanía que funciona en España se modera para Alemania. La voz es la parte más cara del [trabajo de marca multilingüe](/es/buenas-practicas-seo-multilingue/), y la que más merece un presupuesto bien pensado. La [transcreación](/es/services/traduccion-profesional/) reescribe el mensaje para que produzca el mismo efecto en el otro idioma.
 
@@ -93,7 +93,7 @@ Estas deciden si la marca llega, así que el presupuesto va aquí.
 >
 > Fuente: [CSA Research, «Do B2B Buyers Value Localized Experiences?», encuesta «Can’t Read, Won’t Buy» a 1.116 compradores B2B, 2 de marzo de 2022](https://csa-research.com/Blogs-Events/Blog/do-b2b-buyers-value-localization)
 
-**Las referencias culturales y el humor.** Un eslogan con un juego de palabras en español necesita su equivalente francés para Lyon, y una referencia francesa su versión flamenca para Amberes. Explica la marca a un redactor de cada mercado y cada versión conserva su chispa.
+**Las referencias culturales y el humor.** Un eslogan con un juego de palabras en español necesita su equivalente francés para Lyon, y una referencia francesa su versión flamenca para Amberes. Explícale la marca a un redactor de cada mercado y cada versión conserva su chispa.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Un eslogan con juego de palabras en español, traducido de forma literal, sigue sonando a España; reescrito como versión local para Lyon, conserva su chispa.">
@@ -117,7 +117,7 @@ Estas deciden si la marca llega, así que el presupuesto va aquí.
 >
 > Fuente: [CSA Research, «Can’t Read, Won’t Buy», encuesta a 8.709 consumidores de 29 países, 7 de julio de 2020](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Consumers-Prefer-their-Own-Language)
 
-Los medios de pago son el ejemplo más claro. Bizum convence a tu comprador español; en los Países Bajos el comprador busca iDEAL, en Bélgica Bancontact, y en Alemania mucha gente espera poder pagar contra factura («Kauf auf Rechnung»). Ver el medio de pago habitual de su país le dice al comprador que la tienda está pensada para él, y le ahorra una duda en el último paso de la compra. Lo mismo vale para el formato de los teléfonos, las direcciones y los precios con el IVA incluido o aparte: cada detalle local resta una pregunta antes de pagar.
+Los medios de pago son el ejemplo más claro. Bizum convence a tu comprador español; en los Países Bajos el comprador busca iDEAL, en Bélgica Bancontact, y en Alemania mucha gente espera poder pagar contra factura («Kauf auf Rechnung»). Ver el medio de pago habitual de su país le dice al comprador que la tienda está pensada para él, y le ahorra una duda en el último paso de la compra. Lo mismo vale para el formato de los teléfonos, las direcciones y los precios con el IVA incluido o aparte: cada detalle local elimina una duda antes de pagar.
 
 ## Lo que pide cada mercado al que exportas
 
@@ -131,17 +131,17 @@ Para decidir a qué mercados ir primero, repasa nuestras [tendencias globales de
 | Alemania | Formal, «Sie» | Detalles verificables | Impressum completo y política de privacidad |
 | Reino Unido | Entre formal y directo | Una propuesta clara | Reseñas y casos reconocibles |
 
-Las filas de Bélgica, Francia, los Países Bajos y el Reino Unido salen de lo que vemos en los dominios de BeTranslated; Alemania, de nuestro trabajo de [SEO en Alemania](/es/seo-en-alemania/), donde el comprador revisa los datos de la empresa antes de escribir.
+Las filas de Bélgica, Francia, los Países Bajos y el Reino Unido salen de lo que vemos en los dominios de BeTranslated; Alemania, de nuestro trabajo de [SEO en Alemania](/es/seo-en-alemania/), donde el comprador revisa los datos de la empresa antes de contactar.
 
 ## Un patrón que vemos en los lanzamientos globales
 
-El patrón es este. Una marca decide «salir al mundo», marketing encarga la traducción a una agencia y se lanzan seis idiomas a la vez. La versión española sigue convirtiendo; las versiones localizadas convierten a una fracción de su ritmo.
+El patrón es este. Una marca decide «salir al mundo», marketing encarga la traducción a una agencia y se lanzan seis idiomas a la vez. La versión española sigue convirtiendo; las versiones localizadas convierten mucho menos.
 
 Unas semanas después, alguien nos llama y pregunta por qué «el SEO va mal».
 
-El SEO está bien. Lo que la marca necesita es llegar: la traducción movió las palabras, y la marca tiene que moverse con ellas.
+El SEO está bien. Lo que la marca necesita es conectar: la traducción cambió las palabras, y la marca tiene que cambiar con ellas.
 
-Ponerlo a punto lleva una pasada de transcreación y ajustes en la página de cada mercado. De ocho a doce semanas para el conjunto, según el número de idiomas.
+Ponerlo a punto requiere un trabajo de transcreación y ajustes en la página de cada mercado. De ocho a doce semanas para el conjunto, según el número de idiomas.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 124" role="img" aria-label="Tres pasadas en orden: la traducción mueve las palabras, la transcreación mueve la marca y los ajustes de página afinan cada mercado.">
@@ -165,7 +165,7 @@ Ponerlo a punto lleva una pasada de transcreación y ajustes en la página de ca
 
 ## Repasa esta lista antes de lanzar
 
-Cada punto de la lista cuesta menos de resolver antes del lanzamiento que después. Respóndelos antes de publicar.
+Cuesta menos resolver cada punto de la lista antes del lanzamiento que después. Responde a estas preguntas antes de publicar.
 
 -   ¿Se ha transcreado el titular para el mercado?
 -   ¿La web local muestra un teléfono, una dirección y una persona de contacto locales?
@@ -174,7 +174,7 @@ Cada punto de la lista cuesta menos de resolver antes del lanzamiento que despu�
 -   ¿El título de la página usa el término que escriben de verdad los compradores locales?
 -   ¿Has probado los formularios con un teclado francés (AZERTY) o alemán (QWERTZ)?
 
-Con las seis casillas marcadas, la marca ha llegado al mercado, además de cruzar la frontera.
+Con las seis casillas marcadas, tu marca cruza la frontera y llega al mercado.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 176" role="img" aria-label="Seis comprobaciones antes de lanzar, titular, contacto local, testimonios, pago, título y teclados, que llevan a un mercado listo para el lanzamiento.">
@@ -201,9 +201,9 @@ Con las seis casillas marcadas, la marca ha llegado al mercado, además de cruza
 
 ## Compara tu marca con lo que ve cada mercado
 
-Si lanzas en dos mercados o más, revisamos contigo la distancia entre tu marca estratégica y lo que ve cada mercado. Cuando la marca necesita además un plan que conecte todos sus canales, una [agencia de marketing 360](/es/agencia-marketing-360/) lo coordina mercado por mercado.
+Si lanzas en dos mercados o más, revisamos contigo la distancia entre la estrategia de tu marca y lo que ve cada mercado. Cuando la marca también necesita un plan que conecte todos sus canales, una [agencia de marketing 360](/es/agencia-marketing-360/) lo coordina mercado por mercado.
 
-Trabajamos con fluidez en español, francés, inglés y neerlandés, y nuestro alemán y nuestro italiano son suficientes para gestionar proyectos SEO en esos idiomas; los textos comerciales los escriben redactores nativos. Buena parte de lo que hacemos para nuestros clientes está en la unión entre la voz de marca y el rendimiento SEO, donde acertar se traduce en ingresos reales.
+Trabajamos con fluidez en español, francés, inglés y neerlandés, y nuestro alemán e italiano son suficientes para gestionar proyectos SEO en esos idiomas; los textos comerciales los escriben redactores nativos. Buena parte de lo que hacemos para nuestros clientes combina la voz de la marca con el rendimiento SEO, donde acertar se traduce en ingresos reales.
 
 <aside class="post-cta">
 <p><strong>¿Quieres que cada mercado tenga su estrategia y sus propias cifras?</strong> Nuestro <a href="/es/services/posicionamiento-multilingue/">posicionamiento multilingüe</a> da a cada idioma su investigación, sus redactores nativos y un informe mensual con posiciones, tráfico y consultas recibidas. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>

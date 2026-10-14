@@ -19,7 +19,7 @@ Vos pages en anglais, en espagnol ou en néerlandais sont en ligne, elles reçoi
 
 Un consultant en référencement international prend ce chantier en main, marché par marché. Avant de vous engager, vous voulez savoir à quoi ressemble la mission au quotidien : ce qui se passe le premier mois, ce que vous recevez ensuite chaque mois, et comment lire les chiffres.
 
-C’est ce que décrit cet article, à partir de la façon dont nous menons nos propres missions depuis plus de deux décennies.
+C’est ce que décrit cet article, à partir de la façon dont nous menons nos propres missions depuis plus de 20 ans.
 
 ## Le premier mois : un état des lieux et un périmètre écrit
 
@@ -201,4 +201,4 @@ Les corrections entrent dans la livraison du mois suivant, avec le reste du pér
 
 Le point de départ est le marché où vos chiffres sont déjà les plus encourageants : le pays qui vous envoie des visites, où la concurrence reste abordable et où votre offre correspond à ce qui se cherche. Trois ou quatre marchés menés en profondeur donnent plus de résultats que neuf lancés ensemble, et les suivants arrivent quand les premiers montrent leurs résultats.
 
-La mission est menée par [Mike Bastin, consultant en SEO international](https://mikebastin.com/fr/) depuis plus de deux décennies, qui travaille directement en français, en anglais, en espagnol et en néerlandais. Si vous comparez un consultant et une équipe complète, notre article sur ce qu’une [agence SEO internationale](/fr/agence-seo-internationale/) livre de bout en bout vous aidera à choisir. La même question se pose pour l’ensemble de votre marketing, et notre article pour [choisir entre conseiller et agence marketing](/fr/conseiller-marketing-digital/) vous en donne les critères.
+La mission est menée par [Mike Bastin, consultant en SEO international](https://mikebastin.com/fr/) depuis plus de 20 ans, qui travaille directement en français, en anglais, en espagnol et en néerlandais. Si vous comparez un consultant et une équipe complète, notre article sur ce qu’une [agence SEO internationale](/fr/agence-seo-internationale/) livre de bout en bout vous aidera à choisir. La même question se pose pour l’ensemble de votre marketing, et notre article pour [choisir entre conseiller et agence marketing](/fr/conseiller-marketing-digital/) vous en donne les critères.

@@ -15,17 +15,17 @@ excerpt: "Diez LLM alternativos a ChatGPT, para qué sirve cada uno y qué licen
 
 ## Modelos de lenguaje que puedes usar además de ChatGPT
 
-Puede que tu equipo esté pagando tarifas de modelo puntero por trabajo que un modelo más pequeño haría igual de bien. En algunos de tus idiomas, un modelo menos conocido quizá traduzca mejor que el que usas hoy. Si tu empresa vende en Francia, el Benelux, Alemania o el Reino Unido, mirar más allá de ChatGPT, Claude, Gemini y Llama abarata el trabajo rutinario y puede subir la calidad en los mercados que peor atienden los modelos pensados primero para el inglés.
+Puede que tu equipo esté pagando tarifas de un modelo puntero por un trabajo que un modelo más pequeño haría igual de bien. En algunos de tus idiomas, un modelo menos conocido quizá traduzca mejor que el que usas hoy. Si tu empresa vende en Francia, el Benelux, Alemania o el Reino Unido, mirar más allá de ChatGPT, Claude, Gemini y Llama abarata el trabajo rutinario y puede subir la calidad en los mercados que peor atienden los modelos pensados primero para el inglés.
 
-Aquí tienes diez modelos agrupados según su interés, con las condiciones de licencia que debes revisar antes de construir sobre ellos.
+Aquí tienes diez modelos agrupados según su interés, con las condiciones de licencia que debes revisar antes de desarrollar con ellos.
 
 ## Tres motivos para mirar más allá de ChatGPT
 
-Algunos importan para el SEO multilingüe y la traducción, donde los modelos con buena cobertura de idiomas distintos del inglés pueden superar, en pares de idiomas concretos, a modelos más grandes centrados en el inglés. Otros importan porque son de código abierto de verdad y admiten uso comercial, un listón más alto del que cumplen muchos modelos llamados «abiertos». Y unos cuantos introdujeron ideas que después ha copiado todo el sector.
+Algunos destacan para el SEO multilingüe y la traducción, donde los modelos con buena cobertura de idiomas distintos del inglés pueden superar, en pares de idiomas concretos, a modelos más grandes centrados en el inglés. Otros son relevantes porque son de código abierto de verdad y admiten uso comercial, un listón más alto que el que cumplen muchos modelos llamados «abiertos». Y unos cuantos introdujeron ideas que después ha copiado todo el sector.
 
-Cada ficha enlaza a su fuente oficial. Las licencias y las gamas de modelos cambian deprisa, así que los datos de abajo se comprobaron en las páginas de cada proyecto el 26 de septiembre de 2026.
+Cada ficha enlaza a su fuente oficial. Las licencias y las gamas de modelos cambian deprisa, así que estos datos se revisaron en las páginas de cada proyecto el 26 de septiembre de 2026.
 
-La cabeza de la clasificación pertenece a modelos cerrados de OpenAI, Anthropic y Google. Para tareas que piden menos que un razonamiento de primer nivel, un modelo abierto más pequeño suele encajar mejor y cuesta una fracción.
+Los primeros puestos de la clasificación son para modelos cerrados de OpenAI, Anthropic y Google. Para tareas que piden menos que un razonamiento de primer nivel, un modelo abierto más pequeño suele encajar mejor y cuesta una fracción del precio.
 
 ## Modelos de ciencia abierta e investigación
 
@@ -41,7 +41,7 @@ Taller de investigación BigScience, una colaboración internacional de ciencia 
 >
 > Fuente: [Hugging Face, ficha del modelo bigscience/bloom, 2022](https://huggingface.co/bigscience/bloom)
 
-**Por qué importa:** sus checkpoints, la documentación de sus datos y los detalles del entrenamiento son públicos, lo que lo convierte en una referencia para quienes investigan el comportamiento de los LLM y su cobertura multilingüe. Su licencia RAIL incluye restricciones de uso, por lo que es un modelo de acceso abierto, y de código abierto solo en sentido amplio.
+**Por qué destaca:** sus checkpoints, la documentación de sus datos y los detalles del entrenamiento son públicos, lo que lo convierte en una referencia para quienes investigan el comportamiento de los LLM y su cobertura multilingüe. Su licencia RAIL incluye restricciones de uso, por lo que es un modelo de acceso abierto, y de código abierto solo en sentido amplio.
 
 [BLOOM en Hugging Face](https://huggingface.co/bigscience/bloom)
 
@@ -51,7 +51,7 @@ LAION
 
 **Qué es:** un proyecto de IA conversacional impulsado por la comunidad y totalmente de código abierto, acompañado de los conjuntos de datos de instrucciones OASST, recogidos entre miles de voluntarios.
 
-**Por qué importa:** LAION dio el proyecto por terminado el 25 de octubre de 2023, pero el conjunto de datos final oasst2 sigue en Hugging Face y todavía se usa para ajustar y evaluar modelos de chat abiertos.
+**Por qué destaca:** LAION dio el proyecto por terminado el 25 de octubre de 2023, pero el conjunto de datos final oasst2 sigue en Hugging Face y todavía se usa para ajustar y evaluar modelos de chat abiertos.
 
 [OpenAssistant en Hugging Face](https://huggingface.co/OpenAssistant)
 
@@ -65,7 +65,7 @@ Microsoft Research
 >
 > Fuente: [Microsoft Research blog, «Orca 2: teaching small language models how to reason», 20 de noviembre de 2023](https://www.microsoft.com/en-us/research/blog/orca-2-teaching-small-language-models-how-to-reason/)
 
-**Por qué importa:** Orca popularizó el «explanation tuning», en el que un modelo aprende a razonar paso a paso con demostraciones de un maestro. La misma idea de destilación recorre muchos de los modelos abiertos pequeños que llegaron después.
+**Por qué destaca:** Orca popularizó el «explanation tuning», en el que un modelo aprende a razonar paso a paso con demostraciones de un maestro. La misma idea de destilación recorre muchos de los modelos abiertos pequeños que llegaron después.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 120" role="img" aria-label="El explanation tuning de Orca: un modelo maestro grande explica su razonamiento paso a paso, y un modelo alumno pequeño aprende a razonar con esas explicaciones.">
@@ -96,7 +96,7 @@ Technology Innovation Institute (TII), Abu Dabi
 
 **Qué es:** una familia de LLM que empezó con Falcon-7B, Falcon-40B y Falcon-180B, entrenados con el conjunto de datos RefinedWeb, y que desde entonces ha sumado Falcon 2, Falcon 3, Falcon Mamba y la serie híbrida Falcon-H1.
 
-**Por qué importa:** Falcon-7B y Falcon-40B estuvieron entre los primeros modelos abiertos potentes publicados con Apache 2.0, con uso comercial incluido. Las licencias se han separado desde entonces: Falcon-180B se distribuye con la Falcon-180B TII License y su política de uso aceptable, y las versiones nuevas usan la licencia Falcon propia de TII. Lee las condiciones del modelo exacto que piensas desplegar.
+**Por qué destaca:** Falcon-7B y Falcon-40B estuvieron entre los primeros modelos abiertos potentes publicados con Apache 2.0, con uso comercial incluido. Las licencias se han separado desde entonces: Falcon-180B se distribuye con la Falcon-180B TII License y su política de uso aceptable, y las versiones nuevas usan la licencia Falcon propia de TII. Lee las condiciones del modelo exacto que piensas desplegar.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 160" role="img" aria-label="Una sola familia Falcon, tres regímenes de licencia: Apache 2.0 para Falcon-7B y Falcon-40B, la Falcon-180B TII License para 180B y la licencia Falcon propia de TII para las versiones recientes.">
@@ -126,7 +126,7 @@ MosaicML, hoy parte de Databricks
 
 **Qué es:** una serie de LLM abiertos (MPT-7B, MPT-30B) diseñados para un entrenamiento eficiente y ventanas de contexto largas. Databricks compró MosaicML en 2023.
 
-**Por qué importa:** MPT mostró pronto cómo la codificación posicional ALiBi permite ajustar un modelo y extrapolarlo a contextos largos; su variante StoryWriter se presentó con 84.000 tokens. Las licencias cambian según la variante:
+**Por qué destaca:** MPT mostró pronto cómo la codificación posicional ALiBi permite ajustar un modelo y extrapolarlo a contextos largos; su variante StoryWriter se presentó con 84.000 tokens. Las licencias cambian según la variante:
 
 > MPT-7B Base: Apache-2.0. MPT-7B-StoryWriter-65k+: Apache-2.0. MPT-7B-Instruct: CC-By-SA-3.0. MPT-7B-Chat: CC-By-NC-SA-4.0 (solo uso no comercial).
 >
@@ -140,7 +140,7 @@ Databricks
 
 **Qué es:** un modelo de 12.000 millones de parámetros que sigue instrucciones, presentado en su lanzamiento como el primer LLM de código abierto ajustado con instrucciones y con licencia para uso comercial. Se ajustó con databricks-dolly-15k, un conjunto de 15.000 pares de instrucción y respuesta escritos por empleados de Databricks.
 
-**Por qué importa:** hasta entonces, ajustar un modelo con instrucciones exigía conjuntos de datos propietarios. El de Dolly se publicó con una licencia Creative Commons Attribution-ShareAlike que permite el uso comercial, y alimentó toda una ola de modelos abiertos.
+**Por qué destaca:** hasta entonces, ajustar un modelo con instrucciones exigía conjuntos de datos propietarios. El de Dolly se publicó con una licencia Creative Commons Attribution-ShareAlike que permite el uso comercial, y alimentó toda una ola de modelos abiertos.
 
 [Anuncio de Dolly 2.0 de Databricks](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)
 
@@ -150,7 +150,7 @@ Salesforce AI Research
 
 **Qué es:** un LLM de 7.000 millones de parámetros pensado para tareas de secuencias largas como resumir documentos y diálogos extensos.
 
-**Por qué importa:** XGen demostró que un modelo pequeño entrenado con más datos, y con un aumento escalonado hacia contextos más largos, podía igualar o superar a los modelos abiertos de su momento como MPT, Falcon y LLaMA en las pruebas de referencia habituales.
+**Por qué destaca:** XGen demostró que un modelo pequeño entrenado con más datos, y con un aumento escalonado hacia contextos más largos, podía igualar o superar a los modelos abiertos de su momento como MPT, Falcon y LLaMA en las pruebas de referencia habituales.
 
 > XGen-7B: 7.000 millones de parámetros, 1,5 billones de tokens de entrenamiento, contexto de 8.192 tokens; modelos base publicados en código abierto con Apache-2.0.
 >
@@ -160,7 +160,7 @@ Salesforce AI Research
 
 ## Las familias de pesos abiertos de hoy
 
-Son los modelos con más opciones de asumir parte del trabajo por el que hoy pagas una API, y dos de ellos rinden bien mucho más allá del inglés.
+Son los modelos con más opciones de asumir parte del trabajo por el que hoy pagas una API, y dos de ellos rinden muy bien en otros idiomas aparte del inglés.
 
 ### Qwen
 
@@ -172,7 +172,7 @@ Alibaba Cloud, equipo Qwen
 >
 > Fuente: [DeepLearning.AI, The Batch, sobre el lanzamiento de Qwen3.5 de Alibaba, 2026](https://www.deeplearning.ai/the-batch/alibabas-latest-flagship-models-are-open-weights-moe-performers-in-sizes-from-less-than-1b-parameters)
 
-**Por qué importa:** Qwen se ha convertido en una de las familias de modelos abiertos más usadas en Hugging Face, con un número enorme de derivados ajustados. Su amplia cobertura de idiomas lo convierte en un candidato serio para el trabajo multilingüe, y la primera prueba obvia para cualquier aplicación dirigida a mercados de habla china.
+**Por qué importa:** Qwen se ha convertido en una de las familias de modelos abiertos más usadas en Hugging Face, con un número enorme de derivados ajustados. Su amplia cobertura de idiomas lo convierte en un candidato serio para el trabajo multilingüe, y en la primera prueba obvia para cualquier aplicación dirigida a mercados de habla china.
 
 [Web oficial de Qwen](https://qwenlm.github.io/)
 
@@ -259,7 +259,7 @@ Asignar a cada tarea el modelo adecuado suele costar menos que enviarlo todo al 
 
 Para elegir un LLM, hazte tres preguntas. ¿La licencia permite lo que de verdad queremos hacer? ¿El modelo maneja bien nuestro idioma de destino? ¿Podemos ejecutarlo donde lo necesitamos, incluido el propio dispositivo?
 
-La elección del modelo también pesa en tu visibilidad: nuestros artículos sobre [cómo la IA renueva las estrategias SEO](/es/ia-y-estrategias-seo/) y sobre [la IA en traducción y localización](/es/ia-traduccion-y-localizacion/) muestran cómo la IA cambia la búsqueda y la producción de contenido.
+La elección del modelo también influye en tu visibilidad: nuestros artículos sobre [cómo la IA renueva las estrategias SEO](/es/ia-y-estrategias-seo/) y sobre [la IA en traducción y localización](/es/ia-traduccion-y-localizacion/) muestran cómo la IA cambia la búsqueda y la producción de contenido.
 
 <aside class="post-cta">
 <p><strong>Un modelo adaptado a tus idiomas, una licencia que cubre tu uso y una factura proporcionada.</strong> Ayudamos a las empresas a elegir el LLM adecuado para su contenido multilingüe y a integrarlo en sus flujos de SEO y traducción. <a href="/es/contactanos/">Cuéntanos qué tareas quieres pasar a un LLM</a>.</p>

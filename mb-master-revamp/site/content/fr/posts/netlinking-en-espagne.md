@@ -14,7 +14,7 @@ excerpt: "Netlinking en Espagne : où se trouve l’autorité éditoriale, quel
 
 ## Un netlinking espagnol qui fait monter vos positions
 
-Votre site vise déjà le marché espagnol, et la prochaine étape est de voir vos positions sur google.es monter avec vos liens. Ceux qui y contribuent sont les liens qu’un rédacteur espagnol a choisi de donner, et Google les compte.
+Votre site vise déjà le marché espagnol, et la prochaine étape est de faire monter vos positions sur Google.es grâce à vos liens. Ce sont les liens qu’un rédacteur espagnol a choisi de mettre, et Google les compte.
 
 Nous travaillons depuis Valence, en espagnol, en français et en anglais. Notre expérience couvre des missions SEO pour un cabinet d’avocats de Valence et [notre propre agence de traduction](https://betranslated.com/), présente sur des sites en .es, .fr, .be, .nl et .com. Pour une entreprise francophone, le netlinking en Espagne se construit comme un travail de relations presse à rythme lent : des propositions écrites en espagnol, des placements éditoriaux, des contacts suivis dans la durée.
 
@@ -54,7 +54,7 @@ La dimension régionale a sa place dans chaque plan de netlinking. Un lien d’u
 
 ## Les quatre tactiques que nous retenons
 
-Chacune fait gagner des liens qu’un rédacteur espagnol a choisi de donner, des liens qui gardent leur valeur.
+Chacune fait gagner des liens qu’un rédacteur espagnol a choisi de mettre, des liens qui gardent leur valeur.
 
 **Relations presse numériques en espagnol.** Écrivez en espagnol, dans le ton du journaliste, avec un sujet qui correspond à sa rubrique : Marketing4eCommerce, El Referente, Vozpópuli, El Español, Cinco Días pour la fintech, la presse régionale pour les angles locaux. Une entreprise francophone y gagne un point d’appui éditorial sur un marché où sa marque démarre.
 
@@ -73,7 +73,7 @@ Chacune fait gagner des liens qu’un rédacteur espagnol a choisi de donner, de
 
 ## Trois réflexes pour votre plan de liens en Espagne
 
-Ces trois réflexes gardent votre budget sur des liens qui comptent, et nous les cherchons dans chaque programme de liens espagnol que nous auditons.
+Ces trois réflexes concentrent votre budget sur des liens qui comptent, et nous les cherchons dans chaque programme de liens espagnol que nous auditons.
 
 **Examinez ce que contiennent les plateformes de liens.** Publisuites et Prensalink référencent de vrais éditeurs. Avant d’acheter, regardez le trafic, le contrôle éditorial et le sujet de chaque site, pour retenir ceux dont le lecteur correspond à votre acheteur. Notre [liste commentée des plateformes de liens](/fr/plateformes-achat-vente-liens/) en passe 27 en revue, avec les contrôles à faire avant d’acheter.
 
@@ -135,7 +135,7 @@ Pour juger une offre, comparez-la à ce rythme : les placements éditoriaux s�
 
 Les liens multiplient la valeur de vos pages, alors des pages solides passent en premier. Le travail de liens en Espagne porte le plus loin à côté d’une [recherche de mots-clés adaptée à l’espagnol](/fr/services/seo-technique/), de [contenus rédigés pour les internautes espagnols](/fr/services/creation-de-contenu-multilingue/) et d’un plan de marché clair qui respecte les différences régionales.
 
-Un lien d’El Español rapporte sur une page d’atterrissage solide, rédigée correctement en espagnol, et une page bien localisée monte quand des domaines référents pointent vers elle. Les deux moitiés travaillent ensemble.
+Un lien d’El Español fait monter une page d’atterrissage solide, rédigée correctement en espagnol, et une page bien localisée monte quand des domaines référents pointent vers elle. Les deux volets travaillent ensemble.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Une page solide rédigée en espagnol et des liens venus de domaines référents espagnols font monter ensemble vos positions sur google.es.">

@@ -15,7 +15,7 @@ excerpt: "Extensiones de Chrome para SEO: las diez que usamos para revisar en se
 
 ## Extensiones de Chrome para revisar tu SEO en segundos
 
-Tu página en francés muestra texto en español, o las consultas de un mercado caen de un día para otro. Cada caso se confirma rápido en la propia página, y confirmarlo el mismo día hace que las consultas sigan llegando. Las diez extensiones de Chrome de abajo son las que tenemos siempre instaladas para esos momentos, agrupadas por tarea.
+Tu página en francés muestra texto en español, o las consultas de un mercado caen de un día para otro. Cada caso se comprueba rápido en la propia página, y hacerlo el mismo día consigue que las consultas sigan llegando. Las diez extensiones de Chrome de abajo son las que tenemos siempre instaladas para esos momentos, agrupadas por tarea.
 
 ## Las diez extensiones de un vistazo
 
@@ -36,11 +36,11 @@ Todas tienen versión gratuita, así que probar el conjunto te cuesta una tarde.
 
 ## Detectar fallos on-page y técnicos en segundos
 
-La mayoría de los fallos que afectan al tráfico de una página se ven en la propia página, y cinco extensiones los señalan directamente desde el navegador.
+La mayoría de los fallos que afectan al tráfico de una web se ven en la propia página, y cinco extensiones los señalan directamente desde el navegador.
 
 ### SEO Minion
 
-[SEO Minion](https://chromewebstore.google.com/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi?hl=en) cubre gratis la mayor parte del análisis on-page. Muestra las metaetiquetas, los encabezados y otros elementos de la página, los enlaces rotos y los enlaces nofollow, sponsored y UGC, previsualiza el resultado de búsqueda y revisa hreflang, la comprobación que más a menudo necesita una web multilingüe. Para corregir lo que encuentre, nuestro artículo sobre [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) reúne los ajustes que hacen trabajar juntos a tus idiomas.
+[SEO Minion](https://chromewebstore.google.com/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi?hl=en) cubre gratis la mayor parte del análisis on-page. Muestra las metaetiquetas, los encabezados y otros elementos de la página, los enlaces rotos y los nofollow, sponsored y UGC, previsualiza el resultado de búsqueda y revisa hreflang, la comprobación que más a menudo necesita una web multilingüe. Para corregir lo que encuentre, nuestro artículo sobre [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/) reúne los ajustes para que tus idiomas funcionen bien juntos.
 
 > El 67 % de los 374.756 dominios con hreflang que Ahrefs estudió en 2023 tenía al menos un error de hreflang.
 >
@@ -84,11 +84,11 @@ La [extensión Web Developer](https://chromewebstore.google.com/detail/web-devel
 
 ## Medir un mercado por sus palabras clave y su competencia
 
-Saber para qué términos se posiciona un competidor, y cuánto le aporta, te dice si un mercado merece el presupuesto antes de comprometerlo.
+Saber para qué términos se posiciona un competidor, y cuánto le aporta, te dice si un mercado merece el presupuesto antes de invertirlo.
 
 ### Keywords Everywhere
 
-[Keywords Everywhere](https://chromewebstore.google.com/detail/keywords-everywhere-keywo/hbapdpeemoojbophdfndmlgdhppljgmp) coloca datos de palabras clave junto a los resultados de Google. Las palabras clave relacionadas, las ideas de long tail y las puntuaciones de dificultad son gratis; el volumen, el coste por clic y las tendencias usan créditos de pago.
+[Keywords Everywhere](https://chromewebstore.google.com/detail/keywords-everywhere-keywo/hbapdpeemoojbophdfndmlgdhppljgmp) coloca datos de palabras clave junto a los resultados de Google. Las palabras clave relacionadas, las ideas de long tail y las puntuaciones de dificultad son gratis; el volumen, el coste por clic y las tendencias requieren créditos de pago.
 
 ### MozBar
 
@@ -124,11 +124,11 @@ Como herramienta de estudio de mercado más amplia, Similarweb te muestra cómo 
 
 ## Comprobar que tus etiquetas de conversión se disparan
 
-Comprueba que cada etiqueta se dispara, para que cada mercado muestre su fuerza real y la próxima decisión de presupuesto siga la cifra correcta.
+Comprueba que cada etiqueta se dispara, para que cada mercado muestre su fuerza real y la próxima decisión de presupuesto se base en la cifra correcta.
 
 ### Tag Assistant
 
-[Tag Assistant](https://chromewebstore.google.com/detail/tag-assistant/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en), la extensión de Google, comprueba que las etiquetas de Google Analytics, Google Tag Manager y de conversión de Google Ads se disparan correctamente, con tagassistant.google.com para depurar dentro de la página. Sustituye a las antiguas extensiones Legacy y Companion, así que instala esta. Revisar las etiquetas suele descubrir resultados de SEO mejores de lo que muestran los informes. Nuestro artículo sobre [Google Analytics en el marketing internacional](/es/google-analytics-marketing-internacional/) te ayuda después a decidir qué cifras creer en cada mercado.
+[Tag Assistant](https://chromewebstore.google.com/detail/tag-assistant/kejbdjndbnbjgmefkgdddjlbokphdefk?hl=en), la extensión de Google, comprueba que las etiquetas de Google Analytics, Google Tag Manager y de conversión de Google Ads se disparan correctamente, con tagassistant.google.com para depurar dentro de la página. Sustituye a las antiguas extensiones Legacy y Companion, así que instala esta. Revisar las etiquetas suele descubrir resultados de SEO mejores de lo que muestran los informes. Nuestro artículo sobre [Google Analytics en el marketing internacional](/es/google-analytics-marketing-internacional/) te ayuda después a decidir de qué cifras fiarte en cada mercado.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 124" role="img" aria-label="Tres pasos: las etiquetas se disparan, cada mercado muestra su fuerza real y la próxima decisión de presupuesto sigue la cifra correcta.">
@@ -148,7 +148,7 @@ Comprueba que cada etiqueta se dispara, para que cada mercado muestre su fuerza 
 
 ## La página para las extensiones, el sitio para el rastreador
 
-Las extensiones responden preguntas sobre una página. Para todo lo que afecta al sitio entero, un rastreador y Search Console toman el relevo, y con ellos hacemos una [auditoría técnica de toda la web](/es/services/seo-tecnico/): sitemaps por idioma, presupuesto de rastreo y redirecciones. Mantén una selección corta, porque algunas leen cada página que visitas, y respeta las condiciones de uso de cada web cuando extraigas datos.
+Las extensiones responden a preguntas sobre una página. Para todo lo que afecta al sitio entero, un rastreador y Search Console toman el relevo, y con ellos hacemos una [auditoría técnica de toda la web](/es/services/seo-tecnico/): sitemaps por idioma, presupuesto de rastreo y redirecciones. Limita tu selección, porque algunas leen cada página que visitas, y respeta las condiciones de uso de cada web cuando extraigas datos.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 156" role="img" aria-label="Las extensiones de Chrome revisan una página; para todo el sitio toman el relevo un rastreador y Search Console.">

@@ -16,15 +16,15 @@ excerpt: "Compara cinco alternativas a Google Analytics por privacidad, precio y
 
 Tu analítica tiene que decirte qué mercado merece el próximo presupuesto: cifras completas de Francia, los Países Bajos o Alemania, e informes que todo el equipo sepa leer.
 
-Aquí tienes cinco alternativas a Google Analytics, lo que cuesta empezar con cada una y qué tipo de empresa encaja con ella. Los precios son los de entrada que publica cada proveedor, comprobados el 2 de octubre de 2026 en la moneda en que los cotiza. Cambian a menudo, así que confírmalos antes de decidir.
+Aquí tienes cinco alternativas a Google Analytics, lo que cuesta empezar con cada una y qué tipo de empresa encaja mejor. Los precios son los de entrada que publica cada proveedor, comprobados el 2 de octubre de 2026 en la moneda en que los ofrecen. Cambian a menudo, así que confírmalos antes de decidir.
 
 ## Por qué plantearte una alternativa
 
-Cambiar de herramienta lleva trabajo, así que liga la decisión a una necesidad concreta:
+Cambiar de herramienta lleva trabajo, así que vincula la decisión a una necesidad concreta:
 
-- **Privacidad:** Google Analytics recoge muchos datos de usuario, así que revisa cómo encaja con el RGPD, con la normativa de cada país donde vendes y con tus propios criterios. En Francia, la CNIL admite que una herramienta de medición de audiencia quede [exenta de consentimiento](https://www.cnil.fr/fr/cookies-solutions-pour-les-outils-de-mesure-daudience) si solo produce estadísticas anónimas y el proveedor se abstiene de reutilizar los datos por su cuenta.
-- **Complejidad:** GA4, la única versión disponible desde que se apagó Universal Analytics, ofrece más de lo que la mayoría de equipos necesita para saber de dónde llegan las visitas.
-- **Rendimiento:** un script de seguimiento más ligero aligera tus páginas.
+- **Privacidad:** Google Analytics recoge muchos datos de los usuarios, así que revisa cómo encaja con el RGPD, con la normativa de cada país donde vendes y con tus propios criterios. En Francia, la CNIL admite que una herramienta de medición de audiencia quede [exenta de consentimiento](https://www.cnil.fr/fr/cookies-solutions-pour-les-outils-de-mesure-daudience) si solo produce estadísticas anónimas y el proveedor se abstiene de reutilizar los datos para sus propios fines.
+- **Complejidad:** GA4, la única versión disponible desde que se apagó Universal Analytics, ofrece más de lo que la mayoría de los equipos necesita para saber de dónde llegan las visitas.
+- **Rendimiento:** un script de seguimiento más ligero acelera tus páginas.
 - **Propiedad de los datos:** algunas empresas quieren controlar por completo sus datos de analítica.
 
 <figure class="post-fig">
@@ -53,7 +53,7 @@ Cambiar de herramienta lleva trabajo, así que liga la decisión a una necesidad
 
 ## Las mejores alternativas a Google Analytics
 
-Cinco herramientas, cada una más fuerte en una tarea distinta:
+Cinco herramientas, cada una ideal para una tarea distinta:
 
 - **Matomo:** informes al estilo de Google Analytics, con los datos bajo tu control.
 - **Plausible:** una pantalla clara y libre de cookies.
@@ -109,7 +109,7 @@ Cinco herramientas, cada una más fuerte en una tarea distinta:
 - Panel sencillo y fácil de entender
 - Script muy ligero, que según Plausible pesa 54 veces menos que el de Google Analytics
 
-**Precio:** se cotiza en dólares estadounidenses, desde USD 9 al mes.
+**Precio:** los precios están en dólares estadounidenses, desde 9 USD al mes.
 
 > Plan Starter: 9 dólares al mes para hasta 10.000 páginas vistas mensuales.
 >
@@ -123,12 +123,12 @@ Cinco herramientas, cada una más fuerte en una tarea distinta:
 
 **Características principales:**
 
-- Medición libre de cookies
+- Medición sin cookies
 - Según el proveedor, cumple con el RGPD
 - Interfaz sencilla y limpia
 - Tiempos de carga rápidos
 
-**Precio:** se cotiza en dólares estadounidenses, desde USD 15 al mes.
+**Precio:** se factura en dólares estadounidenses, desde USD 15 al mes.
 
 > 15 dólares al mes para hasta 100.000 páginas vistas mensuales.
 >
@@ -138,7 +138,7 @@ Cinco herramientas, cada una más fuerte en una tarea distinta:
 
 **Ideal para:** sectores regulados.
 
-[Piwik PRO](https://piwik.pro/) es una empresa distinta de Matomo (antes Piwik) y merece un lugar en la lista corta si trabajas en un sector regulado. Su plan Business se aloja por defecto en Suecia, con otras ubicaciones a elegir.
+[Piwik PRO](https://piwik.pro/) es una empresa distinta de Matomo (antes Piwik) y merece un lugar en tu selección final si trabajas en un sector regulado. Su plan Business se aloja por defecto en Suecia, con otras ubicaciones a elegir.
 
 **Características principales:**
 
@@ -180,7 +180,7 @@ Cinco herramientas, cada una más fuerte en una tarea distinta:
 | Piwik PRO | Sectores regulados | Nube, por defecto en Suecia | Configurable | Prueba de 30 días; Business desde 36 € al mes |
 | Mixpanel | Analítica de producto | Nube | Configurable | Gratis hasta 1 M de eventos al mes |
 
-Los precios proceden de la página de precios de cada proveedor a 2 de octubre de 2026 y llevan su fuente bajo cada herramienta.
+Los precios proceden de la página de precios de cada proveedor a 2 de octubre de 2026 y tienen su fuente debajo de cada herramienta.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Plausible y Fathom funcionan libres de cookies; Matomo, Piwik PRO y Mixpanel dejan las cookies configurables.">
@@ -201,7 +201,7 @@ Los precios proceden de la página de precios de cada proveedor a 2 de octubre d
 
 ## Elige según la pregunta que más necesitas responder
 
-La elección se hace una sola vez: una migración y unos informes que puedes comparar desde el primer mes. Parte de la pregunta que más necesita responder tu equipo:
+La elección se hace una sola vez: una migración y unos informes que puedes comparar desde el primer mes. Empieza por la pregunta que tu equipo más necesita responder:
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 244" role="img" aria-label="Cuatro preguntas, cada una con su herramienta: datos en tus propios servidores lleva a Matomo, un sector regulado a Piwik PRO, el comportamiento dentro del producto a Mixpanel, y una pantalla sencilla a Plausible o Fathom.">
@@ -234,12 +234,12 @@ La elección se hace una sola vez: una migración y unos informes que puedes com
 <figcaption>Elige la herramienta según la pregunta que más se hace tu equipo. Si una configuración más limpia de GA4 ya la responde, mantener GA4 es la opción más económica.</figcaption>
 </figure>
 
-Después, contrasta la lista corta con estos criterios:
+Después, contrasta tu selección final con estos criterios:
 
 1. **Privacidad:** cumple la normativa de protección de datos de cada mercado al que vendes.
 2. **Facilidad de uso:** las personas que necesitan las cifras las encuentran.
 3. **Propiedad de los datos:** sabes dónde se almacenan.
-4. **Coste:** el precio sigue funcionando con mucho tráfico.
+4. **Coste:** el precio sigue siendo rentable con mucho tráfico.
 5. **Integración:** se conecta con las herramientas que ya utilizas.
 6. **Necesidades específicas:** algunas alternativas aportan más en comercio electrónico o en analítica de producto.
 7. **Informes por mercado:** cada informe se divide por idioma y país, de modo que cada mercado se ve por separado.
@@ -250,7 +250,7 @@ Después, contrasta la lista corta con estos criterios:
 
 ## Por dónde empezar
 
-Google Analytics sigue siendo potente, y para muchas empresas una configuración más limpia resuelve más que un cambio:
+Google Analytics sigue siendo potente, y para muchas empresas una configuración más limpia soluciona más que cambiar de herramienta:
 
 - **Mantén GA4** si una configuración más limpia responde a las preguntas de tu equipo.
 - **Cambia** si la privacidad, la simplicidad o una necesidad especializada es lo que de verdad pesa.
@@ -258,7 +258,7 @@ Google Analytics sigue siendo potente, y para muchas empresas una configuración
 Para decidir:
 
 1. Anota la pregunta que más necesita responder tu equipo cada mes.
-2. Elige en la tabla de arriba las herramientas cuya columna «Ideal para» coincide con ella.
-3. Prueba el encaje con la prueba gratuita o la demo de cada una.
+2. Elige en la tabla de arriba las herramientas cuya columna «Ideal para» encaje con esa pregunta.
+3. Comprueba si encajan con la versión gratuita o la demo de cada una.
 
-La mejor herramienta de analítica es la que vas a usar de verdad para decidir adónde va el próximo presupuesto.
+La mejor herramienta de analítica es la que vas a usar de verdad para decidir dónde invertir el próximo presupuesto.

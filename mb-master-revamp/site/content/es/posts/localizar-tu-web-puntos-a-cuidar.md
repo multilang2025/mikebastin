@@ -26,7 +26,7 @@ El visitante decide en pocos segundos si la página está escrita para él. Esto
 
 Cada país lee el contenido a través de su propia cultura. Antes de publicar en un mercado lo que funciona en otro, revisa qué vende en cada uno y qué podría resultar extraño o incluso ofensivo.
 
-La cultura marca el tono, los colores, las imágenes, el humor y la forma de comprar, y un comprador francés y uno neerlandés reaccionan de manera distinta al mismo mensaje. Nuestro servicio de [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/) ajusta el contenido a lo que espera cada público antes de publicarlo.
+La cultura marca el tono, los colores, las imágenes, el humor y la forma de comprar: un comprador francés y uno neerlandés reaccionan de manera distinta al mismo mensaje. Nuestro servicio de [redacción SEO multilingüe](/es/services/redaccion-seo-multilingue/) ajusta el contenido a lo que espera cada público antes de publicarlo.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="La cultura marca cómo se lee una página en cada mercado: su tono, sus colores, sus imágenes y su humor.">
@@ -50,7 +50,7 @@ La cultura marca el tono, los colores, las imágenes, el humor y la forma de com
 
 ### Transcrea el mensaje
 
-Una traducción literal deja el texto correcto. La [transcreación](/es/services/traduccion-profesional/) adapta la voz, el estilo y el mensaje a la cultura local, y transmite el tono, la intención y la relevancia que venden, con la marca intacta.
+Una traducción literal ofrece un texto correcto. La [transcreación](/es/services/traduccion-profesional/) adapta la voz, el estilo y el mensaje a la cultura local, y transmite el tono, la intención y la relevancia que venden, con la marca intacta.
 
 > En una encuesta de 2020, el 76 % de los compradores en línea prefería comprar productos con información en su idioma, y el 40 % no compraba nunca en webs en otros idiomas.
 >
@@ -58,7 +58,7 @@ Una traducción literal deja el texto correcto. La [transcreación](/es/services
 
 ### Ajusta las imágenes
 
-La foto adecuada le dice al visitante que la página se hizo para él. Los iconos, los gestos, el código de vestimenta y la forma de representar a las familias varían mucho de una cultura a otra.
+La foto adecuada le dice al visitante que la página está hecha para él. Los iconos, los gestos, el código de vestimenta y la forma de representar a las familias varían mucho de una cultura a otra.
 
 ### Mantén una voz de marca coherente
 
@@ -90,11 +90,11 @@ Una página traducida posiciona cuando está construida para la búsqueda local.
 
 ### Construye para móvil
 
-En unos mercados se navega sobre todo desde el móvil y en otros pesa todavía el escritorio. Una página rápida y despejada retiene a los visitantes en ambos casos, así que haz que cada versión de idioma se adapte a cualquier pantalla y cargue rápido.
+En unos mercados se navega sobre todo desde el móvil y en otros pesa todavía el ordenador. Una página rápida y despejada retiene a los visitantes en ambos casos, así que haz que cada versión de idioma se adapte a cualquier pantalla y cargue rápido.
 
 ### Prueba cada versión
 
-Probar permite encontrar cada defecto antes de que lo vea un cliente. Revisa cada versión localizada antes del lanzamiento: calidad de la traducción, navegación, campos de formulario, pasarelas de pago y velocidad, en distintos navegadores y dispositivos.
+Hacer pruebas te permite encontrar cada defecto antes de que lo vea un cliente. Revisa cada versión localizada antes del lanzamiento: calidad de la traducción, navegación, campos de formulario, pasarelas de pago y velocidad, en distintos navegadores y dispositivos.
 
 <aside class="post-cta">
 <p><strong>¿Quieres que cada versión localizada esté revisada antes de que la vea un comprador?</strong> Con nuestra <a href="/es/services/traduccion-de-paginas-web/">traducción de páginas web</a>, revisamos cada formulario, menú y elemento de la interfaz en cada idioma antes del lanzamiento: cómo se ve, cómo funciona y si encaja culturalmente. <a href="/es/contactanos/">Pide la auditoría gratuita de 20 minutos</a>.</p>
@@ -102,7 +102,7 @@ Probar permite encontrar cada defecto antes de que lo vea un cliente. Revisa cad
 
 ## Normativa, pagos y experiencia de usuario
 
-Los tres últimos puntos son los más cercanos a la caja, y por eso conviene empezar por ellos.
+Los tres últimos puntos son los más cercanos al pago, y por eso conviene empezar por ellos.
 
 ### Cumple la normativa local
 
@@ -152,7 +152,7 @@ La gente completa la compra cuando puede pagar como prefiere. Lo mismo ocurre co
 >
 > Fuente: [Stripe, «iDEAL to Wero Migration»](https://support.stripe.com/questions/ideal-to-wero-migration?locale=en-GB)
 
-Si vendes en los Países Bajos, comprueba que tu pasarela de pago ya muestra la marca combinada.
+Si vendes en los Países Bajos, comprueba que tu pasarela de pago ya muestra la marca compartida.
 
 ### Localiza la experiencia de usuario
 
@@ -184,4 +184,4 @@ Empieza por los puntos más cercanos a la venta (pagos, formularios y normativa)
 <figcaption>Empieza por lo que está más cerca de la caja y avanza hacia la cultura. Cada punto resuelto en ese orden se nota antes en los pedidos.</figcaption>
 </figure>
 
-Con más de dos décadas en SEO, traducción y marketing, ayudamos a las empresas a construir sitios web que encajan en cada mercado y se encuentran en él. Nuestros servicios de [traducción de páginas web](/es/services/traduccion-de-paginas-web/) cubren los diez puntos, y puedes [reservar una revisión de tus diez puntos](/es/contactanos/) con nosotros.
+Con más de 20 años en SEO, traducción y marketing, ayudamos a las empresas a construir sitios web que encajan en cada mercado y son fáciles de encontrar. Nuestros servicios de [traducción de páginas web](/es/services/traduccion-de-paginas-web/) cubren los diez puntos, y puedes [reservar una revisión de tus diez puntos](/es/contactanos/) con nosotros.

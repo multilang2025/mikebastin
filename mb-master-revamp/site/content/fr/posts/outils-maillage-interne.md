@@ -26,7 +26,7 @@ Les liens entre vos propres pages indiquent aux moteurs quelles pages comptent, 
 - Ils améliorent la navigation et l’expérience utilisateur.
 - Ils répartissent l’autorité des pages dans tout le site.
 - Ils aident les moteurs à comprendre la structure de votre site.
-- Ils gardent les visiteurs en lecture, ce qui augmente le temps passé sur le site.
+- Ils incitent les visiteurs à poursuivre leur lecture, ce qui augmente le temps passé sur le site.
 
 ## Six outils de maillage interne comparés
 
@@ -43,11 +43,11 @@ Les outils se répartissent en deux familles : les uns suggèrent des liens qu�
 
 ### Link Whisper
 
-[Link Whisper](https://linkwhisper.com/) suggère des liens internes pertinents pendant que vous écrivez, permet d’ajouter des liens en masse et produit des rapports sur votre maillage. Certaines suggestions gagnent à être vérifiées à la main. Le prix dépend du nombre de sites, et les crédits IA sont vendus à part.
+[Link Whisper](https://linkwhisper.com/) suggère des liens internes pertinents pendant que vous écrivez, permet d’ajouter des liens en masse et produit des rapports sur votre maillage. Certaines suggestions méritent d’être vérifiées à la main. Le prix dépend du nombre de sites, et les crédits IA sont vendus à part.
 
 ### Linkilo
 
-[Linkilo](https://linkilo.co/) automatise le maillage interne et ajoute une analyse détaillée des liens, avec la détection des pages orphelines. Complet, il demande un temps d’apprentissage aux débutants. Toutes les formules offrent les mêmes fonctions et ne varient que par le nombre de sites.
+[Linkilo](https://linkilo.co/) automatise le maillage interne et ajoute une analyse détaillée des liens, avec la détection des pages orphelines. Complet, il nécessite un temps d’adaptation pour les débutants. Toutes les formules offrent les mêmes fonctions et ne varient que par le nombre de sites.
 
 ### LinkBoss
 
@@ -129,7 +129,7 @@ Des règles soignées font la rentabilité d’un outil.
 </figure>
 
 1. **Choisissez vos mots-clés de liaison avec soin.** Chacun doit décrire fidèlement la page cible.
-2. **Gardez des liens en proportion.** Un nombre mesuré de liens automatiques se lit naturellement, pour les utilisateurs comme pour les moteurs.
+2. **Revenez sur les anciens articles.** Quand vous publiez un nouveau contenu, créez des liens depuis les anciens articles proches vers cette nouvelle page.
 3. **Revenez sur les anciens articles.** Quand vous publiez un nouveau contenu, ajoutez-y des liens depuis les anciens contenus proches.
 4. **Répartissez vos liens.** Pointez vers un large éventail de pages, au-delà de la page d’accueil et de quelques pages populaires.
 5. **Écrivez des ancres descriptives.** L’ancre indique au lecteur le sujet de la page liée.

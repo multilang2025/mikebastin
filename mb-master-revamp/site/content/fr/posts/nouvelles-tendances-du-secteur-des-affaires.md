@@ -181,7 +181,7 @@ L’IA généraliste couvre les grandes paires de langues (anglais-français, an
 
 C’est le phénomène que nous décrivons dans notre analyse des agences de sourcing au Vietnam pour la conformité EUDR : les entreprises qui veulent fiabiliser leurs audits multilingues s’appuient sur des traducteurs natifs spécialisés.
 
-**Notre angle.** En plus de deux décennies de SEO et de traduction internationale, ce qui nous a frappés en 2025 et 2026, c’est le retour en force de la qualité éditoriale comme différenciateur. L’IA générative a rendu le contenu moyen accessible à tous ; ce qui se vend maintenant, c’est le contenu qui porte une signature humaine : expérience de terrain, données propriétaires, prise de position assumée. Toutes les tendances ci-dessus convergent vers ce constat.
+**Notre angle.** En plus de 20 ans de SEO et de traduction internationale, ce qui nous a frappés en 2025 et 2026, c’est le retour en force de la qualité éditoriale comme différenciateur. L’IA générative a rendu le contenu moyen accessible à tous ; ce qui se vend maintenant, c’est le contenu qui porte une signature humaine : expérience de terrain, données propriétaires, prise de position assumée. Toutes les tendances ci-dessus convergent vers ce constat.
 
 ## Questions fréquentes sur les tendances 2026
 
@@ -211,7 +211,7 @@ Priorisez les projets dont le retour est mesurable en moins de 18 mois, ou ceux 
 
 ## Alignez votre stratégie sur les tendances 2026
 
-Nous accompagnons des PME et des ETI internationales sur le SEO, la traduction et la stratégie numérique, avec des recommandations concrètes, en langage clair. Le premier échange est gratuit : nous regardons ensemble vos marchés et les priorités du trimestre.
+Nous accompagnons des PME et des ETI internationales sur le SEO, la traduction et la stratégie numérique, avec des recommandations concrètes dans un langage clair. Le premier échange est gratuit : nous examinons ensemble vos marchés et les priorités du trimestre.
 
 [Réserver votre premier échange gratuit](https://mikebastin.com/fr/nous-contacter/)
 

@@ -17,13 +17,13 @@ excerpt: "Herramientas de IA y traducción automática para cubrir más idiomas 
 
 Necesitas las fichas de producto en francés, alemán, neerlandés, inglés e italiano, y el presupuesto de traducción da para dos idiomas. Las herramientas de IA y de traducción automática hacen posibles los cinco.
 
-Si una persona revisa el resultado antes de publicarlo, cada frase fluida es además correcta, y eso es lo que gana la confianza de esos mercados. Aquí verás qué hace bien cada tipo de herramienta, dónde necesita una mano humana y un flujo de trabajo en el que una persona responde de cada idioma.
+Si una persona revisa el resultado antes de publicarlo, cada frase fluida es además correcta, y eso es lo que gana la confianza de esos mercados. Aquí verás qué hace bien cada tipo de herramienta, dónde necesita una mano humana y cómo crear un flujo de trabajo en el que una persona se encarga de cada idioma.
 
 ## Qué hace la IA en el contenido multilingüe
 
 Saber en qué destacan los motores te indica dónde dejarlos trabajar y dónde pedir una revisión a fondo. Los motores de traducción automática neuronal, como DeepL y Google Translate, y los modelos de lenguaje como ChatGPT, Gemini y Claude traducen grandes volúmenes de contenido en segundos, con un resultado mucho más fluido y atento al contexto que el de los sistemas anteriores. Otros [LLM alternativos a ChatGPT](/es/llm-alternativos/) cubren tareas rutinarias a menor coste y, en algunos idiomas, traducen muy bien.
 
-También rinden en el trabajo repetitivo: cadenas de texto que se repiten, catálogos de producto y varias versiones de idioma que hay que actualizar cada vez que cambia el original.
+También rinden en el trabajo repetitivo: cadenas de texto que se repiten, catálogos de producto y versiones en otros idiomas que hay que actualizar cada vez que cambia el original.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 160" role="img" aria-label="Los motores de IA rinden en el trabajo repetitivo: cadenas que se repiten, catálogos de producto y versiones de idioma al día.">
@@ -109,7 +109,7 @@ Los fallos que merece la pena cazar son los sutiles: frases que se leen bien y s
 
 ### Contexto cultural y matices
 
-Un modismo adaptado al mercado le dice al comprador local que la página se escribió para él. Las referencias culturales, los modismos y los matices propios de cada lengua son donde más aportan los traductores humanos: el contenido queda correcto y además apropiado para la cultura de destino.
+Un modismo adaptado al mercado le dice al comprador local que la página se escribió para él. Los traductores humanos aportan todo su valor en las referencias culturales, los modismos y los matices propios de cada lengua: el contenido queda correcto y además apropiado para la cultura de destino.
 
 ### Control de calidad
 
@@ -154,7 +154,7 @@ La IA produce el primer borrador y los traductores humanos lo revisan y lo edita
 
 ### Posedición de traducción automática (MTPE)
 
-En la MTPE, un lingüista profesional edita el resultado de la máquina hasta que suena natural y exacto y encaja con el tono de la marca y con las expectativas de cada región. Ahorra tiempo y dinero, y una persona responde del texto final.
+En la MTPE, un lingüista profesional edita el resultado de la máquina hasta que suena natural y exacto, y encaja con el tono de la marca y con las expectativas de cada región. Así ahorras tiempo y dinero, y una persona se responsabiliza del texto final.
 
 <aside class="post-cta">
 <p><strong>¿Ya usas traducción automática y quieres saber dónde necesita un editor?</strong> Nuestra <a href="/es/services/posedicion-de-ia/">posedición de IA</a> fija tu terminología una vez por idioma y concentra la revisión a fondo en las páginas donde está el riesgo, con una pasada más ligera en el resto. <a href="/es/contactanos/">Pide la auditoría gratuita de 20 minutos</a>.</p>
@@ -166,11 +166,11 @@ Los archivos confidenciales quedan bajo tu control cuando solo entran en herrami
 
 - **Privacidad.** Muchas herramientas de IA procesan tu texto en servidores externos. Elige servicios que cumplan el RGPD y reserva el material confidencial a esos servicios validados, ya sea un contrato o un expediente de cliente que pasa del español al francés.
 - **Garantías.** Firma acuerdos de tratamiento de datos y define los accesos antes de que las herramientas de IA manejen datos de clientes o de la empresa.
-- **Transparencia.** Indica a los usuarios cuándo un contenido se ha traducido con máquina, sobre todo cuando la exactitud les importa.
+- **Transparencia.** Indica a los usuarios cuándo un contenido se ha traducido automáticamente, sobre todo cuando la exactitud les importa.
 
 ## Hacia dónde va la traducción con IA
 
-Los modelos de traducción siguen ganando en precisión, contexto y matiz cultural. Las empresas que siguen estos avances amplían su alcance internacional, también con la [localización de interfaces de usuario](/es/services/localizacion-de-aplicaciones/), y entregan contenido de calidad a gran escala.
+Los modelos de traducción siguen ganando en precisión, contexto y matiz cultural. Las empresas que siguen estos avances amplían su alcance internacional, también con la [localización de interfaces de usuario](/es/services/localizacion-de-aplicaciones/), y ofrecen contenido de calidad a gran escala.
 
 Lo que se mantiene es el reparto de papeles: la herramienta cambia cada pocos meses, y el glosario, la guía de estilo y el revisor nativo siguen siendo tuyos. Revisa tus herramientas con regularidad y conserva esos tres activos. Para el día a día de tu revisor, nuestras [extensiones de Chrome para traductores](/es/extensiones-chrome-traductores/) agilizan los borradores y la consulta de terminología.
 

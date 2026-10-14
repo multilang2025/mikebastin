@@ -213,7 +213,7 @@ Envoyez-nous quatre éléments :
 
 ## Par où commencer
 
-Un français bien choisi donne des positions qui tiennent, un dossier réglementaire en ordre au Québec et des textes de marque qui attirent les lecteurs francophones.
+Une maîtrise du français assure des positions solides, un dossier réglementaire en règle au Québec et des contenus de marque qui attirent les lecteurs francophones.
 
 <aside class="post-cta">
 <p><strong>Vos contenus en français sont déjà en ligne ?</strong> Nous les passons en revue avec vous lors d’un audit gratuit de 20 minutes. <a href="/fr/nous-contacter/">Demandez votre audit gratuit</a>.</p>
@@ -223,11 +223,11 @@ Un français bien choisi donne des positions qui tiennent, un dossier réglement
 
 ### Faut-il des traductions françaises distinctes pour la France et le Québec ?
 
-Pour les contenus de site, les annonces et les supports marketing : oui, presque toujours. Pour les documents internes, les manuels et la documentation technique peu exposée culturellement, une version unique en français de France bien rédigée peut couvrir les deux marchés si votre public l’accepte.
+Pour les contenus de site, les annonces et les supports marketing : oui, presque toujours. Pour les documents internes, les manuels et la documentation technique peu ancrée culturellement, une version unique en français de France bien rédigée peut couvrir les deux marchés si votre public l’accepte.
 
 ### Combien de temps prend la traduction d’un site de l’anglais vers le français ?
 
-Un site d’entreprise type de 10 000 mots avec travail SEO demande de 4 à 6 semaines de bout en bout : recherche de mots-clés, traduction, relecture, intégration dans le CMS, configuration hreflang et une série de corrections. Les projets e-commerce plus importants, avec la traduction complète du catalogue, demandent en général de 8 à 14 semaines.
+Un site d’entreprise type de 10 000 mots avec travail SEO demande de 4 à 6 semaines du début à la fin : recherche de mots-clés, traduction, relecture, intégration dans le CMS, configuration hreflang et une série de corrections. Les projets e-commerce plus importants, avec la traduction complète du catalogue, demandent en général de 8 à 14 semaines.
 
 ### Prenez-vous en charge la traduction certifiée ou assermentée en français ?
 

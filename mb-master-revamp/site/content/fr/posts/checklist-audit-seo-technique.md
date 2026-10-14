@@ -14,11 +14,11 @@ excerpt: "Checklist d’audit SEO technique : ce qu’il faut vérifier, commen
 
 ## Ce que l’audit SEO technique doit vérifier
 
-Votre contenu est solide, vos pages sont soignées, et les prochains gains de positions se trouvent en dessous : des pages que les moteurs atteignent, une seule version claire de chaque page, un site assez rapide sur mobile pour retenir le visiteur. Une fois ces points réglés, chaque euro investi dans le contenu et les liens rapporte toute sa valeur, sur votre marché d’origine comme sur ceux où vous vendez à l’étranger.
+Votre contenu est solide, vos pages sont soignées, et les prochains gains de positions résident dans : des pages accessibles aux moteurs, une seule version claire de chaque page, un site assez rapide sur mobile pour retenir le visiteur. Une fois ces points réglés, chaque euro investi dans le contenu et les liens rapporte toute sa valeur, sur votre marché d’origine comme sur ceux où vous vendez à l’étranger.
 
 La checklist ci-dessous sert aux équipes marketing qui auditent leur site. Chaque section indique quoi vérifier, comment repérer le problème et comment le corriger, avec les outils que nous utilisons et de courts exemples de code.
 
-Si vous préférez confier le travail, notre [service de SEO technique](/fr/services/seo-technique/) réalise le même audit et livre les corrections.
+Si vous préférez confier le travail, notre [service de SEO technique](/fr/services/seo-technique/) réalise le même audit et effectue les corrections.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 130" role="img" aria-label="L’audit se déroule en quatre étapes, chacune dépendant de la précédente : exploration, indexation, affichage, positionnement.">
@@ -45,7 +45,7 @@ Si vous préférez confier le travail, notre [service de SEO technique](/fr/serv
 
 ## Exploration et indexabilité
 
-Une page que les moteurs atteignent peut se positionner : tout le reste de cette liste commence là.
+Une page accessible aux moteurs peut se positionner : tout le reste de cette liste commence là.
 
 ### Robots.txt
 
@@ -71,9 +71,9 @@ Yoast SEO ou Rank Math le génèrent sur WordPress, XML-Sitemaps.com sur un site
 
 ### Noindex et nofollow
 
-Contrôlez chaque `noindex`, car il retire une page de la recherche aussi sûrement qu’un blocage. Explorez le site avec Screaming Frog ou Ahrefs Site Audit, listez chaque page portant `noindex` ou `nofollow`, puis confirmez que chacune est voulue. Pour les pages à indexer, omettez la balise meta robots ou utilisez `<meta name="robots" content="index, follow">`.
+Contrôlez chaque `noindex`, car il retire une page de la recherche aussi efficacement qu’un blocage. Explorez le site avec Screaming Frog ou Ahrefs Site Audit, listez chaque page portant `noindex` ou `nofollow`, puis confirmez que chacune est voulue. Pour les pages à indexer, omettez la balise meta robots ou utilisez `<meta name="robots" content="index, follow">`.
 
-Laissez une URL en `noindex` ouverte dans robots.txt : Google peut alors récupérer la page et lire la consigne qu’elle porte.
+Laissez une URL en `noindex` accessible dans robots.txt : Google peut alors récupérer la page et lire la consigne qu’elle porte.
 
 ### Redirections
 
@@ -83,7 +83,7 @@ Laissez une URL en `noindex` ouverte dans robots.txt : Google peut alors récup
 | 302 | Trouvée, temporaire | Traitée à terme comme une 301 si elle reste | Un test court ou une page saisonnière |
 | 410 | Disparue | Non | Le contenu est supprimé pour de bon |
 
-Repérez les chaînes et les boucles avec Screaming Frog, Ahrefs ou l’extension Redirect Path, et faites pointer chaque redirection directement vers l’URL finale. Redirect Path figure parmi les [extensions Chrome utiles au SEO](/fr/extensions-chrome-seo/) que nous gardons au quotidien. Remplacez par des 301 les 302 devenues permanentes. Dans `.htaccess` :
+Repérez les chaînes et les boucles avec Screaming Frog, Ahrefs ou l’extension Redirect Path, et faites pointer chaque redirection directement vers l’URL finale. Redirect Path figure parmi les [extensions Chrome utiles au SEO](/fr/extensions-chrome-seo/) que nous gardons au quotidien. Remplacez les 302 devenues permanentes par des 301. Dans `.htaccess` :
 
 ```
 Redirect 301 /ancienne-page /nouvelle-page
@@ -125,7 +125,7 @@ Les liens internes répartissent l’autorité et montrent aux robots ce qui com
 
 ### Structure des URL
 
-Des URL courtes, lisibles et séparées par des traits d’union se lisent mieux : `votredomaine.com/chaussures-bleues` parle davantage que `votredomaine.com/page?id=123`. Cherchez les longues chaînes de paramètres et les identifiants de session. Sur Apache, `mod_rewrite` associe des URL propres à des URL à paramètres :
+Des URL courtes, lisibles et séparées par des traits d’union se lisent mieux : `votredomaine.com/chaussures-bleues` est plus parlante que `votredomaine.com/page?id=123`. Cherchez les longues chaînes de paramètres et les identifiants de session. Sur Apache, `mod_rewrite` associe des URL propres à des URL à paramètres :
 
 ```
 RewriteEngine On
@@ -150,7 +150,7 @@ Google a cessé d’utiliser `rel="next"` et `rel="prev"` comme signal d’index
 
 ## Vitesse et Core Web Vitals
 
-Une page rapide retient d’abord le visiteur et gagne ensuite son classement. Les Core Web Vitals mesurent le chargement, la réactivité et la stabilité visuelle à partir de vrais utilisateurs de Chrome. Interaction to Next Paint (INP) a remplacé First Input Delay (FID) le 12 mars 2024 : mettez à jour tout modèle d’audit qui réclame encore le FID. Consultez le rapport Core Web Vitals de la Search Console, puis diagnostiquez chaque URL dans PageSpeed Insights ou Lighthouse.
+Une page rapide retient d’abord le visiteur et gagne ensuite des positions. Les Core Web Vitals mesurent le chargement, la réactivité et la stabilité visuelle à partir de vrais utilisateurs de Chrome. Interaction to Next Paint (INP) a remplacé First Input Delay (FID) le 12 mars 2024 : mettez à jour tout modèle d’audit qui réclame encore le FID. Consultez le rapport Core Web Vitals de la Search Console, puis diagnostiquez chaque URL dans PageSpeed Insights ou Lighthouse.
 
 | Métrique | Mesure | Bon score | Corrections habituelles |
 | --- | --- | --- | --- |
@@ -181,7 +181,7 @@ Une page rapide retient d’abord le visiteur et gagne ensuite son classement. L
 
 ## Sécurité
 
-Un cadenas propre installe la confiance dès le début de la visite. Chargez chaque page et chaque ressource en HTTPS (Why No Padlock repère le contenu mixte), redirigez le trafic HTTP vers HTTPS par une 301 et passez les liens internes en `https://` :
+Un cadenas sécurisé installe la confiance dès le début de la visite. Chargez chaque page et chaque ressource en HTTPS (Why No Padlock repère le contenu mixte), redirigez le trafic HTTP vers HTTPS par une 301 et passez les liens internes en `https://` :
 
 ```
 RewriteEngine On
@@ -258,7 +258,7 @@ Siteliner et Copyscape trouvent les textes dupliqués. Fusionnez les pages quasi
 
 ## Contrôle des liens et des codes de statut
 
-Chaque lien qui fonctionne garde un visiteur déjà intéressé.
+Chaque lien qui fonctionne retient un visiteur déjà intéressé.
 
 | Constat | Ce qu’il indique | Correction |
 | --- | --- | --- |
@@ -267,7 +267,7 @@ Chaque lien qui fonctionne garde un visiteur déjà intéressé.
 | Lien sortant cassé | La ressource externe a déménagé ou disparu | Remplacer par une source actuelle ou retirer |
 | Erreur serveur 5xx | Mauvaise configuration ou surcharge du serveur | Consulter les journaux, corriger l’erreur, changer d’hébergement si elle revient |
 
-Screaming Frog, le rapport d’indexation des pages de la Search Console et Dead Link Checker couvrent ces contrôles. Une page 404 personnalisée, avec une recherche et des liens populaires, garde le visiteur sur le site.
+Screaming Frog, le rapport d’indexation des pages de la Search Console et Dead Link Checker couvrent ces contrôles. Une page 404 personnalisée, avec une recherche et des liens populaires, retient le visiteur sur le site.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Une page 404 qui a encore des liens ou du trafic reçoit une redirection 301 vers la page pertinente la plus proche ; une page 404 de faible valeur peut rester telle quelle ou renvoyer une 410.">
@@ -297,7 +297,7 @@ Utilisez un seul `h1` par page, contenant le mot-clé principal, puis des `h2` e
 <h3>Robots.txt</h3>
 ```
 
-Chaque image significative reçoit un texte alternatif qui la décrit avec des mots naturels : `alt="Chaussure bleue à semelle chromée"`. Renommez `IMG_1234.jpg` en `chaussure-bleue-semelle-chromee.jpg`. Pour les sites riches en images, ajoutez des entrées d’image au sitemap :
+Chaque image significative reçoit un texte alternatif qui la décrit en langage naturel : `alt="Chaussure bleue à semelle chromée"`. Renommez `IMG_1234.jpg` en `chaussure-bleue-semelle-chromee.jpg`. Pour les sites riches en images, ajoutez des entrées d’image au sitemap :
 
 ```
 <url>
@@ -310,7 +310,7 @@ Chaque image significative reçoit un texte alternatif qui la décrit avec des m
 
 ## Contrôles SEO international : hreflang et versions régionales
 
-Avec les bonnes balises, un acheteur allemand arrive sur votre page allemande, un acheteur espagnol sur votre page espagnole. Les sites multilingues et multirégionaux ont besoin d’annotations hreflang pour que Google serve à chaque utilisateur la bonne version. Vérifiez que les codes de langue et de région sont valides (le Royaume-Uni prend `en-gb`, là où beaucoup saisissent `en-uk`), que chaque version porte ses balises de retour et que chacune se désigne elle-même :
+Avec les bonnes balises, un acheteur allemand arrive sur votre page allemande, un acheteur espagnol sur votre page espagnole. Les sites multilingues et multirégionaux ont besoin d’annotations hreflang pour que Google présente à chaque utilisateur la bonne version. Vérifiez que les codes de langue et de région sont valides (le Royaume-Uni prend `en-gb`, là où beaucoup saisissent `en-uk`), que chaque version porte ses balises de retour et que chacune se désigne elle-même :
 
 ```
 <link rel="alternate" href="https://votredomaine.com/en-gb/" hreflang="en-gb" />
@@ -351,10 +351,10 @@ Une mesure fiable vous dit quelles corrections ont rapporté. Universal Analytic
 Consultez ensuite ces rapports de la Search Console à chaque audit, puis chaque mois :
 
 - **Sitemaps** : erreurs de traitement et nombre d’URL découvertes.
-- **Indexation des pages** : quelles pages sont indexées, la raison pour chaque page laissée de côté, et si ce choix est voulu.
+- **Indexation des pages** : quelles pages sont indexées, pourquoi chaque page est laissée de côté, et si ce choix est voulu.
 - **Statistiques d’exploration** : chutes ou pics soudains, qui signalent en général des erreurs serveur ou un changement de robots.txt.
 - **Actions manuelles** : toute pénalité pour infraction aux consignes. Corrigez la cause (pour des liens artificiels, supprimez-les ou désavouez-les), puis envoyez une demande de réexamen.
 
 ## Par où commencer
 
-Corrigez dans l’ordre du schéma du début : exploration et indexation d’abord, vitesse et affichage ensuite, métadonnées et contenu en dernier. Dans chaque étape, classez les problèmes par impact et par effort, placez les corrections sur un calendrier daté et relancez l’audit chaque trimestre pour traiter les nouveaux problèmes tant qu’ils sont petits.
+Corrigez dans l’ordre du schéma du début : exploration et indexation d’abord, vitesse et affichage ensuite, métadonnées et contenu en dernier. Dans chaque étape, classez les problèmes par impact et par effort, planifiez les corrections dans un calendrier daté et relancez l’audit chaque trimestre pour traiter les nouveaux problèmes tant qu’ils sont petits.

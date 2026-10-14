@@ -179,7 +179,7 @@ grammatically correct inflected form for that locale.
   by `lint:fr`'s "formal" rule.
 - Spanish is checked by `npm run lint:es` (`scripts/es-copy-lint.mjs`): *nosotros*
   (never yo, mi, mis, soy), *tú* (never usted), ¿ ¡ paired, no straight
-  quotes, "más de dos décadas", the Spanish forbidden words (exhaustivo,
+  quotes, "más de 20 años", the Spanish forbidden words (exhaustivo,
   a medida, sin fisuras, innovador, robusto, transformador, en constante
   evolución, sin embargo, no obstante, asimismo, "Además,"), untranslated
   English and sentence case. Plan: `docs/ES-REBUILD-PLAN.md`.

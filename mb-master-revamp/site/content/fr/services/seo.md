@@ -20,7 +20,7 @@ Que votre entreprise soit française, belge, suisse ou luxembourgeoise, vous ven
 
 Le potentiel est déjà là. Votre produit a fait ses preuves à l’étranger, vos pages sont en ligne et Google les connaît. Ce qui reste à gagner se joue sur deux points : les mots que vos acheteurs tapent réellement dans leur langue, et des pages qui leur parlent comme un fournisseur de leur pays. Chaque trimestre passé à régler ces deux points est un trimestre où vos marchés étrangers commencent à rapporter.
 
-C’est notre métier depuis plus de deux décennies : le SEO international pour les entreprises qui exportent, jugé sur les demandes que chaque marché vous envoie.
+C’est notre métier depuis plus de 20 ans : le SEO international pour les entreprises qui exportent, jugé sur les demandes que chaque marché vous envoie.
 
 <aside class="post-cta">
 <p><strong>Vous voulez que vos pages étrangères vous apportent des clients ?</strong> Nous trouvons les mots que vos acheteurs utilisent dans chaque pays et nous écrivons les pages qui les font vous contacter. <a href="/fr/nous-contacter/">Réserver une consultation gratuite</a>.</p>

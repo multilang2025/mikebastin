@@ -41,7 +41,7 @@ Una página citada coloca tu marca dentro de la respuesta, en el momento en que 
 
 Si estudias a los competidores que ya aparecen en ChatGPT, el patrón se repite: datos claros y un relato coherente en toda su web. Para empezar, [analiza el tráfico web de la competencia](https://mikebastin.com/es/analizar-trafico-web-competencia/) y mira de dónde llegan sus visitas.
 
-La citabilidad funciona en GEO como el backlink en SEO. Incluye datos propios, citas de expertos identificables y la terminología exacta de tu sector. Para saber con quién compites por esas citas, aprende a [identificar a tus competidores SEO](https://mikebastin.com/es/competidores-seo/): las fuentes que cita la búsqueda de ChatGPT pueden ser otras que las que ves en Google.
+La citabilidad funciona en GEO como el backlink en SEO. Incluye datos propios, citas de expertos identificables y la terminología exacta de tu sector. Para saber con quién compites por esas citas, aprende a [identificar a tus competidores SEO](https://mikebastin.com/es/competidores-seo/): las fuentes que cita la búsqueda de ChatGPT pueden ser distintas de las que ves en Google.
 
 ### Datos estructurados: el contexto que lee Google
 
@@ -137,7 +137,7 @@ Como explica el blog de [Google Search](https://blog.google/products/search/), l
 
 El contenido de marketing y los datos de tu empresa se leen ya como un solo conjunto. Nuestra [página de inicio](/es/) explica cómo ordenamos esa información para cada mercado donde vendes.
 
-Los modelos cambian de versión con frecuencia, y las empresas que publican contenido claro, sólido y actualizado se adaptan a cada cambio con menos esfuerzo. Para negocios que buscan leads cualificados, como [C21 Perdomo](https://c21perdomo.com/es/), el foco está en crear activos digitales técnicos y duraderos.
+Los modelos cambian de versión con frecuencia, y las empresas que publican contenido claro, sólido y actualizado se adaptan a cada cambio con menos esfuerzo. Para negocios que buscan leads cualificados, como [C21 Perdomo](https://c21perdomo.com/es/), la clave está en crear activos digitales técnicos y duraderos.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Dos páginas frente a una respuesta de IA: la página revisada a menudo mantiene su sitio, la página con fecha pasada se queda atrás.">

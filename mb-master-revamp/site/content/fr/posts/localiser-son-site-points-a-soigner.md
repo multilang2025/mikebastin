@@ -24,7 +24,7 @@ Le visiteur juge en quelques secondes si la page a été écrite pour lui. Ces q
 
 ### Tenir compte des différences culturelles
 
-Chaque pays lit un contenu à travers sa propre culture. Ce qui se vend bien en France appelle donc une relecture avant de passer sur un autre marché, pour repérer ce qui pourrait surprendre ou froisser. La culture façonne le ton, les couleurs, les images, l’humour et les comportements d’achat. Notre [création de contenu multilingue](/fr/services/creation-de-contenu-multilingue/) ajuste le contenu aux attentes de chaque public avant sa mise en ligne.
+Chaque pays lit un contenu à travers sa propre culture. Ce qui se vend bien en France appelle donc une relecture avant de viser un autre marché, pour repérer ce qui pourrait surprendre ou froisser. La culture façonne le ton, les couleurs, les images, l’humour et les comportements d’achat. Notre [création de contenu multilingue](/fr/services/creation-de-contenu-multilingue/) adapte ces contenus aux attentes de chaque public avant leur mise en ligne.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="La culture façonne la lecture d’une page dans chaque marché : son ton, ses couleurs, ses images et son humour.">
@@ -48,7 +48,7 @@ Chaque pays lit un contenu à travers sa propre culture. Ce qui se vend bien en 
 
 ### Transcréer le message
 
-Une traduction littérale est correcte sur le plan grammatical. La transcréation, que nous pratiquons avec notre [traduction professionnelle](/fr/services/traduction-professionnelle/), adapte la voix, le style et le message à la culture locale : elle porte le ton, l’intention et la pertinence locale qui font vendre, et garde toute sa force à la marque. Un slogan, un titre de page d’accueil ou un appel à l’action se réécrivent ; une notice technique se traduit.
+Une traduction littérale est correcte sur le plan grammatical. La transcréation, que nous pratiquons avec notre [traduction professionnelle](/fr/services/traduction-professionnelle/), adapte la voix, le style et le message à la culture locale : elle véhicule le ton, l’intention et la pertinence locale qui font vendre, et la marque garde toute sa force. Un slogan, un titre de page d’accueil ou un appel à l’action se réécrivent ; une notice technique se traduit.
 
 > Dans une enquête de 2020, 76 % des acheteurs en ligne préféraient acheter un produit présenté dans leur langue, et 40 % n’achetaient jamais sur un site rédigé dans une autre langue.
 >
@@ -60,11 +60,11 @@ La bonne photo dit au visiteur que la page a été pensée pour lui. Les icônes
 
 ### Garder une voix de marque cohérente
 
-Localisez le message et conservez la personnalité. Un guide de style suivi par chaque traducteur, avec le registre retenu pour chaque langue, maintient votre positionnement intact partout.
+Localisez le message et conservez la personnalité. Un guide de style suivi par chaque traducteur, avec le registre retenu pour chaque langue, garde votre positionnement intact partout.
 
 ## Recherche et technique
 
-Une page juste rapporte quand elle est trouvée, et quand elle s’affiche bien sur l’appareil du visiteur.
+Une page correcte rapporte quand elle est trouvée, et quand elle s’affiche bien sur l’appareil du visiteur.
 
 ### Travailler le SEO local et les mots-clés dans chaque langue
 
@@ -88,7 +88,7 @@ Une page traduite se positionne quand elle est construite pour la recherche loca
 
 ### Concevoir pour le mobile
 
-Certains marchés achètent d’abord sur mobile, d’autres restent plus proches de l’ordinateur de bureau, et une page rapide et aérée retient les visiteurs dans les deux cas. Rendez chaque version de langue adaptative et rapide, avec les textes les plus longs, souvent l’allemand, en référence pour la mise en page.
+Certains marchés achètent d’abord sur mobile, d’autres restent plus proches de l’ordinateur de bureau, et une page rapide et aérée retient les visiteurs dans les deux cas. Rendez chaque version de langue adaptée et rapide, avec les textes les plus longs, souvent l’allemand, en référence pour la mise en page.
 
 ### Tester chaque version
 
@@ -104,7 +104,7 @@ Ces trois points se jouent au moment de payer, là où la confiance devient du c
 
 ### Respecter les lois locales
 
-La conformité vous met à l’abri des amendes et préserve la confiance des acheteurs. Chaque marché a ses règles sur la protection des données, le consentement aux cookies et le commerce en ligne : la politique de confidentialité, les conditions générales et le tunnel de commande suivent donc les exigences locales.
+La conformité vous met à l’abri des amendes et préserve la confiance des acheteurs. Chaque marché a ses règles sur la protection des données, le consentement aux cookies et le commerce en ligne : la politique de confidentialité, les conditions générales et le tunnel de commande se conforment donc aux exigences locales.
 
 Quelques exemples concrets :
 
@@ -176,4 +176,4 @@ Commencez par les points les plus proches de la vente (paiements, formulaires et
 <figcaption>Commencez au plus près de la vente. Les points du paiement et des formulaires transforment le plus vite des visites en commandes.</figcaption>
 </figure>
 
-Forts de plus de deux décennies dans le SEO, la traduction et le marketing, nous aidons les entreprises à bâtir des sites adaptés à chaque marché et visibles sur celui-ci. Nos services de [localisation de site web](/fr/services/localisation-de-site-web/) commencent par une évaluation gratuite de la localisation d’un marché : [demandez la vôtre](/fr/nous-contacter/) pour votre premier marché.
+Forts de plus de 20 ans dans le SEO, la traduction et le marketing, nous aidons les entreprises à bâtir des sites adaptés à chaque marché et visibles sur celui-ci. Nos services de [localisation de site web](/fr/services/localisation-de-site-web/) commencent par une évaluation gratuite de la localisation d’un marché : [demandez la vôtre](/fr/nous-contacter/) pour votre premier marché.

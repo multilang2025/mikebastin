@@ -17,9 +17,9 @@ excerpt: "Buenas prácticas de SEO multilingüe para que cada versión de tu web
 
 ## SEO multilingüe: qué necesita cada versión de tu web
 
-Tu empresa vende desde España, y tus páginas en francés, en alemán o en inglés ya reciben visitas. El siguiente paso es que cada una traiga consultas de su propio mercado. Cada vez más compradores obtienen su respuesta en un resumen de IA o en un chatbot antes de hacer clic, y la marca citada en su idioma es la que contactan.
+Tu empresa vende desde España, y tus páginas en francés, en alemán o en inglés ya reciben visitas. El siguiente paso es que cada una traiga consultas de su propio mercado. Cada vez más compradores obtienen su respuesta en un resumen de IA o en un chatbot antes de hacer clic, y la marca citada en su idioma es con la que contactan.
 
-Posicionar sigue siendo la base, y hoy es la primera mitad del trabajo. La segunda es la [optimización para motores generativos](/es/optimizar-para-seo-y-geo/) (GEO), que hace citable tu contenido. Aquí tienes las buenas prácticas de SEO multilingüe que hacen que cada versión de idioma se encuentre y, además, se cite.
+Posicionar sigue siendo la base, y hoy es la primera mitad del trabajo. La segunda es la [optimización para motores generativos](/es/optimizar-para-seo-y-geo/) (GEO), que hace citable tu contenido. Aquí tienes las buenas prácticas de SEO multilingüe que consiguen que cada versión se encuentre y, además, se cite.
 
 ## Dile al buscador a qué mercado va cada versión
 
@@ -37,7 +37,7 @@ Esas mismas señales son hoy la base de la GEO en cada idioma, así que cada una
 
 ## Localiza las palabras clave según cómo busca cada mercado
 
-Las palabras clave localizadas son las que escriben de verdad los compradores de cada país, y por eso son las que traen consultas. Un comprador francés describe su necesidad con otras palabras que el español: la traducción de tu lista en español encuentra una parte, y la investigación hecha en el mercado encuentra el resto.
+Las palabras clave localizadas son las que escriben de verdad los compradores de cada país, y por eso son las que traen consultas. Un comprador francés describe su necesidad con palabras distintas a las del español: la traducción de tu lista en español encuentra una parte, y la investigación hecha en el mercado encuentra el resto.
 
 Cada mercado necesita su propia [investigación de palabras clave](/es/services/seo-tecnico/), atenta a:
 
@@ -65,11 +65,11 @@ Semrush y Ahrefs ayudan a encontrar los términos locales; un hablante nativo co
 
 ## Escribe títulos y descripciones para cada idioma
 
-El título y la descripción son el primer texto comercial que lee un comprador de cada mercado, a menudo antes de conocer tu nombre. Cada versión de idioma necesita los suyos:
+El título y la descripción son el primer texto comercial que lee un comprador de cada mercado, a menudo antes de conocer tu nombre. Cada idioma necesita los suyos:
 
 - Un título de unos 60 caracteres como máximo, con la palabra clave cerca del principio.
 - Una descripción de 160 caracteres como máximo, con un resumen claro de la página y una llamada a la acción localizada.
-- Las palabras clave locales incorporadas de forma natural, con la manera de decir de cada mercado.
+- Las palabras clave locales incorporadas de forma natural, con las expresiones propias de cada mercado.
 
 Unos buenos metadatos suben el porcentaje de clics en los resultados de siempre y la probabilidad de que la IA tome tu página como referencia.
 
@@ -104,7 +104,7 @@ Con hreflang, el buscador envía al comprador francés a tu página en francés.
 <figcaption>Cada etiqueta funciona en los dos sentidos, y x-default recoge a quien llega desde otros idiomas y regiones.</figcaption>
 </figure>
 
-El detalle de ambas decisiones, con el contenido duplicado entre idiomas y la elección del servidor, está en nuestra guía de [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/).
+El detalle de ambas decisiones, junto con el contenido duplicado entre idiomas y la elección del servidor, está en nuestra guía de [SEO técnico para sitios multilingües](/es/seo-tecnico-para-sitios-multilingues/).
 
 > En un estudio de 2023 sobre 374.756 dominios que usan hreflang, el 67 % tenía al menos un error de hreflang. El más frecuente, la falta de x-default, afectaba al 56,3 % de los dominios.
 >
@@ -144,7 +144,7 @@ La calidad pesa más que la cantidad, así que construye tu [link building](/es/
 
 ## Datos estructurados para que la IA identifique tu mercado
 
-Un sistema de IA cita la página cuyo mercado identifica con confianza. Cada versión de idioma lleva su marcado de esquema: WebPage, Organization, BreadcrumbList y los esquemas de producto o servicio que correspondan.
+Un sistema de IA cita la página cuyo mercado identifica con confianza. Cada idioma lleva su marcado de esquema: WebPage, Organization, BreadcrumbList y los esquemas de producto o servicio que correspondan.
 
 En un sitio multilingüe, la claridad de entidades pesa aún más, porque los modelos necesitan señales inequívocas para saber qué versión corresponde a cada mercado, idioma y público. Los tipos que más cuentan y cómo implantarlos están en nuestra guía de [datos estructurados y schema para GEO](/es/datos-estructurados-schema-optimizacion-geo/).
 
@@ -188,4 +188,4 @@ Las marcas que dan a cada idioma el mismo cuidado que al principal ganan terreno
 | SEO multilingüe | hreflang, estructura de URL, palabras clave localizadas, metadatos | Posiciones y tráfico con intención en cada mercado |
 | GEO | Entidades, datos estructurados, contenido factual y con fuentes | Citas en las respuestas de IA, a menudo antes de la visita |
 
-El SEO multilingüe gana la posición y la GEO gana la cita, así que juntos llegan al comprador en los dos momentos. El [SEO global](/es/services/posicionamiento-multilingue/) pide las dos disciplinas trabajando juntas, en cada idioma y cada mercado. Si quieres ver dónde está hoy tu marca en los tuyos, [escríbenos y lo revisamos juntos](/es/contactanos/), con más de dos décadas de SEO y traducción de nuestro lado.
+El SEO multilingüe gana la posición y la GEO gana la mención, así que juntos llegan al comprador en los dos momentos. El [SEO global](/es/services/posicionamiento-multilingue/) exige que las dos disciplinas trabajen juntas en cada idioma y cada mercado. Si quieres ver dónde está hoy tu marca en los tuyos, [escríbenos y lo revisamos juntos](/es/contactanos/) con más de 20 años de SEO y traducción a nuestras espaldas.

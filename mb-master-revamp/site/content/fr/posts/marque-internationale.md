@@ -84,7 +84,7 @@ Le registre formel et argumenté qui rassure un acheteur français paraît dista
 
 > 66 % des utilisateurs professionnels se disent prêts à payer jusqu’à 30 % de plus pour un produit localisé, selon une enquête de CSA Research auprès de 1 116 acheteurs B2B de produits technologiques.
 >
-> Source : [CSA Research, « Do B2B Buyers Value Localized Experiences? », enquête « Can’t Read, Won’t Buy » auprès de 1 116 acheteurs B2B, 2 mars 2022](https://csa-research.com/Blogs-Events/Blog/do-b2b-buyers-value-localization)
+> Source : [CSA Research, « Do B2B Buyers Value Localized Experiences ? », enquête « Can’t Read, Won’t Buy » auprès de 1 116 acheteurs B2B, 2 mars 2022](https://csa-research.com/Blogs-Events/Blog/do-b2b-buyers-value-localization)
 
 ### Les références culturelles et l’humour
 

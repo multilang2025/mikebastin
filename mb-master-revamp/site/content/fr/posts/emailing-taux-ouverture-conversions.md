@@ -14,9 +14,9 @@ excerpt: "Objets qui donnent envie d’ouvrir, e-mails lisibles sur mobile, segm
 
 ## Quatre réglages pour un emailing qui convertit
 
-Votre liste d’abonnés grandit sur plusieurs marchés et vos campagnes partent à l’heure : en français pour la Belgique et la Suisse, en anglais pour le Royaume-Uni, en espagnol pour l’Espagne. Reste à leur faire apporter des ventes. Chaque envoi qui mérite d’être lu apprend à vos abonnés à ouvrir le suivant.
+Votre liste d’abonnés grandit sur plusieurs marchés et vos campagnes partent à l’heure : en français pour la Belgique et la Suisse, en anglais pour le Royaume-Uni, en espagnol pour l’Espagne. Reste à en tirer des ventes. Chaque envoi qui mérite d’être lu habitue vos abonnés à ouvrir le suivant.
 
-Quatre leviers comptent : des objets qui gagnent l’ouverture, des e-mails sur lesquels vos lecteurs agissent depuis leur téléphone, des segments qui rendent chaque envoi pertinent, et les indicateurs qui montrent si l’emailing rapporte.
+Quatre leviers comptent : des objets qui incitent à ouvrir, des e-mails sur lesquels vos lecteurs agissent depuis leur téléphone, des segments qui rendent chaque envoi pertinent, et les indicateurs qui montrent si l’emailing rapporte.
 
 ## Des objets qui donnent envie d’ouvrir
 
@@ -31,7 +31,7 @@ Les mots chargés d’émotion éveillent la curiosité ou créent l’urgence. 
 - « En avant-première »
 - « Réservé à nos clients »
 
-Sur vos marchés étrangers, choisissez ces mots dans la langue du lecteur, avec un rédacteur natif : le mot qui crée l’urgence en espagnol ou en allemand se trouve rarement par traduction littérale.
+Sur vos marchés étrangers, choisissez ces mots dans la langue du lecteur, avec un rédacteur natif : le mot qui crée l’urgence en espagnol ou en allemand se trouve rarement dans une traduction littérale.
 
 ### Jouer sur la curiosité
 
@@ -49,7 +49,7 @@ Le prénom est attendu. Un détail que le lecteur reconnaît comme le sien attir
 
 ### Tester en continu avec l’A/B testing
 
-Votre public décide de ce qui fonctionne. Testez les styles, les longueurs et les éléments de vos objets à chaque envoi, et gardez ce qui l’emporte. Si vous écrivez dans plusieurs langues, testez chaque version séparément : l’objet gagnant en France et l’objet gagnant en Espagne peuvent différer.
+Votre public décide de ce qui fonctionne. Testez les styles, les longueurs et les éléments de vos objets à chaque envoi, et gardez ce qui marche le mieux. Si vous écrivez dans plusieurs langues, testez chaque version séparément : l’objet le plus efficace en France et celui en Espagne peuvent différer.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Chaque envoi teste deux objets, A et B, et l’objet gagnant est conservé pour l’envoi suivant.">
@@ -69,7 +69,7 @@ Votre public décide de ce qui fonctionne. Testez les styles, les longueurs et l
 
 ## Des e-mails pensés pour le mobile
 
-Un e-mail facile à lire sur téléphone conduit la plupart de ses lecteurs jusqu’à votre offre : le mobile passe donc en premier.
+Un e-mail facile à lire sur téléphone conduit la plupart de ses lecteurs jusqu’à votre offre : le mobile passe avant tout.
 
 > Les appareils mobiles restent le principal environnement de lecture pour la majorité des abonnés.
 >
@@ -111,7 +111,7 @@ Vos e-mails s’adaptent à chaque taille d’écran. Une mise en page sur une s
 
 ### Tester sur plusieurs appareils et messageries
 
-Prévisualisez chaque e-mail sur différentes plateformes avec des outils comme Litmus ou Email on Acid avant de l’envoyer à toute votre liste. Vérifiez chaque version de langue : un bouton en allemand ou en néerlandais demande souvent plus de place que son équivalent français, et la mise en page doit le contenir. Les [outils de test de localisation](/fr/outils-test-localisation/) repèrent ce genre de débordement avant l’envoi.
+Prévisualisez chaque e-mail sur différentes plateformes avec des outils comme Litmus ou Email on Acid avant de l’envoyer à toute votre liste. Vérifiez chaque version de langue : un bouton en allemand ou en néerlandais demande souvent plus de place que son équivalent français, et la mise en page doit l’accueillir. Les [outils de test de localisation](/fr/outils-test-localisation/) repèrent ce genre de débordement avant l’envoi.
 
 ## Des segments qui rendent chaque envoi pertinent
 
@@ -153,7 +153,7 @@ Les blocs de contenu dynamique changent selon les données de l’abonné :
 
 ### Des heures d’envoi personnalisées
 
-Envoyez au moment où chaque abonné a le plus de chances d’ouvrir, d’après les heures auxquelles il a ouvert vos e-mails précédents. Pour vos abonnés britanniques, programmez sur l’heure de Londres, qui a une heure de retard sur Paris, Bruxelles et Madrid.
+Envoyez au moment où chaque abonné a le plus de chances d’ouvrir, d’après les heures auxquelles il a ouvert vos e-mails précédents. Pour vos abonnés britanniques, programmez à l’heure de Londres, qui a une heure de retard sur Paris, Bruxelles et Madrid.
 
 ### Des e-mails calés sur le cycle de vie
 
@@ -221,7 +221,7 @@ Les outils fondés sur l’IA peuvent automatiquement :
 - optimiser les heures d’envoi ;
 - personnaliser le contenu pour chaque destinataire.
 
-Sur vos marchés étrangers, faites relire ces textes générés par un linguiste natif : notre service de [post-édition de textes générés par IA](/fr/services/postedition-ia/) leur donne un ton naturel dans chaque langue. Pour savoir où l’IA rapporte en premier dans le reste de votre marketing, voyez [les usages rentables de l’IA en marketing](/fr/marketing-ia/).
+Sur vos marchés étrangers, faites relire ces textes générés par un linguiste natif : notre service de [post-édition de textes générés par IA](/fr/services/postedition-ia/) leur donne un ton naturel dans chaque langue. Pour savoir où l’IA est la plus rentable dans le reste de votre marketing, voyez [les usages rentables de l’IA en marketing](/fr/marketing-ia/).
 
 ## Par où commencer
 

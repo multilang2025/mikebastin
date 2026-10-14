@@ -28,13 +28,13 @@ Lo comprobamos con una auditoría SEO de tu web y corregimos lo que lo provoca. 
 
 Una auditoría escrita de cada versión de tu web, ordenada por lo que vale cada corrección: hreflang, canónicas, redirecciones, sitemaps, indexación, velocidad de página y datos estructurados, revisados mercado por mercado en Search Console y en un rastreo completo del sitio con Screaming Frog y Ahrefs.
 
-Las correcciones mismas. Las hacemos directamente en tu web, o las redactamos como tareas para tu equipo de desarrollo y comprobamos cada cambio cuando se publica.
+Las propias correcciones. Las hacemos directamente en tu web, o las redactamos como tareas para tu equipo de desarrollo y comprobamos cada cambio cuando se publica.
 
 Un seguimiento mensual por idioma, para que las páginas nuevas y los cambios del sitio mantengan la configuración intacta, con un informe que muestra cada mercado por separado.
 
 ## Dónde gana más una web multilingüe
 
-Versiones que llegan a su propio público. Colocamos las etiquetas hreflang para que cada página nombre a sus versiones hermanas con el código de idioma correcto y un enlace de vuelta, de modo que el visitante francés llega a la página francesa y el español a la española, y Search Console muestra un informe limpio.
+Versiones que llegan a su propio público. Colocamos las etiquetas hreflang para que cada página apunte a sus versiones hermanas con el código de idioma correcto y un enlace recíproco, de modo que el visitante francés llega a la página francesa y el español, a la española, y Search Console muestra un informe limpio.
 
 Presupuesto de rastreo gastado en las páginas que venden. Dividimos el sitemap por idioma, reunimos en una sola las páginas casi duplicadas, damos a cada idioma su propia dirección y su propia etiqueta canónica, y dirigimos a Google hacia las páginas que merecen posicionarse, para que indexe una parte mayor de lo que cada mercado debería ver.
 
@@ -62,12 +62,12 @@ Conseguimos enlaces editoriales, presencia en páginas de recursos y artículos 
 
 ### SEO en inglés para cada mercado anglófono
 
-El inglés suele ser el mercado de mayor volumen del conjunto, y en Valencia, con su gran población internacional, es también un mercado local. Elegimos la variante que apunta cada página, británica o estadounidense, y ajustamos su ortografía y sus términos a lo que se busca de verdad. Nuestro [SEO en inglés](/es/services/seo-ingles/) parte de esa elección.
+El inglés suele ser el mercado de mayor volumen del conjunto, y en Valencia, con su gran población internacional, es también un mercado local. Elegimos la variante a la que apunta cada página, británica o estadounidense, y ajustamos su ortografía y sus términos a lo que se busca de verdad. Nuestro [SEO en inglés](/es/services/seo-ingles/) parte de esa elección.
 
 ## Cómo trabajamos tu SEO técnico en Valencia
 
 1. **Auditoría gratuita de 20 minutos.** Revisamos tu web en cada uno de sus idiomas y te mostramos dónde están las mayores mejoras, antes de que te comprometas a nada.
-2. **Alcance por escrito.** Las páginas, las correcciones y quién hace cada una, tú o nosotros, ordenadas por lo que vale cada una.
+2. **Alcance por escrito.** Las páginas, las correcciones y quién se encarga de ellas, tú o nosotros, ordenadas por su valor.
 3. **Las correcciones, de mayor a menor valor.** Hacemos los cambios en tu web o redactamos las tareas para tu equipo de desarrollo, y comprobamos cada uno cuando está publicado.
 4. **Seguimiento mensual por idioma.** Rastreo, indexación y posiciones revisados mercado por mercado, con un informe breve de lo que se ha movido y de lo que viene.
 5. **Mes a mes.** La colaboración es mes a mes, así que el trabajo continúa mientras te rinde.

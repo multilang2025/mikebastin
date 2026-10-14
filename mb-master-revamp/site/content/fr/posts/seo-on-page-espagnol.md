@@ -17,7 +17,7 @@ excerpt: "Une liste de contrôle SEO on-page et GEO pour vos pages espagnoles :
 
 Vos pages en espagnol sont déjà trouvées, et l’étape suivante consiste à garder le lecteur sur la page. La traduction est souvent correcte ; ce qui retient un acheteur, c’est une page écrite pour son marché de bout en bout : une adresse web en espagnol, des titres que taperait un acheteur à Madrid, un seul registre du début à la fin. Les acheteurs espagnols le remarquent, sur Google.es comme sur Bing, et choisissent le fournisseur qui parle comme eux.
 
-Chaque détail bien réglé rapporte des clics et des demandes de contact. Voici ce qu’il faut régler sur chaque page espagnole, avec une liste de contrôle que vous pouvez confier à la personne qui édite votre site.
+Chaque détail bien réglé rapporte des clics et des demandes de contact. Voici ce qu’il faut régler sur chaque page espagnole, avec une liste de contrôle que vous pouvez confier à la personne qui gère votre site.
 
 ## Choisissez votre lecteur avant de toucher aux pages
 
@@ -33,7 +33,7 @@ Des mots-clés espagnols recherchés apportent les bons visiteurs. Partez des mo
 | Convient à | Publics plus jeunes, marques grand public | Services professionnels, publics plus âgés |
 | Usage typique | Commerce, applications, style de vie | Juridique, finance, B2B |
 
-Des [mots-clés de longue traîne](/fr/services/referencement-multilingue/) en espagnol, construits à partir d’expressions du quotidien, correspondent plus finement à l’intention de recherche et donnent un texte qui se lit naturellement.
+Des [mots-clés de longue traîne](/fr/services/referencement-multilingue/) en espagnol, construits à partir d’expressions du quotidien, répondent plus finement à l’intention de recherche et donnent un texte qui se lit naturellement.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Un seul registre choisi avant d’écrire : tú pour les marques grand public, ou usted pour le B2B et la finance.">
@@ -69,11 +69,11 @@ Votre titre et votre méta description sont tout ce que voit un internaute avant
 <figcaption>Le titre et la méta description font la vente sur la page de résultats : tous deux s’écrivent comme parle un acheteur espagnol.</figcaption>
 </figure>
 
-Dans la page, les traditions locales, les jours fériés et les expressions courantes gardent les lecteurs avec vous, lorsque le public s’y prête.
+Dans la page, les traditions locales, les jours fériés et les expressions courantes retiennent les lecteurs sur votre page, lorsque le public s’y prête.
 
 ## La liste de contrôle on-page
 
-Une poignée de détails décide des performances d’une page espagnole, et chacun se règle vite une fois que vous savez où regarder.
+Une poignée de détails fait la différence sur une page espagnole, et chacun se règle vite une fois que vous savez où regarder.
 
 | Élément | Ce qu’il faut faire pour les internautes espagnols | Point de contrôle |
 | --- | --- | --- |
@@ -91,11 +91,11 @@ Une adresse espagnole lisible dit à l’internaute que la page est faite pour l
 
 ### Images et médias
 
-Un texte alternatif en espagnol aide les utilisateurs malvoyants comme les moteurs de recherche. Une vidéo ou un audio qui reflète la culture locale retient l’attention.
+Un texte alternatif en espagnol aide les utilisateurs malvoyants ainsi que les moteurs de recherche. Une vidéo ou un audio qui reflète la culture locale retient l’attention.
 
 ### Liens internes
 
-Un lecteur espagnol qui reste en espagnol du premier clic au dernier reste avec vous. Reliez les pages espagnoles entre elles, avec des ancres rédigées en espagnol naturel. Sur WordPress, notre comparatif d’[outils de maillage interne](/fr/outils-maillage-interne/) vous aide à choisir l’extension qui accélère ce travail.
+Un lecteur espagnol qui reste en espagnol du premier clic au dernier reste sur votre site. Reliez les pages espagnoles entre elles, avec des ancres rédigées en espagnol naturel. Sur WordPress, notre comparatif d’[outils de maillage interne](/fr/outils-maillage-interne/) vous aide à choisir l’extension qui accélère ce travail.
 
 <aside class="post-cta">
 <p><strong>Vous voulez des slugs espagnols, des textes alternatifs en espagnol et un seul registre sur toutes vos pages espagnoles ?</strong> Notre <a href="/fr/services/seo-espagnol/">service de SEO espagnol</a> rédige l’espagnol d’Espagne directement depuis Valence, avec une recherche de mots-clés menée par des locuteurs natifs de chaque espagnol visé. <a href="/fr/nous-contacter/">Réservez un premier échange</a>.</p>
@@ -103,7 +103,7 @@ Un lecteur espagnol qui reste en espagnol du premier clic au dernier reste avec 
 
 ## Gardez l’acheteur jusqu’au formulaire sur mobile
 
-Une page agréable sur téléphone garde l’acheteur espagnol jusqu’au formulaire de contact, car c’est sur mobile que se consulte la plus grande part des pages en Espagne.
+Une page agréable sur téléphone retient l’acheteur espagnol jusqu’au formulaire de contact, car c’est sur mobile que se consulte la plus grande part des pages en Espagne.
 
 > Part des plateformes dans les pages vues en Espagne, septembre 2026 : mobile 68,27 %, ordinateur 30,3 %, tablette 1,43 %.
 >
@@ -113,18 +113,18 @@ Le mobile passe donc en premier : des pages rapides, une navigation claire et u
 
 ## Données structurées pour des résultats enrichis en espagnol
 
-Un résultat enrichi attire plus de clics qu’un résultat simple. Des données structurées localisées, comme les coordonnées de l’entreprise ou des événements, prolongent le [SEO technique de votre site multilingue](/fr/seo-technique-site-multilingue/) et peuvent vous les valoir.
+Un résultat enrichi attire plus de clics qu’un résultat simple. Des données structurées localisées, comme les coordonnées de l’entreprise ou des événements, complètent le [SEO technique de votre site multilingue](/fr/seo-technique-site-multilingue/) et peuvent vous rapporter ces résultats.
 
 ## GEO : faire citer vos pages espagnoles dans les réponses des IA
 
-De plus en plus d’acheteurs espagnols interrogent ChatGPT, Perplexity ou les AI Overviews de Google avant même de voir une liste de liens. La réponse nomme deux ou trois sources, et l’acheteur se rend chez elles. Faire de votre page espagnole l’une d’elles amène l’acheteur sur votre site, en plus de ce que vos positions apportent. L’optimisation pour les moteurs génératifs (GEO) consiste à rendre la page facile à citer pour ces systèmes, et notre guide [du SEO au GEO](/fr/seo-au-geo/) en détaille la méthode.
+De plus en plus d’acheteurs espagnols interrogent ChatGPT, Perplexity ou les AI Overviews de Google avant même de voir une liste de liens. La réponse nomme deux ou trois sources, et l’acheteur consulte ces sources. Faire de votre page espagnole l’une d’elles amène l’acheteur sur votre site, en plus de ce que vos positions apportent. L’optimisation pour les moteurs génératifs (GEO) consiste à rendre la page facile à citer pour ces systèmes, et notre guide [du SEO au GEO](/fr/seo-au-geo/) en détaille la méthode.
 
 L’essentiel relève du travail on-page que vous faites déjà, conduit avec plus de discipline :
 
-- **La réponse d’abord.** Ouvrez chaque section par la réponse directe, en une ou deux phrases simples en espagnol, puis donnez le détail. Une réponse d’IA reprend la phrase qui se suffit à elle-même.
-- **Des titres que poserait l’acheteur.** Formulez les intertitres comme un acheteur espagnol tape sa question, dans son espagnol, pour que la section corresponde à la requête à laquelle elle répond.
-- **Des faits sourcés.** Des prix, des délais et des chiffres énoncés clairement, avec la source nommée, se citent plus facilement que des affirmations.
-- **Des informations d’entreprise cohérentes.** Le même nom, la même adresse et les mêmes services sur la page, dans les données structurées et sur vos profils, pour que les systèmes identifient qui vous êtes.
+- **La réponse d’abord.** Ouvrez chaque section par la réponse directe, en une ou deux phrases simples en espagnol, puis donnez le détail. Une réponse d’IA cite volontiers une phrase qui se suffit à elle-même.
+- **Des titres que poserait l’acheteur.** Formulez les intertitres comme un acheteur espagnol taperait sa question, dans son espagnol, pour que la section réponde à la requête.
+- **Des faits sourcés.** Des prix, des délais et des chiffres énoncés clairement, avec la source nommée, sont plus faciles à citer que des affirmations.
+- **Des informations d’entreprise cohérentes.** Le même nom, la même adresse et les mêmes services sur la page, dans les données structurées et sur vos profils, pour que les systèmes identifient votre entreprise.
 
 Voyez-y un second lecteur de la même page : une page écrite clairement pour un acheteur espagnol est le plus souvent celle qu’une réponse d’IA cite.
 
@@ -172,7 +172,7 @@ Les chiffres par marché montrent ce qui a fonctionné. Utilisez Google Search C
 
 ## Ce qu’il faut vérifier en priorité
 
-Contrôlez avec le plus grand soin la justesse de la traduction et les différences régionales : elles construisent la confiance au moment précis où le lecteur décide de vous contacter. Notre anecdote sur la [coquille entre EEAT et AEAT](/fr/eeat-ou-aeat/) montre ce qu’une seule lettre change pour un site espagnol.
+Contrôlez avec le plus grand soin la justesse de la traduction et les différences régionales : elles construisent la confiance au moment précis où le lecteur décide de vous contacter. Notre anecdote sur la [coquille entre EEAT et AEAT](/fr/eeat-ou-aeat/) montre ce qu’une seule lettre peut changer pour un site espagnol.
 
 ## Par où commencer
 
@@ -184,11 +184,11 @@ Vous voulez que vos pages espagnoles rapportent des demandes de contact en plus 
 
 ### Pourquoi localiser les mots-clés pour les moteurs de recherche espagnols ?
 
-Des mots-clés qui correspondent à la façon dont les internautes espagnols cherchent réellement améliorent les positions locales et l’engagement.
+Des mots-clés qui répondent à la façon dont les internautes espagnols cherchent réellement améliorent les positions locales et l’engagement.
 
 ### L’argot espagnol aide-t-il le SEO on-page ?
 
-Un argot répandu peut rendre une page plus proche du lecteur ; dosez-le avec un ton professionnel là où le public en attend un.
+Un argot répandu peut rendre une page plus proche du lecteur ; dosez-le d’un ton professionnel là où le public l’attend.
 
 ### Les méta descriptions doivent-elles utiliser tú ou usted ?
 
@@ -196,7 +196,7 @@ Tú convient aux publics informels ; usted convient aux contenus formels et aux
 
 ### Comment le maillage interne aide-t-il le SEO on-page en Espagne ?
 
-Relier des contenus espagnols pertinents garde les visiteurs plus longtemps sur le site et signale la pertinence aux moteurs de recherche.
+Relier des contenus espagnols pertinents retient les visiteurs plus longtemps sur le site et signale la pertinence aux moteurs de recherche.
 
 ### Le SEO on-page aide-t-il à apparaître dans les réponses des IA en espagnol ?
 
@@ -204,4 +204,4 @@ Oui. Des titres espagnols clairs, des réponses directes et des informations d�
 
 ### Les données structurées sont-elles utiles au SEO local espagnol ?
 
-Elles sont facultatives, et elles donnent aux moteurs plus de contexte et améliorent leur interprétation de votre contenu au niveau local.
+Elles sont facultatives et fournissent aux moteurs de recherche plus de contexte, tout en améliorant leur interprétation de votre contenu au niveau local.

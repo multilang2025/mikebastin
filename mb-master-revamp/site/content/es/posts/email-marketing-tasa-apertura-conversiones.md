@@ -16,7 +16,7 @@ excerpt: "Asuntos que invitan a abrir, emails cómodos en el móvil y segmentos 
 
 Tu lista de suscriptores crece en varios mercados y tus campañas salen puntuales: en francés para Francia y Bélgica, en inglés para el Reino Unido, en alemán para Alemania. Falta que traigan ventas. Cada envío que merece la lectura enseña a tus suscriptores a abrir el siguiente.
 
-Cuentan cuatro palancas: asuntos que se ganan la apertura, emails con los que tu lector puede actuar desde el móvil, segmentos que hacen relevante cada envío y las cifras que muestran si el email marketing es rentable.
+Hay cuatro palancas: asuntos que consiguen aperturas, emails con los que tu lector puede interactuar desde el móvil, segmentos que hacen relevante cada envío y las cifras que muestran si el email marketing es rentable.
 
 ## Asuntos que invitan a abrir
 
@@ -69,7 +69,7 @@ Tu público decide qué funciona. Prueba estilos, longitudes y elementos del asu
 
 ## Emails pensados para el móvil
 
-Un email que se lee con comodidad en el teléfono lleva a la mayoría de sus lectores hasta tu oferta, así que el móvil va primero.
+Un email que se lee con comodidad en el teléfono lleva a la mayoría de sus lectores hasta tu oferta, así que piensa primero en el móvil.
 
 > Los dispositivos móviles siguen siendo el principal entorno de lectura para la mayoría de los suscriptores.
 >
@@ -77,7 +77,7 @@ Un email que se lee con comodidad en el teléfono lleva a la mayoría de sus lec
 
 ### Apuesta por el diseño responsive
 
-Tus emails se adaptan a cualquier tamaño de pantalla. Un diseño a una sola columna mantiene el desplazamiento sencillo.
+Tus emails se adaptan a cualquier tamaño de pantalla. Un diseño a una sola columna hace más fácil desplazarse hacia abajo.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 170" role="img" aria-label="Un email pensado para el móvil: una sola columna, párrafos cortos y botones grandes fáciles de pulsar.">
@@ -153,7 +153,7 @@ Los bloques de contenido dinámico cambian según los datos del suscriptor:
 
 ### Horas de envío personalizadas
 
-Envía cuando cada suscriptor tiene más probabilidades de abrir, según las horas a las que abrió tus emails anteriores. Para tus suscriptores británicos, programa con la hora de Londres, una hora menos que en Madrid, París y Bruselas. Si vendes desde Latinoamérica a Europa, la diferencia horaria pesa todavía más.
+Envía cuando cada suscriptor tenga más probabilidades de abrirlo, según las horas a las que abrió tus emails anteriores. Para tus suscriptores británicos, programa según la hora de Londres, una hora menos que en Madrid, París y Bruselas. Si vendes desde Latinoamérica a Europa, la diferencia horaria pesa todavía más.
 
 ### Emails según el ciclo de vida
 
@@ -167,7 +167,7 @@ Ajusta tus campañas al recorrido del cliente:
 
 ### Mira más allá de la tasa de apertura
 
-Por sí sola, la tasa de apertura es hoy una señal débil. La protección de privacidad de Mail de Apple (Mail Privacy Protection) precarga los mensajes, así que una «apertura» de esos usuarios cuenta la precarga, la haya leído alguien o no.
+Por sí sola, la tasa de apertura es hoy un indicador poco fiable. La protección de privacidad de Mail de Apple (Mail Privacy Protection) precarga los mensajes, así que una «apertura» de esos usuarios cuenta la precarga, lo haya leído alguien o no.
 
 > La protección de privacidad de Mail de Apple afecta ya a entre el 55 y el 60 % de todas las aperturas de email, aproximadamente.
 >
@@ -175,7 +175,7 @@ Por sí sola, la tasa de apertura es hoy una señal débil. La protección de pr
 
 Céntrate en:
 
-- las tasas de clic, y en si la página a la que lleva el clic retiene al visitante (nuestro trabajo de [SEO técnico](/es/services/seo-tecnico/) cubre esa parte);
+- las tasas de clic, y si la página a la que lleva el clic retiene al visitante (nuestro trabajo de [SEO técnico](/es/services/seo-tecnico/) cubre esa parte);
 - las tasas de conversión;
 - los ingresos por email.
 
@@ -210,8 +210,8 @@ Las herramientas de mapas de calor muestran dónde hacen clic tus suscriptores d
 La IA y el aprendizaje automático pueden predecir:
 
 - la mejor hora para escribir a cada suscriptor;
-- qué productos tiene más probabilidades de comprar un cliente a continuación;
-- cuándo un cliente está a punto de marcharse.
+- qué productos tiene más probabilidades de comprar un cliente después;
+- cuándo un cliente está a punto de darse de baja.
 
 ### Optimización automática de asuntos, horas de envío y contenido
 
@@ -221,8 +221,8 @@ Las herramientas con IA pueden, de forma automática:
 - optimizar las horas de envío;
 - personalizar el contenido para cada destinatario.
 
-En tus mercados extranjeros, haz que un lingüista nativo revise esos textos generados: nuestro servicio de [posedición de textos generados con IA](/es/services/posedicion-de-ia/) les da un tono natural en cada idioma. Para ver dónde se amortiza antes la IA en el resto de tu marketing, consulta [los usos rentables del marketing con IA](/es/marketing-con-ia/).
+En tus mercados extranjeros, pide a un lingüista nativo que revise esos textos generados: nuestro servicio de [posedición de textos generados con IA](/es/services/posedicion-de-ia/) les da un tono natural en cada idioma. Para ver dónde se amortiza antes la IA en el resto de tu marketing, consulta [los usos rentables del marketing con IA](/es/marketing-con-ia/).
 
 ## Por dónde empezar
 
-Elige el eslabón más débil, sean los asuntos, el diseño para móvil o los segmentos, y prueba una mejora en tu próximo envío. Júzgala por los clics y las conversiones, quédate con lo que gana y pasa al siguiente.
+Elige el eslabón más débil, sean los asuntos, el diseño para móvil o los segmentos, y prueba una mejora en tu próximo envío. Júzgala por los clics y las conversiones, quédate con lo que funcione y pasa al siguiente.

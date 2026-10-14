@@ -559,6 +559,10 @@ is in the rest, which the Master Content Protocol never covered:
   1999, but I don't want to show too many years"). Never "25 years" or a
   start year; the homepage counter reads 20+. BeTranslated's own age
   ("run for twenty years") is a separate fact about the agency.
+  In French and Spanish it is "plus de 20 ans" / "más de 20 años", with a
+  no-break space before ans/años (owner, 14 Oct 2026: "Plus de 20 ans is
+  more natural in French. Same in Spanish"); never "deux décennies" or
+  "dos décadas", which `lint:fr` and `lint:es` now flag.
 - No named testimonial or quote from a "real" customer or expat unless
   the person is verifiable (owner, 26 Sep 2026: the unverified expat
   testimonials in the Valencia posts were removed on that basis). Extends
@@ -599,6 +603,22 @@ file in the same pass, not only the code: fixing the symptom and leaving
 the stale doc guarantees the next session repeats the mistake. Two
 corrections came out of that rule on the day it was adopted, the hosting
 line above and a stale Next.js version in `cto.md`.
+
+**Paid API spend has a ceiling per session** (owner, 14 Oct 2026, after one
+session drained the OpenRouter account: about $20 in a day, down to $0.07 of
+$70). The rule covers OpenRouter (Mistral, Gemini and the rest), Keywords
+Everywhere, Ahrefs, Semrush, image generation and any other metered key.
+- Before any batch run, estimate its cost (segments × tokens × the model's
+  price) and read the balance (`/api/v1/credits` for OpenRouter).
+- Run a pilot of one or two files and report its actual cost before the
+  full run.
+- **$5 per session** is the ceiling without asking. Above it, or above 10 %
+  of the remaining balance, whichever is lower, ask the owner first with the
+  estimate.
+- A script that loops over files checks the spend as it goes and stops at
+  the ceiling, rather than retrying into a 402.
+- Never re-run a whole batch to recover a few failed chunks: retry only the
+  failed segments.
 
 ## Surfaced 21 Sep 2026, and what happened to each
 
@@ -807,7 +827,7 @@ is the one list of French pages; add a page there and it reaches the
 menu, sitemap and hreflang at once.
 `npm run lint:fr` (`scripts/fr-copy-lint.mjs`, in `verify`) checks every
 built French page for "nous" voice, vouvoiement, non-breaking spaces
-before `: ; ? !`, French spellings, "plus de deux décennies", sentence
+before `: ; ? !`, French spellings, "plus de 20 ans", sentence
 case, the French forbidden words and untranslated English; `npm run
 fix:fr` applies the mechanical half to `content/fr/`.
 The lead generation hub has FR and ES siblings (29 Sep 2026, owner
@@ -821,7 +841,7 @@ French one: `docs/ES-REBUILD-PLAN.md` (the reader is a Spanish-speaking
 company selling abroad, assumed to mirror the French decisions),
 `lib/es-pages-data.ts`, `scripts/gen-es-redirects.mjs`, and `npm run
 lint:es` (`scripts/es-copy-lint.mjs`: nosotros voice, tú, paired ¿ ¡, no
-straight quotes, "más de dos décadas", the Spanish forbidden words,
+straight quotes, "más de 20 años", the Spanish forbidden words,
 untranslated English, sentence case). The main Spanish page is
 `/es/services/optimizacion-seo/`; six services were built new
 (`traduccion-profesional`, `localizacion-de-aplicaciones`,

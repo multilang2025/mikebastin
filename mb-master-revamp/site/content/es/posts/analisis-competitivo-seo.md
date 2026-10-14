@@ -17,15 +17,15 @@ excerpt: "Análisis competitivo SEO para empresas que exportan: quién gana tus 
 
 ## Del análisis competitivo SEO a una lista de acciones
 
-Ya vendes en Francia, en el Benelux o en Alemania, y en cada uno de esos mercados alguien se queda con las búsquedas de tus compradores. Quizá tienes ya exports de Ahrefs o de Semrush y una idea bastante clara de quién te supera en Google. El paso que más rinde ahora es decidir qué hacer con todo eso, en qué orden y en qué mercado.
+Ya vendes en Francia, en el Benelux o en Alemania, y en cada uno de esos mercados alguien se queda con las búsquedas de tus compradores. Quizá tienes ya datos exportados de Ahrefs o de Semrush y una idea bastante clara de quién te supera en Google. El paso más rentable ahora es decidir qué hacer con todo eso, en qué orden y en qué mercado.
 
-Un análisis competitivo SEO bien llevado termina en una lista corta de acciones con dueño y fecha. Esa lista es la que mueve posiciones y, sobre todo, la que trae consultas de clientes desde tus mercados extranjeros. En más de dos décadas hemos leído muchos informes de competencia, y los que dan resultado parten de lo que ve el comprador cuando busca y caben en una tarde de trabajo por mercado.
+Un análisis de competencia SEO bien llevado termina en una lista corta de acciones con responsable y fecha. Esa lista es la que mueve posiciones y, sobre todo, la que trae consultas de clientes desde tus mercados extranjeros. En más de 20 años hemos leído muchos informes de competencia, y los que dan resultado parten de lo que ve el comprador cuando busca y caben en una tarde de trabajo por mercado.
 
 Aquí tienes el método que seguimos: cómo dar con tus rivales reales, las cuatro cosas que conviene extraer de ellos, las herramientas y cómo leer sus cifras, y cómo repetirlo en cada idioma y en las respuestas de IA.
 
 ## Fija las decisiones antes de abrir una herramienta
 
-Antes de abrir una herramienta, conviene saber qué decisiones debe alimentar el análisis. Así cada hora de trabajo termina en una prioridad.
+Antes de abrir una herramienta, conviene saber qué decisiones debe guiar el análisis. Así cada hora de trabajo termina en una prioridad.
 
 - **Dónde competir:** qué búsquedas y qué mercados están a tu alcance este trimestre.
 - **Qué publicar:** qué páginas faltan en tu web frente a las que ya traen tráfico a tus rivales.
@@ -34,9 +34,9 @@ Antes de abrir una herramienta, conviene saber qué decisiones debe alimentar el
 
 ## Tus rivales reales comparten tus resultados de búsqueda
 
-Elegir bien a los rivales te ahorra meses de contenido escrito contra la empresa equivocada. El competidor de negocio y el competidor de SEO son a menudo empresas distintas, y las búsquedas de alta intención que más clientes traen a una pyme suelen ganarlas webs más pequeñas que la mayor empresa del sector.
+Elegir bien a los rivales te ahorra meses de contenido escrito contra la empresa equivocada. El competidor de negocio y el competidor de SEO son a menudo empresas distintas, y las búsquedas con alta intención de compra que más clientes traen a una pyme suelen ganarlas webs más pequeñas que la mayor empresa del sector.
 
-Un despacho de abogados de Valencia con el que trabajamos tenía claro que su gran rival era una boutique conocida de la misma ciudad. Tras una tarde de comprobación en los resultados de búsqueda, sus rivales orgánicos resultaron ser tres abogados independientes con webs de doce páginas y un SEO local muy afinado. La boutique que les preocupaba quedaba bastante más abajo.
+Un despacho de abogados de Valencia con el que trabajamos tenía claro que su gran rival era una boutique conocida de la misma ciudad. Tras una tarde revisando los resultados de búsqueda, sus rivales orgánicos resultaron ser tres abogados independientes con webs de doce páginas y un SEO local muy afinado. La boutique que les preocupaba quedaba bastante más abajo.
 
 Nosotros revisamos los resultados de las 30 a 50 búsquedas que de verdad le importan a un cliente. Las páginas que salen una y otra vez forman la lista real: rivales directos, indirectos y de contenido, y a veces un hilo de foro que posiciona por encima de cualquier competidor «oficial». Saber eso cambia el encargo: tu objetivo pasa a ser superar a los tres blogs que captan la intención de compra, y el término genérico queda para más adelante. El método paso a paso lo tienes en nuestra guía para [encontrar tus verdaderos competidores SEO](/es/competidores-seo/).
 
@@ -44,13 +44,13 @@ Nosotros revisamos los resultados de las 30 a 50 búsquedas que de verdad le imp
 
 Con la lista hecha, el trabajo útil es extraer de cada rival lo que explica su posición. Cuando un cliente nos pide analizar cinco competidores, esto es lo que sacamos de cada uno.
 
-**Páginas que más tráfico ganan.** Las 10 a 20 direcciones que Ahrefs o Semrush señalan como las que reciben más visitas orgánicas. El modelo de negocio del rival vive en esas páginas, y [analizar el tráfico web de la competencia](/es/analizar-trafico-web-competencia/) te dice además si ese tráfico viene de búsquedas de marca, de búsquedas genéricas o de campañas de pago.
+**Páginas que más tráfico ganan.** Las 10 a 20 direcciones que Ahrefs o Semrush señalan como las que reciben más visitas orgánicas. El modelo de negocio del rival se basa en esas páginas, y [analizar el tráfico web de la competencia](/es/analizar-trafico-web-competencia/) te dice además si ese tráfico viene de búsquedas de marca, de búsquedas genéricas o de campañas de pago.
 
 **Ritmo de enlaces.** Un flujo regular de enlaces durante dos años suele pesar más que un pico aislado tras una campaña de prensa. Lo que cuenta es el patrón, más que el total.
 
 **Formatos que ocupan los resultados.** ¿Los rivales se llevan los fragmentos destacados, los carruseles de vídeo o el pack local? Cada formato te dice qué premia Google ahora para esa intención, y la respuesta guía el formato de tus propias páginas.
 
-**Palabras clave que compartís de verdad.** Quita los términos de marca de ambos lados y filtra los informes de palabras clave comunes hasta dejar solo las de intención de compra. La lista limpia suele ser una fracción pequeña del export en bruto.
+**Palabras clave que compartís de verdad.** Quita los términos de marca de ambos lados y filtra los informes de palabras clave comunes hasta dejar solo las de intención de compra. La lista limpia suele ser una fracción pequeña de los datos en bruto.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 130" role="img" aria-label="Las cuatro extracciones del análisis de la competencia, en orden: páginas top, enlaces, formatos y palabras clave comunes.">
@@ -77,13 +77,13 @@ Con la lista hecha, el trabajo útil es extraer de cada rival lo que explica su 
 
 ## Céntrate en las pocas páginas que traen tráfico
 
-Antes de pasarte una semana mapeando cada página del sitio de un competidor, ten en cuenta cómo se reparte el tráfico en la web.
+Antes de pasarte una semana revisando cada página del sitio de un competidor, ten en cuenta cómo se reparte el tráfico en la web.
 
 > El 96,55 % de todas las páginas de nuestro índice no recibe ningún tráfico de Google, y un 1,94 % recibe entre una y diez visitas al mes.
 >
 > Fuente: [Ahrefs, estudio de tráfico sobre unos 14.000 millones de páginas, actualizado en diciembre de 2023](https://ahrefs.com/blog/search-traffic-study/)
 
-La conclusión es práctica: el tráfico de tus rivales se concentra en unas pocas páginas. Encuentra sus cinco a diez direcciones que traen visitas y estúdialas a fondo. Un pico de tráfico en una de ellas suele coincidir con un lanzamiento o con un cambio en su [estrategia de marketing digital](/es/services/), y merece una mirada.
+La conclusión es práctica: el tráfico de tus rivales se concentra en unas pocas páginas. Encuentra sus cinco a diez direcciones que traen visitas y estúdialas a fondo. Un pico de tráfico en una de ellas suele coincidir con un lanzamiento o con un cambio en su [estrategia de marketing digital](/es/services/), y conviene revisarlo.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="El tráfico de un rival se concentra en unas pocas páginas top; el resto del sitio aporta poco.">
@@ -103,9 +103,9 @@ La conclusión es práctica: el tráfico de tus rivales se concentra en unas poc
 
 ## Brecha de palabras clave: qué términos puedes ganar primero
 
-La brecha de palabras clave es la parte del análisis que más directamente se convierte en páginas nuevas. Compara las palabras clave en las que tus rivales ya posicionan con las tuyas, y quédate con las que puedes ganar este trimestre: términos de cola larga con intención de compra, donde una página bien escrita entra pronto. Los términos muy disputados, donde un rival lleva años de ventaja, quedan para una segunda ronda.
+Encontrar las palabras clave que te faltan es la parte del análisis que más directamente se convierte en páginas nuevas. Compara las palabras clave en las que tus rivales ya posicionan con las tuyas, y quédate con las que puedes ganar este trimestre: términos de cola larga con intención de compra, donde una página bien escrita entra pronto. Los términos muy disputados, donde un rival lleva años de ventaja, quedan para una segunda ronda.
 
-Un export de 1.200 filas es una lista. El encargo de contenido es lo que queda tras la revisión de un editor y de un experto en la materia, ordenado por lo que responde mejor a la intención de búsqueda. Para empezar con poca inversión existen [diversas herramientas gratuitas de análisis competitivo](/es/herramientas-gratuitas-analisis-competitivo/), y el seguimiento posterior lo explicamos en nuestra guía para [rastrear posiciones de keywords de competidores](/es/rastrear-posiciones-de-keywords-de-competidores/).
+Un archivo exportado de 1.200 filas es una lista. El encargo de contenido es lo que queda tras la revisión de un editor y de un experto en la materia, ordenado por lo que responde mejor a la intención de búsqueda. Para empezar con poca inversión existen [diversas herramientas gratuitas de análisis de competencia](/es/herramientas-gratuitas-analisis-competitivo/), y el seguimiento posterior lo explicamos en nuestra guía para [rastrear posiciones de keywords de competidores](/es/rastrear-posiciones-de-keywords-de-competidores/).
 
 En [C21 Perdomo](https://c21perdomo.com/es/), una inmobiliaria que publica en cuatro idiomas, llevamos el SEO idioma por idioma a partir de las búsquedas propias de cada mercado, porque cada idioma tiene sus propios rivales y sus propios huecos.
 
@@ -197,13 +197,13 @@ Una [consultoría de IA para SEO](/es/services/consultoria-de-inteligencia-artif
 
 ## Cuándo repetir el análisis
 
-Un análisis se queda en presentación si nadie lo convierte en trabajo, y los mercados se mueven: llegan rivales nuevos y los algoritmos cambian. Para los clientes activos refrescamos el cuadro cada trimestre, y en nichos rápidos, como las herramientas de IA o las fintech, cada mes.
+Un análisis se queda en una presentación si nadie lo convierte en trabajo, y los mercados se mueven: llegan rivales nuevos y los algoritmos cambian. Para los clientes activos actualizamos el análisis cada trimestre, y en nichos rápidos, como las herramientas de IA o las fintech, cada mes.
 
 Hay tres momentos en los que un análisis completo se paga solo:
 
-- Al entrar en un mercado geográfico o vertical nuevo, para saber qué funciona allí antes de comprometer presupuesto.
-- Cuando tu equipo hace el trabajo de siempre y las posiciones se mantienen quietas.
-- Cuando sopesas un cambio de precio o de posicionamiento de servicio y quieres saber qué espacio ya está ocupado.
+- Al entrar en un mercado geográfico o vertical nuevo, para saber qué funciona allí antes de invertir presupuesto.
+- Cuando tu equipo hace el trabajo de siempre y las posiciones se estancan.
+- Cuando sopesas un cambio de precio o de posicionamiento del servicio y quieres saber qué espacio ya está ocupado.
 
 <aside class="post-cta">
 <p><strong>¿Quieres saber quién se queda con tus búsquedas en Francia o en Alemania?</strong> En nuestro <a href="/es/services/optimizacion-seo/">SEO internacional</a> empezamos por las palabras que usan tus compradores en cada mercado y por quién las gana hoy. <a href="/es/contactanos/">Reserva una consulta gratuita</a>.</p>
@@ -227,4 +227,4 @@ Sí, un análisis básico es posible con Google Search Console, la observación 
 
 Elige un mercado, cinco rivales y las veinte búsquedas que más te importan. Con eso tienes el primer plan del trimestre.
 
-Si quieres comprobar que tu equipo se compara con la lista correcta, empezamos por una de tus búsquedas prioritarias en el mercado que más te importa. [Pide una revisión de tu lista de rivales](/es/contactanos/) o mira [cómo llevamos los programas de SEO multilingüe](/es/services/posicionamiento-multilingue/).
+Si quieres comprobar que tu equipo trabaja con la lista correcta, empezamos por una de tus búsquedas prioritarias en el mercado que más te importa. [Pide una revisión de tu lista de rivales](/es/contactanos/) o mira [cómo llevamos los programas de SEO multilingüe](/es/services/posicionamiento-multilingue/).

@@ -53,7 +53,7 @@ Es la pieza continua de un [análisis competitivo SEO](https://mikebastin.com/es
 
 Un seguimiento útil empieza por una lista corta y bien elegida, que se lee rápido y se convierte en decisiones.
 
-**Los rivales.** Por cada mercado, de tres a cinco dominios que aparecen de forma repetida en tus búsquedas clave. Distingue entre los rivales de negocio y los de búsqueda: los segundos son a menudo blogs, portales o medios que dominan las fases tempranas del recorrido del comprador.
+**Los rivales.** Por cada mercado, de tres a cinco dominios que aparecen de forma repetida en tus búsquedas clave. Distingue entre los rivales de negocio y los de búsqueda: los segundos son a menudo blogs, portales o medios que dominan las fases tempranas del proceso de compra.
 
 **Las palabras clave.** Agrúpalas por intención: comerciales (las que traen consultas), informativas (las que educan al comprador) y de marca. Las comerciales merecen el seguimiento más frecuente.
 
@@ -63,7 +63,7 @@ Un seguimiento útil empieza por una lista corta y bien elegida, que se lee ráp
 
 La posición que ves desde Valencia es distinta de la que ve tu comprador en Lyon o en Amberes. Configura cada proyecto en el buscador y el idioma del mercado: google.fr en francés, google.de en alemán, google.co.uk en inglés y google.be en francés y en neerlandés.
 
-Separa también móvil y escritorio, porque los resultados cambian entre uno y otro, y añade la ciudad cuando vendes con presencia local.
+Separa también móvil y ordenador, porque los resultados cambian entre uno y otro, y añade la ciudad cuando vendes con presencia local.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="La misma búsqueda da posiciones distintas vista desde Valencia y en google.fr en francés, que es lo que ve tu comprador de Lyon.">
@@ -142,7 +142,7 @@ Una subida de un competidor es una pista: algo le funciona, y puedes averiguar q
 
 **Comprueba si es un cambio general.** Si varios rivales se mueven a la vez, puede ser una actualización del algoritmo. [Search Engine Journal](https://www.searchenginejournal.com/) es una buena fuente para confirmarlo.
 
-Las herramientas con IA detectan estas anomalías de forma automática y te avisan, lo que deja tu tiempo para decidir qué responder.
+Las herramientas con IA detectan estas anomalías de forma automática y te avisan, lo que te deja tiempo para decidir qué responder.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 120" role="img" aria-label="Tres comprobaciones cuando un rival sube: la página que sube, sus enlaces nuevos y si se trata de un cambio general del algoritmo.">
@@ -162,9 +162,9 @@ Las herramientas con IA detectan estas anomalías de forma automática y te avis
 
 ## Un cuadro de mando que se lee en diez minutos
 
-El informe útil cabe en una página por mercado. Incluye la cuota de visibilidad tuya y de cada rival, las palabras clave comerciales ganadas y perdidas en el mes, y los formatos especiales que ocupa cada uno.
+El informe útil cabe en una página por mercado. Incluye tu cuota de visibilidad y la de cada rival, las palabras clave comerciales ganadas y perdidas en el mes, y los formatos especiales que ocupa cada uno.
 
-Las empresas que trabajan varios países con método encuentran en una [agencia de SEO internacional](https://mikebastin.com/es/services/posicionamiento-multilingue/) un apoyo para convertir esos datos en trabajo mensual, dentro de una [estrategia de marketing digital con IA](/es/services/). Si quieres saber quiénes somos, [conoce a nuestro equipo](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/).
+Las empresas que trabajan en varios países con método encuentran en una [agencia de SEO internacional](https://mikebastin.com/es/services/posicionamiento-multilingue/) un apoyo para convertir esos datos en trabajo mensual, dentro de una [estrategia de marketing digital con IA](/es/services/). Si quieres saber quiénes somos, [conoce a nuestro equipo](https://mikebastin.com/es/conocenos-agencia-experta-en-seo/).
 
 ## Preguntas frecuentes sobre el seguimiento de competidores
 
@@ -174,7 +174,7 @@ En sectores con mucho movimiento, como el comercio electrónico o la tecnología
 
 ### ¿Es legal seguir las palabras clave de tu competencia?
 
-Sí. El seguimiento de posiciones usa datos públicos de los buscadores. Las herramientas que repasamos en nuestro artículo sobre [herramientas para el análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) recopilan y ordenan esa información.
+Sí. El seguimiento de posiciones usa datos públicos de los buscadores. Las que repasamos en nuestro artículo sobre [herramientas para el análisis competitivo](https://mikebastin.com/es/herramientas-gratuitas-analisis-competitivo/) recopilan y ordenan esa información.
 
 ### ¿Cómo afecta la IA al seguimiento de posiciones?
 
@@ -190,7 +190,7 @@ La cuota de visibilidad, el tráfico estimado de esas palabras clave y su dificu
 
 ## Por dónde empezar
 
-Elige un mercado, tres rivales y tus cincuenta búsquedas comerciales, y configura el primer proyecto esta semana. En un mes tendrás tendencias que leer.
+Elige un mercado, tres rivales y tus cincuenta búsquedas comerciales, y configura el primer proyecto esta semana. En un mes tendrás tendencias que analizar.
 
 Si prefieres que lo montemos contigo, [solicita una auditoría de competencia](https://mikebastin.com/es/contactanos/) y te diremos qué palabras clave puedes ganar y cómo.
 

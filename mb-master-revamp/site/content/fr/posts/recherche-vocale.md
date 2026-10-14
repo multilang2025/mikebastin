@@ -68,7 +68,7 @@ Une page rédigée dans les mots que vos clients prononcent correspond directeme
 | « conseils SEO » | « Comment améliorer le référencement d’un site sur Google ? » |
 | « horaires restaurant » | « À quelle heure ouvre le restaurant italien de la rue Sainte-Catherine ? » |
 
-D’autres exemples, tels que les assistants les reçoivent chaque jour :
+D’autres exemples, tels que ceux que les assistants reçoivent chaque jour :
 
 - « Comment se faire rembourser une commande en ligne ? »
 - « Quel est le TGV le plus rapide pour Lyon depuis Paris ? »
@@ -198,7 +198,7 @@ Pour le commerce local, les requêtes vocales ressemblent à celles-ci :
 
 ## Mesurez les questions qui vous apportent des visites
 
-Mesurer vous indique quelles questions vous rapportent déjà des visites et lesquelles travailler ensuite.
+La mesure vous indique quelles questions vous rapportent déjà des visites et lesquelles travailler ensuite.
 
 - Repérez dans [Google Search Console](https://search.google.com/search-console/about) les requêtes longues et formulées en questions, bon indicateur des recherches conversationnelles, ainsi que vos extraits optimisés.
 - Suivez les visites, les appels et les demandes d’itinéraire liés à vos pages de questions et à vos pages locales.

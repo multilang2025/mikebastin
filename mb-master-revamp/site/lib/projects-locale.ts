@@ -122,7 +122,7 @@ export const PROJECTS_ES: Record<string, ProjectCopy> = {
   },
   "tx-international-freight": {
     angle: "Carga industrial en Houston",
-    body: "SEO técnico y contenido para un transitario cuyos clientes buscan con el vocabulario de su propio sector. Aprender ese vocabulario fue la mayor parte del trabajo.",
+    body: "SEO técnico y contenido para un transitario cuyos clientes buscan con el vocabulario de su propio sector. Aprender ese vocabulario nos llevó la mayor parte del trabajo.",
     services: ["SEO técnico", "Contenido sectorial", "Búsqueda local en Houston", "Portal de seguimiento"],
     metrics: [
       { v: "Houston", k: "Pack local" },
@@ -132,7 +132,7 @@ export const PROJECTS_ES: Record<string, ProjectCopy> = {
   },
   c21perdomo: {
     angle: "Inmobiliaria en República Dominicana",
-    body: "Cuatro idiomas sobre un WordPress headless con WPML y WooCommerce. Fichas de inmuebles que siguen siendo correctas en cada idioma mientras el stock cambia cada semana.",
+    body: "Cuatro idiomas en un WordPress headless con WPML y WooCommerce. Fichas de inmuebles que se mantienen al día en cada idioma aunque la oferta cambie cada semana.",
     services: ["SEO multilingüe", "WordPress headless", "WPML y WooCommerce", "Cuatro idiomas"],
     metrics: [
       { v: "4", k: "Idiomas" },
@@ -153,7 +153,7 @@ export const PROJECTS_ES: Record<string, ProjectCopy> = {
   },
   "bemelman-spuiterij": {
     angle: "Pintura en polvo en los Países Bajos",
-    body: "Un especialista de Noordwijkerhout cuya reputación iba por delante de su presencia en internet. SEO local neerlandés para un oficio en el que los compradores son empresas y pocas búsquedas bastan para decidir.",
+    body: "Un especialista de Noordwijkerhout con más reputación que presencia en internet. SEO local en neerlandés para un oficio en el que los compradores son empresas y unas pocas búsquedas bastan para decidirse.",
     services: ["SEO local neerlandés", "Web en Divi", "Búsqueda B2B"],
     metrics: [
       { v: "B2B", k: "Compradores profesionales" },
@@ -163,7 +163,7 @@ export const PROJECTS_ES: Record<string, ProjectCopy> = {
   },
   "delaguia-y-luzon": {
     angle: "Despacho de abogados en Valencia",
-    body: "Derecho civil, laboral, extranjería y fiscal en España y Francia, en cuatro idiomas, incluido el ruso. SEO jurídico en el que cada término tiene que resistir la lectura de un abogado.",
+    body: "Derecho civil, laboral, fiscal y de extranjería en España y Francia, en cuatro idiomas, incluido el ruso. SEO jurídico en el que cada término tiene que pasar el filtro de un abogado.",
     services: ["SEO jurídico", "Contenido multilingüe", "Cuatro idiomas", "Dos jurisdicciones"],
     metrics: [
       { v: "4", k: "Idiomas" },

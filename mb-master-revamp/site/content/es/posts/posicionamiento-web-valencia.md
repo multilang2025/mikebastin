@@ -17,7 +17,7 @@ excerpt: "Posicionamiento web en Valencia: optimiza tu web para que los clientes
 
 Alguien en El Carmen busca justo lo que vendes, en español o en inglés, y la empresa más fácil de encontrar se lleva la visita. En Valencia se busca en más de un idioma, así que un negocio visible en cada uno de ellos llega a todas esas personas, semana tras semana.
 
-Tanto si sirves horchata en Ruzafa como si ofreces servicios profesionales cerca del puerto, la búsqueda local decide si las personas adecuadas te encuentran en el momento justo. Tanto si haces este trabajo tú mismo como si cuentas con un [servicio de SEO local](/es/services/seo-local/), empieza por las palabras que escriben tus clientes.
+Tanto si sirves horchata en Ruzafa como si ofreces servicios profesionales cerca del puerto, la búsqueda local decide si las personas adecuadas te encuentran en el momento justo. Hagas este trabajo tú mismo o cuentes con un [servicio de SEO local](/es/services/seo-local/), empieza por las palabras que escriben tus clientes.
 
 ## Las palabras clave que usan tus clientes en Valencia
 
@@ -154,7 +154,7 @@ Los datos locales te muestran si el trabajo trae clientes de Valencia, además d
 
 ### Google Analytics y Search Console
 
-En Google Analytics, los informes geográficos muestran cuánto tráfico llega desde Valencia, el porcentaje de interacciones y el tiempo en la página indican si los visitantes locales encuentran lo que buscaban, y el seguimiento de conversiones muestra cuántos se convierten en contactos o ventas. En Search Console, el informe de rendimiento te da clics, impresiones y posición media de tus palabras clave de Valencia, y el informe de indexación de páginas confirma que tus páginas de Valencia están indexadas.
+En Google Analytics, los informes geográficos muestran cuánto tráfico llega desde Valencia. El porcentaje de interacciones y el tiempo en la página indican si los visitantes locales encuentran lo que buscaban, y el seguimiento de conversiones muestra cuántos se convierten en contactos o ventas. En Search Console, el informe de rendimiento te da clics, impresiones y posición media de tus palabras clave de Valencia, y el informe de indexación de páginas confirma que tus páginas de Valencia están indexadas.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 160" role="img" aria-label="Un embudo de tres métricas locales: el porcentaje de clics, después el porcentaje de interacciones y, al final, la tasa de conversión, los visitantes de Valencia que se convierten en clientes o contactos.">
@@ -184,9 +184,9 @@ En Google Analytics, los informes geográficos muestran cuánto tráfico llega d
 ## Cinco primeros pasos para este mes
 
 -   **Reclama tu Perfil de Empresa de Google.** Crea y mantén al día un [Perfil de Empresa de Google](https://www.google.com/business/) para aparecer en los resultados locales y en Maps; nuestra guía para [optimizar el Perfil de Empresa de Google](/es/optimizar-perfil-de-empresa-de-google/) lo explica paso a paso. Para subir en el mapa con reseñas, publicaciones y anuncios en castellano e inglés, sigue nuestra guía para [promocionar tu negocio local en Google Maps en Valencia](/es/promocionar-negocio-local-google-maps-valencia/).
--   **Pide reseñas.** Anima a tus clientes satisfechos a dejar una reseña en Google, Yelp o Tripadvisor, y responde a las reseñas para generar confianza.
--   **Escribe contenido local.** Artículos y páginas de destino sobre eventos, noticias y temas de Valencia, de las Fallas a la vida de tu barrio, atraen tráfico local y construyen autoridad.
--   **Responde a las preguntas habladas.** Las búsquedas por voz se formulan con naturalidad, como «¿dónde se come la mejor paella de Valencia?», así que responde directamente a preguntas de ese tipo.
+-   **Pide reseñas.** Anima a tus clientes satisfechos a dejar una reseña en Google, Yelp o Tripadvisor, y respóndelas para generar confianza.
+-   **Escribe contenido local.** Los artículos y páginas de destino sobre eventos, noticias y temas de Valencia, desde las Fallas hasta la vida de tu barrio, atraen tráfico local y generan autoridad.
+-   **Responde a las preguntas por voz.** Las búsquedas por voz se formulan con naturalidad, como «¿dónde se come la mejor paella de Valencia?», así que responde directamente a este tipo de preguntas.
 -   **Añade datos estructurados.** El schema LocalBusiness ayuda a los buscadores a entender tu negocio y puede darte resultados enriquecidos.
 
 <aside class="post-cta">
@@ -197,11 +197,11 @@ En Google Analytics, los informes geográficos muestran cuánto tráfico llega d
 
 ### ¿Cómo posicionamos en las búsquedas de Valencia?
 
-Trabaja palabras clave locales en tus páginas, publica contenido local útil, mantén tu Perfil de Empresa de Google completo y exacto, y consigue citas en directorios locales de confianza.
+Trabaja palabras clave locales en tus páginas, publica contenido local útil, mantén tu Perfil de Empresa de Google completo y actualizado, y consigue menciones en directorios locales de confianza.
 
 ### ¿Cómo aparecemos en las búsquedas de cercanía en Valencia?
 
-Para las búsquedas que preguntan qué hay cerca, mantén completo tu Perfil de Empresa de Google, usa términos de ubicación en tus contenidos y muestra bien visibles tu dirección y tus datos de contacto en la web.
+Para las búsquedas de negocios cercanos, mantén completo tu Perfil de Empresa de Google, usa términos de ubicación en tus contenidos y muestra bien visibles tu dirección y datos de contacto en la web.
 
 ### ¿Podemos aplicar la misma estrategia en otras ciudades españolas?
 
@@ -209,4 +209,4 @@ Gran parte es trasladable; adáptala a los hábitos de búsqueda, el carácter y
 
 ### ¿Cuánto importan los backlinks locales para el SEO en Valencia?
 
-Mucho. Los enlaces de negocios locales, directorios, medios de noticias y asociaciones del barrio, la base del [link building local en España](/es/link-building-local-en-espana/), les dicen a los buscadores que eres relevante en Valencia.
+Mucho. Los enlaces de negocios locales, directorios, medios de comunicación y asociaciones del barrio, la base del [link building local en España](/es/link-building-local-en-espana/), les dicen a los buscadores que eres relevante en Valencia.

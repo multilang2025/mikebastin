@@ -15,15 +15,15 @@ excerpt: "Lista de auditoría de SEO técnico: qué revisar, cómo detectar cada
 
 ## Qué revisar en una auditoría de SEO técnico
 
-Tu contenido es bueno, las páginas se ven bien y las próximas mejoras de posición están debajo: páginas a las que los buscadores llegan, una versión clara de cada página y un sitio lo bastante rápido en el móvil para retener al visitante. Con esas tres piezas en orden, cada euro invertido en contenido y enlaces rinde todo lo que puede, también en los mercados a los que vendes fuera, como Francia, el Benelux, Alemania o el Reino Unido.
+Tu contenido es bueno, las páginas se ven bien y las próximas mejoras de posición están en la base: páginas a las que los buscadores llegan, una versión clara de cada página y un sitio lo bastante rápido en el móvil para retener al visitante. Con esas tres piezas en orden, cada euro invertido en contenido y enlaces rinde todo lo que puede, también en los mercados a los que vendes fuera, como Francia, el Benelux, Alemania o el Reino Unido.
 
-La lista de abajo sirve para auditar tu propio sitio o revisar el trabajo de la [agencia de SEO](/es/services/optimizacion-seo/) que lo mantiene. Cada sección recoge qué revisar, cómo encontrar el problema y cómo resolverlo, con las herramientas que usamos nosotros y ejemplos cortos de código.
+La siguiente lista sirve para auditar tu propio sitio o revisar el trabajo de la [agencia de SEO](/es/services/optimizacion-seo/) que lo mantiene. Cada sección recoge qué revisar, cómo encontrar el problema y cómo resolverlo, con las herramientas que usamos nosotros y ejemplos cortos de código.
 
 Si prefieres delegar el trabajo, nuestro [servicio de SEO técnico](/es/services/seo-tecnico/) hace la misma auditoría y aplica las correcciones.
 
 ## Comprueba que Google rastrea e indexa tus páginas
 
-Todo lo demás de la lista empieza cuando los buscadores llegan a la página, así que la auditoría recorre las fases en este orden:
+El resto de la lista empieza cuando los buscadores llegan a la página, así que la auditoría recorre las fases en este orden:
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 130" role="img" aria-label="La auditoría avanza en cuatro fases, cada una apoyada en la anterior: rastreo, indexación, renderizado y posicionamiento.">
@@ -75,7 +75,7 @@ La mayoría de los CMS lo generan solos (Yoast SEO o Rank Math en WordPress); XM
 
 ### Noindex y nofollow
 
-Un `noindex` retira una página de los resultados igual que un bloqueo en robots.txt, así que rastrea el sitio con Screaming Frog o con Ahrefs Site Audit, lista todas las páginas con `noindex` o `nofollow` y confirma que cada una es intencionada. En las páginas que quieres indexadas, omite la etiqueta meta robots o usa `<meta name="robots" content="index, follow">`.
+Un `noindex` retira una página de los resultados igual que un bloqueo en robots.txt, así que rastrea el sitio con Screaming Frog o con Ahrefs Site Audit, lista todas las páginas con `noindex` o `nofollow` y confirma que cada una es intencionada. En las páginas que quieres indexar, omite la etiqueta meta robots o usa `<meta name="robots" content="index, follow">`.
 
 Mantén abierta en robots.txt cualquier URL con `noindex`, para que Google pueda leer la página y encontrar la etiqueta.
 
@@ -87,7 +87,7 @@ Mantén abierta en robots.txt cualquier URL con `noindex`, para que Google pueda
 | 302 | Encontrada, temporal | Google acaba tratándola como 301 si se mantiene | Una prueba corta o una página de temporada |
 | 410 | Eliminada | No | El contenido se retira de forma definitiva |
 
-Encuentra cadenas y bucles con Screaming Frog, Ahrefs o la extensión Redirect Path, una de las [extensiones de Chrome para SEO](/es/extensiones-chrome-seo/) que más usamos, haz que cada redirección apunte directamente a la URL final y cambia por 301 las 302 que se han vuelto permanentes. En `.htaccess`:
+Encuentra cadenas y bucles con Screaming Frog, Ahrefs o la extensión Redirect Path, una de las [extensiones de Chrome para SEO](/es/extensiones-chrome-seo/) que más usamos. Haz que cada redirección apunte directamente a la URL final y cambia por 301 las 302 que se han vuelto permanentes. En `.htaccess`:
 
 ```
 Redirect 301 /pagina-antigua /pagina-nueva
@@ -179,7 +179,7 @@ Una página rápida retiene primero al visitante y gana la posición después. C
 </IfModule>
 ```
 
-**Respuesta del servidor.** Un buen Time to First Byte (TTFB) mejora todas las demás métricas. Mídelo en WebPageTest, coloca el sitio detrás de una CDN como Cloudflare, guarda en caché las consultas a la base de datos (Redis es lo habitual) y mejora el alojamiento si se queda corto. Vigila la disponibilidad con UptimeRobot o Pingdom para detectar las caídas antes de que lleguen a las posiciones.
+**Respuesta del servidor.** Un buen Time to First Byte (TTFB) mejora todas las demás métricas. Mídelo en WebPageTest, coloca el sitio detrás de una CDN como Cloudflare, guarda en caché las consultas a la base de datos (Redis es lo habitual) y mejora el alojamiento si se queda corto. Vigila la disponibilidad con UptimeRobot o Pingdom para detectar las caídas antes de que afecten a las posiciones.
 
 **Móvil.** Google indexa la versión móvil de tu sitio. Prueba con Lighthouse y la barra de dispositivos de las herramientas para desarrolladores de Chrome: busca contenido más ancho que la pantalla, texto demasiado pequeño y elementos táctiles demasiado juntos.
 
@@ -225,7 +225,7 @@ Revisa las vistas previas con el Sharing Debugger de Facebook y el Post Inspecto
 
 ## Une el contenido duplicado y refuerza las páginas flojas
 
-Una página por búsqueda le da a esa página toda su fuerza. Cuando el mismo contenido vive en varias URL (con y sin `www`, con barra final o con un parámetro de seguimiento), una etiqueta canonical indica la versión que hay que indexar. Comprueba que cada plantilla emite un canonical, que apunta a una URL activa e indexable y que los enlaces internos usan el mismo formato:
+Una página por búsqueda le da a esa página toda su fuerza. Cuando el mismo contenido está en varias URL (con y sin `www`, con barra final o con un parámetro de seguimiento), una etiqueta canonical indica la versión que hay que indexar. Comprueba que cada plantilla incluye un canonical, que apunta a una URL activa e indexable y que los enlaces internos usan el mismo formato:
 
 ```
 <link rel="canonical" href="https://www.tudominio.com/pagina" />
@@ -261,7 +261,7 @@ Disallow: /*?sessionID=
 >
 > Fuente: [Google Search Central Blog, «Spring cleaning: the URL Parameters tool»](https://developers.google.com/search/blog/2022/03/url-parameters-tool-deprecated)
 
-Siteliner y Copyscape encuentran texto duplicado dentro de un sitio. Fusiona las páginas casi idénticas en una más fuerte y redirige las demás a ella con una 301. Aplica la misma solución a las páginas con poco contenido útil y a la canibalización de palabras clave: dos artículos que apuntan a «buenas prácticas de SEO» pasan a ser una guía completa. Actualiza el contenido antiguo con un calendario fijo.
+Siteliner y Copyscape encuentran texto duplicado dentro de un sitio. Fusiona las páginas casi idénticas en una más fuerte y redirige las demás a ella con una 301. Aplica la misma solución a las páginas con poco contenido útil y a la canibalización de palabras clave: dos artículos que atacan «buenas prácticas de SEO» pasan a ser una guía completa. Actualiza el contenido antiguo con un calendario fijo.
 
 <aside class="post-cta">
 <p><strong>¿Quieres una página fuerte para cada búsqueda?</strong> Nuestro <a href="/es/services/seo-tecnico/">trabajo de SEO técnico</a> identifica qué página debe posicionarse y dirige tus enlaces internos hacia ella. <a href="/es/contactanos/">Reserva una primera conversación</a>.</p>
@@ -278,7 +278,7 @@ Cada enlace que funciona retiene a un visitante que ya estaba interesado.
 | Enlace externo roto | El recurso externo cambió de sitio o desapareció | Actualiza a una fuente vigente o elimínalo |
 | Error de servidor 5xx | Mala configuración o sobrecarga del servidor | Revisa los registros, corrige el error y mejora el alojamiento si se repite |
 
-Rastrea con Screaming Frog, consulta el informe de indexación de páginas en Search Console y usa un verificador como Dead Link Checker para los enlaces externos. Una página 404 personalizada, con buscador y enlaces populares, mantiene a los visitantes en movimiento.
+Rastrea con Screaming Frog, consulta el informe de indexación de páginas en Search Console y usa un verificador como Dead Link Checker para los enlaces externos. Una página 404 personalizada, con buscador y enlaces populares, anima a los visitantes a seguir navegando.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Una página 404 que aún tiene enlaces o tráfico recibe una redirección 301 a la página relevante más cercana; una página 404 de poco valor puede quedarse así o devolver 410.">
@@ -298,9 +298,9 @@ Rastrea con Screaming Frog, consulta el informe de indexación de páginas en Se
 
 ## Escribe títulos únicos y cuida el SEO de las imágenes
 
-El título es lo primero que lee quien busca y, a menudo, lo que decide el clic. Cada página indexable necesita un título único que empiece por su palabra clave principal y se mantenga en unos 60 caracteres, por ejemplo «Zapatos azules: calidad artesanal y envío rápido». Las meta descripciones deben ser únicas, describir la página con precisión y dar una razón para hacer clic.
+El título es lo primero que lee quien busca y, a menudo, lo que decide el clic. Cada página indexable necesita un título único que empiece por su palabra clave principal y no supere los 60 caracteres, por ejemplo «Zapatos azules: calidad artesanal y envío rápido». Las meta descripciones deben ser únicas, describir la página con precisión y dar un motivo para hacer clic.
 
-Usa un solo `h1` por página con la palabra clave principal y después `h2` y `h3` en orden, un nivel cada vez:
+Usa un solo `h1` por página con la palabra clave principal y después `h2` y `h3` en orden, sin saltarse niveles:
 
 ```
 <h1>Lista de auditoría de SEO técnico</h1>
@@ -308,7 +308,7 @@ Usa un solo `h1` por página con la palabra clave principal y después `h2` y `h
 <h3>Robots.txt</h3>
 ```
 
-Toda imagen con significado necesita un texto alternativo natural: `alt="Zapato azul con hebilla plateada"`. Cambia `IMG_1234.jpg` por algo como `zapato-azul-hebilla-plateada.jpg`. En los sitios con muchas imágenes, añade entradas de imagen al sitemap:
+Toda imagen con significado necesita un texto alternativo natural: `alt="Zapato azul con hebilla plateada"`. Cambia `IMG_1234.jpg` por algo como `zapato-azul-hebilla-plateada.jpg`. En los sitios con muchas imágenes, incluye las imágenes en el sitemap:
 
 ```
 <url>
@@ -321,7 +321,7 @@ Toda imagen con significado necesita un texto alternativo natural: `alt="Zapato 
 
 ## Comprueba el hreflang y las versiones regionales
 
-Con las etiquetas correctas, un visitante francés aterriza en tu página en francés. Comprueba que los códigos de idioma y región son válidos (el Reino Unido usa `en-gb`, donde mucha gente escribe `en-uk`), que cada versión lleva sus etiquetas de retorno y que cada una se referencia a sí misma:
+Con las etiquetas correctas, un visitante francés aterriza en tu página en francés. Comprueba que los códigos de idioma y región son válidos (el Reino Unido usa `en-gb`, aunque mucha gente escribe `en-uk`), que cada versión lleva sus etiquetas de retorno y que cada una apunta a sí misma:
 
 ```
 <link rel="alternate" href="https://tudominio.com/es-es/" hreflang="es-es" />
@@ -330,7 +330,7 @@ Con las etiquetas correctas, un visitante francés aterriza en tu página en fra
 <link rel="alternate" href="https://tudominio.com/" hreflang="x-default" />
 ```
 
-Search Console eliminó en 2022 su informe de segmentación internacional y su ajuste de país. La segmentación por país procede ahora de hreflang, de un dominio de código de país como `.fr` o `.nl` cuando encaja con el negocio, y de las señales locales del propio contenido.
+Search Console eliminó en 2022 su informe de segmentación internacional y su ajuste de país. La segmentación por país depende ahora de hreflang, de un dominio de código de país como `.fr` o `.nl` cuando encaja con el negocio, y de las señales locales del propio contenido.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 160" role="img" aria-label="Una página con tres versiones hreflang: fr-fr para Francia, es-es para España y x-default para el resto de visitantes.">
@@ -363,7 +363,7 @@ Las cifras fiables te dicen qué corrección ha funcionado. Confirma que Google 
 Incluye estos informes de Search Console en cada auditoría y en cada revisión mensual:
 
 - **Sitemaps**: errores de procesamiento y número de URL descubiertas.
-- **Indexación de páginas**: qué páginas están indexadas, el motivo de cada una que queda fuera y si es intencionado.
+- **Indexación de páginas**: qué páginas están indexadas, el motivo por el que otras quedan fuera y si es intencionado.
 - **Estadísticas de rastreo**: caídas o picos repentinos, que suelen apuntar a errores del servidor o a un cambio en robots.txt.
 - **Acciones manuales**: cualquier penalización por infringir las directrices. Corrige la causa (en el caso de enlaces artificiales, elimínalos o desautorízalos) y envía después una solicitud de reconsideración.
 

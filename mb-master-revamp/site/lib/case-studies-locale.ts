@@ -31,28 +31,28 @@ export const CASES_FR: Record<string, CaseStudyCopy> = {
     metaTitle: "BeTranslated, étude de cas multi-domaines",
     metaDescription: "Vingt ans à diriger une agence de traduction sur dix domaines nationaux, chacun positionné sur son propre marché. Voyez ce que cette rigueur demande.",
     problem: `Une agence de traduction qui vend sur dix marchés a besoin de dix campagnes SEO, chacune construite pour son marché. Chaque domaine national (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl, .it) a ses propres concurrents, ses propres habitudes de recherche et ses propres signaux de confiance${N}: chacun est donc géré comme un site à part entière, construit pour tenir sa place face aux concurrents locaux.`,
-    work: `Mike a fondé l’agence et la dirige depuis vingt ans. Chaque domaine régional reçoit son propre travail de SEO technique${N}: des sitemaps distincts, des groupes hreflang distincts et une recherche de mots-clés propre à chaque marché, construite à partir des recherches de ce marché.`,
-    outcome: "Dix sites nationaux, chacun positionné sur les termes de son marché, pour une agence toujours en activité après deux décennies.",
+    work: `Mike a fondé l’agence et la dirige depuis plus de 20 ans. Chaque domaine régional bénéficie d’un travail de SEO technique qui lui est propre${N}: des sitemaps et des groupes hreflang distincts, et une recherche de mots-clés propre à chaque marché, construite à partir des recherches de ce marché.`,
+    outcome: "Dix sites nationaux, chacun positionné sur les termes de son marché, pour une agence toujours en activité depuis plus de 20 ans.",
     countries: ["International", "États-Unis", "Canada", "Royaume-Uni", "Belgique", "France", "Espagne", "Allemagne", "Pays-Bas", "Italie"],
   },
   globaprom: {
     metaTitle: "Globaprom, étude de cas logiciel avec l’IA",
-    metaDescription: "Périmètre fixe, prix fixe, livraison en quelques semaines. Découvrez le portail de suivi qui a retiré les relances de statut du quotidien d’un transitaire.",
-    problem: "Les petites entreprises qui ont besoin d’un logiciel propre à leur activité veulent un périmètre fixe, un prix sur lequel elles peuvent compter et un outil qui colle exactement à leur façon de travailler. Une entreprise qui travaille en plusieurs langues dès le premier jour a aussi besoin d’un outil multilingue dès le départ.",
-    work: "Un développement assisté par l’IA, à périmètre fixe et à prix fixe, livré en quelques semaines et multilingue dès la première ligne de code. La base technique est Next.js avec Payload CMS.",
-    outcome: "Un portail de suivi des expéditions pour TX International Freight, qui a retiré les relances manuelles de la semaine, une plateforme interne pour le rapprochement hebdomadaire de l’équipe, et le site multilingue, avec son outil de suivi, qui porte les annonces immobilières de Century 21 Perdomo.",
+    metaDescription: "Périmètre fixe, prix fixe, livraison en quelques semaines. Découvrez le portail de suivi qui a supprimé les relances de statut du quotidien d’un transitaire.",
+    problem: "Les petites entreprises qui ont besoin d’un logiciel propre à leur activité veulent un périmètre fixe, un prix sur lequel elles peuvent compter et un outil qui colle exactement à leur façon de travailler. Une entreprise qui travaille en plusieurs langues dès le premier jour a aussi besoin d’un outil multilingue d’emblée.",
+    work: "Un développement assisté par l’IA, à périmètre et prix fixes, livré en quelques semaines et multilingue dès la première ligne de code. La base technique est Next.js avec Payload CMS.",
+    outcome: "Un portail de suivi des expéditions pour TX International Freight, qui a supprimé les relances manuelles hebdomadaires, une plateforme interne pour le rapprochement hebdomadaire de l’équipe, et le site multilingue, avec son outil de suivi, qui publie les annonces immobilières de Century 21 Perdomo.",
   },
   "tx-international-freight": {
     metaTitle: "TX International Freight, étude de cas",
-    metaDescription: "SEO technique et contenu pour un transitaire de Houston, construits sur le vocabulaire que ses acheteurs utilisent, appris directement auprès du métier.",
-    problem: `Les acheteurs de fret industriel cherchent à leur manière, différente de celle des particuliers. Les termes qui portent une intention commerciale relèvent du jargon du secteur${N}: la recherche de mots-clés part donc du vocabulaire du métier pour rejoindre les recherches réelles.`,
-    work: "Un SEO technique et un contenu construits sur le vocabulaire qu’emploient vraiment les acheteurs de fret industriel de Houston, appris directement auprès du secteur.",
+    metaDescription: "SEO technique et contenu pour un transitaire de Houston, fondés sur le vocabulaire que ses acheteurs utilisent, appris directement auprès des professionnels du métier.",
+    problem: `Les acheteurs de fret industriel cherchent à leur manière, différente de celle des particuliers. Les termes qui traduisent une intention commerciale relèvent du jargon du secteur${N}: la recherche de mots-clés part du vocabulaire du métier pour correspondre aux recherches réelles.`,
+    work: "Un SEO technique et un contenu fondés sur le vocabulaire qu’emploient vraiment les acheteurs de fret industriel de Houston, appris directement auprès du secteur.",
     outcome: "Une présence dans le pack local de Houston sur les recherches de fret industriel, pour un client avec qui nous travaillons depuis près de quinze ans.",
   },
   c21perdomo: {
     metaTitle: "Century 21 Perdomo, étude de cas",
     metaDescription: "Quatre langues tenues à jour sur un WordPress headless avec WPML et WooCommerce, pour des annonces immobilières qui changent chaque semaine. Voyez comment.",
-    problem: `Les annonces immobilières changent chaque semaine${N}: un bien se vend, un prix bouge, un statut change. Avec quatre langues, chaque changement doit arriver dans les quatre versions à la fois, et une architecture WordPress et WooCommerce headless fait de cette cohérence un travail technique autant qu’éditorial.`,
+    problem: `Les annonces immobilières changent chaque semaine${N}: un bien se vend, un prix bouge, un statut change. Avec quatre langues, chaque changement doit être répercuté dans les quatre versions à la fois, et une architecture WordPress et WooCommerce headless fait de cette cohérence un enjeu technique autant qu’éditorial.`,
     work: "Une couverture en anglais, français, espagnol et allemand sur une pile WordPress headless, WPML et WooCommerce, avec le site multilingue et son outil de suivi développés par Globaprom. Un SEO mené langue par langue, construit à partir des recherches de chaque marché.",
     outcome: "Quatre langues tenues justes face à un stock qui tourne chaque semaine, sur un site immobilier en production.",
   },
@@ -73,9 +73,9 @@ export const CASES_FR: Record<string, CaseStudyCopy> = {
   },
   "bemelman-spuiterij": {
     metaTitle: "Bemelman Spuiterij, étude de cas",
-    metaDescription: "Un spécialiste néerlandais du thermolaquage, quarante-cinq ans de réputation et une présence en ligne à construire. Voyez le SEO local fait pour son marché.",
+    metaDescription: "Un spécialiste néerlandais du thermolaquage, quarante-cinq ans de réputation et une présence en ligne à construire. Voyez le SEO local conçu pour son marché.",
     problem: "Une entreprise forte de quarante-cinq ans de réputation avait besoin d’une présence en ligne à la hauteur, pour que les quelques acheteurs qui la cherchent la trouvent. En B2B, sur un métier de niche, le volume de recherche est faible, et chacune de ces recherches vient d’un vrai acheteur.",
-    work: "Un site sous Divi associé à un SEO local néerlandais, pensé pour le petit volume de recherche, décisif, qu’un métier spécialisé reçoit des entreprises qui achètent.",
+    work: "Un site sous Divi associé à un SEO local néerlandais, pensé pour le petit volume de recherche, décisif, que reçoit un métier spécialisé de la part des entreprises qui achètent.",
     outcome: "Un site sous Divi et un SEO local néerlandais pour une entreprise qui avait vécu de sa seule réputation pendant quarante-cinq ans.",
     evidence: [
       {
@@ -89,15 +89,15 @@ export const CASES_FR: Record<string, CaseStudyCopy> = {
   "delaguia-y-luzon": {
     metaTitle: "Delaguía y Luzón, étude de cas",
     metaDescription: "Du SEO juridique en quatre langues et sur deux juridictions, où chaque terme doit tenir face à la lecture d’un avocat. Voyez comment nous le traitons.",
-    problem: `Un contenu juridique en quatre langues et sur deux juridictions élève les exigences du SEO multilingue${N}: en droit, le choix d’un terme engage la responsabilité avant de jouer sur le positionnement. Le cahier des charges place l’exactitude en premier et le volume en second, pour la traduction comme pour le SEO.`,
-    work: "Du SEO juridique et du contenu multilingue en espagnol, français, anglais et russe, sur le droit civil, le droit du travail, l’immigration et la fiscalité en Espagne et en France, avec le niveau d’exactitude qu’exige réellement le contenu d’un cabinet d’avocats.",
+    problem: `Un contenu juridique en quatre langues et sur deux juridictions élève les exigences du SEO multilingue${N}: en droit, le choix d’un terme engage la responsabilité avant d’influer sur le positionnement. Le cahier des charges place l’exactitude en premier et le volume en second, pour la traduction comme pour le SEO.`,
+    work: "Du SEO juridique et du contenu multilingue en espagnol, français, anglais et russe, sur le droit civil, le droit du travail, l’immigration et la fiscalité en Espagne et en France, avec le niveau d’exactitude qu’exige le contenu d’un cabinet d’avocats.",
     outcome: "Quatre langues, deux juridictions et plusieurs domaines de pratique, tenus au niveau d’exactitude du droit.",
     evidence: [
       {
         alt: `Réponses IA dans Ahrefs pour delaguialuzon.com${N}: 309 sur toutes les plateformes à partir de 87 pages, 182 dans les AI Overviews, 92 dans AI Mode, 14 dans Perplexity, 6 dans Gemini et 2 dans ChatGPT`,
         caption: "Ahrefs Site Explorer, réponses IA pour delaguialuzon.com, 7 octobre 2026.",
         heading: "Delaguía y Luzón cité dans 309 réponses d’IA, à partir de 87 de ses pages",
-        text: `Ahrefs compte 309 réponses d’IA qui citent le site du cabinet, 269 de plus que sur la période précédente${N}: 182 dans les AI Overviews de Google, 92 dans AI Mode, 14 dans Perplexity, 6 dans Gemini et 2 dans ChatGPT. Un contenu juridique tenu au niveau d’un avocat, c’est le contenu que citent les moteurs de réponse.`,
+        text: `Ahrefs compte 309 réponses d’IA qui citent le site du cabinet, 269 de plus que sur la période précédente${N}: 182 dans les AI Overviews de Google, 92 dans AI Mode, 14 dans Perplexity, 6 dans Gemini et 2 dans ChatGPT. Un contenu juridique à la hauteur d’un avocat, c’est le contenu que citent les moteurs de réponse.`,
       },
       {
         alt: `Vue d’ensemble Ahrefs pour delaguialuzon.com${N}: Domain Rating 33, 1,4${N}k backlinks depuis 368 domaines référents, 928 mots-clés organiques dont 200 dans le top 3, 5,1${N}k visites organiques`,
@@ -111,14 +111,14 @@ export const CASES_FR: Record<string, CaseStudyCopy> = {
     metaTitle: "Matosurf, étude de cas",
     metaDescription: "Sept sports de glisse, quarante-huit spots français, plus de cent guides. Découvrez la page de méthode éditoriale dont s’inspire la crédibilité de notre site.",
     problem: "Les pratiquants de sports de glisse cherchent la preuve que quelqu’un a vraiment surfé le spot, au-delà d’un nom de spot et d’un lien vers un produit. Les acheteurs accordent de la valeur à cette preuve vécue, et les moteurs de recherche la reconnaissent de mieux en mieux.",
-    work: `Sept sports de glisse couverts sur quatre zones géographiques, quarante-huit spots français et cent vingt guides, appuyés sur une page de méthode éditoriale visible qui explique clairement comment le contenu est construit${N}: l’autorité arrive avec le travail montré.`,
+    work: `Sept sports de glisse couverts sur quatre zones géographiques, quarante-huit spots français et cent vingt guides, appuyés sur une page de méthode éditoriale visible qui explique comment le contenu est construit${N}: l’autorité vient avec le travail montré.`,
     outcome: "Quarante-huit spots français et cent vingt guides sur sept sports de glisse, adossés à une page publique de méthode éditoriale.",
     evidence: [
       {
         alt: `Google Search Console pour matosurf.com de juillet à début octobre 2026${N}: 1${N}008 clics en recherche web, des clics quotidiens passés de zéro à environ 20`,
         caption: "Google Search Console, matosurf.com, de juillet à octobre 2026.",
         heading: "Matosurf est passé de zéro à environ 20 clics par jour",
-        text: `Un site de six mois, avec 1${N}008 clics depuis Google sur ses trois derniers mois, en partant de rien début juillet. Matosurf est notre propre site, géré comme nous gérons celui d’un client.`,
+        text: `Un site de six mois, avec 1${N}008 clics issus de Google sur ses trois derniers mois, parti de zéro début juillet. Matosurf est notre propre site, géré comme nous gérons celui d’un client.`,
       },
     ],
   },
@@ -127,25 +127,25 @@ export const CASES_FR: Record<string, CaseStudyCopy> = {
 export const CASES_ES: Record<string, CaseStudyCopy> = {
   betranslated: {
     metaTitle: "BeTranslated, un caso de éxito multidominio",
-    metaDescription: "Veinte años al frente de una agencia de traducción con diez dominios nacionales, cada uno posicionado en su mercado. Descubre lo que exige ese método.",
+    metaDescription: "Más de 20 años al frente de una agencia de traducción con diez dominios nacionales, cada uno posicionado en su mercado. Descubre lo que exige ese método.",
     problem: "Una agencia de traducción que vende en diez mercados necesita diez campañas SEO, cada una construida para su mercado. Cada dominio nacional (.com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl, .it) tiene sus propios competidores, sus propios hábitos de búsqueda y sus propias señales de confianza, así que cada uno se gestiona como una web independiente, preparada para competir con los rivales locales.",
     work: "Mike fundó la agencia y la dirige desde hace veinte años. Cada dominio regional recibe su propio trabajo de SEO técnico: sitemaps separados, grupos hreflang separados e investigación de palabras clave propia de cada mercado, a partir de lo que busca ese mercado.",
-    outcome: "Diez webs nacionales, cada una posicionada con los términos de su mercado, para una agencia que sigue en activo después de dos décadas.",
+    outcome: "Diez webs nacionales, cada una posicionada con los términos de su mercado, para una agencia que sigue en activo después de más de 20 años.",
     countries: ["Internacional", "Estados Unidos", "Canadá", "Reino Unido", "Bélgica", "Francia", "España", "Alemania", "Países Bajos", "Italia"],
   },
   globaprom: {
     metaTitle: "Globaprom, un caso de éxito de software propio con IA",
-    metaDescription: "Alcance cerrado, precio cerrado, entrega en semanas. Descubre el portal de seguimiento que quitó las llamadas de estado del día a día de un transitario.",
+    metaDescription: "Alcance cerrado, precio cerrado, entrega en semanas. Descubre el portal de seguimiento que eliminó las llamadas de control del día a día de un transitario.",
     problem: "Las pequeñas empresas que necesitan un software propio quieren un alcance cerrado, un precio con el que puedan planificar y una herramienta que encaje exactamente con su operativa. Si la empresa trabaja en varios idiomas desde el primer día, esa herramienta también tiene que ser multilingüe desde el principio.",
     work: "Desarrollo asistido por IA, con alcance y precio cerrados, entregado en semanas y multilingüe desde la primera línea de código. La base técnica es Next.js con Payload CMS.",
-    outcome: "Un portal de seguimiento de envíos para TX International Freight que quitó de la semana el seguimiento manual de estados, una plataforma interna para la conciliación semanal del equipo y la web multilingüe, con su sistema de seguimiento, que mueve las fichas inmobiliarias de Century 21 Perdomo.",
+    outcome: "Un portal de seguimiento de envíos para TX International Freight que eliminó el control manual semanal, una plataforma interna para la conciliación semanal del equipo y la web multilingüe, con su sistema de seguimiento, que mueve las fichas inmobiliarias de Century 21 Perdomo.",
   },
   "tx-international-freight": {
     metaTitle: "TX International Freight, caso de éxito",
     metaDescription: "SEO técnico y contenido para un transitario de Houston, construidos con el vocabulario que usan sus compradores, aprendido del propio sector.",
     problem: "Los compradores de carga industrial buscan a su manera, distinta de la del consumidor. Los términos con intención comercial son jerga del sector, así que la investigación de palabras clave parte del vocabulario del oficio para coincidir con lo que se busca de verdad.",
     work: "SEO técnico y contenido construidos con el vocabulario que usan de verdad los compradores de carga industrial de Houston, aprendido del propio sector.",
-    outcome: "Presencia en el pack local de Houston en las búsquedas de carga industrial, para un cliente con el que trabajamos desde hace casi quince años.",
+    outcome: "Presencia en el pack local de Houston en las búsquedas de carga industrial, para un cliente con el que trabajamos desde hace más de 20 años.",
   },
   c21perdomo: {
     metaTitle: "Century 21 Perdomo, caso de éxito",
@@ -162,7 +162,7 @@ export const CASES_ES: Record<string, CaseStudyCopy> = {
     outcome: "1.132 URL publicadas en cinco idiomas. En seis meses, la web pasó de casi no tener tráfico de búsqueda a unos 200 clics al día: 17.400 clics y 1,63 millones de impresiones de abril a octubre de 2026, y más de cincuenta consultas al mes.",
     evidence: [
       {
-        alt: "Google Search Console de valenciamove.com en seis meses: 17,4 mil clics y 1,63 millones de impresiones, con los clics diarios pasando de casi cero en abril de 2026 a unos 200 en septiembre",
+        alt: "Google Search Console de valenciamove.com en seis meses: 17,4 mil clics y 1,63 millones de impresiones, y los clics diarios pasaron de casi cero en abril de 2026 a unos 200 en septiembre",
         caption: "Google Search Console, valenciamove.com, de abril a octubre de 2026.",
         heading: "ValenciaMove pasó de su lanzamiento a unos 200 clics al día",
         text: "17.400 clics y 1,63 millones de impresiones en seis meses, partiendo de casi nada en abril. ValenciaMove es nuestra propia web, gestionada como gestionamos la de un cliente.",
@@ -171,13 +171,13 @@ export const CASES_ES: Record<string, CaseStudyCopy> = {
   },
   "bemelman-spuiterij": {
     metaTitle: "Bemelman Spuiterij, caso de éxito",
-    metaDescription: "Un especialista neerlandés en pintura en polvo, con cuarenta y cinco años de reputación y una presencia online por construir. Descubre su SEO local.",
-    problem: "Una empresa con cuarenta y cinco años de reputación necesitaba una presencia online a su altura, para que los pocos compradores que la buscan la encuentren. En B2B, en un oficio de nicho, el volumen de búsqueda es bajo, y cada una de esas búsquedas es un comprador real.",
+    metaDescription: "Un especialista neerlandés en pintura en polvo, con más de 20 años de reputación y una presencia online por construir. Descubre su SEO local.",
+    problem: "Una empresa con más de 20 años de reputación necesitaba una presencia online a su altura, para que los pocos compradores que la buscan la encuentren. En B2B, en un oficio de nicho, el volumen de búsqueda es bajo, y cada una de esas búsquedas es un comprador real.",
     work: "Una web en Divi junto con SEO local neerlandés, pensado para el volumen de búsqueda pequeño pero decisivo que un oficio especializado recibe de las empresas que compran.",
-    outcome: "Una web en Divi y SEO local neerlandés para una empresa que había vivido solo de su reputación durante cuarenta y cinco años.",
+    outcome: "Una web en Divi y SEO local neerlandés para una empresa que había vivido solo de su reputación durante más de 20 años.",
     evidence: [
       {
-        alt: "Google Search Console de bemelmanspuiterij.nl en dieciséis meses: 5,32 mil clics y 448 mil impresiones, con los clics diarios pasando de unos 5 a mediados de 2025 a unos 15 en otoño de 2026",
+        alt: "Google Search Console de bemelmanspuiterij.nl en dieciséis meses: 5,32 mil clics y 448 mil impresiones, y los clics diarios pasaron de unos 5 a mediados de 2025 a unos 15 en otoño de 2026",
         caption: "Google Search Console, bemelmanspuiterij.nl, de junio de 2025 a octubre de 2026.",
         heading: "Bemelman Spuiterij multiplicó por tres su tráfico de búsqueda en un año",
         text: "5.320 clics y 448.000 impresiones en dieciséis meses. Los clics diarios rondaban los cinco durante 2025 y subieron a unos quince desde principios de 2026, en un nicho donde cada búsqueda es un comprador profesional.",
@@ -187,7 +187,7 @@ export const CASES_ES: Record<string, CaseStudyCopy> = {
   "delaguia-y-luzon": {
     metaTitle: "Delaguía y Luzón, caso de éxito",
     metaDescription: "SEO jurídico en cuatro idiomas y dos jurisdicciones, donde cada término tiene que resistir la lectura de un abogado. Descubre cómo lo trabajamos.",
-    problem: "El contenido jurídico en cuatro idiomas y dos jurisdicciones eleva la exigencia del SEO multilingüe: en derecho, la elección de un término es una cuestión de responsabilidad antes que de posicionamiento. El encargo pone la precisión primero y el volumen después, en la traducción y en el SEO por igual.",
+    problem: "El contenido jurídico en cuatro idiomas y dos jurisdicciones eleva la exigencia del SEO multilingüe: en derecho, la elección de un término es una cuestión de responsabilidad antes que de posicionamiento. El encargo antepone la precisión al volumen, en la traducción y en el SEO por igual.",
     work: "SEO jurídico y contenido multilingüe en español, francés, inglés y ruso, sobre derecho civil, laboral, extranjería y fiscal en España y Francia, con el nivel de precisión que de verdad exige el contenido de un despacho de abogados.",
     outcome: "Cuatro idiomas, dos jurisdicciones y varias áreas de práctica, con el nivel de precisión que exige el derecho.",
     evidence: [
@@ -209,14 +209,14 @@ export const CASES_ES: Record<string, CaseStudyCopy> = {
     metaTitle: "Matosurf, caso de éxito",
     metaDescription: "Siete deportes de tabla, cuarenta y ocho spots franceses, más de cien guías. Descubre la página de método editorial en la que se inspira nuestra web.",
     problem: "Quien practica deportes de tabla busca pruebas de que alguien ha surfeado de verdad ese spot, más allá de su nombre y un enlace a un producto. Los compradores valoran esa prueba de primera mano, y los buscadores la reconocen cada vez mejor.",
-    work: "Siete deportes de tabla en cuatro zonas geográficas, cuarenta y ocho spots franceses y ciento veinte guías, sobre una página de método editorial visible que explica con claridad cómo se investiga el contenido, para que la autoridad llegue con el trabajo a la vista.",
+    work: "Siete deportes de tabla en cuatro zonas geográficas, cuarenta y ocho spots franceses y ciento veinte guías, con una página pública de método editorial que explica con claridad cómo se investiga el contenido, para ganar autoridad mostrando el trabajo.",
     outcome: "Cuarenta y ocho spots franceses y ciento veinte guías sobre siete deportes de tabla, respaldados por una página pública de método editorial.",
     evidence: [
       {
         alt: "Google Search Console de matosurf.com de julio a principios de octubre de 2026: 1.008 clics en búsqueda web, con los clics diarios pasando de cero a unos 20",
         caption: "Google Search Console, matosurf.com, de julio a octubre de 2026.",
         heading: "Matosurf pasó de cero a unos 20 clics al día",
-        text: "Una web de seis meses con 1.008 clics desde Google en sus últimos tres meses, partiendo de nada a principios de julio. Matosurf es nuestra propia web, gestionada como gestionamos la de un cliente.",
+        text: "Una web de seis meses con 1.008 clics desde Google en los últimos tres meses, empezando desde cero a principios de julio. Matosurf es nuestra propia web, gestionada como gestionamos la de un cliente.",
       },
     ],
   },

@@ -187,7 +187,7 @@ Google Trends, Ahrefs ou Semrush montrent le comportement de recherche local et 
 
 ### Des mots-clés cherchés avec des outils réglés sur l’Allemagne
 
-Menez la recherche de mots-clés avec des outils réglés sur le marché allemand, et vous trouvez les termes que les Allemands tapent réellement. Les requêtes de longue traîne, en particulier, captent une intention plus précise dans les pays germanophones. Les mots composés et les variantes propres à l’Autriche et à la Suisse sont détaillés dans notre guide des bonnes pratiques.
+Menez la recherche de mots-clés avec des outils réglés sur le marché allemand, et vous trouvez les termes que les Allemands tapent réellement. Les requêtes de longue traîne, en particulier, visent une intention plus précise dans les pays germanophones. Les mots composés et les variantes propres à l’Autriche et à la Suisse sont détaillés dans notre guide des bonnes pratiques.
 
 ### Un contenu pour chaque région
 
@@ -217,7 +217,7 @@ Employez des références régionales chaque fois que possible. Un article pour 
 
 ### Des données et des tendances allemandes
 
-Les statistiques, les études et les événements allemands rendent le contenu actuel et local.
+Les statistiques, les études et les événements allemands donnent au contenu une dimension locale et actuelle.
 
 Que vous citiez une étude locale, le comportement du consommateur allemand ou un salon professionnel connu, le contexte local retient le lecteur et montre que vous connaissez le marché.
 
@@ -227,9 +227,9 @@ Que vous citiez une étude locale, le comportement du consommateur allemand ou u
 
 ## Un contenu qui attire des liens allemands
 
-Les liens venus de sites allemands respectés disent à Google, et à l’acheteur allemand, que vous êtes installé en Allemagne. Ils comptent davantage sur un site techniquement solide, dont notre guide du [SEO technique d’un site allemand](/fr/seo-technique-allemagne/) détaille les réglages.
+Les liens issus de sites allemands respectés indiquent à Google, et à l’acheteur allemand, que vous êtes installé en Allemagne. Ils comptent davantage sur un site techniquement solide, dont notre guide du [SEO technique d’un site allemand](/fr/seo-technique-allemagne/) détaille les réglages.
 
-Les liens suivent plus facilement un contenu conçu pour le marché allemand. Les guides approfondis, les études sectorielles locales et les entretiens avec des experts allemands fonctionnent bien, parce qu’un blog, un média ou une fédération professionnelle allemande y trouve une raison de vous citer.
+Les liens se font plus facilement vers un contenu conçu pour le marché allemand. Les guides approfondis, les études sectorielles locales et les entretiens avec des experts allemands sont efficaces, parce qu’un blog, un média ou une fédération professionnelle allemande y trouve une raison de vous citer.
 
 Une entreprise française de matériel de randonnée, par exemple, peut proposer à des blogs de voyage allemands un guide des sentiers des Alpes bavaroises rédigé par un natif. Plus votre contenu est utile et local, plus les sites allemands de référence ont de chances de le relayer.
 
@@ -257,6 +257,6 @@ Les annuaires professionnels régionaux comptent eux aussi pour le référenceme
 
 ## Par où commencer sur le marché allemand
 
-La localisation est ce qui gagne l’acheteur allemand. Le bon ton, un humour adapté et un contenu réellement local font lire chaque page comme une page allemande, et les liens de sites allemands respectés ajoutent visibilité et crédibilité.
+La localisation est ce qui gagne l’acheteur allemand. Le bon ton, un humour adapté et un contenu réellement local donnent à chaque page l’allure d’une page allemande, et les liens de sites allemands respectés ajoutent visibilité et crédibilité.
 
-Commencez par les pages qui reçoivent le plus de visites allemandes et le moins de demandes : c’est là que la localisation se rentabilise en premier. [Demandez l’examen de votre site en allemand](/fr/nous-contacter/) : nous le passons en revue avec vous.
+Commencez par les pages qui génèrent le plus de trafic allemand et le moins de demandes : c’est là que la localisation se rentabilise en premier. [Demandez l’examen de votre site en allemand](/fr/nous-contacter/) : nous le passons en revue avec vous.

@@ -24,7 +24,7 @@ Aquí tienes cómo encontrar a esos rivales, cómo clasificarlos y qué hacer co
 
 ## Tres tipos de rival que encontrarás en cada país
 
-Tu rival SEO es quien ocupa las primeras posiciones para las búsquedas que necesitas, venda lo mismo que tú o no. Por qué esa lista suele ser otra que la de tu equipo comercial lo explicamos en la guía de análisis competitivo SEO enlazada arriba; aquí vamos al método. Un transitario, por ejemplo, compite en Google con otras agencias de carga y también con portales de comercio exterior, y cada uno pide una respuesta distinta.
+Tu rival SEO es quien ocupa las primeras posiciones para las búsquedas que necesitas, venda lo mismo que tú o no. Por qué esa lista suele ser distinta a la de tu equipo comercial lo explicamos en la guía de análisis competitivo SEO que enlazamos arriba; aquí vamos al método. Un transitario, por ejemplo, compite en Google con otras agencias de carga y también con portales de comercio exterior, y cada uno pide una respuesta distinta.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Un transitario compite en Google con otras agencias de carga, sus rivales directos, y con portales de comercio exterior.">
@@ -99,7 +99,7 @@ En 2026 compites por un puesto en Google y también por ser la fuente que citan 
 
 Al [integrar inteligencia artificial en tu estrategia SEO](https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/), revisa qué marcas recomiendan estos modelos en las preguntas de tu comprador. A menudo aparecen sitios con menos tráfico y una estructura muy clara.
 
-Añade esos dominios a tu lista de rivales y obsérvalos con el mismo método: qué páginas les citan, cómo están escritas y qué fuentes usan.
+Añade esos dominios a tu lista de rivales y obsérvalos con el mismo método: qué páginas los citan, cómo están escritas y qué fuentes usan.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 160" role="img" aria-label="La lista de rivales suma dos fuentes: quien ocupa las primeras posiciones en Google y los sitios que citan las respuestas de IA.">
@@ -131,7 +131,7 @@ Las herramientas de pago guardan el historial que permite ver tendencias; los [r
 
 Una vez identificados tus rivales, la pregunta útil es por qué ganan. Muy a menudo la respuesta está en su autoridad.
 
-[Investiga el perfil de enlaces de tus competidores](https://mikebastin.com/es/analizar-backlinks-competidores/). ¿Tienen menciones en prensa, colaboraciones con blogs de nicho, artículos como invitado? Entenderlo te permite competir con autoridad además de con contenido, que es lo que piden los sectores maduros.
+[Investiga el perfil de enlaces de tus competidores](https://mikebastin.com/es/analizar-backlinks-competidores/). ¿Tienen menciones en prensa, colaboraciones con blogs de nicho, artículos de invitado? Entenderlo te permite competir con autoridad además de con contenido, que es lo que piden los sectores maduros.
 
 En los enlaces cuentan la calidad, la relevancia y el contexto. Al seguir la evolución de las palabras clave de tus rivales, verás que sus subidas suelen coincidir con enlaces de autoridad. Busca esas mismas fuentes o equivalentes en tu sector.
 

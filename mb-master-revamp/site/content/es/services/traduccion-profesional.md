@@ -16,7 +16,7 @@ excerpt: "Traducción jurada en Valencia para juzgados, extranjería y embajadas
 
 ## Traducción jurada en Valencia, lista para el organismo que la recibe
 
-Tu empresa en Valencia tiene que presentar un contrato ante un juzgado, unas cuentas anuales a inversores británicos o unos estatutos a un socio francés. O resides aquí y la oficina de extranjería, una embajada o una administración te pide un acta de nacimiento o un título traducido al español. El documento lo leerá un tribunal, un consulado o un funcionario, y cada término tiene que sostenerse ante ese lector.
+Tu empresa en Valencia tiene que presentar un contrato ante un juzgado, unas cuentas anuales a inversores británicos o unos estatutos a un socio francés. O resides aquí y la oficina de extranjería, una embajada o una administración te pide un certificado de nacimiento o un título traducido al español. El documento lo leerá un tribunal, un consulado o un funcionario, y cada término tiene que sostenerse ante ese lector.
 
 Con el formato adecuado, el expediente se acepta a la primera y el plazo se mantiene. Una cláusula bien traducida en un pacto de socios y una cifra correcta en unas cuentas auditadas son también una cuestión de responsabilidad, además de un trabajo de revisión.
 
@@ -41,7 +41,7 @@ Respondemos a cada solicitud, por lo general en un día laborable.
 
 Delaguía y Luzón es un despacho de abogados de Valencia que trabaja en derecho civil, laboral, de extranjería y fiscal en España y Francia, en cuatro idiomas: español, francés, inglés y ruso. Un mismo documento tiene que sostenerse a veces en dos sistemas jurídicos a la vez. Su web recoge esos contenidos jurídicos traducidos.
 
-Un abogado que presentará la traducción ante un tribunal o un cliente es exactamente el lector para el que trabaja esta red, y su sitio refleja el nivel de exigencia que aplicamos también a tus documentos.
+Un abogado que presentará la traducción ante un tribunal o un cliente es exactamente el lector para el que trabaja esta red, y su web refleja el nivel de exigencia que aplicamos también a tus documentos.
 
 ## Certificada, jurada, notarial o apostillada: la fórmula que pide tu organismo
 
@@ -62,7 +62,7 @@ Contratos, escritos procesales, poderes, estatutos, pactos de socios, solicitude
 
 ### Médica y regulada
 
-Historiales de pacientes, documentación de ensayos clínicos, solicitudes regulatorias, consentimientos informados, instrucciones de alta y manuales de productos sanitarios. La terminología tiene que coincidir con la del comité de ética o del regulador que lo lee primero, bajo protocolos de confidencialidad conformes al RGPD y a HIPAA. Lo mismo vale para el material comercial de un producto sanitario, que es texto regulado con envoltorio comercial.
+Historiales de pacientes, documentación de ensayos clínicos, solicitudes de autorización, consentimientos informados, instrucciones de alta y manuales de productos sanitarios. La terminología tiene que coincidir con la del comité de ética o del regulador que lo lee primero, bajo protocolos de confidencialidad conformes al RGPD y a HIPAA. Lo mismo vale para el material comercial de un producto sanitario, que es texto regulado con envoltorio comercial.
 
 ### Financiera
 
@@ -70,7 +70,7 @@ Informes anuales, folletos, balances, cuentas de resultados, informes de auditor
 
 ### Académica
 
-Títulos, expedientes y notas, artículos de investigación, cartas de recomendación y programas de asignaturas. Cada expediente lleva su propio sistema de calificaciones, y nuestros traductores indican cómo equivale al del país receptor para que la solicitud siga adelante. En un artículo de investigación el argumento llega íntegro, con sus matices, y una afirmación cuidadosamente matizada se queda igual de matizada.
+Títulos, expedientes y notas, artículos de investigación, cartas de recomendación y programas de asignaturas. Cada expediente lleva su propio sistema de calificaciones, y nuestros traductores indican su equivalencia en el país receptor para que la solicitud siga adelante. En un artículo de investigación el argumento llega íntegro, con sus matices, y una afirmación muy precisa conserva esa misma precisión.
 
 ### Transcreación
 
@@ -82,7 +82,7 @@ Un eslogan o un texto de marca que funciona en un idioma suele necesitar otra fo
 2. **Tipo de traducción confirmado.** Confirmamos si el organismo pide una traducción certificada, jurada, notarial o apostillada, para que el documento llegue en el formato que se acepta.
 3. **Presupuesto de tu documento.** Recibes el presupuesto con tu plazo antes de que empiece la traducción, y sabes el coste y la fecha de entrega desde el principio.
 4. **Traductor de tu sector.** Tu documento pasa a un traductor especializado de la red BeTranslated en su materia: jurídica, médica, financiera, académica o técnica.
-5. **Revisión antes de la entrega.** Cada traducción se revisa antes de salir, para que resista el mismo escrutinio que el documento original.
+5. **Revisión antes de la entrega.** Cada traducción se revisa antes de salir, para que resista el mismo examen que el documento original.
 6. **Entrega y trámites finales.** Entregamos de uno a siete días según el documento, con tramitación urgente para documentos personales, y gestionamos la legalización notarial o la apostilla cuando el organismo de destino las pide.
 
-Cada solicitud recibe respuesta, por lo general en un día laborable. La traducción de documentos se presupuesta como trabajo, y en la página de [precios](/es/precios/) tienes cómo lo planteamos. Si además vendes software en otros idiomas, mira nuestra [localización de apps](/es/services/localizacion-de-aplicaciones/), y si quieres que tu empresa se encuentre en Google, nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) explica por dónde empezar.
+Cada solicitud recibe respuesta, por lo general en un día laborable. La traducción de documentos se presupuesta como trabajo, y en la página de [precios](/es/precios/) tienes cómo lo planteamos. Si además vendes software en otros idiomas, mira nuestra [localización de aplicaciones](/es/services/localizacion-de-aplicaciones/), y si quieres que tu empresa se encuentre en Google, nuestra guía de [posicionamiento web en Valencia](/es/posicionamiento-web-valencia/) explica por dónde empezar.

@@ -21,9 +21,9 @@ Lus avec méthode, ces chiffres orientent votre budget vers les marchés qui ven
 
 ## Ce que Google Analytics apporte au marketing international
 
-Bien utilisées, les données de Google Analytics montrent où se trouve la demande avant que vous dépensiez pour la conquérir : comment se comportent les visiteurs selon leur pays, leur langue et leur appareil, et où le parcours de conversion demande du travail. Elles éclairent le choix des marchés, les décisions de localisation et la répartition entre canaux.
+Bien utilisées, les données de Google Analytics montrent où se trouve la demande avant que vous ne dépensiez pour l’attirer : comment se comportent les visiteurs selon leur pays, leur langue et leur appareil, et où le parcours de conversion demande du travail. Elles éclairent le choix des marchés, les décisions de localisation et la répartition entre canaux.
 
-Lues avec méthode, elles donnent une confiance sur laquelle agir. Le droit de la protection des données, les refus de consentement, les trous de suivi et les restrictions régionales façonnent tous ce que GA4 affiche. L’objectif est une lecture éclairée.
+Lues avec méthode, elles vous donnent une base de confiance pour agir. Le droit de la protection des données, les refus de consentement, les trous de suivi et les restrictions régionales façonnent tous ce que GA4 affiche. L’objectif est une lecture éclairée.
 
 ### Un cadre européen qui a bougé
 
@@ -71,13 +71,13 @@ Bien configuré, GA4 donne des tendances fiables pour décider où investir ensu
 
 ### La répartition géographique
 
-Les données par pays sont l’endroit le plus sûr pour repérer un marché prêt à être servi. Elles aident en particulier à trouver une demande naturelle dans des pays hors de vos campagnes : si un pays envoie régulièrement des visites qualifiées, il a mérité un budget de localisation ou de SEO ciblé.
+Les données par pays sont l’endroit le plus sûr pour repérer un marché prêt à être investi. Elles aident en particulier à trouver une demande naturelle dans des pays hors de vos campagnes : si un pays envoie régulièrement des visites qualifiées, il mérite un budget de localisation ou de SEO ciblé.
 
 ### La langue du navigateur
 
-La langue du navigateur en dit souvent plus sur l’intention que la localisation : un visiteur peut vivre dans un pays et acheter dans une autre langue. C’est le cas courant en Belgique, en Suisse et au Luxembourg, où plusieurs langues cohabitent dans un même pays.
+La langue du navigateur en dit souvent plus sur l’intention que la localisation : un visiteur peut vivre dans un pays et acheter dans une autre langue. C’est courant en Belgique, en Suisse et au Luxembourg, où plusieurs langues cohabitent dans un même pays.
 
-Une demande régulière dans une langue encore absente de votre site est une occasion de localisation, avec un chiffre d’affaires qui attend l’entreprise qui la servira. La servir bien demande autant d’adaptation que de traduction : structure, ton, terminologie et intention de recherche. Notre guide pour [optimiser le contenu d’un site multilingue](/fr/optimiser-contenu-site-multilingue/) donne la marche à suivre.
+Une demande régulière dans une langue encore absente de votre site est une occasion de localisation, avec un chiffre d’affaires qui attend l’entreprise qui la satisfera. La satisfaire bien demande autant d’adaptation que de traduction : structure, ton, terminologie et intention de recherche. Notre guide pour [optimiser le contenu d’un site multilingue](/fr/optimiser-contenu-site-multilingue/) donne la marche à suivre.
 
 ### Le comportement et l’engagement
 
@@ -85,11 +85,11 @@ Les métriques d’engagement sont fiables pour comparer des marchés sur un mê
 
 ### L’attribution des conversions, dans ses limites
 
-L’attribution basée sur les données de GA4 donne une bonne indication des canaux qui méritent du budget sur chaque marché. Traitez-la comme un guide : servez-vous-en pour prioriser les tests et répartir le budget, et appuyez tout calcul de retour sur investissement sur vos propres données de vente.
+L’attribution fondée sur les données de GA4 donne une bonne indication des canaux qui méritent du budget sur chaque marché. Traitez-la comme un guide : servez-vous-en pour prioriser les tests et répartir le budget, et appuyez tout calcul de retour sur investissement sur vos propres données de vente.
 
 ## Ce qu’il faut vérifier : les limites structurelles des données internationales
 
-Chaque angle mort ci-dessous fait paraître un marché plus petit ou plus confus qu’il ne l’est. En tenir compte garde votre investissement sur des marchés réglementés ou difficiles à suivre qui se portent peut-être très bien.
+Chaque angle mort ci-dessous fait paraître un marché plus petit ou plus confus qu’il ne l’est. En tenir compte vous garde investi sur des marchés réglementés ou difficiles à suivre qui se portent peut-être très bien.
 
 | Angle mort | Effet sur les données | Que faire |
 |---|---|---|
@@ -118,7 +118,7 @@ Configurez GA4 pour séparer vos marchés et garder entiers les parcours qui pas
 
 Un visiteur qui passe de vos pages françaises à vos pages néerlandaises doit être compté une fois, sur le bon marché. Que vous utilisiez des domaines nationaux, des sous-domaines ou des sous-répertoires, GA4 doit suivre le visiteur d’une version linguistique à l’autre comme un seul parcours.
 
-Gardez un changement de langue dans le même utilisateur et la même session, et vos données d’attribution et d’engagement restent fiables. Le résultat dépend d’une configuration d’analyse soignée et d’un [SEO technique de site multilingue](/fr/seo-technique-site-multilingue/) solide.
+Gardez le changement de langue dans le même utilisateur et la même session, et vos données d’attribution et d’engagement restent fiables. Le résultat dépend d’une configuration d’analyse soignée et d’un [SEO technique de site multilingue](/fr/seo-technique-site-multilingue/) solide.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 156" role="img" aria-label="Un visiteur qui passe des pages françaises aux pages néerlandaises, suivi par GA4 comme un seul visiteur et une seule session, et compté une fois, sur le bon marché.">
@@ -147,11 +147,11 @@ Vos propres équipes, vos agences et vos prestataires de tests peuvent devenir l
 
 ## Évaluer vos contenus d’un marché à l’autre
 
-Quand un marché est en retrait, le réflexe est de regarder le SEO. Le plus souvent, la réponse consiste à accorder le contenu à ce que les acheteurs de ce marché attendent.
+Quand un marché est en retrait, le réflexe est de se pencher sur le SEO. Le plus souvent, la réponse consiste à ajuster le contenu à ce que les acheteurs de ce marché attendent.
 
 ### Le taux d’engagement comme signal
 
-Un engagement faible sur des pages localisées pointe vers l’intention ou l’adaptation, deux chantiers de localisation qui vont au-delà de la traduction. Appuyez-vous sur les [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) pour aligner le contenu sur la manière de chercher propre à chaque marché.
+Un engagement faible sur des pages localisées pointe vers l’intention ou l’adaptation, deux chantiers de localisation qui vont au-delà de la traduction. Appuyez-vous sur les [bonnes pratiques du SEO multilingue](/fr/bonnes-pratiques-seo-multilingue/) pour adapter le contenu à la manière de chercher propre à chaque marché.
 
 ### Des dimensions personnalisées pour la langue et le routage
 
@@ -194,7 +194,7 @@ Mesurez chaque marché étranger par rapport à votre marché d’origine. Les g
 
 L’analyse montre le comportement ; la connaissance locale explique la motivation. Saisonnalité, habitudes culturelles, limites d’infrastructure et attentes locales pèsent toutes sur la performance, et elles se situent hors des tableaux de bord : un mois d’août très calme en France ou en Espagne a peu à voir avec la qualité de vos pages.
 
-Croisez les données de GA4 avec la connaissance locale, des tests et des retours qualitatifs. Avant d’agir sur des métriques faibles, vérifiez comment le site se comporte depuis le pays visé : ce qui ressemble à un problème marketing est souvent un problème de performance régionale ou un défaut de localisation.
+Croisez les données de GA4 avec la connaissance locale, des tests et des retours qualitatifs. Avant d’agir sur des métriques faibles, vérifiez comment le site se comporte depuis le pays visé : ce qui ressemble à un problème marketing est souvent un problème de vitesse régionale ou un défaut de localisation.
 
 ## Allez plus loin avec GA4 sur vos marchés
 
@@ -231,7 +231,7 @@ Les audiences prédictives de GA4 aident à repérer les visiteurs susceptibles 
 
 ### Les conversions hors ligne et hybrides
 
-Dans beaucoup de régions, la vente se conclut au téléphone, lors d’une visite ou d’une relance, hors de portée d’un rapport au clic. Le Measurement Protocol fait entrer ces interactions dans GA4, pour que chaque marché soit crédité des affaires qu’il conclut. Notre [génération de leads](/fr/services/generation-de-leads/) suit chaque demande jusque dans votre CRM, rattachée au marché et à la langue qui l’ont apportée.
+Dans beaucoup de régions, la vente se conclut au téléphone, lors d’une visite ou d’une relance, hors du champ d’un rapport de clics. Le Measurement Protocol intègre ces interactions dans GA4, pour que chaque marché soit crédité des affaires qu’il conclut. Notre [génération de leads](/fr/services/generation-de-leads/) suit chaque demande jusque dans votre CRM, rattachée au marché et à la langue qui l’ont apportée.
 
 ## Lire vos chiffres avec assurance
 

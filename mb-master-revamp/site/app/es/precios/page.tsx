@@ -34,22 +34,22 @@ const STAGES = [
   {
     name: "Una consulta gratuita",
     detail:
-      "Treinta minutos sobre los mercados y los idiomas que cuentan, lo que ya posiciona, lo que ya se ha probado y lo que supone un buen resultado en contactos de clientes. Primero hacemos nuestras preguntas y después recomendamos.",
+      "Treinta minutos sobre los mercados y los idiomas que importan, lo que ya posiciona, lo que ya se ha probado y lo que supone un buen resultado en contactos. Primero hacemos nuestras preguntas y después recomendamos.",
   },
   {
     name: "Un plan de trabajo por escrito para tus mercados",
     detail:
-      "Un documento breve que nombra las páginas, las palabras clave y los entregables del primer trimestre, y quién hace cada cosa. Un sitio en cinco idiomas y uno en dos son proyectos distintos, por eso adaptamos el plan de trabajo a tu caso.",
+      "Un documento breve que detalla las páginas, las palabras clave y los entregables del primer trimestre, y quién hace cada cosa. Una web en cinco idiomas y otra en dos son proyectos distintos, por eso adaptamos el plan de trabajo a tu caso.",
   },
   {
     name: "Primero la investigación, después la redacción",
     detail:
-      "Investigamos palabras clave y competidores en cada mercado antes de construir una página o escribir un artículo. La investigación encuentra los términos que pesan en cada idioma, porque un término fuerte en español cambia a menudo de peso una vez traducido.",
+      "Investigamos palabras clave y competidores en cada mercado antes de crear una página o escribir un artículo. Este estudio revela los términos que pesan en cada idioma, porque un término fuerte en español suele cambiar de peso al traducirlo.",
   },
   {
     name: "Entregas a ritmo fijo",
     detail:
-      "El trabajo avanza cada mes, mercado por mercado, de modo que una página alemana avanza en paralelo a una francesa. Redactores nativos para cada idioma, cuyo trabajo revisamos con el briefing antes de publicar.",
+      "El trabajo avanza cada mes, mercado por mercado, de modo que la versión alemana va en paralelo a la francesa. Contamos con redactores nativos para cada idioma y revisamos su trabajo según el briefing antes de publicar.",
   },
   {
     name: "Informes mercado por mercado",
@@ -70,11 +70,11 @@ const QUESTIONS = [
   },
   {
     q: "¿Hay que firmar un contrato?",
-    a: "Los proyectos funcionan mes a mes y cualquiera de las dos partes puede terminarlos con un preaviso.",
+    a: "Los proyectos funcionan mes a mes y cualquiera de las dos partes puede cancelarlos con un preaviso.",
   },
   {
     q: "¿Y si solo tenemos un mercado que corregir?",
-    a: "Una corrección de SEO en un idioma, una revisión de localización, una sesión de consultoría de IA sobre la calidad de la traducción automática: cada una se hace como un proyecto acotado, con principio y fin.",
+    a: "Una optimización SEO en un idioma, una revisión de localización, una sesión de consultoría de IA sobre la calidad de la traducción automática: cada tarea se plantea como un proyecto acotado, con principio y fin.",
   },
   {
     q: "¿Quién hace el trabajo?",
@@ -82,7 +82,7 @@ const QUESTIONS = [
   },
   {
     q: "¿Cómo se factura?",
-    a: "La gestión lleva unos honorarios aparte. Cuando un proyecto incluye publicidad online, toda tu inversión en medios compra anuncios: se abona directamente a Google, Microsoft o Meta. El presupuesto que recomendamos es, por tanto, el que trae contactos. Esta regla se aplica a la inversión en medios; la redacción y la traducción que hacemos con la red BeTranslated se presupuestan como trabajo.",
+    a: "La gestión lleva unos honorarios aparte. Cuando un proyecto incluye publicidad online, toda tu inversión en medios se destina a anuncios: se abona directamente a Google, Microsoft o Meta. El presupuesto que recomendamos es, por tanto, el que trae contactos. Esta regla sirve para la inversión en medios; la redacción y la traducción que hacemos con la red BeTranslated se presupuestan como trabajo.",
   },
   {
     q: "¿Cómo empezar?",

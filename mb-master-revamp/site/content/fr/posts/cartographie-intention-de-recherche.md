@@ -204,7 +204,7 @@ Les AI Overviews apparaissent désormais aussi sur les requêtes commerciales et
 Chacune des étapes suivantes donne à chaque marché la page qu’il attend.
 
 **Définir les marchés cibles.**  
-Repérez les langues et les régions prioritaires d’après l’opportunité commerciale autant que le potentiel de trafic.
+Repérez les langues et les régions prioritaires d’après l’opportunité commerciale et le potentiel de trafic.
 
 **Mener une recherche de mots-clés localisée.**  
 Associez des locuteurs natifs et des outils d’IA pour analyser les comportements de recherche de chaque marché. Semrush, Ahrefs et Sistrix proposent des bases de mots-clés par pays, et Semrush comme Ahrefs y ajoutent une classification de l’intention.
@@ -213,7 +213,7 @@ Associez des locuteurs natifs et des outils d’IA pour analyser les comportemen
 Les requêtes informationnelles appellent des guides, les requêtes commerciales des comparatifs et des études de cas, les requêtes transactionnelles des pages d’atterrissage avec des appels à l’action clairs. Nos [idées d’articles de blog](/fr/idees-articles-de-blog/), classées par étape d’achat, vous donnent quinze sujets prêts à planifier.
 
 **Soigner le [SEO technique](/fr/seo-technique-site-multilingue/).**  
-Les balises hreflang, les structures d’URL et les balises canoniques soutiennent le contenu multilingue, avec une exploration propre et des versions de langue bien distinctes.
+Les balises hreflang, les structures d’URL et les balises canoniques structurent le contenu multilingue, avec une exploration propre et des versions de langue bien distinctes.
 
 **Suivre la performance par marché.**  
 Suivez dans Google Search Console et vos outils d’analyse les impressions, les taux de clic et les conversions par langue et par région, et ajustez le contenu d’après ces données.
@@ -228,7 +228,7 @@ La cartographie de l’intention comptait déjà ; les AI Overviews et les rech
 > Sur les recherches liées à l’actualité, la part des recherches sans clic est passée de 56 % à 69 % entre mai 2024, date du lancement des AI Overviews, et mai 2025.
 > Source : [Search Engine Roundtable, d’après le rapport Similarweb sur l’IA générative, juillet 2025](https://www.seroundtable.com/similarweb-google-zero-click-search-growth-39706.html)
 
-Quand un AI Overview s’affiche, être cité à l’intérieur regagne une part du taux de clic.
+Quand un AI Overview s’affiche, être cité à l’intérieur permet de récupérer une part du taux de clic.
 
 > Pour les requêtes informationnelles affichant un AI Overview, le CTR organique a baissé de 61 %, de 1,76 % en juin 2024 à 0,61 % en septembre 2025. Les marques citées dans l’AI Overview ont obtenu un CTR organique supérieur de 35 % et un CTR payant supérieur de 91 % à celui des marques non citées.
 > Source : [Seer Interactive, « AIO impact on Google CTR : September 2025 update », novembre 2025](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update)
