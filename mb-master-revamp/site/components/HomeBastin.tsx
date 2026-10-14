@@ -22,11 +22,11 @@ const T = {
     eyebrow: "Ce que le nom veut dire",
     heading: "BASTIN, en six idées.",
     rows: [
-      { letter: "B", word: "Business", desc: "Chaque projet de recherche part de vos objectifs commerciaux, pour obtenir le budget qu’il lui faut.", slug: "lead" },
-      { letter: "A", word: "Automatisation", desc: "L’IA rédige, teste et rend compte, pour que le travail avance sans cesse.", slug: "conseil-ia" },
-      { letter: "S", word: "SEO", desc: "Un référencement multilingue, conçu pour se positionner dans la langue que l’acheteur emploie vraiment pour chercher.", slug: "referencement-multilingue" },
+      { letter: "B", word: "Business", desc: "Chaque projet de recherche part de vos objectifs commerciaux, pour disposer du budget nécessaire.", slug: "lead" },
+      { letter: "A", word: "Automatisation", desc: "L’IA rédige, teste et rend compte de ses résultats, pour que le travail avance sans cesse.", slug: "conseil-ia" },
+      { letter: "S", word: "SEO", desc: "Un référencement multilingue, conçu pour se positionner dans la langue que l’acheteur emploie réellement pour chercher.", slug: "referencement-multilingue" },
       { letter: "T", word: "Traduction", desc: "Des textes adaptés au marché qui les lit.", slug: "traduction-professionnelle" },
-      { letter: "I", word: "Internationalisation", desc: "Le travail de fond fait avant le lancement, pour qu’un produit accueille une seconde langue sur la base qu’il a déjà.", slug: "localisation-applications" },
+      { letter: "I", word: "Internationalisation", desc: "Le travail de fond fait avant le lancement, pour qu’un produit accueille une seconde langue sur la base de ce qu’il a déjà.", slug: "localisation-applications" },
       { letter: "N", word: "Networking", desc: "Plus de deux décennies de recommandations, en quatre langues, toujours le canal qui fonctionne.", slug: null },
     ] as Row[],
     stats: [

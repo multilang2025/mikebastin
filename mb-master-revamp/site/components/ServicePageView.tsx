@@ -76,7 +76,7 @@ export const SERVICE_UI: Record<"en" | "fr", ServiceUi> = {
     ctaEyebrow: "L’étape suivante",
     ctaHeading: (term) => `Estimez ce que le ${term} peut vous rapporter sur vos marchés`,
     ctaText:
-      "Trente minutes sur les marchés qui comptent, ce qui se positionne déjà et ce qui a été tenté jusqu’ici. Un périmètre écrit, avec les pages et les livrables, suit l’échange. L’engagement se poursuit au mois le mois.",
+      "Trente minutes sur les marchés qui comptent, ce qui se positionne déjà et ce qui a été tenté jusqu’ici. Un périmètre écrit, avec les pages et les livrables, est établi à l'issue de l'échange. L’engagement se poursuit mois après mois.",
     ctaButton: "Réserver une consultation gratuite",
     contactHref: "/fr/nous-contacter/",
     howHref: "/fr/tarifs/",

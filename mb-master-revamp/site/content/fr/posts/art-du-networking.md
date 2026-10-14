@@ -14,7 +14,7 @@ excerpt: "Stratégies de networking pour jeunes professionnels : où rencontrer
 
 ## Le networking, un atout pour démarrer en marketing digital
 
-Dans le marketing digital, les meilleurs postes et les meilleurs clients reviennent souvent à quelqu’un qu’un décideur connaît déjà. En début de carrière, votre CV parle pour vous, alors que les personnes qui décrochent ces postes arrivent avec une recommandation. Commencer dès maintenant à réunir les vôtres vous place sur ces listes, surtout si vos interlocuteurs se trouvent en Espagne, au Benelux, en Allemagne ou au Royaume-Uni.
+Dans le marketing numérique, les meilleurs postes et les meilleurs clients reviennent souvent à quelqu’un qu’un décideur connaît déjà. En début de carrière, votre CV parle pour vous, alors que les personnes qui décrochent ces postes arrivent avec une recommandation. Commencer dès maintenant à réunir les vôtres vous place sur ces listes, surtout si vos interlocuteurs se trouvent en Espagne, au Benelux, en Allemagne ou au Royaume-Uni.
 
 Voici les canaux qui méritent votre temps, la façon de préparer une rencontre et d’en assurer le suivi, les outils qui gardent un réseau organisé, et la manière d’aborder les moments délicats.
 
@@ -120,19 +120,19 @@ La préparation transforme une conversation de politesse en échange dont l’au
 
 ### Engagez la conversation avec naturel
 
-Arrivez avec quelque chose d’utile à dire : une question pertinente, une relation commune, une remarque sur l’argument de l’intervenant. Le but est un dialogue que vous avez tous deux envie de poursuivre.
+Arrivez avec quelque chose d’utile à dire : une question pertinente, une connaissance commune, une remarque sur le propos de l’intervenant. Le but est un dialogue que vous avez tous deux envie de poursuivre.
 
 ### Relancez dans les 24 heures
 
-Un jour plus tard, la personne se souvient encore clairement de vous : c’est le moment d’écrire. Dans les 24 heures, envoyez un message personnel qui reprend un point précis de votre conversation, et connectez-vous sur LinkedIn. Écrivez dans la langue dans laquelle vous avez échangé, en français, en anglais ou en espagnol : le message paraît alors la suite naturelle de la rencontre.
+Un jour plus tard, la personne se souvient encore clairement de vous : c’est le moment d’écrire. Dans les 24 heures, envoyez un message personnel qui reprend un point précis de votre conversation, et envoyez une demande de connexion sur LinkedIn. Écrivez dans la langue dans laquelle vous avez échangé, en français, en anglais ou en espagnol : le message apparaît alors comme la suite naturelle de la rencontre.
 
 ### Continuez à apporter de la valeur
 
-Partagez des analyses qui rejoignent ses centres d’intérêt, félicitez-la pour ses réussites, présentez-lui les personnes qu’elle devrait connaître. Les gens aident ceux qui les ont aidés en premier : soyez la personne qui apporte de la valeur avec constance, pendant les mois calmes comme pendant les mois chargés.
+Partagez des analyses qui rejoignent ses centres d’intérêt, félicitez-la pour ses réussites, présentez-lui les personnes qu’elle devrait connaître. Les gens aident ceux qui les ont aidés en premier : soyez la personne qui apporte une contribution utile de façon régulière, pendant les mois calmes comme pendant les mois chargés.
 
 ## Organisez votre réseau avec les bons outils
 
-Un réseau dont vous gardez la trace continue de grandir. Quelques outils consignent chaque contact et chaque conversation.
+Un réseau que vous suivez continue de grandir. Quelques outils consignent chaque contact et chaque conversation.
 
 | Outil | Ce qu’il apporte au networking |
 |---|---|
@@ -159,7 +159,7 @@ Certains messages reçoivent une réponse et certaines connexions mènent quelqu
 
 ## Entretenez vos relations sur la durée
 
-Vingt contacts LinkedIn qui prendraient votre appel valent davantage que mille qui feraient seulement défiler votre nom. Échangez régulièrement par des commentaires, des partages et des messages. Les personnes qui vous aideront le plus dans cinq ans sont souvent celles avec qui vous êtes resté en contact simplement pour garder le lien.
+Vingt contacts LinkedIn qui décrocheraient votre appel valent davantage que mille qui feraient seulement défiler votre nom. Échangez régulièrement par des commentaires, des partages et des messages. Les personnes qui vous aideront le plus dans cinq ans sont souvent celles avec qui vous êtes resté en contact simplement pour garder le lien.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Un entonnoir qui va de tous vos contacts à ceux avec qui vous gardez le lien, puis aux personnes qui vous aideront le plus dans cinq ans.">

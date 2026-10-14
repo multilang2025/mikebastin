@@ -132,7 +132,7 @@ const FR: PrivacyCopy = {
     },
     {
       h: "Cookies et stockage local",
-      p: ["Le site conserve deux éléments dans votre navigateur. Tous deux restent sur votre appareil et servent uniquement à faire fonctionner le site comme vous l’avez réglé."],
+      p: ["Le site conserve deux éléments dans votre navigateur. Tous deux restent sur votre appareil et servent uniquement à faire fonctionner le site tel que vous l’avez réglé."],
       table: {
         head: ["Élément", "Rôle", "Durée"],
         rows: [
@@ -172,7 +172,7 @@ const FR: PrivacyCopy = {
       ],
     },
     { h: "Modifier vos choix de cookies", p: ["Ouvrez les réglages des cookies pour autoriser ou retirer la mesure d’audience et les contenus intégrés à tout moment."], settings: true },
-    { h: "Mises à jour", p: ["Dernière mise à jour : 2 octobre 2026. Nous modifions cette page lorsque ce que nous collectons change, et la date évolue avec elle."] },
+    { h: "Mises à jour", p: ["Dernière mise à jour : 2 octobre 2026. Nous modifions cette page lorsque ce que nous collectons change, et nous mettons la date à jour."] },
   ].map((s) => ({
     ...s,
     h: fr(s.h),

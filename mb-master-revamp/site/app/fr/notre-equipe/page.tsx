@@ -39,7 +39,7 @@ const POINTS = [
   {
     name: "Des spécialistes natifs, nommés",
     detail:
-      "La rédaction et la traduction dans chaque langue passent par des spécialistes que nous vous présentons, la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans. Chacun écrit dans sa langue maternelle et connaît le secteur qu’il traite.",
+      "La rédaction et la traduction dans chaque langue passent par des spécialistes que nous vous présentons, la plupart issus du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis plus de deux décennies. Chacun écrit dans sa langue maternelle et connaît le secteur qu’il traite.",
   },
   {
     name: "Quatre langues de travail",

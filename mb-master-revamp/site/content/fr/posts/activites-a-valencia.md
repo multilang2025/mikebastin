@@ -24,10 +24,10 @@ L’un des symboles les plus marquants de Valence est la Cité des Arts et des S
 
 Vous y trouverez un opéra, un cinéma IMAX 3D, un musée interactif et même le plus grand aquarium d’Europe. Entre deux expositions, prenez le temps de vous balader dans les jardins autour du complexe, surtout si vous aimez prendre des photos pour immortaliser votre passage.
 
--   Astuce pratique : [réservez vos billets en ligne](https://tickets.cac.es/) pour éviter les files d’attente.
+-   Astuce pratique : [réservez vos billets en ligne](https://tickets.cac.es/) pour gagner du temps.
 -   Si vous projetez de vous installer durablement, jetez un œil à l’[immobilier à valencia](https://mikebastin.com/fr/immobilier-a-valencia/) pour mieux connaître le marché local.
 
-La Cité des Arts et des Sciences de Valence, conçue par Santiago Calatrava et Félix Candela, a été édifiée sur près de deux kilomètres de l’ancien lit du fleuve Turia, détourné après la grande inondation de 1957. Fait notable, ce projet avant-gardiste, devenu emblématique de la ville, a transformé un ancien espace à risque en un pôle culturel et scientifique majeur, mais il s’est aussi distingué par un dépassement budgétaire spectaculaire, le coût final atteignant environ 1,2 milliard d’euros, soit bien au-delà des prévisions initiales.
+La Cité des Arts et des Sciences de Valence, conçue par Santiago Calatrava et Félix Candela, a été édifiée sur près de deux kilomètres de l’ancien lit du fleuve Turia, détourné après la grande inondation de 1957. Fait notable, ce projet avant-gardiste, devenu emblématique de la ville, a transformé un ancien espace à risque en un pôle culturel et scientifique majeur. Il s’est aussi distingué par un dépassement budgétaire spectaculaire, le coût final atteignant environ 1,2 milliard d’euros, soit bien au-delà des prévisions initiales.
 
 ## S’évader dans la nature
 
@@ -35,11 +35,11 @@ La Cité des Arts et des Sciences de Valence, conçue par Santiago Calatrava et 
 
 Vous rêvez d’une bouffée d’air pur ? Plusieurs parcs naturels entourent Valence et valent le détour.
 
-Le Parc Naturel de l’Albufera est un site à ne pas manquer pour admirer de splendides couchers de soleil en bateau et découvrir où la paella a vu le jour.
+Le Parc Naturel de l’Albufera est un site d’exception pour admirer de splendides couchers de soleil en bateau et découvrir où la paella a vu le jour.
 
 Pour une aventure plus insolite, envolez-vous en montgolfière au-dessus du Parc Naturel de la Sierra de Mariola, non loin de la ville. Vous survolerez montagnes, cités et châteaux, avec un petit-déjeuner proposé après l’atterrissage.
 
--   Conseil détente : prévoyez une journée complète pour réellement déconnecter.
+-   Conseil détente : prévoyez une journée complète pour décompresser.
 -   Si vous voulez vous déplacer sans souci, renseignez-vous sur les [transports à valencia](https://mikebastin.com/fr/transport-a-valencia/).
 
 ## Tenter les sports nautiques
@@ -50,7 +50,7 @@ Avec son climat agréable presque toute l’année, vous pouvez tester différen
 
 Les plages de Valence sont parfaites pour le [paddle-surf](https://topsurf.fr/paddle/), notamment à Las Arenas ou Malvarrosa. Des écoles comme [Ocean Republik](https://www.oceanrepublik.com/) proposent des cours de groupe où vous glissez sur l’eau en un rien de temps.
 
-Pour en savoir plus sur le littoral et les spots sympas, consultez les [plages de valencia](https://mikebastin.com/fr/plages-de-valencia/).
+Pour en savoir plus sur le littoral et les coins sympas, consultez les [plages de valencia](https://mikebastin.com/fr/plages-de-valencia/).
 
 -   Avant de partir : vérifiez la météo, car même sous le soleil espagnol, la mer peut être un peu capricieuse.
 -   Vous pouvez aussi louer un jet-ski pour un coup d’adrénaline et des vues inédites sur la côte.
@@ -67,9 +67,9 @@ Pour une ambiance étudiante et des soirées en plein air, direction l’Umbracl
 
 Si vous préférez une atmosphère plus adulte et élégante, le quartier de Cánovas est fait pour vous, avec ses bars à cocktails raffinés et ses clubs chics.
 
-Enfin, autour de la Plaza del Cedre, l’ambiance est résolument jeune et étudiante, parfaite pour faire la fête sans se ruiner.
+Enfin, autour de la Plaza del Cedre, l’ambiance est résolument jeune et étudiante, parfaite pour faire la fête à petit prix.
 
-Pensez à prévoir un petit budget supplémentaire, car les boissons peuvent vite faire grimper la note, surtout dans les lieux les plus prisés ! 
+Pensez à prévoir un petit budget supplémentaire, car les boissons peuvent vite faire grimper la note, surtout dans les lieux les plus prisés.
 
 ## Savourer la gastronomie locale
 
@@ -77,30 +77,30 @@ Pensez à prévoir un petit budget supplémentaire, car les boissons peuvent vit
 
 Valence ne se limite pas à la paella (même si elle y est née).
 
-Les restaurants [Voltereta](https://www.volteretarestaurante.com/restaurante/valencia/casa/) proposent une expérience culinaire immersive inspirée de villes comme Bali ou Manhattan, vous emmenant en voyage sans quitter la table.
+Les restaurants [Voltereta](https://www.volteretarestaurante.com/restaurante/valencia/casa/) proposent une expérience culinaire immersive inspirée de villes comme Bali ou Manhattan, vous emmenant en voyage, confortablement installé à table.
 
 Et si vous préférez déguster la cuisine régionale, vous trouverez partout des plats typiques comme l’arròs del senyoret (une paella aux fruits de mer décortiqués) ou la fideuà (version revisitée avec des nouilles).
 
--   Astuce gourmande : [réservez](https://www.volteretarestaurante.com/reserva/?pre=valencia-casa) dans les restaurants les plus prisés pour éviter de faire la queue.
--   Envie de rester en extérieur ? Installez-vous en terrasse et profitez du climat doux si vous êtes curieux du [climat à valencia](https://mikebastin.com/fr/climat-a-valencia/).
+-   Astuce gourmande : [réservez](https://www.volteretarestaurante.com/reserva/?pre=valencia-casa) dans les restaurants les plus prisés pour réserver votre table sans attendre.
+-   Envie de rester en extérieur ? Installez-vous en terrasse et profitez du climat doux, et découvrez le [climat à valencia](https://mikebastin.com/fr/climat-a-valencia/).
 
 ## S’essayer aux expériences insolites
 
 Vous voulez du sensationnel ?
 
-Foncez au Racing Dakar Valencia pour faire du karting sur un circuit de plus de 5 500 m².
+Rendez-vous au Racing Dakar Valencia pour faire du karting sur un circuit de plus de 5 500 m².
 
-Frissons garantis quand vous mettrez le pied sur l’accélérateur. Si vous préférez la randonnée, direction Chulilla et son itinéraire des ponts suspendus pour un panorama à couper le souffle sur le canyon du Turia. Entre nature et adrénaline, vous ne serez pas déçu.
+Frissons garantis dès que vous appuierez sur l’accélérateur. Si vous préférez la randonnée, direction Chulilla et son itinéraire des ponts suspendus pour un panorama à couper le souffle sur le canyon du Turia. Entre nature et adrénaline, les sensations sont garanties.
 
 -   Hors des sentiers battus : le Bioparc et l’Oceanogràfic vous feront voyager à travers différents continents sans quitter la ville.
--   Conclusion perso : si vous êtes du genre aventurier, chaque week-end peut devenir l’occasion de tester quelque chose de neuf.
+-   Notre conseil : si vous êtes du genre aventurier, chaque week-end peut devenir l’occasion de tester quelque chose de neuf.
 
 ## En résumé
 
 Valence est un véritable terrain de jeu pour les jeunes actifs en quête de découvertes.
 
-Vous pouvez partir en excursion dans des parcs naturels, explorer des musées futuristes, vous éclater en club silencieux ou vous régaler dans des restos thématiques.
+Vous pouvez partir en excursion dans des parcs naturels, explorer des musées futuristes, vous divertir en club silencieux ou vous régaler dans des restaurants thématiques.
 
-Alors, qu’allez-vous tester en premier ?
+Qu’allez-vous tester en premier ?
 
 Bonne visite et amusez-vous bien !

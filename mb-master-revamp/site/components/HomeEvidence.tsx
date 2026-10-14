@@ -29,7 +29,7 @@ const T = {
   },
   fr: {
     eyebrow: "Résultats clients",
-    heading: "Des sites que nous gérons, mesurés dans Google Search Console.",
+    heading: "Sites que nous gérons, suivis dans Google Search Console",
     leads: "demandes/mois",
     clicks: "clics Google",
     impressions: "M d’impressions Google",
