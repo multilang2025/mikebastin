@@ -39,7 +39,7 @@ const POINTS = [
   {
     name: "Especialistas nativos, con nombre y apellidos",
     detail:
-      "La redacción y la traducción en cada idioma pasan por especialistas que te presentamos, casi todos de la red BeTranslated, que dirigimos desde hace veinte años. Cada uno escribe en su lengua materna y conoce el sector del que trata.",
+      "La redacción y la traducción en cada idioma pasan por especialistas que te presentamos, casi todos de la red BeTranslated, que dirigimos desde hace más de dos décadas. Cada uno escribe en su lengua materna y conoce el sector del que trata.",
   },
   {
     name: "Cuatro idiomas de trabajo",

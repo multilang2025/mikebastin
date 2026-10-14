@@ -15,11 +15,11 @@ excerpt: "Esta es nuestra agencia experta en SEO y profesional del marketing dig
 
 # Conoce MikeBastin
 
-SEO multilingüe, traducción y estrategia digital. Más de dos décadas haciendo el trabajo, no solo hablando de él.
+SEO multilingüe, traducción y estrategia digital. Más de dos décadas demostrándolo con trabajo, no solo con palabras.
 
 ## Nuestra experiencia
 
-Llevo más de dos décadas trabajando en SEO y traducción. Suficiente para acordarme de cuando AltaVista era un competidor serio, cuando Google todavía no tenía versión en español, y cuando «SEO multilingüe» quería decir traducir las meta keywords. El oficio ha cambiado mucho. Los principios de fondo, no tanto. Hoy ayudo a empresas internacionales a posicionarse, comunicar y convertir en mercados que muchas veces no ven bien desde dentro.
+Llevamos más de dos décadas trabajando en SEO y traducción. Suficiente para acordarnos de cuando AltaVista era un competidor serio, cuando Google todavía no tenía versión en español, y cuando «SEO multilingüe» quería decir traducir las meta keywords. El oficio ha cambiado mucho. Los principios de fondo, no tanto. Hoy ayudamos a empresas internacionales a posicionarse, comunicar y convertir en mercados que muchas veces no ven bien desde dentro.
 
 ## Conoce a nuestro equipo
 
@@ -29,15 +29,15 @@ Trabajamos directamente con cada cliente, sin intermediarios. Cada proyecto pasa
 
 ## Con quién trabajo
 
-Llevo el SEO multilingüe y la estrategia digital de un pequeño portafolio de clientes, en mercados regulados, multilingües o geográficamente complejos. Los nombres se quedan en privado. Los sectores y el trabajo, no.
+Llevamos el SEO multilingüe y la estrategia digital de una pequeña cartera de clientes, en mercados regulados, multilingües o geográficamente complejos. Los nombres se quedan en privado. Los sectores y el trabajo, no.
 
 Despacho valenciano especializado en derecho de extranjería y derecho de sucesiones para clientela internacional. SEO multilingüe en español, francés, inglés y ruso, visibilidad en el local pack y autoridad de contenido sobre temas regulados.
 
-Transitario internacional con sede en Texas que mueve carga B2B hacia Latinoamérica, Asia y Europa. SEO técnico, schema markup y páginas de aterrizaje por corredor comercial construidas sobre las búsquedas reales del transporte.
+Transitario internacional con sede en Texas que mueve carga B2B hacia Latinoamérica, Asia y Europa. SEO técnico, schema markup y páginas de aterrizaje por corredor comercial basadas en las búsquedas reales del transporte.
 
-Inmobiliaria activa en Sosúa, Cabarete y Santiago, en República Dominicana. SEO multilingüe orientado a compradores de Estados Unidos, Canadá y Europa continental. Guías largas de zona, páginas de barrio y schema markup en los listings.
+Inmobiliaria activa en Sosúa, Cabarete y Santiago, en República Dominicana. SEO multilingüe orientado a compradores de Estados Unidos, Canadá y Europa continental. Guías completas de zona, páginas de barrio y schema markup en los listings.
 
-Red de agencias de traducción multilingüe presente en Bélgica, Francia, España, Países Bajos, Reino Unido y Estados Unidos. Arquitectura WPML/hreflang, SEO técnico en 12 TLDs, schema markup y pipelines de contenido en volumen.
+Red de agencias de traducción multilingüe presente en Bélgica, Francia, España, Países Bajos, Reino Unido y Estados Unidos. Arquitectura WPML/hreflang, SEO técnico en 12 TLDs, schema markup y flujos de contenido a gran escala.
 
 Marca de servicios de mudanza y relocation para expatriados internacionales que se instalan en Valencia. Contenido sobre visados, comparación de barrios y páginas de aterrizaje multilingües orientadas a francófonos, neerlandófonos, anglófonos e hispanófonos.
 
@@ -45,11 +45,11 @@ Algunos estudios de bienestar y marcas de servicios lingüísticos en España y 
 
 ## Más artículos del blog
 
-Artículos que muestran cómo se traduce el trabajo en la práctica: SEO multilingüe, IA en buscadores, análisis competitivo y las herramientas que realmente uso.
+Artículos que muestran cómo se traduce el trabajo en la práctica: SEO multilingüe, IA en buscadores, análisis competitivo y las herramientas que realmente usamos.
 
 Cómo analizar a los competidores reales y convertir el análisis en ventaja de crecimiento.
 
-El método para identificar a quién compites realmente en SERPs, no a quién crees que compites.
+El método para identificar contra quién compites realmente en las SERPs, no contra quién crees que compites.
 
 Por qué el contenido dual SEO/GEO es la única estrategia que funciona en buscadores generativos.
 
@@ -57,12 +57,12 @@ Schema markup como infraestructura básica para aparecer en respuestas de IA y m
 
 El stack gratuito que te lleva del 0 al 80% del análisis competitivo profesional.
 
-Por qué el seguimiento de prompts ya no es suficiente y cómo medir presencia real en LLMs.
+Por qué el seguimiento de prompts ya no es suficiente y cómo medir la presencia real en LLMs.
 
 ¿Colaboramos?
 
-¡Nos encantaría saber de ti! Haznos llegar tus ideas o preguntas. Nuestro equipo está listo para ayudarte a crear algo increíble. ¡Contáctanos hoy!
+¡Queremos conocer tu proyecto! Cuéntanos tus ideas o dudas. Nuestro equipo está preparado para ayudarte a conseguir grandes resultados. ¡Escríbenos hoy!
 
-¿Quieres transformar tu negocio?
+¿Quieres hacer crecer tu negocio?
 
-¡Ya es hora de que lleves tu negocio al siguiente nivel! Unámonos y creemos algo impresionante. No importa si tienes un pequeño negocio con grandes proyecciones o una empresa en crecimiento que busca expandirse, nos encantaría ayudarte a dejar huella en el escenario global.
+¡Es el momento de impulsar tu negocio! Trabajemos juntos para conseguir grandes resultados. Da igual si tienes un pequeño negocio con mucha proyección o una empresa en pleno crecimiento que busca expandirse, queremos ayudarte a destacar en el mercado internacional.

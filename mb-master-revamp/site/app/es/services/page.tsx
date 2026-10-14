@@ -39,7 +39,7 @@ export const metadata: Metadata = {
  */
 const GROUPS: { heading: string; slugs: string[]; scene: { src: string; alt: string; intro: string } }[] = [
   {
-    heading: "Clientes en Valencia y en Google", scene: { src: "/images/scenes/svc-lead-generation.webp", alt: "Un panel de consultas por mercado, con nuevas solicitudes de presupuesto llegadas de Alemania y Francia", intro: "Consultas de tu ciudad y de cada mercado, contadas donde llegan y entregadas a tu equipo comercial." },
+    heading: "Clientes en Valencia y en Google", scene: { src: "/images/scenes/svc-lead-generation.webp", alt: "Un panel de consultas por mercado, con nuevas solicitudes de presupuesto llegadas de Alemania y Francia", intro: "Consultas de tu ciudad y de cada mercado, registradas al llegar y entregadas a tu equipo comercial." },
     slugs: ["optimizacion-seo", "seo-local", "publicidad-multilingue", "posicionamiento-multilingue", "seo-tecnico", "seguimiento-de-conversiones"],
   },
   {

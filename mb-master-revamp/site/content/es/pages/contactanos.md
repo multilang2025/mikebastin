@@ -19,18 +19,18 @@ We are here to help
 
 ## You are contacting **Mike Bastin**, SEO consultant and founder of **MikeBastin.com**.
 
-I work with businesses that need clear, measurable SEO results.  
-Most requests relate to SEO strategy, competitor analysis, multilingual SEO, and content performance.
+Trabajamos con empresas que necesitan resultados SEO claros y medibles.
+La mayoría de las peticiones tratan sobre estrategia SEO, análisis de la competencia, SEO multilingüe y rendimiento del contenido.
 
-If you contact me, your message is read and answered personally.
+Si nos contactas, leemos y respondemos tu mensaje personalmente.
 
 ### You can use this form if you are looking for help with:
 
--   SEO strategy and technical SEO decisions
--   Competitor analysis and traffic benchmarking
+-   Estrategia SEO y decisiones de SEO técnico
+-   Análisis de la competencia y comparativa de tráfico
 -   Keyword research and content planning
--   Multilingual SEO and international growth
--   Website performance, analytics, and tracking
+-   SEO multilingüe y crecimiento internacional
+-   Rendimiento web, analítica y seguimiento
 
 If your request is not related to SEO or digital strategy, I may not be the right person to help.
 
@@ -62,24 +62,24 @@ Si eres humano, deja este campo en blanco.
 
 ### What Happens After You Send a Message
 
-Your message goes directly to me.  
-I typically reply within one business day.
+Tu mensaje nos llega directamente.
+Solemos responder en un día laborable.
 
-If your enquiry requires more context, I will ask follow-up questions before proposing next steps.  
-There is no automated sales process and no outsourced handling.
+Si tu consulta necesita más contexto, te haremos algunas preguntas antes de proponerte los siguientes pasos.
+Gestionamos todo de forma manual y directa con nuestro propio equipo.
 
 ### About the Business
 
-MikeBastin.com is an independent SEO and digital strategy consultancy.
+MikeBastin.com es una consultora independiente de SEO y estrategia digital.
 
-Work is carried out remotely for clients in Europe and international markets, with a strong focus on:
+Trabajamos en remoto para clientes de Europa y mercados internacionales, con un enfoque claro en:
 
--   Practical SEO decisions
+-   Decisiones SEO prácticas
 -   Clear prioritisation
 -   Long-term organic growth
 
 The goal is always the same.  
-**Make SEO decisions that support real business outcomes.**
+**Toma decisiones SEO que generen resultados reales para tu negocio.**
 
 ### Contact Details
 
@@ -93,7 +93,7 @@ Email
 Via the contact form on this page
 
 LinkedIn  
-You can also reach me via my [professional LinkedIn profile](https://www.linkedin.com/in/michaelbastin/)
+También puedes contactarnos a través de nuestro [perfil profesional de LinkedIn](https://www.linkedin.com/in/michaelbastin/)
 
 Calle Rugat 12 -2   
 46021 Valencia, Spain
@@ -104,8 +104,8 @@ hello@mikebastin.com
 
 Get in Touch
 
-Our team is based in the vibrant city of Valencia, Spain, but our services extend across the globe. Whether you’re looking for expert SEO, web design, or internationalisation services, we’re here to help your business thrive in any market. With over two decades of experience working with clients worldwide, our team understands the unique challenges of reaching new audiences and can provide tailored solutions to meet your needs. Get in touch today to discuss how we can support your digital growth, no matter where your business is located.
+Nuestro equipo trabaja desde Valencia, pero ofrecemos nuestros servicios en todo el mundo. Si buscas expertos en SEO, diseño web o internacionalización, te ayudamos a impulsar tu negocio en cualquier mercado. Con más de dos décadas de experiencia con clientes internacionales, entendemos los retos de llegar a nuevos públicos y te damos soluciones adaptadas a tus necesidades. Contáctanos hoy para hablar sobre cómo podemos apoyar tu crecimiento digital, estés donde estés.
 
 Let’s work together
 
-We’re excited to collaborate with you! Reach out to share your vision, and let’s create something amazing together that elevates your business to new heights.
+¡Tenemos muchas ganas de colaborar contigo! Escríbenos para contarnos tu idea y vamos a crear juntos algo increíble que lleve tu negocio al siguiente nivel.

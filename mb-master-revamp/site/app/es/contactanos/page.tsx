@@ -73,7 +73,7 @@ export default function SpanishContactPage() {
           </Reveal>
           <Reveal i={3}>
             <p className="max-w-[58ch] text-[clamp(1.05rem,1.65vw,1.24rem)]" style={{ color: "var(--dim)" }}>
-              Seis campos, todos útiles. Leemos cada mensaje y lo respondemos nosotros mismos, normalmente en un día laborable. Si otra persona está mejor situada para tu proyecto, te lo decimos y te ponemos en contacto con ella.
+              Seis campos, todos útiles. Leemos cada mensaje y lo respondemos nosotros mismos, normalmente en un día laborable. Si otra persona es más adecuada para tu proyecto, te lo decimos y te ponemos en contacto con ella.
             </p>
           </Reveal>
         </div>
