@@ -70,10 +70,10 @@ export const FR_SERVICE_LAYOUTS: Record<string, FrServiceLayout> = {
         heading: "Trois cas où le périmètre multilingue était tout l’enjeu",
         art: {
           src: "/images/scenes/multilingual-seo-3-cases-fr.webp",
-          alt: "Trois sites multilingues côte à côte : neuf domaines nationaux, quatre langues sur un site immobilier, et quatre langues réparties sur deux systèmes juridiques.",
+          alt: "Trois sites multilingues côte à côte : dix domaines nationaux, quatre langues sur un site immobilier, et quatre langues réparties sur deux systèmes juridiques.",
         },
         paragraphs: [
-          "BeTranslated, l’agence de traduction que nous dirigeons depuis plus de deux décennies, gère neuf domaines nationaux avec WPML sur chacun, des balises hreflang entre les domaines, des contenus natifs par marché rédigés par l’équipe de traducteurs interne et un balisage schema localisé par pays. Le résultat : un positionnement organique régulier sur plusieurs marchés européens et des citations par les IA dans chaque langue cible sur les requêtes de services de traduction.",
+          "BeTranslated, l’agence de traduction que nous dirigeons depuis plus de deux décennies, gère dix domaines nationaux avec WPML sur chacun, des balises hreflang entre les domaines, des contenus natifs par marché rédigés par l’équipe de traducteurs interne et un balisage schema localisé par pays. Le résultat : un positionnement organique régulier sur plusieurs marchés européens et des citations par les IA dans chaque langue cible sur les requêtes de services de traduction.",
           "Century 21 Perdomo, une agence immobilière en République dominicaine, publie ses biens en anglais, en français, en espagnol et en allemand, sur un WordPress headless avec WPML et WooCommerce. Nous menons le SEO langue par langue, à partir des recherches propres à chaque marché.",
           "Un cabinet d’avocats de Valencia qui travaille en espagnol, en français, en anglais et en russe s’appuie sur WPML pour ses quatre langues, avec un balisage LegalService localisé par langue et des biographies d’avocats adaptées à chaque public. Il reçoit désormais des demandes régulières sur des requêtes à intention commerciale, comme le droit des affaires et les contrats de franchise, dans la langue de ses clients.",
         ],

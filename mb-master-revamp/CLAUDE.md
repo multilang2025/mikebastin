@@ -98,6 +98,13 @@ Same model as valenciamove.com, which the owner already runs at larger scale
   production goes the way the pipeline already goes, as valenciamove.com
   does. Do not propose Vercel again, and do not reach for a feature that
   assumes it.
+  **A merge means visible on the web** (owner, 13 Oct 2026: "for
+  front-end only websites like mikebastin.com, a merge means visible").
+  Every merge to `main` deploys; until launch that is
+  preview.mikebastin.com, and after launch it must be mikebastin.com
+  itself, so the production deploy runs on merge as the preview does
+  today. Report a merge as done once its deploy has finished and the
+  change shows on the site, not when GitHub says merged.
 
 Nothing in this directory contains real credentials. Secrets go in `.env`
 (gitignored, see below), never in a committed file, never in an agent's
@@ -344,13 +351,13 @@ body sections of `multilingual-seo`, `website-localisation`, `technical-seo` and
 `lib/services.ts`, files in `public/images/scenes/`, drawn with the scene-illustration
 skill); the service template shows a scene borderless and alternates its side. The
 homepage work section shows five cases (Delaguía, C21 Perdomo, BeTranslated, Bemelman, TX
-International Freight) and a tile for each of BeTranslated's country sites
+International Freight) and a tile for each of BeTranslated's ten country sites
 (`lib/betranslated-sites.ts`, images `public/work/betranslated-<tld>.webp` from
-`design/work-shots/gen.py`). `betranslated.it` does not resolve and is gone from the
-site (owner, 7 Oct 2026), so the homepage shows nine tiles in a 3 by 3 grid and counts
-nine sites in EN, FR and ES. Its tile image is deleted and the `.it` chip was painted out
-of the seven country pictures that carried it (fresh renders here lost the brand fonts,
-so the existing pictures were patched instead); tile URLs carry `?v=SHOT_VERSION`. `design/scenes/render.py` now stops Edge itself once the
+`design/work-shots/gen.py`). `betranslated.it` was off the site from 7 to 13 Oct 2026 because it did not resolve; the
+owner registered it on 13 Oct 2026 and asked for it back, so it is restored everywhere (ten
+tiles, ten flags, ten sites in EN, FR and ES). Until a site is live there the Italian tile
+links to `betranslated.com/it/`; point it at `https://betranslated.it/` in
+`lib/betranslated-sites.ts` (drop `href`) once it serves a page. `design/scenes/render.py` now stops Edge itself once the
 screenshot exists (it used to hang).
 
 **Every post opens on an H2** (owner hard rule, 7 Oct 2026: "all Blog posts need to
@@ -540,11 +547,9 @@ is in the rest, which the Master Content Protocol never covered:
   Spanish and Italian, and a native Portuguese speaker sits on the in-house
   IT team (owner, 2 Oct 2026). Same vague-level rule as German and Italian:
   never "working level" or a described reading level.
-- **BeTranslated shows nine country domains** (owner, 7 Oct 2026): .com, .us,
-  .ca, .co.uk, .be, .fr, .es, .de and .nl. The footer of betranslated.com also
-  links .it, but that domain does not resolve, so the owner had it removed from
-  the homepage, the case study, the flags animation, the scene and the country
-  pictures. Never "six", "ten" or "twelve".
+- **BeTranslated runs ten country domains** (checked on the betranslated.com
+  footer, 7 Oct 2026): .com, .us, .ca, .co.uk, .be, .fr, .es, .de, .nl and
+  .it (the owner registered `.it` on 13 Oct 2026). Never "six", "nine" or "twelve".
 - **ValenciaMove brings in over 50 leads a month** (owner, 7 Oct 2026),
   shown as 50+. **Mike leads the team on every engagement** and clients deal
   with him (owner, 7 Oct 2026).
@@ -831,8 +836,12 @@ opens. Flagged rather than forgotten, so they are known and deliberate:
   `/es/blog/temas/`, four), with no hreflang since each locale groups its
   own posts. `/blog/topics/` stays the English set.
 - **The eight case studies are in all three languages** (owner, 12 Oct
-  2026: "translate the case studies"): `/projects/<slug>/`,
-  `/fr/etudes-de-cas/<slug>/` and `/es/casos-de-exito/<slug>/`, one view
+  2026: "translate the case studies"): `/projects/<sector>/`,
+  `/fr/etudes-de-cas/<secteur>/` and `/es/casos-de-exito/<sector>/`. **URLs
+  name the sector, never the client** (owner, 13 Oct 2026: "I don't want to
+  name them in the slug"), e.g. `/projects/law-firm-valencia/`; the per-language
+  slugs live in `lib/case-studies.ts`, and every link goes through
+  `caseStudyPath(locale, id)` rather than a typed URL. One view
   (`components/CaseStudyView.tsx`), copy in `lib/projects-locale.ts` (hero)
   and `lib/case-studies-locale.ts` (the rest), paired through
   `lib/fr-pages-data.ts` / `lib/es-pages-data.ts`, so hreflang, the

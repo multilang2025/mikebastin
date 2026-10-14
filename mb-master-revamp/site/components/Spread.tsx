@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CaseMark } from "@/components/StepIcon";
+import { caseStudyPath } from "@/lib/case-studies";
 import type { Project } from "@/lib/projects";
 import type { ProjectCopy } from "@/lib/projects-locale";
 
@@ -31,7 +32,7 @@ export default function Spread({ d, flip, copy }: { d: Project; flip: boolean; c
           {copy ? (
             d.name
           ) : (
-            <Link href={`/projects/${d.slug}/`} className="ulink">
+            <Link href={caseStudyPath("en", d.slug)} className="ulink">
               {d.name}
             </Link>
           )}
@@ -144,7 +145,7 @@ export default function Spread({ d, flip, copy }: { d: Project; flip: boolean; c
 
           {!copy && (
             <Link
-              href={`/projects/${d.slug}/`}
+              href={caseStudyPath("en", d.slug)}
               className="ulink mt-7 inline-block text-[.9rem] font-medium"
               style={{ color: "var(--berry)" }}
             >

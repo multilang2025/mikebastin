@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Reveal from "@/components/Reveal";
-import { PROJECTS, SHOT_VERSION } from "@/lib/projects";
+import { PROJECTS } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
 import { CASE_SLUGS } from "@/lib/home-evidence";
 import { caseStudyPath } from "@/lib/case-studies";
@@ -23,7 +23,7 @@ const T = {
     read: "Read the case study",
     sitesEyebrow: "BeTranslated country sites",
     sitesHeading: "BeTranslated, in every market it serves.",
-    sitesLede: "Nine country sites, each written for its own market and language.",
+    sitesLede: "Ten country sites, each written for its own market and language.",
     moreSites: "Load more sites",
     siteAlt: (market: string, domain: string) => `The BeTranslated site for ${market}, ${domain}, on desktop and mobile`,
   },
@@ -40,7 +40,7 @@ const T = {
     read: "Lire l’étude de cas",
     sitesEyebrow: "Sites nationaux de BeTranslated",
     sitesHeading: "BeTranslated, dans chaque marché où l’agence travaille.",
-    sitesLede: "Neuf sites pays, chacun écrit pour son marché et sa langue.",
+    sitesLede: "Dix sites pays, chacun écrit pour son marché et sa langue.",
     moreSites: "Voir plus de sites",
     siteAlt: (market: string, domain: string) => `Le site BeTranslated pour ${market}, ${domain}, sur ordinateur et sur mobile`,
   },
@@ -57,7 +57,7 @@ const T = {
     read: "Leer el caso de éxito",
     sitesEyebrow: "Sitios nacionales de BeTranslated",
     sitesHeading: "BeTranslated, en cada mercado donde trabaja la agencia.",
-    sitesLede: "Nueve sitios nacionales, cada uno escrito para su mercado y su idioma.",
+    sitesLede: "Diez sitios nacionales, cada uno escrito para su mercado y su idioma.",
     moreSites: "Ver más sitios",
     siteAlt: (market: string, domain: string) => `El sitio de BeTranslated para ${market}, ${domain}, en ordenador y en móvil`,
   },
@@ -177,7 +177,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
             {t.sitesLede}
           </p>
         </Reveal>
-        <PostGridMore limit={6} label={t.moreSites} className="grid grid-cols-1 gap-4 min-[360px]:grid-cols-2 sm:grid-cols-3">
+        <PostGridMore limit={6} label={t.moreSites} className="grid grid-cols-1 gap-4 min-[360px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {BT_SITES.map((s, i) => {
             const domain = `betranslated.${s.tld}`;
             // The country sites are linked and shown with www. (owner, 8 Oct
@@ -194,7 +194,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
                     style={{ borderColor: "var(--rule)", background: "var(--shade)" }}
                   >
                     <Image
-                      src={`/work/${s.image}-800.webp?v=${SHOT_VERSION}`}
+                      src={`/work/${s.image}-800.webp`}
                       width={800}
                       height={640}
                       alt={t.siteAlt(s.market[locale], domain)}
@@ -202,8 +202,11 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
                       unoptimized
                       className="aspect-[5/4] w-full object-cover object-top"
                     />
-                    <span className="flex flex-col gap-0.5 px-3 py-2.5 lg:flex-row lg:items-baseline lg:justify-between lg:gap-2">
-                      <span className="text-[.8rem] font-semibold transition-colors duration-200 group-hover:text-[var(--berry)] sm:text-[.88rem]">{host}</span>
+                    <span className="flex flex-col gap-0.5 px-2.5 py-2.5 sm:px-3 xl:flex-row xl:items-baseline xl:justify-between xl:gap-2">
+                      {/* One line on every width (owner, 13 Oct 2026: "URL overflow to
+                          the next line"): the address shrinks a little on narrow
+                          phones instead of breaking after its last dot. */}
+                      <span className="whitespace-nowrap text-[clamp(.68rem,3vw,.8rem)] font-semibold transition-colors duration-200 group-hover:text-[var(--berry)] sm:text-[.88rem] lg:text-[.8rem] xl:text-[.88rem]">{host}</span>
                       <span className="text-[.76rem]" style={{ color: "var(--dim)" }}>{s.market[locale]}</span>
                     </span>
                   </a>
