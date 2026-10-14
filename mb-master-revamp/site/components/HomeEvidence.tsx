@@ -177,7 +177,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
             {t.sitesLede}
           </p>
         </Reveal>
-        <PostGridMore limit={6} label={t.moreSites} className="grid grid-cols-1 gap-4 min-[360px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        <PostGridMore limit={8} label={t.moreSites} className="grid grid-cols-1 gap-4 min-[360px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {BT_SITES.map((s, i) => {
             const domain = `betranslated.${s.tld}`;
             // The country sites are linked and shown with www. (owner, 8 Oct
