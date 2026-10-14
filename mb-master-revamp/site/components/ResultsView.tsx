@@ -5,6 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import DlArt from "@/components/DlArt";
 import HeroArtSlot from "@/components/HeroArtSlot";
+import SearchResultsArt from "@/components/SearchResultsArt";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import { LEADS_PERIOD, PROJECTS } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
@@ -173,20 +174,25 @@ export default function ResultsView({ locale, path }: { locale: Locale; path: st
       {/* ============ THE FIGURES ============ */}
       <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
+          <div className="mb-12 grid items-center gap-x-12 gap-y-8 lg:grid-cols-[minmax(0,1fr)_auto]">
           <Reveal>
             <p className="eyebrow mb-3">{t.figuresEyebrow}</p>
             <h2 className="mb-5 max-w-[24ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">{t.figuresHeading(leads, clicks)}</h2>
-            <p className="mb-12 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
+            <p className="max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               {t.lede(sites, millions)}
             </p>
           </Reveal>
+          <Reveal i={1}>
+            <SearchResultsArt className="mx-auto w-[min(220px,60vw)] lg:w-[min(300px,24vw)]" />
+          </Reveal>
+          </div>
 
           <div className="flex flex-col" style={{ borderTop: "1px solid var(--rule)" }}>
             {WITH_SEARCH.map((p, i) => (
               <Reveal key={p.slug} i={i}>
                 <Link
                   href={caseStudyPath(locale, p.slug)}
-                  className="group grid gap-x-8 gap-y-2 py-6 md:grid-cols-[minmax(0,1fr)_minmax(0,1.6fr)] md:items-baseline"
+                  className="result-row group -mx-4 grid gap-x-8 gap-y-2 px-4 py-6 md:grid-cols-[minmax(0,1fr)_minmax(0,1.6fr)] md:items-baseline"
                   style={{ borderBottom: "1px solid var(--rule)" }}
                 >
                   <span className="flex flex-col gap-1">

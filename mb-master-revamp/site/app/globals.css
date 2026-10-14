@@ -1509,3 +1509,40 @@ details.faq-item > summary:focus-visible {
     background: color-mix(in oklab, #16384d 86%, transparent) !important;
   }
 }
+
+/* Results page client rows: a faint berry wash from the left at rest, and on
+   hover or keyboard focus a berry rule down the left edge with the wash at
+   full strength. Painted behind the row's content; one-shot transitions only,
+   nothing loops (Declaudify brief). */
+.result-row {
+  position: relative;
+  isolation: isolate;
+}
+.result-row::before {
+  position: absolute;
+  inset: 0 auto 0 0;
+  z-index: -1;
+  width: 3px;
+  background: var(--berry);
+  content: "";
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform .4s cubic-bezier(.2,.7,.2,1);
+}
+.result-row::after {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, var(--glow), transparent 70%);
+  content: "";
+  opacity: .5;
+  transition: opacity .35s ease;
+}
+.result-row:hover::before,
+.result-row:focus-visible::before { transform: scaleY(1); }
+.result-row:hover::after,
+.result-row:focus-visible::after { opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .result-row::before,
+  .result-row::after { transition: none; }
+}
