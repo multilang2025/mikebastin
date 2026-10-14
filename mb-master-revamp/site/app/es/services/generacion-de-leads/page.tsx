@@ -216,7 +216,7 @@ export default function SpanishLeadGenerationPage() {
             </p>
           </Reveal>
           <Reveal i={2}>
-            <Testimonials locale="es" />
+            <Testimonials locale="es" mobileHideCount={2} />
           </Reveal>
         </div>
       </section>

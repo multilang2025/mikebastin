@@ -5,6 +5,7 @@ import { PROJECTS } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
 import { CASE_SLUGS } from "@/lib/home-evidence";
 import { caseStudyPath } from "@/lib/case-studies";
+import PostGridMore from "@/components/PostGridMore";
 import { BT_SITES } from "@/lib/betranslated-sites";
 import { LEADS_HIGH, LEADS_LOW, MILLIONS, SITE_COUNT, TOTAL_CLICKS } from "@/lib/results-totals";
 
@@ -23,6 +24,7 @@ const T = {
     sitesEyebrow: "BeTranslated country sites",
     sitesHeading: "BeTranslated, in every market it serves.",
     sitesLede: "Ten country sites, each written for its own market and language.",
+    moreSites: "Load more sites",
     siteAlt: (market: string, domain: string) => `The BeTranslated site for ${market}, ${domain}, on desktop and mobile`,
   },
   fr: {
@@ -39,6 +41,7 @@ const T = {
     sitesEyebrow: "Sites nationaux de BeTranslated",
     sitesHeading: "BeTranslated, dans chaque marché où l’agence travaille.",
     sitesLede: "Dix sites pays, chacun écrit pour son marché et sa langue.",
+    moreSites: "Voir plus de sites",
     siteAlt: (market: string, domain: string) => `Le site BeTranslated pour ${market}, ${domain}, sur ordinateur et sur mobile`,
   },
   es: {
@@ -55,6 +58,7 @@ const T = {
     sitesEyebrow: "Sitios nacionales de BeTranslated",
     sitesHeading: "BeTranslated, en cada mercado donde trabaja la agencia.",
     sitesLede: "Diez sitios nacionales, cada uno escrito para su mercado y su idioma.",
+    moreSites: "Ver más sitios",
     siteAlt: (market: string, domain: string) => `El sitio de BeTranslated para ${market}, ${domain}, en ordenador y en móvil`,
   },
 } as const;
@@ -173,7 +177,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
             {t.sitesLede}
           </p>
         </Reveal>
-        <ul className="grid grid-cols-1 gap-4 min-[360px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        <PostGridMore limit={6} label={t.moreSites} className="grid grid-cols-1 gap-4 min-[360px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {BT_SITES.map((s, i) => {
             const domain = `betranslated.${s.tld}`;
             // The country sites are linked and shown with www. (owner, 8 Oct
@@ -210,7 +214,7 @@ export default function HomeEvidence({ locale = "en", band = "b" }: { locale?: "
               </Reveal>
             );
           })}
-        </ul>
+        </PostGridMore>
         {t.all && (
           <Reveal>
             <Link href={t.all.href} className="ulink mt-10 inline-block text-[1rem]">

@@ -14,14 +14,14 @@ export default function HeroArtSlot({
 }: {
   children: ReactNode;
   visibleOnMobile: boolean;
-  compactOnMobile?: boolean;
+  compactOnMobile?: boolean | "md";
 }) {
   return (
     <div
       className={
         visibleOnMobile
           ? compactOnMobile
-            ? "order-first mx-auto mb-5 w-[88px] lg:order-none lg:mx-0 lg:mb-0 lg:mt-24 lg:w-[min(360px,30vw)] lg:max-w-none"
+            ? `order-first mx-auto mb-5 ${compactOnMobile === "md" ? "w-[150px]" : "w-[88px]"} lg:order-none lg:mx-0 lg:mb-0 lg:mt-24 lg:w-[min(360px,30vw)] lg:max-w-none`
             : "mx-auto mt-12 w-full max-w-[320px] lg:mx-0 lg:mt-24 lg:w-[min(360px,30vw)] lg:max-w-none"
           : "hidden w-[min(360px,30vw)] lg:mt-24 lg:block"
       }

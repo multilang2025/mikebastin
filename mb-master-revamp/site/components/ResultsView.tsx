@@ -5,6 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import DlArt from "@/components/DlArt";
 import HeroArtSlot from "@/components/HeroArtSlot";
+import SearchResultsArt from "@/components/SearchResultsArt";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import { LEADS_PERIOD, PROJECTS } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
@@ -52,7 +53,7 @@ const T = {
     lede: (sites: string, millions: string) =>
       `Across ${sites} sites we run search for, from a Valencia law firm working in four languages to a Dutch powder coating specialist, with ${millions} million impressions behind the clicks. Open any row for the brief, the work and the outcome.`,
     sources:
-      `Sources: enquiries are a monthly average for ${LEADS_PERIOD}, from the sites that keep a record of their contact and quote forms, counted from those records. A count is form submissions only; where a site’s forms post outside it or its requests also arrive by phone and email, the site owner’s own figure or range stands instead. Clicks and impressions cover the same three months, from Google Search Console.`,
+      `Sources: enquiries are a monthly average for ${LEADS_PERIOD}, counted from each site’s contact and quote form records, forms only. Where requests also arrive by phone or email, the site owner’s own figure or range applies. Clicks and impressions cover the same months, from Google Search Console.`,
     range: "to",
     words: ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"],
     owned: ", our own site",
@@ -79,7 +80,7 @@ const T = {
     figuresHeading: (leads: string, clicks: string) => `${leads} demandes par mois et ${clicks} clics depuis Google.`,
     lede: (sites: string, millions: string) =>
       `Sur les ${sites} sites dont nous gérons le référencement, d’un cabinet d’avocats de Valencia qui travaille en quatre langues à un spécialiste néerlandais du thermolaquage, avec ${millions}${N}millions d’impressions derrière les clics. Ouvrez une ligne pour lire la demande, le travail et le résultat.`,
-    sources: `Sources${N}: les demandes sont une moyenne mensuelle de mai à juillet 2026, sur les sites qui gardent une trace de leurs formulaires de contact et de devis, comptées à partir de ces enregistrements. Un comptage ne retient que les formulaires envoyés${N}; quand les formulaires d’un site partent ailleurs ou que les demandes arrivent aussi par téléphone et par e-mail, c’est le chiffre ou la fourchette du propriétaire du site qui s’applique. Les clics et les impressions couvrent les trois mêmes mois, d’après Google Search Console.`,
+    sources: `Sources${N}: les demandes sont une moyenne mensuelle de mai à juillet 2026, comptée d’après les formulaires de contact et de devis de chaque site, formulaires seulement. Quand des demandes arrivent aussi par téléphone ou par e-mail, c’est le chiffre ou la fourchette du propriétaire du site qui s’applique. Les clics et les impressions couvrent les mêmes mois, d’après Google Search Console.`,
     range: "à",
     words: ["zéro", "un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix"],
     owned: ", notre propre site",
@@ -107,7 +108,7 @@ const T = {
     lede: (sites: string, millions: string) =>
       `En las ${sites} webs cuyo posicionamiento llevamos, desde un despacho de abogados de Valencia que trabaja en cuatro idiomas hasta un especialista neerlandés en pintura en polvo, con ${millions} millones de impresiones detrás de los clics. Abre cualquier fila para ver el encargo, el trabajo y el resultado.`,
     sources:
-      "Fuentes: las consultas son una media mensual de mayo a julio de 2026, de las webs que guardan registro de sus formularios de contacto y presupuesto, contadas a partir de esos registros. Un recuento incluye solo los formularios enviados; cuando los formularios de una web se envían fuera de ella o las solicitudes también llegan por teléfono y correo, se usa la cifra o el rango que da el propietario de la web. Los clics y las impresiones cubren los mismos tres meses, según Google Search Console.",
+      "Fuentes: las consultas son una media mensual de mayo a julio de 2026, contada a partir de los registros de formularios de contacto y presupuesto de cada web, solo formularios. Cuando también llegan solicitudes por teléfono o correo, se usa la cifra o el rango del propietario de la web. Los clics y las impresiones cubren los mismos meses, según Google Search Console.",
     range: "a",
     words: ["cero", "una", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "diez"],
     owned: ", nuestra propia web",
@@ -150,6 +151,9 @@ export default function ResultsView({ locale, path }: { locale: Locale; path: st
             <Reveal i={1}>
               <h1 className="mb-6 max-w-[18ch] text-[clamp(2.3rem,5.6vw,4rem)] font-semibold leading-[1.08]">{t.h1}</h1>
             </Reveal>
+            <div className="mx-auto mb-6 w-[150px] lg:hidden">
+              <DlArt name="clock" />
+            </div>
             <Reveal i={2}>
               <h2 className="mb-8 max-w-[46ch] text-[clamp(1.2rem,2.1vw,1.7rem)] font-medium leading-[1.3]" style={{ color: "var(--ink)" }}>
                 {t.h2}
@@ -161,7 +165,7 @@ export default function ResultsView({ locale, path }: { locale: Locale; path: st
               </Link>
             </Reveal>
           </div>
-          <HeroArtSlot visibleOnMobile={true}>
+          <HeroArtSlot visibleOnMobile={false}>
             <DlArt name="clock" />
           </HeroArtSlot>
         </div>
@@ -170,23 +174,25 @@ export default function ResultsView({ locale, path }: { locale: Locale; path: st
       {/* ============ THE FIGURES ============ */}
       <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
+          <div className="mb-12 grid items-center gap-x-12 gap-y-8 lg:grid-cols-[minmax(0,1fr)_auto]">
           <Reveal>
             <p className="eyebrow mb-3">{t.figuresEyebrow}</p>
             <h2 className="mb-5 max-w-[24ch] text-[clamp(1.8rem,3.6vw,2.9rem)] font-semibold leading-[1.1]">{t.figuresHeading(leads, clicks)}</h2>
-            <p className="mb-4 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
+            <p className="max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
               {t.lede(sites, millions)}
             </p>
-            <blockquote className="mb-12 max-w-[56ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
-              {t.sources}
-            </blockquote>
           </Reveal>
+          <Reveal i={1}>
+            <SearchResultsArt className="mx-auto w-[min(220px,60vw)] lg:w-[min(300px,24vw)]" />
+          </Reveal>
+          </div>
 
           <div className="flex flex-col" style={{ borderTop: "1px solid var(--rule)" }}>
             {WITH_SEARCH.map((p, i) => (
               <Reveal key={p.slug} i={i}>
                 <Link
                   href={caseStudyPath(locale, p.slug)}
-                  className="group grid gap-x-8 gap-y-2 py-6 md:grid-cols-[minmax(0,1fr)_minmax(0,1.6fr)] md:items-baseline"
+                  className="result-row group -mx-4 grid gap-x-8 gap-y-2 px-4 py-6 md:grid-cols-[minmax(0,1fr)_minmax(0,1.6fr)] md:items-baseline"
                   style={{ borderBottom: "1px solid var(--rule)" }}
                 >
                   <span className="flex flex-col gap-1">
@@ -203,6 +209,9 @@ export default function ResultsView({ locale, path }: { locale: Locale; path: st
               </Reveal>
             ))}
           </div>
+          <blockquote className="mt-8 max-w-[56ch] text-[.85rem]" style={{ color: "var(--dim)" }}>
+            {t.sources}
+          </blockquote>
         </div>
       </section>
 
@@ -217,7 +226,7 @@ export default function ResultsView({ locale, path }: { locale: Locale; path: st
             </p>
           </Reveal>
           <Reveal i={2}>
-            <Testimonials locale={locale} />
+            <Testimonials locale={locale} mobileHideCount={2} />
           </Reveal>
         </div>
       </section>

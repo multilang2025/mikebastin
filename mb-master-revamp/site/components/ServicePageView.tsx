@@ -1,6 +1,7 @@
 import type React from "react";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import StepBadge from "@/components/StepIcon";
 import ServiceProof from "@/components/ServiceProof";
 import ServiceTeamBand from "@/components/ServiceTeamBand";
 import SiteFooter from "@/components/SiteFooter";
@@ -422,7 +423,6 @@ export default function ServicePageView({
                         <span className="fseo-process-marker">
                           <ProcessIcon name={step.icon} />
                         </span>
-                        <span className="fseo-process-number">{String(i + 1).padStart(2, "0")}</span>
                         <h3 className="fseo-process-title">{step.title}</h3>
                         {step.detail && <span className="fseo-process-detail">{step.detail}</span>}
                         <p className="fseo-process-copy">{step.text}</p>
@@ -475,14 +475,12 @@ export default function ServicePageView({
                 {service.process.map((step, i, all) => (
                   <Reveal key={step.title} i={i}>
                     <li
-                      className={`band flex h-full items-baseline gap-4 px-7 py-7${
+                      className={`band flex h-full items-start gap-4 px-7 py-7${
                         i === all.length - 1 && all.length % 2 === 1 ? " sm:col-span-2" : ""
                       }`}
                       style={{ background: "var(--bg)" }}
                     >
-                      <span className="display shrink-0 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
-                        {String(i + 1).padStart(2, "0")}
-                      </span>
+                      <StepBadge text={step.title} />
                       <span className="flex flex-col gap-2">
                         <span className="text-[1.05rem] font-semibold leading-[1.35]">{step.title}</span>
                         <span className="text-[.98rem] leading-[1.55]" style={{ color: "var(--dim)" }}>
@@ -504,16 +502,14 @@ export default function ServicePageView({
                     columns when the count is odd, which fills the row
                     rather than relying on every list staying even. */}
                 <li
-                  className={`band flex h-full items-baseline gap-4 px-7 py-7${
+                  className={`band flex h-full items-start gap-4 px-7 py-7${
                     i === service.sections.length - 1 && service.sections.length % 2 === 1
                       ? " sm:col-span-2"
                       : ""
                   }`}
                   style={{ background: "var(--bg)" }}
                 >
-                  <span className="display shrink-0 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
+                  <StepBadge text={s} />
                   <span className="text-[1rem] leading-[1.45]">{s}</span>
                 </li>
               </Reveal>

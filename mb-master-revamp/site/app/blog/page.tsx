@@ -5,6 +5,7 @@ import Link from "next/link";
 import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
 import PostCard, { POST_GRID } from "@/components/PostCard";
+import PostGridMore from "@/components/PostGridMore";
 import SiteFooter from "@/components/SiteFooter";
 import { topicSlug, getClusterGroups, UNCATEGORISED } from "@/lib/posts";
 import { getService } from "@/lib/services";
@@ -20,6 +21,15 @@ export const metadata: Metadata = {
   }),
 };
 
+/** Cards shown before "Load more", per topic (owner, 14 Oct 2026). A topic not listed shows every post. */
+const INITIAL_POSTS: Record<string, number> = {
+  "Multilingual SEO": 3,
+  "SEO fundamentals": 3,
+  "Business and marketing": 6,
+  "AI and the future of search": 6,
+  "Language markets": 6,
+};
+
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString("en-GB", {
     day: "numeric",
@@ -30,6 +40,12 @@ function formatDate(iso: string) {
 
 export default function BlogIndex() {
   const groups = getClusterGroups();
+  const topics = groups
+    .filter((g) => g.name !== UNCATEGORISED)
+    .map((g) => ({ name: g.name, count: g.posts.length + (g.pillar || g.pillarHref ? 1 : 0) }));
+  // Bands alternate down the page: the topic guide takes the next one and the footer the one after.
+  const topicsBand = groups.length % 2 === 0 ? "b" : "a";
+  const footerBand = topicsBand === "a" ? "b" : "a";
   const total = groups.reduce(
     (n, g) => n + g.posts.length + (g.pillar ? 1 : 0),
     0
@@ -152,7 +168,7 @@ export default function BlogIndex() {
                   invisible behind the images, and the row below started
                   immediately under the row above's date. Owner, 22 Sep. */}
               {group.posts.length > 0 && (
-                <ul className={POST_GRID}>
+                <PostGridMore className={POST_GRID} limit={INITIAL_POSTS[group.name] ?? group.posts.length}>
                   {group.posts.map((post, i) => (
                     <Reveal key={post.slug} i={i}>
                       <li className="h-full">
@@ -167,7 +183,7 @@ export default function BlogIndex() {
                       </li>
                     </Reveal>
                   ))}
-                </ul>
+                </PostGridMore>
               )}
 
               {isUncategorised && (
@@ -183,7 +199,48 @@ export default function BlogIndex() {
         );
       })}
 
-      <SiteFooter />
+      {/* ============ TOPIC GUIDE ============
+          Each topic above shows only its first few cards, so this band lists
+          every topic with its post count and links to the full topic page,
+          for a reader who scrolled past one. */}
+      <section className={`band band-${topicsBand} py-[clamp(48px,7vw,96px)]`}>
+        <div className="shell">
+          <Reveal>
+            <p className="eyebrow mb-3">Missed a topic?</p>
+            <h2 className="mb-3 max-w-[24ch] text-[clamp(1.5rem,2.8vw,2.2rem)] font-semibold leading-[1.15]">
+              Pick up the subject you scrolled past
+            </h2>
+            <p className="mb-10 max-w-[56ch] text-[1.02rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
+              Every topic in the journal, with all of its posts on one page.
+            </p>
+          </Reveal>
+          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {topics.map((g, i) => (
+              <Reveal key={g.name} i={i}>
+                <li className="h-full">
+                  <Link
+                    href={`/blog/topics/${topicSlug(g.name)}/`}
+                    className="group flex h-full items-center justify-between gap-4 rounded-[6px] border px-5 py-4 transition-colors duration-300 hover:border-[var(--berry)] hover:bg-[var(--berry-soft)]"
+                    style={{ borderColor: "var(--rule)", background: "var(--shade)" }}
+                  >
+                    <span className="flex flex-col gap-1">
+                      <span className="display text-[1.05rem] font-semibold leading-[1.25]">{g.name}</span>
+                      <span className="text-[.82rem]" style={{ color: "var(--dim)" }}>
+                        {g.count} {g.count === 1 ? "post" : "posts"}
+                      </span>
+                    </span>
+                    <span aria-hidden="true" className="text-[1.2rem] transition-transform duration-300 group-hover:translate-x-1" style={{ color: "var(--berry)" }}>
+                      →
+                    </span>
+                  </Link>
+                </li>
+              </Reveal>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <SiteFooter band={footerBand} />
     </main>
   );
 }

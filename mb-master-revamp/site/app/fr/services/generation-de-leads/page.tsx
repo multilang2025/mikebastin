@@ -213,7 +213,7 @@ export default function FrenchLeadGenerationPage() {
             </p>
           </Reveal>
           <Reveal i={2}>
-            <Testimonials locale="fr" />
+            <Testimonials locale="fr" mobileHideCount={2} />
           </Reveal>
         </div>
       </section>
