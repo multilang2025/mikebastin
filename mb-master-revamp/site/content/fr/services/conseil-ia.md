@@ -16,7 +16,7 @@ excerpt: "Sachez quelle part de vos contenus étrangers l’IA peut prendre en c
 
 ## Ce que comprend notre conseil en IA pour vos marchés étrangers
 
-Nous établissons quelle part de vos contenus en allemand, en espagnol ou en néerlandais l’IA peut prendre en charge, et quelle part reste confiée à quelqu’un qui lit la langue. Chaque page passe par une relecture native, et elle garde la confiance qu’elle doit gagner sur son marché : l’effet se voit dans le nombre de demandes, bien avant un rapport d’outil.
+Nous établissons quelle part de vos contenus en allemand, en espagnol ou en néerlandais l’IA peut prendre en charge, et quelle part reste confiée à quelqu’un qui maîtrise la langue. Chaque page passe par une relecture native, et elle gagne la confiance qu’elle doit mériter sur son marché : l’effet se voit dans le nombre de demandes, bien avant un rapport d’outil.
 
 Vous recevez un diagnostic écrit qui dit précisément quelle partie de votre activité multilingue gagne à être automatisée, et laquelle a encore besoin d’une personne.
 
@@ -29,16 +29,16 @@ Vous recevez un diagnostic écrit qui dit précisément quelle partie de votre a
 Nous mettons en place le dispositif suivant :
 
 - un moteur choisi et réglé pour votre domaine ;
-- un éditeur natif sur les contenus qui engagent votre entreprise ;
+- un relecteur natif sur les contenus qui engagent votre entreprise ;
 - une relecture plus légère sur le reste.
 
-L’économie vient du tri entre ces contenus, et la production se publie après relecture. C’est le principe de notre [post-édition IA](/fr/services/postedition-ia/).
+Les économies viennent du tri entre ces contenus, et la production est publiée après relecture. C’est le principe de notre [post-édition IA](/fr/services/postedition-ia/).
 
 ## Un assistant de support qui répond dans la langue de la question
 
 Nous installons sur votre site un assistant multilingue qui traite les questions répétitives de chaque marché dans sa langue, avec une seule équipe de support pour toutes, et qui passe la main proprement à une personne quand la question dépasse ce qu’il connaît. Il s’appuie sur vos propres contenus et parle de vos produits. Nos [dix usages concrets des chatbots en entreprise](/fr/chatbots-ia-entreprise/) présentent les premiers cas que nous pouvons lancer avec vous.
 
-Toute réponse produite par l’IA dans ce dispositif est relue par une personne qui lit la langue cible, pour que chaque marché reçoive des réponses justes.
+Toute réponse produite par l’IA dans ce dispositif est relue par une personne qui maîtrise la langue cible, pour que chaque marché reçoive des réponses justes.
 
 ## Une analyse de ce que disent vos marchés
 
@@ -65,8 +65,8 @@ Nous accompagnons le [référencement multilingue](/fr/services/referencement-mu
 
 1. **Présentation gratuite de 20 minutes de vos outils.** Nous parcourons avec vous vos outils actuels et votre chaîne multilingue, et nous repérons où l’IA peut vous faire gagner du temps, avant tout engagement.
 2. **Un périmètre écrit.** Après l’appel, nous envoyons les chaînes de travail concernées, les livrables et la façon dont nous mesurons chacun.
-3. **Un état des lieux de l’IA dans votre activité.** Nous cartographions votre chaîne multilingue étape par étape et indiquons où la production automatique prend le premier jet et où un lecteur natif garde le texte juste.
-4. **Une mise en place avec un lecteur par langue.** Nous installons la traduction automatique, la relecture de l’assistant de support ou l’analyse de sentiment prévues au périmètre, avec un lecteur de chaque langue cible qui contrôle la production.
+3. **Un état des lieux de l’IA dans votre activité.** Nous cartographions votre chaîne multilingue étape par étape et indiquons où la production automatique prend le premier jet et où un relecteur natif garde le texte juste.
+4. **Une mise en place avec un relecteur par langue.** Nous installons la traduction automatique, la relecture de l’assistant de support ou l’analyse de sentiment prévues au périmètre, avec un relecteur de chaque langue cible qui contrôle la production.
 5. **Une mesure des résultats.** Précision sur un échantillon vérifié, délai, coût par page publiée et résultats par marché, avec un rapport écrit sur ce qu’il faut conserver.
 6. **Mois par mois.** L’accompagnement se renouvelle chaque mois, tant qu’il vous sert.
 

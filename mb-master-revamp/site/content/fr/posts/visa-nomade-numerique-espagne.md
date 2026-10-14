@@ -178,7 +178,7 @@ Deux options s’offrent à vous :
 Le **régime fiscal impatrié** (ou _Beckham law_) permet de bénéficier d’un taux d’imposition réduit (**24 % jusqu’à 600 000 €**) pendant **6 ans**, sous conditions :
 
 -   Ne pas avoir été résident fiscal en Espagne durant les **5 années précédentes**.
--   Déposer une **option via le Modelo 149** dans les 6 mois suivant votre arrivée.
+-   Exercer une option via le **Modelo 149** dans les 6 mois suivant votre arrivée.
 
 > **Sources officielles** :
 > 
@@ -228,4 +228,4 @@ Entre casier judiciaire, assurances et traductions, un dossier de visa peut vite
 
 * * *
 
-**Une question précise sur votre situation ?** Écrivez-nous en quelques lignes, et nous vous répondons sur votre cas.
+**Une question précise sur votre situation ?** Écrivez-nous en quelques lignes, et nous vous répondons concernant votre cas.

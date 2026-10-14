@@ -18,7 +18,7 @@ excerpt: "Des traductions certifiées et assermentées qu’un tribunal, une amb
 
 Vous devez remettre un contrat à un partenaire espagnol, un acte de naissance à une administration allemande ou un rapport annuel à des investisseurs britanniques. Le document sera lu par un tribunal, une ambassade ou un régulateur : il doit être accepté au premier dépôt, dans le format exigé et avec les termes exacts.
 
-Une traduction acceptée du premier coup vous fait tenir votre échéance. Dans un pacte d’associés ou des comptes audités, le terme exact protège aussi votre responsabilité.
+Une traduction acceptée du premier coup vous permet de tenir votre échéance. Dans un pacte d’associés ou des comptes audités, le terme exact protège aussi votre responsabilité.
 
 Nous confions chaque document à un traducteur spécialisé du réseau BeTranslated, l’agence de traduction que nous dirigeons depuis vingt ans, puis nous le faisons relire avant livraison.
 
@@ -31,7 +31,7 @@ Nous confions chaque document à un traducteur spécialisé du réseau BeTransla
 - **Un à sept jours** pour une traduction assermentée, selon la complexité du document et votre situation, avec un traitement urgent possible pour les documents personnels comme un visa ou un acte de naissance.
 - **Un traducteur par langue et par spécialité** : juridique, médicale, financière, académique ou technique.
 - **Une relecture rigoureuse** avant chaque livraison.
-- **La certification notariale ou l’apostille** prises en charge lorsque l’institution destinataire les exige. Pour les citoyens américains et canadiens, nous proposons aussi un service d’apostille.
+- **La certification notariale ou l’apostille** prise en charge lorsque l’institution destinataire l’exige. Pour les citoyens américains et canadiens, nous proposons aussi un service d’apostille.
 - **Des protocoles de confidentialité** appliqués du début à la fin.
 - **Les grands projets**, comme une documentation juridique ou financière complète, relus avec le même soin qu’un document isolé.
 
@@ -39,11 +39,11 @@ Nous répondons à chaque demande, généralement sous un jour ouvré.
 
 ## Un cabinet d’avocats qui travaille dans deux systèmes juridiques
 
-Delaguía y Luzón est un cabinet d’avocats de Valencia dont l’activité couvre l’Espagne et la France en quatre langues, dont le russe. Un même document doit parfois tenir dans deux systèmes juridiques à la fois. Son site porte ces contenus juridiques traduits.
+Delaguía y Luzón est un cabinet d’avocats de Valencia dont l’activité couvre l’Espagne et la France en quatre langues, dont le russe. Un même document doit parfois s’appliquer à deux systèmes juridiques à la fois. Son site présente ces contenus juridiques traduits.
 
 > Source : Google Search Console de delaguialuzon.com, mai à juillet 2026.
 
-Un avocat qui relit la traduction avant de la présenter à un tribunal ou à un client : c’est pour ce lecteur-là que ce réseau a été construit.
+Un avocat qui relit la traduction avant de la présenter à un tribunal ou à un client : c’est pour ce lecteur que nous avons construit ce réseau.
 
 ## Certifiée, assermentée, notariée ou apostillée : le type que nous établissons
 
@@ -58,7 +58,7 @@ Un tribunal, un registre, une université et un service d’immigration ont chac
 
 ## Chaque type de document a son spécialiste
 
-- **Juridique** : contrats, actes de procédure, procurations, statuts, pactes d’associés, dépôts de brevets et de marques. Le langage juridique dépend de la juridiction, et le travail va donc à des traducteurs formés au droit du pays concerné.
+- **Juridique** : contrats, actes de procédure, procurations, statuts, pactes d’associés, dépôts de brevets et de marques. Le langage juridique dépend de la juridiction, et le travail est confié à des traducteurs formés au droit du pays concerné.
 - **Médical et réglementé** : dossiers patients, documentation d’essais cliniques, soumissions réglementaires, formulaires de consentement éclairé, notices de dispositifs médicaux. La terminologie doit correspondre à celle du comité d’éthique ou du régulateur, sous protocoles de confidentialité RGPD et HIPAA.
 - **Financier** : rapports annuels, prospectus, bilans, rapports d’audit, déclarations fiscales. Le bon terme est celui que la norme comptable emploie déjà dans la langue cible. Nos traducteurs financiers travaillent aussi bien avec les IFRS qu’avec les normes comptables nationales.
 - **Académique** : diplômes, relevés de notes, articles de recherche, lettres de recommandation. Un barème de notation se transpose mal d’un pays à l’autre, et un article doit conserver toutes ses nuances.
@@ -68,8 +68,8 @@ Un tribunal, un registre, une université et un service d’immigration ont chac
 
 1. **Consultation gratuite.** Vous nous dites quel est le document et qui le recevra, et nous confirmons le type de traduction que cet organisme exige : certifiée, assermentée, notariée ou apostillée.
 2. **Devis pour votre document.** Nous vous envoyons un devis établi pour votre document et votre échéance, pour que vous connaissiez le coût et la date de livraison avant le début de la traduction.
-3. **Un traducteur choisi par spécialité.** Votre document va à un traducteur du réseau BeTranslated formé à son domaine : juridique, médical, financier, académique ou technique.
-4. **Relecture avant livraison.** Chaque traduction est relue avant d’être livrée, pour résister au même examen que le document d’origine.
+3. **Un traducteur choisi par spécialité.** Votre document est confié à un traducteur du réseau BeTranslated formé à son domaine : juridique, médical, financier, académique ou technique.
+4. **Relecture avant livraison.** Chaque traduction est relue avant d’être livrée, pour subir le même examen que le document d’origine.
 5. **Livraison en un à sept jours.** Le délai dépend de la complexité du document et de votre situation, avec un traitement urgent possible pour les documents personnels comme un visa ou un acte de naissance.
 6. **Notarisation ou apostille si nécessaire.** Lorsque l’institution destinataire l’exige, nous prenons en charge la certification notariale ou l’apostille, et nous proposons aussi un service d’apostille pour les citoyens américains et canadiens.
 

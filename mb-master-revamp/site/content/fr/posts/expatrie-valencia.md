@@ -21,13 +21,13 @@ Valencia attire chaque année des milliers d’expatriés venus de Belgique, de 
 
 ## L’atout économique de Valencia
 
-L’économie de Valencia occupe la troisième place en Espagne. Pas si mal pour une ville côtière.
+L’économie de Valencia se place à la troisième place de l’Espagne. Pas si mal pour une ville côtière !
 
 La [Communauté Valencienne représente 9,3 % du PIB de l’Espagne](https://www.bretagnecommerceinternational.com/donnee/lespagne-vue-sebastian-alvarez-partenaire-bci-a-madrid/), selon des données récentes.
 
 Les principaux moteurs économiques de la ville sont le commerce, le tourisme et l’éducation, auxquels s’ajoutent l’hôtellerie, la finance et l’industrie.
 
-C’est un eldorado pour les jeunes professionnels, les nomades numériques et les personnes qui souhaitent profiter du soleil et des perspectives.
+C’est un véritable terrain de jeu pour les jeunes professionnels, les nomades numériques et les personnes qui cherchent à profiter du soleil et des opportunités.
 
 > **Le saviez-vous ?** La Communauté Valencienne compte plus de 5,35 millions d’habitants, dont près de 19 % sont des ressortissants étrangers, un chiffre en constante progression depuis 2020. _(Source : Institut National de Statistique espagnol, INE, 2024)_
 
@@ -47,7 +47,7 @@ Population étrangère
 
 18,7 % (environ 1 003 681 personnes)
 
-À la recherche d’une relance de carrière ou d’un nouveau défi ? Valencia et ses secteurs en pleine effervescence pourraient être votre tremplin.
+À la recherche d’une relance de carrière ou d’une nouvelle opportunité ? Valencia et ses secteurs en pleine effervescence pourraient être votre porte d’entrée.
 
 ### Diversité et offres d’emploi
 
@@ -64,7 +64,7 @@ Des petites entreprises locales aux géants internationaux, les offres d’emplo
 -   Les services financiers
 -   L’industrie
 
-La ville est également en passe de devenir un pôle dynamique de création d’entreprise, ce qui en fait un lieu idéal pour percer dans l’écosystème entrepreneurial méditerranéen.
+La ville est également en train de devenir un centre animé de création d’entreprise, ce qui en fait un lieu idéal pour percer sur la scène entrepreneuriale méditerranéenne.
 
 Vous parlez espagnol ? Le réseautage et la recherche d’emploi n’en seront que plus faciles.
 
@@ -72,7 +72,7 @@ Si vous êtes citoyen de l’UE, bonne nouvelle : déménager et venir travaill
 
 ## Aspects financiers
 
-Faisons le point sur les revenus moyens et le coût de la vie quotidienne dans cette ville animée.
+Voyons ce que les gens gagnent en général et combien la vie quotidienne peut coûter dans cet endroit animé.
 
 ### Salaire annuel médian
 
@@ -106,7 +106,7 @@ Emplois spécialisés
 
 Valencia est relativement agréable pour le porte-monnaie, surtout si on la compare à d’autres grandes villes européennes ou à celles qui se trouvent de l’autre côté de l’Atlantique.
 
-Une famille de quatre personnes dépense environ 2 310,8 € par mois (hors loyer), tandis qu’une personne seule dépense environ 651,6 €.
+Une famille de quatre personnes dépense environ 2 310,8 € par mois (avant loyer), tandis qu’une personne seule s’en sort pour environ 651,6 €.
 
 Catégorie de dépenses
 
@@ -158,9 +158,9 @@ Valencia regorge de quartiers qui conviennent aux expatriés, qu’ils soient à
 
 #### Ruzafa
 
-C’est à Ruzafa que se concentre l’animation.
+C’est à Ruzafa que l’action se déroule.
 
-Réputé pour ses journées animées et ses nuits encore plus animées, le quartier de Ruzafa (ou Russafa en valencien) est très apprécié des nomades numériques en raison de son large éventail d’espaces de coworking.
+Réputé pour ses journées animées et ses nuits qui le sont encore plus, le quartier de Ruzafa (ou Russafa en valencien) est très apprécié des nomades numériques en raison de son large éventail d’espaces de coworking.
 
 Caractéristiques
 
@@ -268,7 +268,7 @@ Valencia propose des logements pour tous les goûts et tous les budgets :
 
 #### Appartements
 
--   **Ruzafa :** moderne et dense, baigné dans une atmosphère vibrante, loyer entre 800 € et 1 200 €/mois
+-   **Ruzafa :** moderne et dense, entouré d’une atmosphère vibrante, loyer entre 800 € et 1 200 €/mois
 -   **La Gran Via (Cánovas) :** plus grand, plus luxueux, mais souvent plus cher, entre 1 200 € et 2 000 €/mois
 
 #### Maisons traditionnelles
@@ -278,7 +278,7 @@ Valencia propose des logements pour tous les goûts et tous les budgets :
 
 #### Maisons familiales
 
--   **Monteolivete :** idéal pour les familles, près des écoles et des attractions principales, entre 800 € et 1 500 €/mois
+-   **Monteolivete :** idéal pour les familles, près des écoles et des attractions clés, entre 800 € et 1 500 €/mois
 
 L’exploration de ces quartiers permettra aux expatriés de faire un choix éclairé au moment de s’installer à Valencia.
 
@@ -286,11 +286,11 @@ Pour plus d’informations sur le coût de la vie et les [activités à faire à
 
 ## Mode de vie valencien
 
-Valencia n’est pas seulement une ville ordinaire, c’est une merveille méditerranéenne à laquelle les jeunes professionnels, les indépendants itinérants et les retraités ont du mal à résister.
+Valencia n’est pas juste une ville ordinaire, c’est une merveille méditerranéenne à laquelle les jeunes professionnels, les indépendants itinérants et les retraités ont du mal à résister.
 
 ### Climat et santé
 
-Le climat valencien est un véritable câlin de Mère Nature : les hivers sont doux, les étés chauds, et l’on profite d’environ 300 jours de soleil par an.
+Le climat valencien ressemble à un câlin de Mère Nature : les hivers sont doux, les étés chauds, et l’on profite d’environ 300 jours de soleil par an.
 
 Les soirées se caractérisent souvent par des brises marines qui rafraîchissent l’atmosphère, idéal pour les terrasses et le plein air.
 
@@ -316,7 +316,7 @@ Automne
 
 15 to 25
 
-Les soins de santé sont accessibles et les établissements publics pratiquent des tarifs généralement abordables. Les délais pour obtenir un rendez-vous chez le dermatologue peuvent être longs : si vous êtes pressé et que la situation n’est pas urgente, il faudra vous tourner vers le privé.
+Les soins de santé sont accessibles et les établissements publics pratiquent des tarifs généralement abordables. Ne vous attendez toutefois pas à obtenir rapidement un rendez-vous chez le dermatologue : si vous êtes pressé et que la situation n’est pas urgente, il faudra vous tourner vers le privé.
 
 Pour les activités en plein soleil, consultez notre liste de [choses à faire à Valencia](https://mikebastin.com/fr/activites-a-valencia/).
 
@@ -324,7 +324,7 @@ Pour les activités en plein soleil, consultez notre liste de [choses à faire �
 
 Valencia se distingue par son atmosphère décontractée, où la criminalité reste le plus souvent limitée à des vols à la tire dans le parc du Turia ou des pickpockets en centre-ville.
 
-Vous pouvez vous promener la nuit sans vous sentir en danger.
+On peut se balader la nuit sans se sentir en danger.
 
 Aspect
 
@@ -344,7 +344,7 @@ Accessibilité des soins
 
 > **Chiffre à retenir :** L’espérance de vie moyenne en Espagne est de 83,5 ans, l’une des plus élevées d’Europe. La région valencienne contribue à cette performance grâce à son accès aux soins et à la qualité de son alimentation. _(Source : OMS / Eurostat, 2023)_
 
-Pour les familles (ou celles en projet), un éventail d’écoles internationales à Valencia vous permettra de trouver l’établissement qui vous correspond. Les listes d’attente des meilleures écoles sont toutefois longues, mieux vaut anticiper.
+Pour les familles (ou celles en devenir), un éventail d’écoles internationales à Valencia vous permettra de trouver l’établissement qui vous correspond. Les listes d’attente des meilleures écoles sont toutefois longues, mieux vaut anticiper.
 
 Jetez un coup d’œil à notre guide pratique du [coût de la vie à Valencia](https://mikebastin.com/fr/mode-de-vie-de-valencia/).
 
@@ -354,15 +354,15 @@ Jetez un coup d’œil à notre guide pratique du [coût de la vie à Valencia](
 
 Les locaux parlent espagnol (castillan) et valencien.
 
-Même un niveau élémentaire d’espagnol rendra les interactions quotidiennes plus simples et facilitera l’intégration à la vie locale.
+Même un niveau élémentaire d’espagnol rendra les interactions quotidiennes plus simples et facilitera l’intégration au rythme local.
 
-Pour vous réconforter, Valencia abrite de nombreuses communautés d’expatriés comme [Les Francophones de Valencia](https://www.facebook.com/groups/francophonesdevalencia/) ou [Expats Living and Working in Valencia](https://www.facebook.com/groups/expats.living.and.working.in.valencia/).
+En guise de réconfort, Valencia abrite de nombreuses communautés d’expatriés comme [Les Francophones de Valencia](https://www.facebook.com/groups/francophonesdevalencia/) ou [Expats Living and Working in Valencia](https://www.facebook.com/groups/expats.living.and.working.in.valencia/).
 
 Ces groupes sont une mine d’or pour rencontrer des gens qui vivent la même aventure et rendre l’intégration moins solitaire.
 
 ### Défis administratifs
 
-Les nouveaux arrivants doivent ouvrir un compte bancaire, obtenir le [NIE (Número de Identificación de Extranjero)](https://delaguialuzon.com/fr/blog/pourquoi-comment-obtenir-nie-espagne/), et effectuer les démarches pour la résidence.
+Les nouveaux arrivants doivent ouvrir un compte bancaire, obtenir le [NIE (Número de Identificación de Extranjero)](https://delaguialuzon.com/fr/blog/pourquoi-comment-obtenir-nie-espagne/), et régler la question de la résidence.
 
 Ce n’est pas toujours une promenade de santé. Une société de relocalisation peut aider à alléger ce fardeau.
 
@@ -390,7 +390,7 @@ Passeport, preuve de revenus, assurance santé
 
 Faire ses premiers pas dans une nouvelle ville n’a pas besoin d’être une quête solitaire.
 
-Des groupes comme **Valencia Information Exchange** ou **Expats Living and Working in Valencia** rassemblent des gens qui vivent la même aventure, avec des rencontres sociales, des événements culturels et des échanges pratiques.
+Des groupes comme **Valencia Information Exchange** ou **Expats Living and Working in Valencia** rassemblent des gens qui vivent la même aventure, en proposant des rencontres sociales, des rassemblements culturels et des échanges pratiques.
 
 Groupe / Organisation
 
@@ -412,11 +412,11 @@ Expats Living and Working in Valencia
 
 ### Adaptation culturelle
 
-S’adapter à la vie espagnole ne consiste pas uniquement à maîtriser la sieste. Il faut aussi venir à bout de l’administration.
+S’adapter à la vie espagnole ne consiste pas uniquement à maîtriser la sieste. Il faut aussi dompter l’administration.
 
 **El Carmen** se distingue par son caractère historique et sa fraîcheur moderne, et regorge de cafés excentriques et de joyaux culturels.
 
-Plutôt que de vous cantonner aux cercles d’expatriés, rejoignez les clubs locaux ou participez aux nombreux festivals de la ville : les Fallas en mars, ou la Tomatina à Buñol en août, à moins d’une heure de Valencia.
+Plutôt que de vous cantonner aux cercles d’expatriés, rejoignez les clubs locaux ou participez aux nombreux festivals de la ville : la Fallas en mars, ou la Tomatina à Buñol en août, à moins d’une heure de Valencia.
 
 Consultez notre guide des [activités à faire à Valencia](https://mikebastin.com/fr/activites-a-valencia/) pour vous lancer dans de nouvelles aventures.
 

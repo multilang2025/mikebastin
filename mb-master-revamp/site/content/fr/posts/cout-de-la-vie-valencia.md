@@ -279,7 +279,7 @@ Coût mensuel (€)
 
 25 to 35
 
-**Mobile (données illimitées + appels)**
+**Mobile (data illimitée + appels)**
 
 10 to 18
 
@@ -287,7 +287,7 @@ Coût mensuel (€)
 
 50 to 90
 
-L’assurance santé privée en Espagne tournait autour de 58 euros par mois et par personne en 2025, avec des formules compatibles visa (sans franchise) à 50-80 euros par mois pour les moins de 40 ans, et 150-350 euros pour les plus de 60 ans.[Mike Bastin : Coût de la vie à Valencia 2026](https://mikebastin.com/valencia-cost-of-living/)
+L’assurance santé privée en Espagne tournait autour de 58 euros par mois et par personne en 2025, avec des plans compatibles visa (sans franchise) à 50-80 euros par mois pour les moins de 40 ans, et 150-350 euros pour les plus de 60 ans.[Mike Bastin : Coût de la vie à Valencia 2026](https://mikebastin.com/valencia-cost-of-living/)
 
 ## Valencia vs Paris, Bruxelles, Genève, Madrid, Barcelone
 
@@ -327,7 +327,7 @@ Lisbonne
 
 €2 000
 
-Valencia se classe 273e mondiale pour le coût de la vie sur l’index Numbeo 2026, avec un score juste au-dessus de 50 face à une référence New York fixée à 100. Madrid et Barcelone tournent autour de 58-60.[Valencia Property : Coût de la vie 2026](https://www.valencia-property.com/new/2026/01/26/the-cost-of-living-in-valencia-2026/)
+Valencia se classe 273e mondiale pour le coût de la vie sur l’index Numbeo 2026, avec un score juste au-dessus de 50 face à une référence New York fixée à 100. Madrid et Barcelone tournent autour de 58-60.[Valencia Property : Cost of Living 2026](https://www.valencia-property.com/new/2026/01/26/the-cost-of-living-in-valencia-2026/)
 
 ## Salaires et réalité du marché
 
@@ -335,22 +335,22 @@ C’est ici que l’équation valencienne devient intéressante. Les salaires lo
 
 1 400 €
 
-**Salaire net moyen dans la Communauté valencienne en 2025-2026.** Le taux de chômage est passé sous la barre des 10 pour cent pour la première fois depuis 2008, mais les salaires restent modestes selon les normes européennes.
+**Salaire net moyen dans la Communauté valencienne en 2025-2026.** Le taux de chômage est passé sous la barre des 10 pour cent pour la première fois depuis 2008, mais les salaires restent modestes selon les standards européens.
 
-L’équation ne tient confortablement que si vous touchez un salaire étranger en télétravail ou si vous gérez votre propre activité. Valencia est excellente pour les nomades numériques sur le visa nomade espagnol, les retraités avec une pension étrangère, ou les freelances avec des clients européens et nord-américains. C’est plus difficile pour quelqu’un qui arrive sans contrat ni revenus à distance.
+L’équation ne tient confortablement que si vous touchez un salaire étranger en télétravail ou si vous gérez votre propre activité. Valencia est excellent pour les nomades numériques sur le visa nomade espagnol, les retraités avec une pension étrangère, ou les freelances avec des clients européens et nord-américains. C’est plus difficile pour quelqu’un qui arrive sans contrat ni revenus à distance.
 
 Pour le volet visa, consultez mon guide sur le [visa nomade numérique en Espagne](https://mikebastin.com/fr/visa-nomade-numerique-espagne/).
 
 ## Les frais cachés de la première année
 
-Voici les postes qui réservent des surprises aux nouveaux arrivants francophones :
+Voici les postes qui prennent par surprise les nouveaux arrivants francophones :
 
 -   **Honoraires de gestor (500 à 1 500 € la première année)** : La bureaucratie espagnole ne pardonne pas. Un _gestor_ s’occupe de votre NIE, de votre _padrón_, de votre inscription _autónomo_, et de vos déclarations fiscales. Chaque euro est rentabilisé.
 -   **Traductions assermentées (60 à 150 € par document)** : Acte de naissance, diplômes, livret de famille : tout doit passer par un _traductor jurado_ certifié pour les démarches de résidence.
 -   **Apostilles et légalisations (20 à 50 € par document)** : Souvent requises avant la traduction assermentée. À intégrer au calendrier.
 -   **Caution locative (1 à 3 mois de loyer)** : La _fianza_ légale est d’un mois minimum, mais les propriétaires demandent fréquemment un ou deux mois supplémentaires en garantie.
 -   **Ameublement d’un appartement (2 000 à 5 000 €)** : La plupart des locations longue durée non meublées exigent absolument tout, du lave-linge au sommier. IKEA Valencia et Wallapop sont vos alliés.
--   **Mutuelle santé pour visa de résidence (600 à 900 € la première année)** : Obligatoire pour les non-Européens. Adeslas, Sanitas, DKV et Asisa sont les fournisseurs habituels. Pour les Européens, la _tarjeta sanitaria europea_ couvre les soins urgents en attendant l’inscription au système public.
+-   **Mutuelle santé pour visa de résidence (600 à 900 € la première année)** : Obligatoire pour les non-Européens. Adeslas, Sanitas, DKV et Asisa sont les fournisseurs standard. Pour les Européens, la _tarjeta sanitaria europea_ couvre les soins urgents en attendant l’inscription au système public.
 
 ### Vous préparez votre installation à Valencia ?
 
@@ -362,7 +362,7 @@ J’aide les francophones et les télétravailleurs à organiser leur déménage
 
 Quel budget mensuel minimum pour vivre à Valencia en 2026 ?
 
-Pour une personne seule, le minimum réaliste se situe entre 1 500 et 1 700 euros par mois loyer compris dans un quartier non central. En dessous, vous partagez un appartement ou vivez loin du centre. Pour un couple, comptez 2 200 à 2 600 euros minimum pour un mode de vie confortable mais raisonnable.
+Pour une personne seule, le minimum réaliste se situe entre 1 500 et 1 700 euros par mois loyer compris dans un quartier non central. En dessous, vous partagez un appartement ou vivez loin du centre. Pour un couple, comptez 2 200 à 2 600 euros minimum pour un mode de vie confortable mais surveillé.
 
 Valencia est-elle réellement moins chère que Paris ?
 
@@ -378,15 +378,15 @@ C’est jouable mais serré. Vous partagerez un appartement ou habiterez en pér
 
 Combien coûte un repas au restaurant à Valencia ?
 
-Un menú del día (formule trois plats à midi) coûte 12 à 17 euros en 2026. Un dîner décontracté pour deux avec vin revient à 40-60 euros. Un menu dégustation dans un bon restaurant se situe entre 60 et 90 euros par personne. Les soirées tapas restent abordables à 25-35 euros par personne.
+Un menú del día (formule trois plats à midi) coûte 12 à 17 euros en 2026. Un dîner décontracté pour deux avec vin revient à 40-60 euros. Un menu dégustation dans un bon restaurant tourne entre 60 et 90 euros par personne. Les soirées tapas restent abordables à 25-35 euros par personne.
 
 Les charges et les abonnements coûtent-ils cher à Valencia ?
 
-Pour un T2, comptez 100 à 150 euros par mois pour électricité, eau et gaz cumulés. La fibre offre un excellent rapport qualité-prix à 25-35 euros par mois. Les forfaits mobiles avec données illimitées démarrent à 10 euros par mois. Les coûts de chauffage augmentent en janvier et février.
+Pour un T2, comptez 100 à 150 euros par mois pour électricité, eau et gaz cumulés. La fibre est un excellent rapport qualité-prix à 25-35 euros par mois. Les forfaits mobiles avec data illimitée démarrent à 10 euros par mois. Les coûts de chauffage augmentent en janvier et février.
 
 Quel est le quartier le moins cher pour louer à Valencia ?
 
-Les quartiers du sud (Pobles del Sud, certaines zones de Quatre Carreres) et les quartiers périphériques comme Natzaret pratiquent les loyers au mètre carré les plus bas, autour de 13-14 euros le m². Patraix et certaines parties de Benimaclet offrent le meilleur compromis entre prix et accès au centre pour la plupart des francophones.
+Les districts du sud (Pobles del Sud, certaines zones de Quatre Carreres) et les quartiers périphériques comme Natzaret affichent les loyers au mètre carré les plus bas, autour de 13-14 euros le m². Patraix et certaines parties de Benimaclet offrent le meilleur compromis entre prix et accès au centre pour la plupart des francophones.
 
 De combien faut-il prévoir pour une première année à Valencia ?
 
@@ -398,7 +398,7 @@ Pas obligatoire pour démarrer, mais fortement recommandé. Les démarches admin
 
 ## Ce qu’il faut retenir sur le coût de la vie à Valencia en 2026
 
-Valencia reste l’une des villes au meilleur rapport qualité-prix d’Europe occidentale, mais ce n’est plus l’aubaine de 2018. Le résumé honnête après dix ans sur place : prévoyez plus que ce que les blogs sur le coût de la vie vous suggèrent, choisissez votre quartier avec attention car cette décision représente 40 pour cent de votre budget mensuel, et reconnaissez que la ville fonctionne mieux quand vous gagnez au-dessus des salaires locaux.
+Valencia reste l’une des villes au meilleur rapport qualité-prix d’Europe occidentale, mais ce n’est plus l’aubaine de 2018. Le résumé honnête après dix ans sur place : prévoyez plus que ce que les blogs cost-of-living vous suggèrent, choisissez votre quartier avec attention car cette décision pèse pour 40 pour cent de votre budget mensuel, et reconnaissez que la ville fonctionne mieux quand vous gagnez au-dessus des normes salariales locales.
 
 Si ces conditions sont réunies, vous obtenez un climat méditerranéen, une gastronomie reconnue mondialement, des quartiers piétons, et une qualité de vie qui se classe régulièrement dans le top 10 mondial pour les expatriés. Peu de villes offrent cette combinaison à ce prix.
 

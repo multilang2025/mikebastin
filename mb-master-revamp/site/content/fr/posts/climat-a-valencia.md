@@ -78,7 +78,7 @@ Ce n’est évidemment pas un déluge, mais prévoyez un parapluie pour ces jour
 
 Même si vous craignez la pluie, rassurez-vous : elle ne durera pas longtemps, et le soleil revient plus vite que vous ne le pensez.
 
-Ces épisodes pluvieux aident également la végétation à rester verte et agréable à contempler.
+Ces épisodes pluvieux aident en plus la végétation à rester verte et agréable à contempler.
 
 ## Planifiez votre installation
 
@@ -86,7 +86,7 @@ Si vous comptez vous installer à long terme, vous allez sûrement parcourir le 
 
 -   Mai à juillet et septembre à mi-octobre : climat doux et moins humide.
 -   Bonne période pour explorer les quartiers, comparer les biens.
--   Envie d’une voiture ou d’un vélo ? Consultez les solutions de [transports à Valencia](https://mikebastin.com/valencia-public-transportation/).
+-   Envie d’une voiture ou d’un vélo ? Jetez un œil aux solutions de [transports à Valencia](https://mikebastin.com/valencia-public-transportation/).
 
 Un dernier conseil : profitez de la fin de l’été pour découvrir les coins moins touristiques, échanger avec les habitants et vous faire une idée précise du style de vie local.
 
@@ -98,6 +98,6 @@ Quelques averses en automne viennent rafraîchir l’atmosphère, mais elles ne 
 
 Vous êtes prêt à franchir le pas ?
 
-Prenez le temps de faire un petit tour de la ville, comparez les quartiers et n’hésitez pas à vous baigner en plein mois d’août.
+Prenez le temps de faire un petit tour de la ville, comparez les quartiers et n’hésitez pas à tester vous-même la baignade en plein mois d’août.
 
-Et si vous avez déjà un avis sur la météo locale, partagez-le en commentaire, nous adorons entendre vos retours.
+Et si vous avez déjà un avis sur la météo locale, partagez-le en commentaire, on adore entendre vos retours !

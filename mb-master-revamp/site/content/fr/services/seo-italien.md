@@ -33,7 +33,7 @@ Avant d’écrire à un fournisseur, l’acheteur italien contrôle trois élém
 | Codice fiscale | Mentions légales et page de contact |
 | Immatriculation au REA ou à la Chambre de commerce | Mentions légales |
 
-À cela s’ajoute le consentement aux cookies. Le Garante della Privacy, l’autorité italienne de protection des données, lit certains points du RGPD plus strictement que la base européenne, notamment la façon dont le consentement est enregistré et le niveau de détail du consentement marketing. Nous construisons la configuration technique sur cette lecture. Les données sensibles, les décisions automatisées et la surveillance des salariés relèvent d’un avocat italien spécialisé, en complément de notre mise en œuvre.
+À cela s’ajoute le consentement aux cookies. Le Garante della Privacy, l’autorité italienne de protection des données, interprète certains points du RGPD plus strictement que la réglementation européenne, notamment la façon dont le consentement est enregistré et le niveau de détail du consentement marketing. Nous construisons la configuration technique selon cette lecture. Les données sensibles, les décisions automatisées et la surveillance des salariés relèvent d’un avocat italien spécialisé, en complément de notre mise en œuvre.
 
 ## Le registre italien, fixé page par page
 
@@ -41,7 +41,7 @@ Le choix entre tutoiement et vouvoiement, et la place de la forme de politesse, 
 
 ## Une approche adaptée à chaque région d’Italie
 
-L’Italie est le grand marché européen le plus fragmenté par région. Milan, Rome, Naples et Palerme ne se comportent pas de la même façon sur la sensibilité au prix, les moyens de paiement et les signaux de confiance.
+L’Italie est le grand marché européen le plus fragmenté par région. Milan, Rome, Naples et Palerme ne se comportent pas de la même façon en matière de sensibilité au prix, de moyens de paiement et de signaux de confiance.
 
 | Zone | Ce que nous retenons pour le plan |
 |---|---|
@@ -49,7 +49,7 @@ L’Italie est le grand marché européen le plus fragmenté par région. Milan,
 | Centre (Rome, Toscane) | Services, tourisme et un large secteur public |
 | Sud et îles (Naples, Palerme) | Attentes de prix et signaux de confiance propres, où présence et références locales comptent davantage |
 
-Pour une offre B2B vendue en ligne dans tout le pays, un seul site italien fait le travail. Quand la présence locale fait partie de ce que vous vendez, des pages pour Milan, Rome ou Turin gagnent leur place. Nous vous donnons une recommandation argumentée au cadrage.
+Pour une offre B2B vendue en ligne dans tout le pays, un seul site italien suffit. Quand la présence locale fait partie de ce que vous vendez, des pages pour Milan, Rome ou Turin ont leur place. Nous vous donnons une recommandation argumentée au cadrage.
 
 ## Piloté par nous, écrit par des Italiens natifs
 
@@ -59,10 +59,10 @@ Côté liens, nous visons Corriere della Sera, La Repubblica et Il Sole 24 Ore p
 
 ## Comment nous menons votre SEO en Italie, étape par étape
 
-1. **Audit gratuit de 20 minutes.** Nous lisons vos pages italiennes comme les lit un acheteur en Italie et nous vous montrons où se trouvent les plus gros gains, avant tout engagement.
-2. **Périmètre écrit.** Après l’appel, vous recevez un périmètre écrit qui nomme les pages italiennes, les régions à cibler et les livrables, classés selon ce que chacun vaut.
+1. **Audit gratuit de 20 minutes.** Nous lisons vos pages italiennes comme le ferait un acheteur en Italie et nous vous montrons où se trouvent les plus gros gains, avant tout engagement.
+2. **Périmètre écrit.** Après l’appel, vous recevez un périmètre écrit qui précise les pages italiennes, les régions à cibler et les livrables, classés selon leur valeur.
 3. **Rédaction par des natifs italiens.** Des rédacteurs italiens natifs de BeTranslated écrivent chaque page à partir de notre brief, et un second natif la relit avant sa publication, pour qu’elle se lise comme écrite en Italie.
-4. **Informations d’entreprise et consentement.** Nous plaçons la Partita IVA, le codice fiscale et le REA là où l’acheteur italien les cherche, et nous réglons le consentement sur la lecture plus stricte du Garante della Privacy.
+4. **Informations d’entreprise et consentement.** Nous plaçons la Partita IVA, le codice fiscale et le REA là où l’acheteur italien les cherche, et nous configurons le consentement selon la lecture plus stricte du Garante della Privacy.
 5. **Rapport mensuel.** Chaque mois, un rapport en français ou en anglais sur vos positions et vos demandes italiennes, séparées de vos autres marchés, avec ce qui a bougé et la suite prévue.
 6. **Mois par mois.** Les missions se règlent au mois et se poursuivent aussi longtemps qu’elles rapportent. Le détail figure dans [nos tarifs et modalités](/fr/tarifs/).
 
