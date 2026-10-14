@@ -149,7 +149,7 @@ export default function FrenchLeadGenerationPage() {
               Un seul chiffre pour tout le site se lit facilement ; pour décider, il vous faut le chiffre de chaque marché. Il distingue le marché qui porte vos résultats de celui dont le budget s’arrête aux visites, deux marchés qu’une moyenne fait se ressembler parfaitement.
             </p>
             <p className="max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Avec un total unique, le budget suit le trafic qui semble le plus sain, et la langue qui vend réellement en reçoit un peu moins chaque trimestre. C’est ce rapport qui oriente ce choix : il montre la différence marché par marché et guide chaque mois le budget vers le marché qui doit grandir.
+              Avec un total unique, le budget suit le trafic qui semble le plus sain, et la langue qui vend réellement en reçoit un peu moins chaque trimestre. C’est ce rapport qui oriente ce choix : il montre la différence marché par marché et guide chaque mois le budget vers le marché qui doit grandir.
             </p>
           </Reveal>
         </div>
@@ -229,7 +229,7 @@ export default function FrenchLeadGenerationPage() {
               Le suivi passe par GA4 et Google Tag Manager, configurés par langue avec les mêmes définitions d’événements partout, pour qu’une demande espagnole et une demande allemande soient comptées de la même façon et puissent être comparées. Le mode de consentement est réglé marché par marché, car l’acceptation des cookies varie d’un pays à l’autre ; une fois corrigée, la comparaison classe vos langues selon les ventes.
             </p>
             <p className="mb-12 max-w-[62ch] text-[1.05rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
-              Le CRM complète le suivi. Les conversions hors ligne renvoient l’issue de chaque demande vers GA4 et Google Ads : un marché qui envoie des demandes moins nombreuses mais meilleures apparaît comme gagnant, et les enchères publicitaires suivent ce que vaut chaque marché.
+              Le CRM complète le suivi. Les conversions hors ligne renvoient l’issue de chaque demande vers GA4 et Google Ads : un marché qui envoie des demandes moins nombreuses mais meilleures apparaît comme gagnant, et les enchères publicitaires suivent ce que vaut chaque marché.
             </p>
           </Reveal>
           <Reveal i={1}>

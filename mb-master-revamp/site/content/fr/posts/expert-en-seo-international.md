@@ -88,7 +88,7 @@ Un mot-clé qui génère 1 000 recherches mensuelles en France peut être quasi 
 <figcaption>Une même langue, trois façons de chercher le même produit. Chaque pays reçoit donc sa propre recherche de mots-clés.</figcaption>
 </figure>
 
-Nous cartographions les opportunités marché par marché avec Ahrefs et Screaming Frog, puis suivons les positions avec SEO PowerSuite. Les LLM comme Claude et ChatGPT accélèrent l’analyse des données et la préparation de briefs de contenu adaptés à chaque public ; le choix final des termes reste une décision humaine, prise avec vous. L’[audit SEO technique](/fr/services/seo-technique/) vient compléter cette recherche, page par page.
+Nous cartographions les opportunités marché par marché avec Ahrefs et Screaming Frog, puis suivons les positions avec SEO PowerSuite. Les LLM comme Claude et ChatGPT accélèrent l’analyse des données et la préparation de briefs de contenu adaptés à chaque public ; le choix final des termes reste une décision humaine, prise avec vous. L’[audit SEO technique](/fr/services/seo-technique/) vient compléter cette recherche, page par page.
 
 ## La structure du site, décidée une fois
 
@@ -102,7 +102,7 @@ Les balises hreflang complètent ce choix. Elles indiquent à Google quelle vers
 
 ### Une refonte qui garde ses positions
 
-Prenons un client de l’immobilier aux Caraïbes, dont le site existait en quatre langues : anglais, français, espagnol et allemand. Lors d’une refonte, le site avait été reconstruit à partir d’une page blanche : nouveau contenu, nouvelles URL, et le travail de référencement accumulé était reparti de zéro, emportant les positions qu’il portait.
+Prenons un client de l’immobilier aux Caraïbes, dont le site existait en quatre langues : anglais, français, espagnol et allemand. Lors d’une refonte, le site avait été reconstruit à partir d’une page blanche : nouveau contenu, nouvelles URL, et le travail de référencement accumulé était reparti de zéro, emportant les positions qu’il portait.
 
 Nous avons recréé la stratégie, refait le maillage interne et restructuré les URL, langue par langue. La leçon vaut pour toute refonte : chaque ancienne URL redirige vers sa nouvelle équivalente, et le contenu qui se positionnait est repris, pour que le nouveau site parte des acquis de l’ancien.
 
@@ -186,10 +186,10 @@ Avant de lancer une campagne, nous :
 
 Le budget dépend du nombre de marchés, du volume de pages à produire et de la part de rédaction et de traduction. Nous établissons un devis à partir d’un premier échange, et la rédaction comme la traduction sont facturées en tant que prestation. Le détail de notre facturation figure sur la page [nos tarifs](/fr/tarifs/).
 
-L’investissement se mesure en demandes : une première page obtenue sur un marché étranger apporte un flux durable de prospects, qui s’ajoute à celui de la publicité.
+L’investissement se mesure en demandes : une première page obtenue sur un marché étranger apporte un flux durable de prospects, qui s’ajoute à celui de la publicité.
 
 ## Où commencer
 
-Plus de 20 ans de SEO sur plusieurs marchés nous ont appris une chose : le SEO international se prépare marché par marché. Un site [bien conçu](/fr/) gagne en visibilité par le référencement, un contenu traduit prend toute sa valeur avec une [optimisation on-page](/fr/services/seo-technique/), et une refonte accompagnée préserve des années de travail.
+Plus de 20 ans de SEO sur plusieurs marchés nous ont appris une chose : le SEO international se prépare marché par marché. Un site [bien conçu](/fr/) gagne en visibilité par le référencement, un contenu traduit prend toute sa valeur avec une [optimisation on-page](/fr/services/seo-technique/), et une refonte accompagnée préserve des années de travail.
 
 Pour évaluer votre positionnement international ou ouvrir un nouveau marché, écrivez-nous via le [formulaire de contact](/fr/nous-contacter/) ou retrouvez nos coordonnées sur [notre site](https://mikebastin.com/fr/). Pour voir comment une équipe complète prend en charge ces décisions, de l’audit au rapport mensuel, lisez notre article sur l’[agence SEO internationale](https://mikebastin.com/fr/agence-seo-internationale/).

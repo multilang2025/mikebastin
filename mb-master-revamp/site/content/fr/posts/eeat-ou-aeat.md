@@ -71,7 +71,7 @@ Tel est le rituel quotidien d’un SEO sérieux. Calme. Concentré. Légèrement
 
 ## AEAT, le juge espagnol
 
-Pour toute entreprise qui facture en Espagne, l’AEAT est le sigle que vous apprenez en premier, et le plus vite. Elle s’intéresse à la numérotation de vos factures et à sa logique ; la structure des contenus relève de Google.
+Pour toute entreprise qui facture en Espagne, l’AEAT est le sigle que vous apprenez en premier, et le plus vite. Elle s’intéresse à la numérotation de vos factures et à sa logique ; la structure des contenus relève de Google.
 
 Les deux envoient des messages. L’un arrive dans Search Console. L’autre arrive dans votre boîte aux lettres, avec une typographie très officielle.
 

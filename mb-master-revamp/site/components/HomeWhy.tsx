@@ -15,7 +15,7 @@ const T = {
     items: [
       {
         title: "Votre expert en SEO international, dans toutes vos langues",
-        body: "Mike pilote une seule stratégie pour vos pages en espagnol, en allemand et en néerlandais : chaque marché s'appuie sur un plan commun, et vous comparez les résultats avec clarté.",
+        body: "Mike pilote une seule stratégie pour vos pages en espagnol, en allemand et en néerlandais : chaque marché s'appuie sur un plan commun, et vous comparez les résultats avec clarté.",
       },
       {
         title: "Des textes écrits par des natifs du marché",

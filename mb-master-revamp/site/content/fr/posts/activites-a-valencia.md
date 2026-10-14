@@ -24,7 +24,7 @@ L’un des symboles les plus marquants de Valence est la Cité des Arts et des S
 
 Vous y trouverez un opéra, un cinéma IMAX 3D, un musée interactif et même le plus grand aquarium d’Europe. Entre deux expositions, prenez le temps de vous balader dans les jardins autour du complexe, surtout si vous aimez prendre des photos pour immortaliser votre passage.
 
--   Astuce pratique : [réservez vos billets en ligne](https://tickets.cac.es/) pour gagner du temps.
+-   Astuce pratique : [réservez vos billets en ligne](https://tickets.cac.es/) pour gagner du temps.
 -   Si vous projetez de vous installer durablement, jetez un œil à l’[immobilier à valencia](https://mikebastin.com/fr/immobilier-a-valencia/) pour mieux connaître le marché local.
 
 La Cité des Arts et des Sciences de Valence, conçue par Santiago Calatrava et Félix Candela, a été édifiée sur près de deux kilomètres de l’ancien lit du fleuve Turia, détourné après la grande inondation de 1957. Fait notable, ce projet avant-gardiste, devenu emblématique de la ville, a transformé un ancien espace à risque en un pôle culturel et scientifique majeur. Il s’est aussi distingué par un dépassement budgétaire spectaculaire, le coût final atteignant environ 1,2 milliard d’euros, soit bien au-delà des prévisions initiales.
@@ -39,7 +39,7 @@ Le Parc Naturel de l’Albufera est un site d’exception pour admirer de splend
 
 Pour une aventure plus insolite, envolez-vous en montgolfière au-dessus du Parc Naturel de la Sierra de Mariola, non loin de la ville. Vous survolerez montagnes, cités et châteaux, avec un petit-déjeuner proposé après l’atterrissage.
 
--   Conseil détente : prévoyez une journée complète pour décompresser.
+-   Conseil détente : prévoyez une journée complète pour décompresser.
 -   Si vous voulez vous déplacer sans souci, renseignez-vous sur les [transports à valencia](https://mikebastin.com/fr/transport-a-valencia/).
 
 ## Tenter les sports nautiques
@@ -81,8 +81,8 @@ Les restaurants [Voltereta](https://www.volteretarestaurante.com/restaurante/val
 
 Et si vous préférez déguster la cuisine régionale, vous trouverez partout des plats typiques comme l’arròs del senyoret (une paella aux fruits de mer décortiqués) ou la fideuà (version revisitée avec des nouilles).
 
--   Astuce gourmande : [réservez](https://www.volteretarestaurante.com/reserva/?pre=valencia-casa) dans les restaurants les plus prisés pour réserver votre table sans attendre.
--   Envie de rester en extérieur ? Installez-vous en terrasse et profitez du climat doux, et découvrez le [climat à valencia](https://mikebastin.com/fr/climat-a-valencia/).
+-   Astuce gourmande : [réservez](https://www.volteretarestaurante.com/reserva/?pre=valencia-casa) dans les restaurants les plus prisés pour réserver votre table sans attendre.
+-   Envie de rester en extérieur ? Installez-vous en terrasse et profitez du climat doux, et découvrez le [climat à valencia](https://mikebastin.com/fr/climat-a-valencia/).
 
 ## S’essayer aux expériences insolites
 
@@ -93,7 +93,7 @@ Rendez-vous au Racing Dakar Valencia pour faire du karting sur un circuit de plu
 Frissons garantis dès que vous appuierez sur l’accélérateur. Si vous préférez la randonnée, direction Chulilla et son itinéraire des ponts suspendus pour un panorama à couper le souffle sur le canyon du Turia. Entre nature et adrénaline, les sensations sont garanties.
 
 -   Hors des sentiers battus : le Bioparc et l’Oceanogràfic vous feront voyager à travers différents continents sans quitter la ville.
--   Notre conseil : si vous êtes du genre aventurier, chaque week-end peut devenir l’occasion de tester quelque chose de neuf.
+-   Notre conseil : si vous êtes du genre aventurier, chaque week-end peut devenir l’occasion de tester quelque chose de neuf.
 
 ## En résumé
 
@@ -101,6 +101,6 @@ Valence est un véritable terrain de jeu pour les jeunes actifs en quête de dé
 
 Vous pouvez partir en excursion dans des parcs naturels, explorer des musées futuristes, vous divertir en club silencieux ou vous régaler dans des restaurants thématiques.
 
-Qu’allez-vous tester en premier ?
+Qu’allez-vous tester en premier ?
 
 Bonne visite et amusez-vous bien !

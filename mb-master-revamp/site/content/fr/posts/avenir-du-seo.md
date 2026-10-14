@@ -91,7 +91,7 @@ Une page signée par un expert identifié inspire davantage confiance à Google 
 > La mise à jour du 11 septembre 2025 des consignes aux évaluateurs a précisé la catégorie YMYL « Government, Civics and Society », qui couvre désormais explicitement les informations électorales et la confiance dans les institutions publiques, et a ajouté des exemples d’évaluation des AI Overviews.
 > Source : [Search Engine Land, septembre 2025](https://searchengineland.com/google-updates-search-quality-raters-guidelines-adding-ai-overview-examples-ymyl-definitions-461908)
 
-Google évalue l’E-E-A-T par des signaux indirects : réputation du domaine, auteur clairement identifié, qualité des sources et balisage des auteurs. Les sites qui présentent des biographies d’auteurs détaillées, des études de cas publiées, des sources récentes et un balisage Person et Organization gagnent du terrain. Notre retour d’expérience [EEAT ou AEAT](/fr/eeat-ou-aeat/) applique ces signaux au site d’un cabinet d’avocats espagnol.
+Google évalue l’E-E-A-T par des signaux indirects : réputation du domaine, auteur clairement identifié, qualité des sources et balisage des auteurs. Les sites qui présentent des biographies d’auteurs détaillées, des études de cas publiées, des sources récentes et un balisage Person et Organization gagnent du terrain. Notre retour d’expérience [EEAT ou AEAT](/fr/eeat-ou-aeat/) applique ces signaux au site d’un cabinet d’avocats espagnol.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 160" role="img" aria-label="Trois signaux nourrissent l’E-E-A-T : des biographies d’auteurs détaillées, des études de cas publiées et des sources récentes.">
@@ -161,7 +161,7 @@ Si vos pages en français vendent et que vous voulez que vos pages en espagnol, 
 > Les sites traduits obtiennent jusqu’à 327 % de visibilité supplémentaire dans les AI Overviews de Google par rapport aux sites en une seule langue.
 > Source : [Weglot, étude portant sur 1,3 million de citations d’IA, 2025](https://www.weglot.com/blog/ai-search-and-language)
 
-CSA Research publie de longue date sur ce sujet, par exemple sur [l’avantage du contenu multilingue pour les marques mondiales](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Multilingual-Content-Gives-Global-Brands-Competitive-Edge). Se positionner sur les marchés espagnol, allemand, néerlandais ou britannique demande un [référencement multilingue](/fr/services/referencement-multilingue/) construit pour chaque marché : recherche de mots-clés menée par des natifs dans chaque langue, adaptation culturelle et réglementaire, et prise en compte du [comportement de recherche propre à chaque région](/fr/bonnes-pratiques-seo-multilingue/). Un hreflang correct indique aux moteurs quelle version servir à qui, et des backlinks propres à chaque pays ainsi qu’un suivi des résultats locaux complètent le tableau.
+CSA Research publie de longue date sur ce sujet, par exemple sur [l’avantage du contenu multilingue pour les marques mondiales](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Multilingual-Content-Gives-Global-Brands-Competitive-Edge). Se positionner sur les marchés espagnol, allemand, néerlandais ou britannique demande un [référencement multilingue](/fr/services/referencement-multilingue/) construit pour chaque marché : recherche de mots-clés menée par des natifs dans chaque langue, adaptation culturelle et réglementaire, et prise en compte du [comportement de recherche propre à chaque région](/fr/bonnes-pratiques-seo-multilingue/). Un hreflang correct indique aux moteurs quelle version servir à qui, et des backlinks propres à chaque pays ainsi qu’un suivi des résultats locaux complètent le tableau.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 120" role="img" aria-label="Se positionner dans une autre langue repose sur trois éléments : une recherche de mots-clés menée en natif, une adaptation culturelle et réglementaire, et les habitudes de recherche de chaque région.">
@@ -223,7 +223,7 @@ Mettez en place l’[analyse et le suivi](/fr/services/seo-technique/) des conve
 
 ### Le SEO est-il mort en 2026 ?
 
-Le SEO est bien vivant. Les recherches sans clic et les AI Overviews ont changé le fonctionnement de la visibilité, et la mesure du succès a changé avec eux : la présence dans les réponses d’IA, les extraits optimisés et les panneaux de connaissances comptent désormais autant que les positions.
+Le SEO est bien vivant. Les recherches sans clic et les AI Overviews ont changé le fonctionnement de la visibilité, et la mesure du succès a changé avec eux : la présence dans les réponses d’IA, les extraits optimisés et les panneaux de connaissances comptent désormais autant que les positions.
 
 ### Comment le SEO s’adapte-t-il au zéro clic ?
 

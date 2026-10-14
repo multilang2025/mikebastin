@@ -49,7 +49,7 @@ const MARKETS: { slug: string; market: string; line: string }[] = [
 const SERVICES_FOR: { slug: string; name: string; line: string }[] = [
   { slug: "referencement-multilingue", name: "Développer votre SEO international", line: "La stratégie par marché, et des rédacteurs natifs pour chaque langue." },
   { slug: "localisation-de-site-web", name: "Localiser votre site web", line: "Des prix, des formulaires et des pages qui paraissent locaux dans chaque pays." },
-  { slug: "sem-multilingue", name: "Lancer vos campagnes multilingues", line: "Votre budget média est entièrement consacré à vos annonces, versé directement à Google, Microsoft ou Meta ; le pilotage fait l’objet d’honoraires à part." },
+  { slug: "sem-multilingue", name: "Lancer vos campagnes multilingues", line: "Votre budget média est entièrement consacré à vos annonces, versé directement à Google, Microsoft ou Meta ; le pilotage fait l’objet d’honoraires à part." },
 ];
 
 const HOW_IT_WORKS: HowCard[] = [

@@ -45,7 +45,7 @@ Les grands modèles de langage (LLM) comme GPT, Claude et Gemini produisent une 
 
 ## Choisir entre règles, IA et modèle hybride
 
-La bonne architecture gère les formulations inattendues et suit le script partout où votre service conformité l’exige. Les chatbots à base de règles suivent des arbres de décision et répondent à des mots-clés selon des parcours prédéfinis ; les bots de FAQ simples entrent dans cette catégorie. Les plateformes pilotées par l’IA s’appuient sur le TALN et l’apprentissage automatique pour interpréter l’intention, même quand l’utilisateur formule sa question de façon imprévue.
+La bonne architecture gère les formulations inattendues et suit le script partout où votre service conformité l’exige. Les chatbots à base de règles suivent des arbres de décision et répondent à des mots-clés selon des parcours prédéfinis ; les bots de FAQ simples entrent dans cette catégorie. Les plateformes pilotées par l’IA s’appuient sur le TALN et l’apprentissage automatique pour interpréter l’intention, même quand l’utilisateur formule sa question de façon imprévue.
 
 La plupart des déploiements en grande entreprise reposent désormais sur un modèle hybride : des règles pour les demandes prévisibles, l’IA pour les conversations ouvertes, une personne pour le jugement. Les règles et le relais humain apportent la prévisibilité qu’exigent les secteurs réglementés.
 
@@ -204,7 +204,7 @@ La plateforme détermine votre marge de personnalisation, votre coût d’exploi
 | **Rasa** | Cadre open source | Un contrôle total avec une équipe technique interne |
 | **Intercom, Zendesk** | Suites de support SaaS | Un déploiement clés en main, personnalisation limitée |
 
-Des LLM comme GPT, Claude et Gemini fonctionnent avec plusieurs de ces outils, ou peuvent être appelés directement dans un développement spécifique. Deux noms plus anciens sont sortis du paysage : le SDK Bot Framework de Microsoft a atteint la fin de son support à long terme en décembre 2025, avec Copilot Studio pour successeur, et Salesloft a annoncé l’arrêt de Drift en mars 2026.
+Des LLM comme GPT, Claude et Gemini fonctionnent avec plusieurs de ces outils, ou peuvent être appelés directement dans un développement spécifique. Deux noms plus anciens sont sortis du paysage : le SDK Bot Framework de Microsoft a atteint la fin de son support à long terme en décembre 2025, avec Copilot Studio pour successeur, et Salesloft a annoncé l’arrêt de Drift en mars 2026.
 
 Pour une entreprise dotée d’une petite équipe technique, notre [conseil en IA pour l’export](/fr/services/conseil-ia/) accélère le choix de la plateforme et le déploiement.
 

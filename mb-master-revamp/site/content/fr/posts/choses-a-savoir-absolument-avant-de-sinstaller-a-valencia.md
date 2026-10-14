@@ -18,7 +18,7 @@ L’Espagne fait rêver.
 
 Avec ses plages ensoleillées, sa culture du bon-vivant, sa gastronomie et l’accueil chaleureux de ses habitants, tout francophone habitué à la pluie et au froid pourrait croire qu’il s’agit d’un paradis sans nuances.
 
-**S’installer à Valencia** en tant qu’expatrié francophone, c’est pourtant accepter une période d’adaptation bien réelle : administrative, culturelle et climatique.
+**S’installer à Valencia** en tant qu’expatrié francophone, c’est pourtant accepter une période d’adaptation bien réelle : administrative, culturelle et climatique.
 
 Voici un guide pratique des choses à savoir avant de [déménager dans la troisième plus grande ville d’Espagne](https://mikebastin.com/fr/francais-a-valencia/), pour vous préparer sérieusement à votre installation en 2026.
 
@@ -76,7 +76,7 @@ Ce dernier est un dialecte roman étroitement apparenté au catalan, dont les ra
 
 Des termes comme _porta_ (porte), _filla_ (fille) ou _parlar_ (parler) seront immédiatement reconnaissables pour un francophone.
 
-Attention : ne dites jamais à un Valencien que sa langue ressemble au catalan.
+Attention : ne dites jamais à un Valencien que sa langue ressemble au catalan.
 
 Les habitants de la **Comunitat Valenciana** tiennent scrupuleusement à distinguer le valencien du catalan, et ce sujet reste politiquement et culturellement sensible.
 
@@ -116,7 +116,7 @@ La région est le berceau de la **paella valenciana** (poulet, lapin, haricots v
 
 Les **tapas**, _patatas bravas_, _boquerones fritos_, _croquetas_, _calamares_, aubergines frites au miel, sont omniprésentes et se consomment à toute heure.
 
-Le **Mercat Central de Valencia**, l’un des plus grands marchés couverts d’Europe avec ses 8 000 m², est la meilleure porte d’entrée pour comprendre la richesse des produits locaux : oranges, kakis, artichauds, poissons frais de l’**Albufera**.
+Le **Mercat Central de Valencia**, l’un des plus grands marchés couverts d’Europe avec ses 8 000 m², est la meilleure porte d’entrée pour comprendre la richesse des produits locaux : oranges, kakis, artichauds, poissons frais de l’**Albufera**.
 
 Valencia est régulièrement classée dans le guide gastronomique OAD (Opinionated About Dining), qui répertorie les meilleurs restaurants d’Europe.
 
@@ -158,7 +158,7 @@ En 2026, la ville poursuit ses projets de végétalisation : le nouveau **Jard�
 
 Le parc de la **Túria**, 110 hectares d’ancien lit de fleuve reconverti en parc linéaire, reste le poumon vert de la ville et l’une de ses infrastructures les plus emblématiques.
 
-Le tri sélectif reste en revanche un point de tension : malgré cinq types de conteneurs disponibles dans toute la ville, les pratiques restent inégales.
+Le tri sélectif reste en revanche un point de tension : malgré cinq types de conteneurs disponibles dans toute la ville, les pratiques restent inégales.
 
 La forte consommation d’eau en bouteille, liée à la teneur en calcaire de l’eau du robinet, génère par ailleurs une quantité notable de déchets plastiques.
 

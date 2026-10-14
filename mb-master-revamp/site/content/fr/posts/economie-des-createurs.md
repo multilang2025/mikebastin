@@ -27,7 +27,7 @@ Il en a conclu que la réussite d’un créateur repose sur les relations qu’i
 
 ## Rééquilibrer une économie devenue très technologique
 
-Mesurez la réussite autant à la fidélité qu’aux vues et aux clics, et l’audience grandit avec les chiffres. Les outils numériques ont rendu la création plus accessible que jamais : chacun peut partager un savoir, vendre un produit ou bâtir une communauté mondiale depuis un ordinateur portable. Le même progrès entraîne aussi la création vers le mécanique, et c’est cet équilibre que Cordaro veut rétablir.
+Mesurez la réussite autant à la fidélité qu’aux vues et aux clics, et l’audience grandit avec les chiffres. Les outils numériques ont rendu la création plus accessible que jamais : chacun peut partager un savoir, vendre un produit ou bâtir une communauté mondiale depuis un ordinateur portable. Le même progrès entraîne aussi la création vers le mécanique, et c’est cet équilibre que Cordaro veut rétablir.
 
 Tout se mesure en vues, en clics, en taux de conversion et en rétention. Cordaro veut que la réussite se lise aussi dans le lien émotionnel, qui a donné de la valeur au travail des créateurs dès le départ : pour lui, les outils doivent amplifier les relations.
 

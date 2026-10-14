@@ -15,7 +15,7 @@ excerpt: "L’IA en traduction et localisation accélère chaque marché, et un 
 
 ## Tenir votre calendrier de lancement grâce à la traduction par IA
 
-Votre lancement aux Pays-Bas est fixé au printemps, l’équipe commerciale est prête, et le site néerlandais doit l’être aussi. Avec l’IA, la traduction suit le calendrier commercial : les pages arrivent en ligne en même temps que vos commerciaux sur le terrain.
+Votre lancement aux Pays-Bas est fixé au printemps, l’équipe commerciale est prête, et le site néerlandais doit l’être également. Avec l’IA, la traduction suit le calendrier commercial : les pages sont mises en ligne en même temps que vos commerciaux sur le terrain.
 
 Le gain de vitesse a une condition. Un relecteur de langue maternelle vérifie que chaque phrase fluide de votre fiche produit néerlandaise est aussi une phrase juste, et c’est cette relecture qui transforme une page publiée vite en page qui vend.
 
@@ -23,7 +23,7 @@ Voici où l’IA gagne sa place, où un locuteur natif apporte le plus, et comme
 
 ## Où en est la traduction par IA
 
-Les entreprises qui utilisent bien l’IA atteignent de nouveaux marchés plus vite. La traduction automatique neuronale (TAN), le traitement automatique du langage naturel (TALN) et, plus récemment, les grands modèles de langage ont nettement amélioré la qualité et la vitesse de la traduction automatisée. Pour beaucoup de types de contenu, un premier jet machine est devenu le point de départ habituel.
+Les entreprises qui utilisent bien l’IA atteignent de nouveaux marchés plus vite. La traduction automatique neuronale (TAN), le traitement automatique du langage naturel (TALN) et, plus récemment, les grands modèles de langage ont nettement amélioré la qualité et la vitesse de la traduction automatisée. Pour beaucoup de types de contenu, un premier jet automatique est devenu le point de départ habituel.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="La traduction automatique neuronale, le traitement automatique du langage naturel et les grands modèles de langage aboutissent aujourd’hui à un premier jet machine.">
@@ -43,7 +43,7 @@ Les entreprises qui utilisent bien l’IA atteignent de nouveaux marchés plus v
 <figcaption>Pour beaucoup de types de contenu, le premier jet machine est devenu le point de départ, et la question porte sur la place de l’humain à ses côtés.</figcaption>
 </figure>
 
-Pour la plupart des entreprises, la question porte donc sur les endroits où l’IA a besoin d’un humain à ses côtés. Notre [conseil en intelligence artificielle](/fr/services/conseil-ia/) commence par là.
+Pour la plupart des entreprises, la question porte donc sur les cas où l’IA a besoin d’un humain à ses côtés. Notre [conseil en intelligence artificielle](/fr/services/conseil-ia/) commence par là.
 
 ## Ce que l’IA apporte aux entreprises
 
@@ -90,7 +90,7 @@ Vos meilleurs traducteurs donnent le meilleur d’eux-mêmes sur la nuance. Quan
 
 ## Réglez chaque point sensible avant publication
 
-Chacun se règle au moindre coût avant la publication, et chacun protège la confiance que vos pages doivent gagner.
+Chacun se fait au moindre coût avant la publication, et chacun protège la confiance que vos pages doivent gagner.
 
 | Point d’attention | Risque | Comment le gérer |
 |---|---|---|
@@ -104,7 +104,7 @@ Les outils linguistiques dans le cloud demandent la même attention à la sécur
 > « Notre analyse a révélé des vulnérabilités critiques dans les applications de clavier de huit des neuf éditeurs étudiés, que nous avons pu exploiter pour révéler l’intégralité des frappes des utilisateurs en transit. »
 > Source : [Citizen Lab, « The Not-So-Silent Type », 23 avril 2024](https://citizenlab.ca/2024/04/vulnerabilities-across-keyboard-apps-reveal-keystrokes-to-network-eavesdroppers/)
 
-Pour le matériel confidentiel, travaillez avec des [services de traduction professionnelle](/fr/services/traduction-professionnelle/) qui maîtrisent la destination de vos textes.
+Pour le contenu confidentiel, travaillez avec des [services de traduction professionnelle](/fr/services/traduction-professionnelle/) qui maîtrisent la destination de vos textes.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 150" role="img" aria-label="Un texte confidentiel envoyé par un outil cloud peut être exposé en transit ; avec un prestataire vérifié, vous maîtrisez sa destination.">
@@ -134,12 +134,12 @@ Les entreprises qui gardent à la fois l’économie et la qualité répartissen
 - **Adoptez une approche hybride.** Associez la traduction par IA à la post-édition humaine pour allier vitesse, exactitude et sensibilité culturelle.
 - **Donnez-leur votre vocabulaire.** Fournissez aux outils votre glossaire, vos noms de produits et une note de style par marché.
 - **Placez la qualité en priorité.** Faites relire chaque page de vente avant publication.
-- **Gérez vos données linguistiques.** Tenez à jour mémoires de traduction et glossaires pour rester cohérent d’une langue à l’autre.
+- **Gérez vos données linguistiques.** Tenez à jour vos mémoires de traduction et vos glossaires pour rester cohérent d’une langue à l’autre.
 - **Revoyez vos outils régulièrement.** Les modèles évoluent vite, et le meilleur moteur pour l’allemand l’an dernier a peut-être été dépassé.
 
 ## Par où commencer
 
-Choisissez un marché et un type de contenu, lancez l’IA avec une post-édition humaine, et faites vérifier le résultat par un lecteur natif avant de passer à l’échelle. La vitesse vient de la machine, et la confiance vient des personnes. Pour vos contenus rédigés en anglais, notre guide de la [traduction anglais-français](/fr/traduction-anglais-francais/) détaille ce que votre prestataire doit vous livrer. [Demandez un conseil adapté à votre entreprise](/fr/nous-contacter/), ou reliez ce travail à votre [référencement multilingue](/fr/services/referencement-multilingue/) pour que les pages traduites soient aussi trouvées.
+Choisissez un marché et un type de contenu, lancez l’IA avec une post-édition humaine, et faites vérifier le résultat par un lecteur natif avant de généraliser. La vitesse vient de la machine, et la confiance vient des personnes. Pour vos contenus rédigés en anglais, notre guide de la [traduction anglais-français](/fr/traduction-anglais-francais/) détaille ce que votre prestataire doit vous livrer. [Demandez un conseil adapté à votre entreprise](/fr/nous-contacter/), ou reliez ce travail à votre [référencement multilingue](/fr/services/referencement-multilingue/) pour que les pages traduites soient aussi trouvées.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 122" role="img" aria-label="Quatre étapes, choisir un marché, traduire par IA, faire relire par un lecteur natif, puis passer à l’échelle.">

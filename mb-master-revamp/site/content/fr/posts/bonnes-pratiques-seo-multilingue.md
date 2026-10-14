@@ -29,7 +29,7 @@ Le socle, dans chaque langue :
 - des sitemaps par région ;
 - des URL localisées.
 
-Ces mêmes signaux servent de base au GEO dans chaque langue : un socle solide sert donc deux fois.
+Ces mêmes signaux servent de base au GEO dans chaque langue : un socle solide sert donc deux fois.
 
 <!-- figure:market-reach -->
 
@@ -37,7 +37,7 @@ Ces mêmes signaux servent de base au GEO dans chaque langue : un socle solide s
 
 Les mots-clés localisés sont les termes que les acheteurs de chaque marché saisissent réellement, et ils diffèrent souvent de la traduction de votre liste française. La recherche part de la façon dont les internautes de chaque pays formulent leur besoin, avec des mots propres à ce pays.
 
-Chaque marché nécessite sa propre recherche, qui couvre :
+Chaque marché nécessite sa propre recherche, qui couvre :
 
 - les variantes régionales de la langue ;
 - les tournures courantes ;
@@ -98,7 +98,7 @@ Des balises correctes envoient un acheteur allemand vers votre page allemande, e
 >
 > Source : [Ahrefs, « Over 67% of Domains Using Hreflang Have Issues (Study of 374,756 Domains) », Patrick Stox, 10 août 2023](https://ahrefs.com/blog/hreflang-study/)
 
-Les balises hreflang cassées ou circulaires sont les constatations les plus fréquentes de nos audits : vérifiez-les après chaque mise à jour d’extension ou ajout de langue.
+Les balises hreflang cassées ou circulaires sont les constatations les plus fréquentes de nos audits : vérifiez-les après chaque mise à jour d’extension ou ajout de langue.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 166" role="img" aria-label="Hreflang entre deux pages : la page A en français désigne la page B en allemand, la page B désigne la page A, et un x-default accueille tous les autres utilisateurs.">
@@ -133,7 +133,7 @@ Un lien venu de la presse locale ou d’une association professionnelle du pays 
 - des partenariats avec des entreprises locales ;
 - des relations presse ciblées.
 
-Gagnez chaque lien, un par un : des liens éditoriaux tiennent dans la durée et vous mettent à l’abri des pénalités qui accompagnent les liens achetés. Des liens locaux de qualité augmentent aussi la probabilité qu’une IA cite vos contenus comme source dans ce marché. Pour comparer les offres du marché, notre [revue des plateformes d’achat et de vente de liens](/fr/plateformes-achat-vente-liens/) détaille les contrôles qui sécurisent un site.
+Gagnez chaque lien, un par un : des liens éditoriaux tiennent dans la durée et vous mettent à l’abri des pénalités qui accompagnent les liens achetés. Des liens locaux de qualité augmentent aussi la probabilité qu’une IA cite vos contenus comme source dans ce marché. Pour comparer les offres du marché, notre [revue des plateformes d’achat et de vente de liens](/fr/plateformes-achat-vente-liens/) détaille les contrôles qui sécurisent un site.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 160" role="img" aria-label="Trois façons d’obtenir des liens régionaux : des articles invités localisés, des partenariats avec des entreprises locales et des relations presse ciblées.">
@@ -206,4 +206,4 @@ Les marques qui donnent à chaque langue le même soin qu’à la langue princip
 | SEO multilingue | hreflang, structure d’URL, mots-clés localisés, métadonnées | Positions et trafic qualifié sur chaque marché |
 | GEO | Entités, données structurées, contenus factuels et sourcés | Citations dans les réponses des IA, souvent avant une visite |
 
-Le SEO multilingue gagne le classement et le GEO obtient la citation : ensemble, ils atteignent l’acheteur aux deux moments. Un [SEO international](/fr/services/seo/) demande désormais les deux, travaillés ensemble dans chaque langue et chaque marché visé.
+Le SEO multilingue gagne le classement et le GEO obtient la citation : ensemble, ils atteignent l’acheteur aux deux moments. Un [SEO international](/fr/services/seo/) demande désormais les deux, travaillés ensemble dans chaque langue et chaque marché visé.

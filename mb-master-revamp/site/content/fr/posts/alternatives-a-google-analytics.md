@@ -15,7 +15,7 @@ excerpt: "Comparez cinq alternatives à Google Analytics selon la confidentialit
 
 ## Ce qu’une alternative à Google Analytics doit apporter
 
-Votre outil de mesure devrait vous indiquer où investir le prochain budget : des chiffres européens complets, la prise en compte des visiteurs qui refusent le bandeau de consentement, et des rapports que toute l’équipe comprend.
+Votre outil de mesure devrait vous indiquer où investir le prochain budget : des chiffres européens complets, la prise en compte des visiteurs qui refusent le bandeau de consentement, et des rapports que toute l’équipe comprend.
 
 Voici cinq alternatives à Google Analytics, leur coût d’entrée et le type d’entreprise auquel chacune convient. Les prix sont ceux que chaque éditeur publie pour son offre d’entrée, relevés le 2 octobre 2026, dans la devise affichée par l’éditeur. Ils changent souvent : confirmez-les avant de vous engager.
 
@@ -23,7 +23,7 @@ Voici cinq alternatives à Google Analytics, leur coût d’entrée et le type d
 
 Une alternative se justifie quand elle répond à un besoin précis de l’entreprise, car changer d’outil demande un effort. Les quatre besoins les plus fréquents :
 
-- **Confidentialité :** Google Analytics collecte de nombreuses données sur les utilisateurs : vérifiez sa conformité au RGPD et à vos propres exigences.
+- **Confidentialité :** Google Analytics collecte de nombreuses données sur les utilisateurs : vérifiez sa conformité au RGPD et à vos propres exigences.
 - **Complexité :** GA4, la seule version disponible depuis l’arrêt d’Universal Analytics, offre bien plus que ce dont la plupart des équipes ont besoin pour voir d’où viennent les visiteurs.
 - **Performance :** le script de suivi de Google peut ralentir vos pages.
 - **Propriété des données :** certaines entreprises veulent garder la maîtrise complète de leurs données d’analyse.
@@ -54,10 +54,10 @@ Une alternative se justifie quand elle répond à un besoin précis de l’entre
 
 ## Cinq outils à comparer
 
-Cinq outils, chacun spécialisé sur une tâche différente :
+Cinq outils, chacun spécialisé sur une tâche différente :
 
 - **Matomo :** des rapports dans le style de Google Analytics, avec des données que vous contrôlez.
-- **Plausible :** un seul écran clair, sans dépôt de cookie.
+- **Plausible :** un seul écran clair, sans dépôt de cookie.
 - **Fathom :** le même choix de confidentialité que Plausible, avec une interface épurée.
 - **Piwik PRO :** confidentialité et sécurité pour les secteurs réglementés.
 - **Mixpanel :** ce que font les utilisateurs à l’intérieur de votre produit.
@@ -110,7 +110,7 @@ Cinq outils, chacun spécialisé sur une tâche différente :
 - Tableau de bord simple, facile à comprendre
 - Script très léger, 54 fois plus petit que celui de Google Analytics selon Plausible.
 
-**Prix :** à partir de 9 € par mois, tarif affiché en euros pour l’Europe (9 $ en dollars américains).
+**Prix :** à partir de 9 € par mois, tarif affiché en euros pour l’Europe (9 $ en dollars américains).
 
 > Offre Starter : 9 € par mois jusqu’à 10 000 pages vues mensuelles, avec un essai gratuit.
 >

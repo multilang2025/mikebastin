@@ -172,7 +172,7 @@ const FR: PrivacyCopy = {
       ],
     },
     { h: "Modifier vos choix de cookies", p: ["Ouvrez les réglages des cookies pour autoriser ou retirer la mesure d’audience et les contenus intégrés à tout moment."], settings: true },
-    { h: "Mises à jour", p: ["Dernière mise à jour : 2 octobre 2026. Nous modifions cette page lorsque ce que nous collectons change, et nous mettons la date à jour."] },
+    { h: "Mises à jour", p: ["Dernière mise à jour : 2 octobre 2026. Nous modifions cette page lorsque ce que nous collectons change, et nous mettons la date à jour."] },
   ].map((s) => ({
     ...s,
     h: fr(s.h),

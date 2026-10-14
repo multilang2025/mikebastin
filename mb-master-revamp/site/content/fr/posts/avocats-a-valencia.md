@@ -66,13 +66,13 @@ Les écarts vont de 1 à 5 entre boutique et grande structure. Le devis écrit p
 
 Reconnaissance externe
 
-Présence dans les classements reconnus : Chambers Europe, Legal500, Best Lawyers, Iberian Lawyer
+Présence dans les classements reconnus : Chambers Europe, Legal500, Best Lawyers, Iberian Lawyer
 
 Les classements ne sont pas absolus mais filtrent les cabinets opérationnels et reconnus par leurs pairs
 
 Adéquation client
 
-Type de clientèle servie : grandes entreprises, PME, particuliers, expatriés. Demandez des références
+Type de clientèle servie : grandes entreprises, PME, particuliers, expatriés. Demandez des références
 
 Un cabinet habitué aux multinationales facturera et opérera différemment d’un cabinet centré sur la clientèle individuelle
 
@@ -112,7 +112,7 @@ Tier 1 Espagne Fiscal Affaires
 
 Le plus grand cabinet ibérique, particulièrement reconnu en fiscal, droit social et droit des sociétés. Présent à Valencia avec une équipe locale qui couvre la Communauté valencienne. Très bien classé par Chambers Europe et Legal500. Pratique éprouvée auprès de groupes français, allemands et latino-américains implantés en Espagne.
 
-**Profil idéal :** ETI et grands groupes étrangers ayant besoin d’un partenaire espagnol à service complet avec couverture nationale. Excellent pour les dossiers fiscaux complexes et le droit du travail.
+**Profil idéal :** ETI et grands groupes étrangers ayant besoin d’un partenaire espagnol à service complet avec couverture nationale. Excellent pour les dossiers fiscaux complexes et le droit du travail.
 
 [garrigues.com →](https://www.garrigues.com/en_GB)
 
@@ -122,7 +122,7 @@ Le plus grand cabinet ibérique, particulièrement reconnu en fiscal, droit soci
 
 Local Valencia Civil Famille Affaires
 
-Cabinet valencien établi de taille intermédiaire, couvrant une large palette : droit civil, droit de la famille, droit immobilier et droit des affaires. Bonne option pour les particuliers qui ont des dossiers mixtes (séparation avec enjeux patrimoniaux, succession avec héritiers à l’étranger).
+Cabinet valencien établi de taille intermédiaire, couvrant une large palette : droit civil, droit de la famille, droit immobilier et droit des affaires. Bonne option pour les particuliers qui ont des dossiers mixtes (séparation avec enjeux patrimoniaux, succession avec héritiers à l’étranger).
 
 **Profil idéal :** particuliers et PME, dossiers patrimoniaux familiaux, contentieux civils.
 
@@ -136,7 +136,7 @@ Tier 1 Espagne M&A Financier Litiges
 
 Le troisième pilier des trois grands cabinets espagnols avec Cuatrecasas et Garrigues. Très fort en droit financier, M&A, fiscalité internationale et arbitrage. Le cabinet a une réputation académique solide (beaucoup de ses associés enseignent). Présence à Valencia.
 
-**Profil idéal :** opérations transfrontalières sophistiquées, contentieux complexes, restructurations financières. Comme Cuatrecasas et Garrigues : tarification haut de gamme.
+**Profil idéal :** opérations transfrontalières sophistiquées, contentieux complexes, restructurations financières. Comme Cuatrecasas et Garrigues : tarification haut de gamme.
 
 [uria.com →](https://www.uria.com/)
 
@@ -272,7 +272,7 @@ L’[ICAV (Ilustre Colegio de Abogados de Valencia)](https://www.icav.es/) propo
 
 Faut-il choisir un cabinet français ou espagnol pour un dossier en Espagne ?
 
-Pour un dossier qui se traite en Espagne (achat de propriété, succession espagnole, droit des affaires espagnol), choisissez un avocat inscrit en Espagne. Un avocat français ne peut pas représenter votre dossier devant un tribunal espagnol. Les cabinets espagnols francophones offrent le meilleur compromis : compétence locale et communication fluide. Pour un litige binational complexe, l’idéal reste un binôme avocat français et avocat espagnol qui se coordonnent.
+Pour un dossier qui se traite en Espagne (achat de propriété, succession espagnole, droit des affaires espagnol), choisissez un avocat inscrit en Espagne. Un avocat français ne peut pas représenter votre dossier devant un tribunal espagnol. Les cabinets espagnols francophones offrent le meilleur compromis : compétence locale et communication fluide. Pour un litige binational complexe, l’idéal reste un binôme avocat français et avocat espagnol qui se coordonnent.
 
 Quels documents préparer pour un premier rendez-vous ?
 

@@ -47,7 +47,7 @@ Population étrangère
 
 18,7 % (environ 1 003 681 personnes)
 
-À la recherche d’une relance de carrière ou d’un nouveau défi ? Valencia et ses secteurs en pleine effervescence pourraient être votre tremplin.
+À la recherche d’une relance de carrière ou d’un nouveau défi ? Valencia et ses secteurs en pleine effervescence pourraient être votre tremplin.
 
 ### Diversité et offres d’emploi
 
@@ -268,7 +268,7 @@ Valencia propose des logements pour tous les goûts et tous les budgets :
 
 #### Appartements
 
--   **Ruzafa :** moderne et dense, baigné dans une atmosphère vibrante, loyer entre 800 € et 1 200 €/mois
+-   **Ruzafa :** moderne et dense, baigné dans une atmosphère vibrante, loyer entre 800 € et 1 200 €/mois
 -   **La Gran Via (Cánovas) :** plus grand, plus luxueux, mais souvent plus cher, entre 1 200 € et 2 000 €/mois
 
 #### Maisons traditionnelles
@@ -278,7 +278,7 @@ Valencia propose des logements pour tous les goûts et tous les budgets :
 
 #### Maisons familiales
 
--   **Monteolivete :** idéal pour les familles, près des écoles et des attractions principales, entre 800 € et 1 500 €/mois
+-   **Monteolivete :** idéal pour les familles, près des écoles et des attractions principales, entre 800 € et 1 500 €/mois
 
 L’exploration de ces quartiers permettra aux expatriés de faire un choix éclairé au moment de s’installer à Valencia.
 
@@ -290,7 +290,7 @@ Valencia n’est pas seulement une ville ordinaire, c’est une merveille médit
 
 ### Climat et santé
 
-Le climat valencien est un véritable câlin de Mère Nature : les hivers sont doux, les étés chauds, et l’on profite d’environ 300 jours de soleil par an.
+Le climat valencien est un véritable câlin de Mère Nature : les hivers sont doux, les étés chauds, et l’on profite d’environ 300 jours de soleil par an.
 
 Les soirées se caractérisent souvent par des brises marines qui rafraîchissent l’atmosphère, idéal pour les terrasses et le plein air.
 
@@ -316,7 +316,7 @@ Automne
 
 15 to 25
 
-Les soins de santé sont accessibles et les établissements publics pratiquent des tarifs généralement abordables. Les délais pour obtenir un rendez-vous chez le dermatologue peuvent être longs : si vous êtes pressé et que la situation n’est pas urgente, il faudra vous tourner vers le privé.
+Les soins de santé sont accessibles et les établissements publics pratiquent des tarifs généralement abordables. Les délais pour obtenir un rendez-vous chez le dermatologue peuvent être longs : si vous êtes pressé et que la situation n’est pas urgente, il faudra vous tourner vers le privé.
 
 Pour les activités en plein soleil, consultez notre liste de [choses à faire à Valencia](https://mikebastin.com/fr/activites-a-valencia/).
 
@@ -416,7 +416,7 @@ S’adapter à la vie espagnole ne consiste pas uniquement à maîtriser la sies
 
 **El Carmen** se distingue par son caractère historique et sa fraîcheur moderne, et regorge de cafés excentriques et de joyaux culturels.
 
-Plutôt que de vous cantonner aux cercles d’expatriés, rejoignez les clubs locaux ou participez aux nombreux festivals de la ville : les Fallas en mars, ou la Tomatina à Buñol en août, à moins d’une heure de Valencia.
+Plutôt que de vous cantonner aux cercles d’expatriés, rejoignez les clubs locaux ou participez aux nombreux festivals de la ville : les Fallas en mars, ou la Tomatina à Buñol en août, à moins d’une heure de Valencia.
 
 Consultez notre guide des [activités à faire à Valencia](https://mikebastin.com/fr/activites-a-valencia/) pour vous lancer dans de nouvelles aventures.
 

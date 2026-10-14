@@ -218,7 +218,7 @@ Pour un second avis sur votre organisation actuelle, nous la passons en revue lo
 
 ### Un conseiller en marketing digital coûte-t-il plus cher qu’une agence ?
 
-En général, il coûte moins cher. Un conseiller a des frais de structure plus légers et facture son temps et son expertise de niveau senior ; une agence facture les services d'une équipe complète, plus le travail de production. Faire appel à un conseiller demande tout de même un budget pour la personne qui exécute la stratégie, salarié ou freelance.
+En général, il coûte moins cher. Un conseiller a des frais de structure plus légers et facture son temps et son expertise de niveau senior ; une agence facture les services d'une équipe complète, plus le travail de production. Faire appel à un conseiller demande tout de même un budget pour la personne qui exécute la stratégie, salarié ou freelance.
 
 ### Un conseiller peut-il nous aider à évaluer ou à remplacer une agence qui déçoit ?
 

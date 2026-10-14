@@ -178,9 +178,9 @@ Et pendant que l’Espagne ralentit entre 14h et 17h, j’en profite pour avance
 Bien sûr, chaque configuration est différente.  
 Voici quelques ajustements utiles selon les marchés visés :
 
--   **États-Unis** : appels à 16h pour la côte Est, appels en soirée occasionnels pour la côte Ouest
--   **Royaume-Uni** : matinées calmes avant l’heure de pointe britannique
--   **France** : attention à la pause déjeuner espagnole, qui tombe pendant la [période la plus active côté français](https://mikebastin.com/fr/francais-a-valencia/)
+-   **États-Unis** : appels à 16h pour la côte Est, appels en soirée occasionnels pour la côte Ouest
+-   **Royaume-Uni** : matinées calmes avant l’heure de pointe britannique
+-   **France** : attention à la pause déjeuner espagnole, qui tombe pendant la [période la plus active côté français](https://mikebastin.com/fr/francais-a-valencia/)
 
 La clé est d’aligner vos créneaux sur les attentes locales tout en préservant votre qualité [de vie ici à](https://mikebastin.com/fr/immobilier-a-valencia/) Valencia.
 
@@ -222,11 +222,11 @@ La vraie réussite, c’est de trouver un rythme :
 -   Qui respecte vos clients et vos collaborateurs
 -   Mais qui surtout vous permet de vivre pleinement, ici et maintenant
 
-Car c’est souvent pour cela que l’on choisit cette ville ensoleillée : prouver qu’une entreprise prospère peut coexister avec une vie épanouie.
+Car c’est souvent pour cela que l’on choisit cette ville ensoleillée : prouver qu’une entreprise prospère peut coexister avec une vie épanouie.
 
 ### Créez un emploi du temps qui soutient votre entreprise et votre vie à Valencia
 
-Nous vous accompagnons dans la mise en place d’une organisation adaptée à vos besoins grâce à :
+Nous vous accompagnons dans la mise en place d’une organisation adaptée à vos besoins grâce à :
 
 -   [la création de sites adaptés à votre rythme](/fr/)
 -   [la post-édition IA pour gagner du temps](https://mikebastin.com/fr/services/postedition-ia/)

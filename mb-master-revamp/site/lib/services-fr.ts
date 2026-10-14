@@ -39,7 +39,7 @@ export const FR_SERVICE_LAYOUTS: Record<string, FrServiceLayout> = {
     cluster: "Search",
     pillar: true,
     angle: "Le moteur derrière le résultat",
-    lede: "Mike Bastin pilote un seul plan de SEO multilingue pour tous les marchés où vous vendez. Chaque langue est étudiée à partir de ses propres recherches et rédigée par un natif : vos pages anglaises, allemandes et espagnoles vous apportent des demandes aussi bien que des visites.",
+    lede: "Mike Bastin pilote un seul plan de SEO multilingue pour tous les marchés où vous vendez. Chaque langue est étudiée à partir de ses propres recherches et rédigée par un natif : vos pages anglaises, allemandes et espagnoles vous apportent des demandes aussi bien que des visites.",
     sections: [],
     body: [
       {

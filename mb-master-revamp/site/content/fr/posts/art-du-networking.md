@@ -120,15 +120,15 @@ La préparation transforme une conversation de politesse en échange dont l’au
 
 ### Engagez la conversation avec naturel
 
-Arrivez avec quelque chose d’utile à dire : une question pertinente, une connaissance commune, une remarque sur le propos de l’intervenant. Le but est un dialogue que vous avez tous deux envie de poursuivre.
+Arrivez avec quelque chose d’utile à dire : une question pertinente, une connaissance commune, une remarque sur le propos de l’intervenant. Le but est un dialogue que vous avez tous deux envie de poursuivre.
 
 ### Relancez dans les 24 heures
 
-Un jour plus tard, la personne se souvient encore clairement de vous : c’est le moment d’écrire. Dans les 24 heures, envoyez un message personnel qui reprend un point précis de votre conversation, et envoyez une demande de connexion sur LinkedIn. Écrivez dans la langue dans laquelle vous avez échangé, en français, en anglais ou en espagnol : le message apparaît alors comme la suite naturelle de la rencontre.
+Un jour plus tard, la personne se souvient encore clairement de vous : c’est le moment d’écrire. Dans les 24 heures, envoyez un message personnel qui reprend un point précis de votre conversation, et envoyez une demande de connexion sur LinkedIn. Écrivez dans la langue dans laquelle vous avez échangé, en français, en anglais ou en espagnol : le message apparaît alors comme la suite naturelle de la rencontre.
 
 ### Continuez à apporter de la valeur
 
-Partagez des analyses qui rejoignent ses centres d’intérêt, félicitez-la pour ses réussites, présentez-lui les personnes qu’elle devrait connaître. Les gens aident ceux qui les ont aidés en premier : soyez la personne qui apporte une contribution utile de façon régulière, pendant les mois calmes comme pendant les mois chargés.
+Partagez des analyses qui rejoignent ses centres d’intérêt, félicitez-la pour ses réussites, présentez-lui les personnes qu’elle devrait connaître. Les gens aident ceux qui les ont aidés en premier : soyez la personne qui apporte une contribution utile de façon régulière, pendant les mois calmes comme pendant les mois chargés.
 
 ## Organisez votre réseau avec les bons outils
 

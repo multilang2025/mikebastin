@@ -15,9 +15,9 @@ excerpt: "Une agence marketing 360 vous doit un seul plan qui relie tous vos can
 
 ## Ce qu’une agence marketing 360 doit livrer
 
-Vous avez signé avec une **agence marketing 360** pour obtenir un plan coordonné. Ce qui arrive chaque mois ressemble parfois encore à quatre rapports de canaux agrafés ensemble ; ce que vous attendez, c’est un seul ensemble d’indicateurs, une seule définition de l’audience, et une personne capable de dire quel canal finance les autres.
+Vous avez signé avec une **agence marketing 360** pour obtenir un plan coordonné. Ce qui arrive chaque mois ressemble parfois encore à quatre rapports de canaux agrafés ensemble ; ce que vous attendez, c’est un seul ensemble d’indicateurs, une seule définition de l’audience, et une personne capable de dire quel canal finance les autres.
 
-Un travail coordonné rapporte plus que la mission ne coûte : la recherche payante investit dans les clics que vos pages organiques n’ont pas encore gagnés, et vos versions espagnole, allemande ou néerlandaise partent d’un plan complet. Nous pratiquons ce métier depuis plus de 20 ans, et nous savons à quoi ressemble un travail coordonné vu de l’intérieur.
+Un travail coordonné rapporte plus que la mission ne coûte : la recherche payante investit dans les clics que vos pages organiques n’ont pas encore gagnés, et vos versions espagnole, allemande ou néerlandaise partent d’un plan complet. Nous pratiquons ce métier depuis plus de 20 ans, et nous savons à quoi ressemble un travail coordonné vu de l’intérieur.
 
 ## Reconnaître une intégration qui fonctionne
 
@@ -81,7 +81,7 @@ Chacune des habitudes ci-dessous oriente le budget vers le canal où le problèm
 
 En dix minutes, vous voyez à quel point le travail de votre agence est coordonné. Posez ces trois questions sur n’importe quelle campagne active.
 
--   Quel mot-clé payant pouvons-nous arrêter parce que nous sommes désormais positionnés sur ce mot-clé en organique ?
+-   Quel mot-clé payant pouvons-nous arrêter parce que nous sommes désormais positionnés sur ce mot-clé en organique ?
 -   Quel article de blog en espagnol gagnerait le plus à recevoir un pixel de remarketing ?
 -   Qu’a appris la version belge (.be) de la campagne que la version française (.fr) peut reprendre ensuite ?
 
@@ -95,7 +95,7 @@ Une agence qui travaille de façon coordonnée répond aux trois sur-le-champ, �
 
 Notre client de transit international à Houston travaille en anglais, sur un seul marché, auprès de trois types d’acheteurs (importateurs, exportateurs, transitaires), et sur LinkedIn, la recherche organique, Google Ads et les salons professionnels.
 
-Pendant les six mois précédant notre arrivée, ces canaux fonctionnaient comme quatre missions séparées : quatre factures, quatre ensembles d’indicateurs et quatre définitions de l’audience, chacun rapporté de son côté.
+Pendant les six mois précédant notre arrivée, ces canaux fonctionnaient comme quatre missions séparées : quatre factures, quatre ensembles d’indicateurs et quatre définitions de l’audience, chacun rapporté de son côté.
 
 Une fois le tout regroupé dans un seul document de stratégie et un seul plan de mesure, trois constats sont apparus dès le premier mois.
 

@@ -190,7 +190,7 @@ ChatGPT, Claude, Perplexity et les AI Overviews répondent dans la langue de cel
 <figcaption>Chaque langue réunit ses pages, ses liens et sa marque, et les IA citent ce qu’elles trouvent dans la langue de la question.</figcaption>
 </figure>
 
-La recherche elle-même se renouvelle en continu, ce qui fait du suivi mensuel un volet du métier :
+La recherche elle-même se renouvelle en continu, ce qui fait du suivi mensuel un volet du métier :
 
 > Chaque jour, 15 % des requêtes que Google reçoit sont nouvelles.
 >
@@ -210,17 +210,17 @@ Le marché des prestataires est vaste :
 >
 > Source : [Mordor Intelligence, « SEO Services Market », 2026](https://www.mordorintelligence.com/industry-reports/seo-market), chiffres repris par [AIOSEO](https://aioseo.com/seo-statistics/)
 
-Le choix repose donc sur quelques critères vérifiables, sous forme de questions à poser à chaque candidat :
+Le choix repose donc sur quelques critères vérifiables, sous forme de questions à poser à chaque candidat :
 
-- **Qui rédige dans chaque langue ?** Des natifs, langue par langue, relus avant publication.
+- **Qui rédige dans chaque langue ?** Des natifs, langue par langue, relus avant publication.
 - **Que contient le rapport ?** Des chiffres par langue, demandes reçues comprises.
-- **À qui parlez-vous ?** Aux personnes qui définissent la stratégie et lisent les rapports.
-- **Quand la structure du site est-elle décidée ?** Dès le départ, une seule fois, avec vous.
-- **Quelles références dans vos marchés ?** Des sites cités, que vous pouvez consulter.
+- **À qui parlez-vous ?** Aux personnes qui définissent la stratégie et lisent les rapports.
+- **Quand la structure du site est-elle décidée ?** Dès le départ, une seule fois, avec vous.
+- **Quelles références dans vos marchés ?** Des sites cités, que vous pouvez consulter.
 
 Si votre besoin relève davantage du conseil, notre article sur le rôle d’un [consultant en référencement international](/fr/consultant-referencement-international/) décrit la mission mois par mois, et celui sur l’[expert SEO international](/fr/expert-en-seo-international/) détaille les décisions prises pour chaque marché. Pour un besoin qui couvre tout le marketing numérique, notre comparaison [conseiller en marketing numérique ou agence](/fr/conseiller-marketing-digital/) vous aide à trancher.
 
-Réservez un premier échange de trente minutes sur votre projet de référencement international : nous évaluons ensemble le potentiel de votre site sur les marchés francophones, anglophones ou hispanophones, et vous décidez ensuite librement de la suite.
+Réservez un premier échange de trente minutes sur votre projet de référencement international : nous évaluons ensemble le potentiel de votre site sur les marchés francophones, anglophones ou hispanophones, et vous décidez ensuite librement de la suite.
 
-- E-mail : [mike@mikebastin.com](mailto:mike@mikebastin.com)
+- E-mail : [mike@mikebastin.com](mailto:mike@mikebastin.com)
 - [Formulaire de contact](/fr/nous-contacter/)

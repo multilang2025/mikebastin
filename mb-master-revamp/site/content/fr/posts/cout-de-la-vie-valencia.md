@@ -287,7 +287,7 @@ Coût mensuel (€)
 
 50 to 90
 
-L’assurance santé privée en Espagne tournait autour de 58 euros par mois et par personne en 2025, avec des formules compatibles visa (sans franchise) à 50-80 euros par mois pour les moins de 40 ans, et 150-350 euros pour les plus de 60 ans.[Mike Bastin : Coût de la vie à Valencia 2026](https://mikebastin.com/valencia-cost-of-living/)
+L’assurance santé privée en Espagne tournait autour de 58 euros par mois et par personne en 2025, avec des formules compatibles visa (sans franchise) à 50-80 euros par mois pour les moins de 40 ans, et 150-350 euros pour les plus de 60 ans.[Mike Bastin : Coût de la vie à Valencia 2026](https://mikebastin.com/valencia-cost-of-living/)
 
 ## Valencia vs Paris, Bruxelles, Genève, Madrid, Barcelone
 
@@ -327,7 +327,7 @@ Lisbonne
 
 €2 000
 
-Valencia se classe 273e mondiale pour le coût de la vie sur l’index Numbeo 2026, avec un score juste au-dessus de 50 face à une référence New York fixée à 100. Madrid et Barcelone tournent autour de 58-60.[Valencia Property : Coût de la vie 2026](https://www.valencia-property.com/new/2026/01/26/the-cost-of-living-in-valencia-2026/)
+Valencia se classe 273e mondiale pour le coût de la vie sur l’index Numbeo 2026, avec un score juste au-dessus de 50 face à une référence New York fixée à 100. Madrid et Barcelone tournent autour de 58-60.[Valencia Property : Coût de la vie 2026](https://www.valencia-property.com/new/2026/01/26/the-cost-of-living-in-valencia-2026/)
 
 ## Salaires et réalité du marché
 
@@ -343,14 +343,14 @@ Pour le volet visa, consultez mon guide sur le [visa nomade numérique en Espagn
 
 ## Les frais cachés de la première année
 
-Voici les postes qui réservent des surprises aux nouveaux arrivants francophones :
+Voici les postes qui réservent des surprises aux nouveaux arrivants francophones :
 
 -   **Honoraires de gestor (500 à 1 500 € la première année)** : La bureaucratie espagnole ne pardonne pas. Un _gestor_ s’occupe de votre NIE, de votre _padrón_, de votre inscription _autónomo_, et de vos déclarations fiscales. Chaque euro est rentabilisé.
 -   **Traductions assermentées (60 à 150 € par document)** : Acte de naissance, diplômes, livret de famille : tout doit passer par un _traductor jurado_ certifié pour les démarches de résidence.
 -   **Apostilles et légalisations (20 à 50 € par document)** : Souvent requises avant la traduction assermentée. À intégrer au calendrier.
 -   **Caution locative (1 à 3 mois de loyer)** : La _fianza_ légale est d’un mois minimum, mais les propriétaires demandent fréquemment un ou deux mois supplémentaires en garantie.
 -   **Ameublement d’un appartement (2 000 à 5 000 €)** : La plupart des locations longue durée non meublées exigent absolument tout, du lave-linge au sommier. IKEA Valencia et Wallapop sont vos alliés.
--   **Mutuelle santé pour visa de résidence (600 à 900 € la première année)** : Obligatoire pour les non-Européens. Adeslas, Sanitas, DKV et Asisa sont les fournisseurs habituels. Pour les Européens, la _tarjeta sanitaria europea_ couvre les soins urgents en attendant l’inscription au système public.
+-   **Mutuelle santé pour visa de résidence (600 à 900 € la première année)** : Obligatoire pour les non-Européens. Adeslas, Sanitas, DKV et Asisa sont les fournisseurs habituels. Pour les Européens, la _tarjeta sanitaria europea_ couvre les soins urgents en attendant l’inscription au système public.
 
 ### Vous préparez votre installation à Valencia ?
 
@@ -398,7 +398,7 @@ Pas obligatoire pour démarrer, mais fortement recommandé. Les démarches admin
 
 ## Ce qu’il faut retenir sur le coût de la vie à Valencia en 2026
 
-Valencia reste l’une des villes au meilleur rapport qualité-prix d’Europe occidentale, mais ce n’est plus l’aubaine de 2018. Le résumé honnête après dix ans sur place : prévoyez plus que ce que les blogs sur le coût de la vie vous suggèrent, choisissez votre quartier avec attention car cette décision représente 40 pour cent de votre budget mensuel, et reconnaissez que la ville fonctionne mieux quand vous gagnez au-dessus des salaires locaux.
+Valencia reste l’une des villes au meilleur rapport qualité-prix d’Europe occidentale, mais ce n’est plus l’aubaine de 2018. Le résumé honnête après dix ans sur place : prévoyez plus que ce que les blogs sur le coût de la vie vous suggèrent, choisissez votre quartier avec attention car cette décision représente 40 pour cent de votre budget mensuel, et reconnaissez que la ville fonctionne mieux quand vous gagnez au-dessus des salaires locaux.
 
 Si ces conditions sont réunies, vous obtenez un climat méditerranéen, une gastronomie reconnue mondialement, des quartiers piétons, et une qualité de vie qui se classe régulièrement dans le top 10 mondial pour les expatriés. Peu de villes offrent cette combinaison à ce prix.
 

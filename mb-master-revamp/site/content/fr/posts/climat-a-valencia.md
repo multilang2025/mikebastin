@@ -86,7 +86,7 @@ Si vous comptez vous installer à long terme, vous allez sûrement parcourir le 
 
 -   Mai à juillet et septembre à mi-octobre : climat doux et moins humide.
 -   Bonne période pour explorer les quartiers, comparer les biens.
--   Envie d’une voiture ou d’un vélo ? Consultez les solutions de [transports à Valencia](https://mikebastin.com/valencia-public-transportation/).
+-   Envie d’une voiture ou d’un vélo ? Consultez les solutions de [transports à Valencia](https://mikebastin.com/valencia-public-transportation/).
 
 Un dernier conseil : profitez de la fin de l’été pour découvrir les coins moins touristiques, échanger avec les habitants et vous faire une idée précise du style de vie local.
 
