@@ -49,7 +49,7 @@ Century 21 Perdomo, una inmobiliaria de República Dominicana, publica sus propi
 
 > Fuente: Google Search Console de c21perdomo.com, de mayo a julio de 2026.
 
-Aplicamos la misma disciplina en BeTranslated, la agencia de traducción con sede en Valencia que dirigimos desde hace veinte años: un dominio por mercado, cada uno con su sitemap, su grupo hreflang y su investigación de palabras clave.
+Aplicamos la misma disciplina en BeTranslated, la agencia de traducción con sede en Valencia que dirigimos desde hace más de dos décadas: un dominio por mercado, cada uno con su sitemap, su grupo hreflang y su investigación de palabras clave.
 
 ## La base técnica que deja posicionarse a tu contenido
 
