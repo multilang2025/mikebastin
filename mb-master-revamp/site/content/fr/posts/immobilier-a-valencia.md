@@ -23,7 +23,7 @@ Valencia connaît depuis quelques années une hausse constante de la demande imm
 Résultat, les biens se vendent rapidement, et il est parfois difficile de trouver la perle rare si vous attendez trop longtemps.
 
 -   Prix moyen au mètre carré : autour de 2 500 € dans l’ensemble de la ville, avec des pics entre 3 200 € et 3 800 € dans les quartiers premium (El Pla del Remei, Ciutat Vella, Russafa).
--   Quartiers (relativement abordables) : Benicalap, Patraix ou Amistad, où le prix tourne plutôt autour de 1 800 à 2 200 € le mètre carré.
+-   Quartiers (relativement abordables) : Benicalap, Patraix ou Amistad, où le prix tourne plutôt autour de 1 800 à 2 200 € le mètre carré.
 
 La demande est dopée par la baisse des taux d’intérêt de la Banque Centrale Européenne, ce qui rend les crédits immobiliers plus accessibles.
 
@@ -31,11 +31,11 @@ Par ailleurs, bon nombre d’acheteurs y voient un investissement locatif attrac
 
 ## Choisir votre emplacement
 
-Ce n’est pas qu’une question de prix : il faut aussi prendre en compte votre style de vie et vos priorités.
+Ce n’est pas qu’une question de prix : il faut aussi prendre en compte votre style de vie et vos priorités.
 
 Valencia offre une multitude de quartiers, du centre historique animé aux faubourgs calmes en passant par des zones côtières très prisées.
 
--   Centre-ville (Ciutat Vella, Russafa) : parfait si vous aimez sortir, profiter des restaurants et accéder facilement aux [activités à valencia](https://mikebastin.com/fr/activites-a-valencia/). Les appartements y sont toutefois plus chers et plus petits.
+-   Centre-ville (Ciutat Vella, Russafa) : parfait si vous aimez sortir, profiter des restaurants et accéder facilement aux [activités à valencia](https://mikebastin.com/fr/activites-a-valencia/). Les appartements y sont toutefois plus chers et plus petits.
 -   Quartiers périphériques (Campanar, Benicalap) : moins chers, plus calmes, et souvent mieux adaptés aux familles qui cherchent de l’espace.
 -   Zones côtières : idéales pour profiter des [plages de Valencia](https://mikebastin.com/fr/plages-de-valencia/), même si les prix peuvent y être plus élevés à cause de la forte demande touristique.
 
@@ -67,7 +67,7 @@ Avant de signer quoi que ce soit, vous devrez obtenir un NIE (Número de Identif
 -   Taxes et impôts :
     -   Pour un bien neuf, vous paierez 10 % de TVA et 1,5 % de droits de timbre.
     -   Pour un bien de seconde main, vous paierez la taxe de transfert (ITP) calculée au pourcentage correspondant à la région.
--   Location touristique ou longue durée : pour mettre un bien en location saisonnière, vous aurez besoin d’une licence de location touristique, surtout dans les zones très touristiques.
+-   Location touristique ou longue durée : pour mettre un bien en location saisonnière, vous aurez besoin d’une licence de location touristique, surtout dans les zones très touristiques.
 
 Si vous venez de l’étranger, sachez que vous pourriez prétendre à un Golden Visa en investissant un montant minimum (souvent 500 000 €) dans l’immobilier espagnol, ce qui facilite la résidence en Espagne.
 
@@ -77,7 +77,7 @@ Lorsque vous estimez votre budget, n’oubliez pas de prendre en compte non seul
 
 -   Montant de l’emprunt : les banques en Espagne peuvent proposer des prêts immobiliers sur 25 à 40 ans, selon votre situation.
 -   Budget mensuel : prévoyez dans les 1 200 à 1 400 € de loyer si vous préférez louer un trois-pièces au lieu d’acheter dans l’immédiat.
--   Charges récurrentes : prenez en compte l’IBI (Impuesto sobre Bienes Inmuebles) calculé sur la valeur cadastrale, et, si vous louez, les charges de copropriété.
+-   Charges récurrentes : prenez en compte l’IBI (Impuesto sobre Bienes Inmuebles) calculé sur la valeur cadastrale, et, si vous louez, les charges de copropriété.
 
 ## Vivre agréablement à Valencia
 
@@ -87,7 +87,7 @@ Valencia est connue pour son cadre de vie détendu et son coût de la vie plus b
 
 -   Transports : le réseau de transports à Valencia comprend métro, bus et trains de banlieue. Les tarifs varient selon la zone, mais la plupart des déplacements en centre-ville sont abordables.
 -   Climat : profitez d’un temps très agréable, même en hiver, grâce au [climat à Valencia](https://mikebastin.com/fr/climat-a-valencia/), qui vous permet de vous déplacer à vélo ou à pied la majeure partie de l’année.
--   Loisirs et culture : expositions, festivals, restaurants branchés, plages urbaines, parcs, etc. Vous avez l’embarras du choix.
+-   Loisirs et culture : expositions, festivals, restaurants branchés, plages urbaines, parcs, etc. Vous avez l’embarras du choix.
 -   Les activités à Valencia ne manquent pas : balade au Turia, soirées tapas, et bien plus encore.
 
 ## Conseils pratiques pour démarrer

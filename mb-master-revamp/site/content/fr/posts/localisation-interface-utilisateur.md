@@ -15,7 +15,7 @@ excerpt: "La localisation d’interface utilisateur adapte libellés, mises en p
 
 ## Une interface localisée qui lève chaque hésitation
 
-Votre produit est arrivé sur un nouveau marché avec une traduction correcte, et vous voulez maintenant que les inscriptions y suivent le rythme de la France. Le gain se joue dans l’interface : un bouton dont le texte tient en allemand, un formulaire qui accepte une adresse néerlandaise, un libellé qui donne l’impression d’avoir été écrit sur place.
+Votre produit est arrivé sur un nouveau marché avec une traduction correcte, et vous voulez maintenant que les inscriptions y suivent le rythme de la France. Le gain se joue dans l’interface : un bouton dont le texte tient en allemand, un formulaire qui accepte une adresse néerlandaise, un libellé qui donne l’impression d’avoir été écrit sur place.
 
 Chacun de ces détails lève une hésitation lorsque l’utilisateur s’inscrit, paie ou s’engage. Voici ce que couvre la localisation d’une interface, ce qu’elle apporte à votre entreprise, et comment la planifier et la tester pour que chaque nouvelle langue trouve sa place dans le design que vous avez déjà.
 
@@ -53,7 +53,7 @@ Les bénéfices tiennent en trois points :
 
 ## Ce qu’il faut localiser dans une interface
 
-Connaître les quatre couches indique où commencer. Une [localisation d’applications et de logiciels](/fr/services/localisation-applications/) réussie concerne chacune d’elles :
+Connaître les quatre couches indique où commencer. Une [localisation d’applications et de logiciels](/fr/services/localisation-applications/) réussie concerne chacune d’elles :
 
 | Élément | Ce qui change | Exemple |
 |---|---|---|
@@ -66,7 +66,7 @@ Les images et les symboles demandent autant de [contenu adapté à la culture](/
 
 Le formulaire d’adresse en donne un exemple parlant pour un éditeur francophone. Le code postal compte cinq chiffres en France et en Allemagne, quatre en Belgique, en Suisse et au Luxembourg, quatre chiffres suivis de deux lettres aux Pays-Bas (1012 AB), et mêle lettres et chiffres au Royaume-Uni (SW1A 1AA). Un champ prévu pour ces formats accepte chaque client du premier coup.
 
-Les dates suivent la même logique : le 2 octobre 2026 s’écrit 02/10/2026 en France, 02.10.2026 en Allemagne et 10/2/2026 aux États-Unis. Affichée au format du marché, chaque date de rendez-vous ou d’échéance se comprend sans ambiguïté.
+Les dates suivent la même logique : le 2 octobre 2026 s’écrit 02/10/2026 en France, 02.10.2026 en Allemagne et 10/2/2026 aux États-Unis. Affichée au format du marché, chaque date de rendez-vous ou d’échéance se comprend sans ambiguïté.
 
 <figure class="post-fig">
 <svg viewBox="0 0 400 112" role="img" aria-label="La même date du 2 octobre 2026 s’écrit 02/10/2026 en France, 02.10.2026 en Allemagne et 10/2/2026 aux États-Unis.">
