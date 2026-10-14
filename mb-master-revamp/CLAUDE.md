@@ -604,6 +604,22 @@ the stale doc guarantees the next session repeats the mistake. Two
 corrections came out of that rule on the day it was adopted, the hosting
 line above and a stale Next.js version in `cto.md`.
 
+**Paid API spend has a ceiling per session** (owner, 14 Oct 2026, after one
+session drained the OpenRouter account: about $20 in a day, down to $0.07 of
+$70). The rule covers OpenRouter (Mistral, Gemini and the rest), Keywords
+Everywhere, Ahrefs, Semrush, image generation and any other metered key.
+- Before any batch run, estimate its cost (segments × tokens × the model's
+  price) and read the balance (`/api/v1/credits` for OpenRouter).
+- Run a pilot of one or two files and report its actual cost before the
+  full run.
+- **$5 per session** is the ceiling without asking. Above it, or above 10 %
+  of the remaining balance, whichever is lower, ask the owner first with the
+  estimate.
+- A script that loops over files checks the spend as it goes and stops at
+  the ceiling, rather than retrying into a 402.
+- Never re-run a whole batch to recover a few failed chunks: retry only the
+  failed segments.
+
 ## Surfaced 21 Sep 2026, and what happened to each
 
 Found while applying the owner's style guide and reviewing the built

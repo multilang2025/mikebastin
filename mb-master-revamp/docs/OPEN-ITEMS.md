@@ -62,6 +62,7 @@ The owner interview for the backlog below is Tuesday 13 Oct 2026, 12:00 to 13:00
 | E7 | Preview is `noindex` site-wide until launch (30 Oct 2026) | `npm run check:launch` says whether the site can go |
 | E9 | The consent banner gates nothing yet, since no analytics or embeds exist; wire any added script through `lib/consent.ts` | `docs/CONSENT.md` |
 | E8 | `content/nl` (Belgium, Netherlands) is planned after the three locales | Do not build early |
+| E10 | French AI polish (PR #166) stopped when OpenRouter credits ran out: some chunks of 18 live French service pages were never reviewed | Owner, 14 Oct 2026: finish after preview becomes production; retry only the failed segments, inside the paid-API ceiling in `CLAUDE.md` |
 
 ## Closed
 
