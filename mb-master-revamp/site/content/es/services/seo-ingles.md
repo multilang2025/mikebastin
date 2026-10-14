@@ -25,7 +25,7 @@ El inglés suele ser el idioma con más volumen de búsqueda de toda tu web, y e
 
 ## Qué incluye tu SEO en inglés: textos escritos directamente en inglés
 
-Trabajamos en inglés igual que en español: la investigación, los textos y la lectura del comportamiento de tus visitantes anglófonos se hacen en inglés por las mismas personas que fijan la estrategia. El plan llega entero hasta la página, y tú puedes redactar el encargo en español.
+Trabajamos en inglés igual que en español: la investigación, los textos y la lectura del comportamiento de tus visitantes anglófonos las hacen en inglés las mismas personas que fijan la estrategia. El plan llega entero hasta la página, y tú puedes redactar el encargo en español.
 
 La investigación parte de las palabras que teclean tus compradores, y a menudo difieren de las tuyas. Un comprador español busca «posicionamiento web», y uno británico teclea «SEO». Una empresa de mudanzas es una «removalist» en Australia y una «removals company» en el Reino Unido, y Londres busca la segunda. La traducción da la palabra correcta; la investigación da la que la gente escribe.
 
@@ -45,25 +45,25 @@ Delaguía y Luzón, un despacho de abogados de Valencia, publica en cuatro idiom
 
 ValenciaMove, nuestro propio sitio sobre cómo instalarse en Valencia, reúne más de mil páginas en cinco idiomas, el inglés entre ellos, para quien prepara su llegada a la ciudad.
 
-BeTranslated, la agencia de traducción que dirigimos desde hace veinte años y que Mike cofundó, tiene seis identidades regionales, entre ellas una en .co.uk, cada una con contenido nativo y su propia investigación para su mercado.
+BeTranslated, la agencia de traducción que dirigimos desde hace más de dos décadas y que Mike cofundó, tiene seis identidades regionales, entre ellas una en .co.uk, cada una con contenido nativo y su propia investigación para su mercado.
 
 ## Los ajustes técnicos que dejamos listos bajo tus páginas en inglés
 
 Colocamos una etiqueta hreflang en cada página, la de inicio incluida, con el código correcto (en-GB, en-IE, en-US según tus mercados) y un enlace de vuelta a cada versión. El visitante británico llega entonces a la versión inglesa, el español a la española, y Search Console se lee con claridad. Completamos con un mapa del sitio por idioma, URL traducidas y datos estructurados por país.
 
-Para la estructura del dominio, un subdirectorio /en/ conserva toda la autoridad que ya tiene tu web y encaja con la mayoría de las empresas que añaden un mercado. Un dominio .co.uk es la señal local más fuerte y el más costoso de mantener. Lo fijamos contigo una vez, pronto.
+Para la estructura del dominio, un subdirectorio /en/ conserva toda la autoridad que ya tiene tu web y encaja con la mayoría de las empresas que añaden un mercado. Un dominio .co.uk es la señal local más fuerte y el más costoso de mantener. Lo decidimos contigo desde el principio.
 
-Escribimos las etiquetas title y las metadescripciones directamente en inglés, a la longitud que pide cada resultado, para que la frase completa se muestre. Cuidamos también la velocidad en el móvil, donde se hace buena parte de las búsquedas. En cuanto a enlaces, un artículo en la prensa profesional británica o en una asociación sectorial del Reino Unido pesa mucho más que un enlace internacional genérico, porque la relevancia se mide también por país.
+Escribimos las etiquetas title y las metadescripciones directamente en inglés, a la longitud que pide cada resultado, para que se muestre la frase completa. Cuidamos también la velocidad en el móvil, donde se hace buena parte de las búsquedas. En cuanto a enlaces, un artículo en la prensa profesional británica o en una asociación sectorial del Reino Unido pesa mucho más que un enlace internacional genérico, porque la relevancia se mide también por país.
 
 Los ajustes de fondo forman parte de nuestro [SEO técnico](/es/services/seo-tecnico/); para el inglés dentro de un programa con varios idiomas, el [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/).
 
 ## Cómo trabajamos tu SEO en inglés desde Valencia
 
-1. **Auditoría gratuita de 20 minutos.** Empezamos con una consulta gratuita, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia, o por vídeo, sobre tu empresa, tus compradores y tus mercados anglófonos, y miramos tus páginas en inglés frente a lo que buscan los compradores británicos, con Ahrefs, Semrush y Search Console. Cuando tus páginas ya están traducidas, la auditoría señala las que merecen una reescritura; suele ser un puñado.
+1. **Auditoría gratuita de 20 minutos.** Empezamos con una consulta gratuita, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia, o por vídeo, sobre tu empresa, tus compradores y tus mercados anglófonos, y miramos tus páginas en inglés frente a lo que buscan los compradores británicos, con Ahrefs, Semrush y Search Console. Cuando tus páginas ya están traducidas, la auditoría señala las que merecen una reescritura; suelen ser unas pocas.
 2. **Alcance por escrito.** Recibes por escrito el alcance del primer trimestre, con las páginas, la investigación y los entregables por orden de valor para ti.
 3. **Investigación y redacción en inglés.** La investigación va antes de cualquier traducción: pone en el encargo los términos que teclean tus compradores, y escribimos o reescribimos las páginas que más pesan, así que la página sale bien a la primera.
 4. **Señales de confianza y ajustes técnicos.** Dejamos listos hreflang, la estructura del dominio, los precios en libras, la ficha de Google en inglés y las referencias del Reino Unido, Irlanda y Valencia que tu lector reconoce.
-5. **Informe mensual de solicitudes anglófonas.** Cada mes, un informe sigue tus solicitudes llegadas del mercado anglófono, separadas de tus otros mercados.
+5. **Informe mensual de solicitudes anglófonas.** Cada mes, un informe detalla tus solicitudes llegadas del mercado anglófono, separadas de tus otros mercados.
 6. **Mes a mes.** La colaboración continúa mes a mes, mientras te aporta solicitudes.
 
 Respondemos, por lo general, en un día laborable. La redacción se presupuesta aparte, como un encargo. Si añades campañas con nuestra [publicidad multilingüe](/es/services/publicidad-multilingue/), todo tu presupuesto de medios se destina a anuncios y va directo a Google, Microsoft o Meta, y la gestión es una tarifa aparte.

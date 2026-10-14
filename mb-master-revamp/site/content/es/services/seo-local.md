@@ -35,15 +35,15 @@ El trabajo se concentra en lo que hace elegir a una empresa en el mapa:
 - una rutina para pedir reseñas y una respuesta a cada reseña recibida;
 - un seguimiento mensual de llamadas, solicitudes de ruta y formularios, ciudad por ciudad.
 
-Para una empresa que trabaja desde una sola dirección, la ficha suele traer más consultas que la propia web. Para una empresa presente en varios países, cada dirección se convierte en una puerta de entrada a ese mercado, y la [traducción y localización web](/es/services/traduccion-de-paginas-web/) da a cada página local el idioma, los formatos y las referencias de ese mercado.
+Para una empresa que trabaja desde una sola dirección, la ficha suele traer más consultas que la propia web. Para una empresa presente en varios países, cada dirección se convierte en una puerta de entrada a ese mercado, y la [traducción y localización web](/es/services/traduccion-de-paginas-web/) da a cada página local el idioma, los formatos y las referencias de ese país.
 
 Las páginas en español, inglés, francés y neerlandés las redacta directamente nuestro equipo. El alemán, el italiano, el portugués y los demás idiomas los redactan nativos de la red BeTranslated, con el mismo briefing y la misma revisión.
 
 ## Resultados de nuestro posicionamiento local
 
-Bemelman Spuiterij es un especialista en pintura en polvo de Noordwijkerhout, en la Bollenstreek neerlandesa, con cuarenta y cinco años de reputación y una presencia en internet por construir. Montamos un SEO local en neerlandés pensado para el pequeño número de compradores profesionales que buscan este trabajo. Para las empresas que venden en los Países Bajos o en Flandes, nuestro [SEO en neerlandés](/es/services/seo-neerlandes/) continúa ese trabajo.
+Bemelman Spuiterij es un especialista en pintura en polvo de Noordwijkerhout, en la Bollenstreek neerlandesa, con más de dos décadas de reputación y una presencia en internet por construir. Montamos un SEO local en neerlandés pensado para el pequeño número de compradores profesionales que buscan este servicio. Para las empresas que venden en los Países Bajos o en Flandes, nuestro [SEO en neerlandés](/es/services/seo-neerlandes/) continúa ese trabajo.
 
-ValenciaMove es nuestro propio sitio sobre cómo instalarse en Valencia, construido con guías de barrio en cinco idiomas. Así se trabaja una ciudad que se busca en varios idiomas: cada idioma con sus propias páginas.
+ValenciaMove es nuestra propia web sobre cómo instalarse en Valencia, construida con guías de barrio en cinco idiomas. Así se trabaja una ciudad que se busca en varios idiomas: cada idioma con sus propias páginas.
 
 Presentamos estas cifras como prueba de un método y como punto de partida para hablar de tus ciudades, porque cada mercado tiene sus competidores y su ritmo.
 
@@ -57,7 +57,7 @@ Cada vez más preguntas del tipo «el mejor X en Ruzafa» pasan por ChatGPT, Cla
 
 ## Datos de contacto idénticos y páginas que hablan de cada ciudad
 
-Google lee tus datos de contacto en decenas de sitios, y cuando coinciden, se fía de ellos en todas partes. Por eso el trabajo empieza con una auditoría de las menciones existentes: corregimos las diferencias, eliminamos duplicados y añadimos las fuentes locales que cuentan, como la cámara de comercio, la asociación profesional y el directorio que tu sector consulta de verdad. Esa corrección, la más frecuente, es la que hace aparecer en el mapa a una empresa con buenas páginas.
+Google lee tus datos de contacto en decenas de webs, y cuando coinciden, se fía de ellos en todas partes. Por eso el trabajo empieza con una auditoría de las menciones existentes: corregimos las diferencias, eliminamos duplicados y añadimos las fuentes locales que cuentan, como la cámara de comercio, la asociación profesional y el directorio que tu sector consulta de verdad. Esa corrección, la más frecuente, es la que hace aparecer en el mapa a una empresa con buenas páginas.
 
 Escribimos cada página por barrio o por ciudad con algo cierto sobre ese lugar, mucho más allá de un nombre de ciudad cambiado. Cada una lleva el marcado LocalBusiness con el subtipo adecuado: LegalService para un [despacho de abogados](/es/seo-despachos-de-abogados/), FreightForwarder para un transitario. Los enlaces internos desde tus páginas de servicio principales la hacen fácil de encontrar. En una web multilingüe, las etiquetas hreflang unen la página de Bruselas en francés con su versión en neerlandés, para que cada visitante llegue en su idioma; nuestro [posicionamiento multilingüe](/es/services/posicionamiento-multilingue/) cubre esa estructura al detalle.
 
@@ -71,4 +71,4 @@ Montamos las reseñas como un proceso: una petición enviada después del servic
 4. **Reseñas.** La rutina de petición instalada, modelos de respuesta listos y vigilancia de las reseñas nuevas.
 5. **Seguimiento mensual.** Publicaciones, fotos, respuestas y un informe de tu visibilidad local y de las consultas recibidas, ciudad por ciudad, con los ajustes recomendados.
 
-Empezamos con una auditoría gratuita de 20 minutos de tu presencia local, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia o por videollamada, y después recibes un alcance escrito para el primer trimestre. El trabajo sigue mes a mes, leemos cada solicitud nosotros mismos y respondemos en general en un día laborable. El precio depende del número de direcciones, de idiomas y de páginas por redactar; se presupuesta tras la consulta gratuita, y [nuestros precios](/es/precios/) explican cómo facturamos.
+Empezamos con una auditoría gratuita de 20 minutos de tu presencia local, en nuestra oficina de Calle Rugat 12 - 2, 46021 Valencia o por videollamada, y después recibes un plan de trabajo por escrito para el primer trimestre. El trabajo sigue mes a mes, leemos cada solicitud nosotros mismos y respondemos en general en un día laborable. El precio depende del número de direcciones, de idiomas y de páginas por redactar; se presupuesta tras la consulta gratuita, y [nuestros precios](/es/precios/) explican cómo facturamos.

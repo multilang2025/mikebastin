@@ -64,7 +64,7 @@ const T: Record<
   },
   es: {
     title: "Cookies y privacidad",
-    text: "Guardamos en tu navegador un pequeño registro de tus decisiones y de tu tema. Todo lo demás, como la analítica o los contenidos incrustados, sigue desactivado hasta que lo permitas.",
+    text: "Guardamos en tu navegador un pequeño registro de tus preferencias y de tu tema. Todo lo demás, como la analítica o los contenidos incrustados, sigue desactivado hasta que lo permitas.",
     accept: "Aceptar todo",
     reject: "Rechazar todo",
     choose: "Configurar",
@@ -72,7 +72,7 @@ const T: Record<
     privacy: "Privacidad y cookies",
     privacyHref: "/es/privacidad/",
     necessary: "Necesarias",
-    necessaryText: "Recuerdan tus decisiones y tu tema claro u oscuro.",
+    necessaryText: "Recuerdan tus preferencias y tu tema claro u oscuro.",
     analytics: "Analítica",
     analyticsText: "Nos muestra qué páginas ayudan, para mejorarlas.",
     media: "Contenido incrustado",

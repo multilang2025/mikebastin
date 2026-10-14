@@ -33,15 +33,15 @@ const T = {
     items: [
       {
         title: "Tu experto en SEO internacional, en todos tus idiomas",
-        body: "Mike dirige una estrategia única para tus páginas en francés, alemán y neerlandés, así que cada mercado se apoya en el mismo plan y comparas los resultados con claridad.",
+        body: "Mike dirige una sola estrategia para tus páginas en francés, alemán y neerlandés, para que cada mercado siga el mismo plan y compares los resultados con claridad.",
       },
       {
         title: "Textos escritos por nativos del mercado",
-        body: "Las páginas comerciales de cada idioma las escribe un hablante nativo, con los precios, las señales de confianza y los hábitos de búsqueda de ese mercado.",
+        body: "Las páginas comerciales de cada idioma las escribe un hablante nativo, con los precios, los elementos de confianza y los hábitos de búsqueda de ese mercado.",
       },
       {
         title: "Contactos contados por idioma",
-        body: "Ves qué mercado da resultados, y el presupuesto sigue a los datos.",
+        body: "Ves qué mercado da resultados y ajustas el presupuesto según los datos.",
       },
     ],
   },

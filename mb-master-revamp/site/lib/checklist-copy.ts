@@ -281,35 +281,35 @@ export const CHECKLIST_COPY: Record<"en" | "fr" | "es", ChecklistCopy> = {
   es: {
     metaTitle: "Checklist de análisis de competencia y tráfico, Mike Bastin",
     description:
-      "Audita el tráfico de tu competencia como lo hacemos nosotros: los rivales reales, cuánto fiarte de las herramientas, las citas en IA y seis acciones.",
+      "Audita el tráfico de tu competencia como lo hacemos nosotros: los rivales reales, cuánto fiarte de las herramientas, las menciones en IA y seis acciones.",
     heading: "La checklist de análisis de competencia y tráfico",
     journal: { name: "Artículos", href: "/es/blog/" },
     home: { name: "Inicio", href: "/es/" },
     heroEyebrow: "Análisis de la competencia, la versión de trabajo",
-    lede: "Una auditoría de la competencia va mucho más allá de una exportación de Semrush: es una forma estructurada de leer la estrategia de otra empresa y decidir qué merece la pena copiar, qué puedes dejar de lado y qué les queda por resolver. La pregunta que hay debajo de cada auditoría que hacemos es siempre la misma: ¿de dónde viene de verdad su tráfico, y se puede repetir esa fuente en tu idioma, tu mercado y tu presupuesto?",
+    lede: "Una auditoría de la competencia va mucho más allá de una exportación de Semrush: es una forma estructurada de leer la estrategia de otra empresa y decidir qué merece la pena copiar, qué puedes dejar de lado y qué les queda por resolver. La pregunta de fondo en cada auditoría que hacemos es siempre la misma: ¿de dónde viene de verdad su tráfico, y puedes replicar esa fuente en tu idioma, tu mercado y tu presupuesto?",
     checklist: {
       eyebrow: "La parte que conviene guardar",
       heading: "La checklist en sí",
-      lede: "Nueve pasos, en el orden en que se hace la auditoría. Las secciones de abajo explican por qué está cada uno y cómo hacerlo bien.",
+      lede: "Nueve pasos, en el orden en que se hace la auditoría. Las siguientes secciones explican el motivo de cada uno y cómo hacerlo bien.",
       items: [
-        "Haz la lista real de rivales: competidores directos, indirectos, de contenido y citados por la IA, más allá de los nombres que apunta el equipo comercial.",
+        "Haz la lista real de rivales: competidores directos, indirectos, de contenido y mencionados por la IA, más allá de los nombres que señala el equipo comercial.",
         "Fija el margen de error antes de dar una sola cifra de tráfico a nadie.",
-        "Mapea las fuentes de tráfico y su peso: orgánico, de pago, directo, de referencia y reparto geográfico.",
+        "Identifica las fuentes de tráfico y su peso: orgánico, de pago, directo, de referencia y reparto geográfico.",
         "Lee lo que cada canal revela sobre cómo está montado de verdad su marketing.",
         "Lee sus mejores páginas como un editor: público, intención y siguiente paso en cada página que vende.",
-        "Encuentra los términos en los que posicionan y que tú todavía puedes ganar, y los huecos que han dejado abiertos.",
+        "Encuentra los términos por los que posicionan y que tú todavía puedes ganar, y los huecos que han dejado abiertos.",
         "Audita las citas en respuestas de IA además de la posición en los resultados.",
         "Revisa la configuración multilingüe: hreflang, datos estructurados localizados y contenido propio de cada idioma.",
-        "Reduce las conclusiones a seis líneas: tres arreglos rápidos, dos huecos de contenido y una apuesta estructural.",
+        "Reduce las conclusiones a seis líneas: tres soluciones rápidas, dos huecos de contenido y una apuesta estructural.",
       ],
     },
     tools: {
       eyebrow: "Antes de dar una cifra",
       heading: "Lo que te dicen las herramientas de tráfico, y cuánto puedes fiarte",
       paras: [
-        ["Trata las estimaciones de tráfico de Semrush como estimaciones, separadas de los datos de Analytics cuando llegan a un cliente. Las pruebas publicadas sitúan a Semrush a un 10 a 15 % del tráfico real en webs de tráfico medio o alto, y con una desviación del 20 al 40 % cuando la web es pequeña. Similarweb funciona mejor en grandes dominios internacionales, y su desviación crece más rápido en los pequeños: entre un 15 y un 30 % en webs medianas y más del 50 % en las más pequeñas."],
-        ["Un margen de error del 50 % sigue dejando datos útiles, siempre que leas las cifras como tendencia. Ves qué rival crece, cuál está estancado y qué mix se inclina hacia el pago. Da un rango: un rival estimado en 47.000 visitas al mes puede estar en realidad entre 22.000 y 70.000, y lo que llega al cliente es el rango."],
-        ["En una auditoría internacional, las dos herramientas funcionan mejor juntas que por separado. El panel de Similarweb es más sólido fuera de Norteamérica, así que un rival que saca la mayor parte de su tráfico de Alemania o de España se lee con más precisión combinando las estimaciones de Similarweb con las exportaciones de palabras clave de Semrush."],
+        ["Trata las estimaciones de tráfico de Semrush como estimaciones, separadas de los datos de Analytics cuando llegan a un cliente. Las pruebas publicadas sitúan a Semrush entre un 10 y un 15 % del tráfico real en webs de tráfico medio o alto, y con una desviación del 20 al 40 % cuando la web es pequeña. Similarweb funciona mejor en grandes dominios internacionales, y su desviación crece más rápido en los pequeños: entre un 15 y un 30 % en webs medianas y más del 50 % en las más pequeñas."],
+        ["Un margen de error del 50 % sigue dejando datos útiles, siempre que leas las cifras como tendencia. Ves qué rival crece, cuál está estancado y qué estrategia se inclina hacia el pago. Ofrece una horquilla: un rival estimado en 47.000 visitas al mes puede estar en realidad entre 22.000 y 70.000, y lo que llega al cliente es esa horquilla."],
+        ["En una auditoría internacional, las dos herramientas funcionan mejor juntas que por separado. El panel de Similarweb es más sólido fuera de Norteamérica, así que un rival que saca la mayor parte de su tráfico de Alemania o de España se analiza con más precisión combinando las estimaciones de Similarweb con las exportaciones de palabras clave de Semrush."],
       ],
       sources: [
         "Cifras de precisión de ",
@@ -330,7 +330,7 @@ export const CHECKLIST_COPY: Record<"en" | "fr" | "es", ChecklistCopy> = {
         { name: "Rivales citados por la IA", body: "Los dominios a los que recurre un LLM cuando alguien hace una pregunta sobre tu sector. Los más nuevos de los cuatro, y los que más vale la pena añadir a la lista." },
       ],
       after: [
-        "Haz la lista real a partir de un informe de competidores orgánicos en Ahrefs o Semrush, contrastado con los sitios donde tus compradores comparan proveedores de verdad. Una pasada con unas cuantas ",
+        "Haz la lista real a partir de un informe de competidores orgánicos en Ahrefs o Semrush, contrastado con los sitios donde tus compradores comparan proveedores reales. Una pasada con unas cuantas ",
         { text: "extensiones de navegador para SEO", href: "/es/extensiones-chrome-seo/" },
         " suele bastar para ver cómo está montado cada uno.",
       ],
@@ -338,7 +338,7 @@ export const CHECKLIST_COPY: Record<"en" | "fr" | "es", ChecklistCopy> = {
     channels: {
       eyebrow: "Segunda fase",
       heading: "Lo que revela el reparto de canales",
-      lede: "La clave está en el reparto que alimenta el total de visitas: describe cómo es su marketing y dónde está más flojo.",
+      lede: "La clave está en el reparto que alimenta el total de visitas: describe cómo es su marketing y dónde flaquea.",
       rows: [
         ["Mucho tráfico directo", "Una marca con peso real y un público que vuelve, casi siempre con inversión fuera de internet o en prensa detrás."],
         ["Mucho orgánico, poco pago", "Un programa de contenido maduro, a menudo con especialistas en búsqueda en plantilla."],
@@ -352,19 +352,19 @@ export const CHECKLIST_COPY: Record<"en" | "fr" | "es", ChecklistCopy> = {
       heading: "Lee su contenido como un editor",
       paras: [
         "Abre sus mejores páginas y hazte tres preguntas. ¿Para quién está escrita? ¿Qué le pide al lector que haga después? ¿Responde por completo a la búsqueda?",
-        "El patrón que más encontramos es la web cajón de sastre: unos cientos de artículos, buena parte cortos y escritos por una máquina, y un tráfico estancado durante mucho tiempo. Desde fuera parece una fábrica de contenido, y cada actualización de calidad abre terreno a un rival con páginas más completas.",
-        "Fíjate en dónde termina su cobertura de intenciones. Un rival que domina las búsquedas de cómo hacer algo y se queda antes de los precios, las comparativas o las alternativas te ha dejado libre la parte baja del embudo. Tres páginas comparativas bien hechas, bien enlazadas desde las páginas que ya posicionan, se llevan esas consultas sin hacer ruido.",
+        "El patrón que más encontramos es la web cajón de sastre: unos cientos de artículos, gran parte de ellos cortos y escritos por una máquina, y un tráfico estancado durante mucho tiempo. Desde fuera parece una fábrica de contenido, y cada actualización de calidad abre terreno a un rival con páginas más completas.",
+        "Fíjate en dónde termina de cubrir la intención de búsqueda. Un rival que domina las búsquedas de cómo hacer algo y se detiene antes de los precios, las comparativas o las alternativas te ha dejado libre la parte baja del embudo. Tres páginas comparativas bien hechas, bien enlazadas desde las páginas que ya posicionan, se llevan esas consultas sin hacer ruido.",
       ],
     },
     ai: {
       eyebrow: "Cuarta fase",
       heading: "Audita las citas además de la posición",
-      lede: "Una parte creciente de la investigación ya ocurre dentro de un asistente, antes de cualquier clic, así que un rival puede estar fuera de los diez enlaces azules y aparecer citado en todas las respuestas. Hoy hay herramientas que lo miden, entre ellas Ahrefs Brand Radar, y sus cifras valen como tendencia. Lanza tú mismo las mismas preguntas una vez al mes y mira a quién se nombra. Cuatro patrones de estructura hacen que una página sea fácil de citar:",
+      lede: "Una parte creciente de la investigación ya ocurre dentro de un asistente, antes de cualquier clic, así que un rival puede estar fuera de los diez primeros resultados y aparecer citado en todas las respuestas. Hoy hay herramientas que lo miden, entre ellas Ahrefs Brand Radar, y sus cifras valen como tendencia. Lanza tú mismo las mismas preguntas una vez al mes y mira a quién se nombra. Cuatro patrones de estructura hacen que una página sea fácil de citar:",
       items: [
         ["Tablas de datos limpias", "El contenido en tabla se cita entero, por eso una tabla suele superar al párrafo que dice lo mismo."],
-        ["Marcado de preguntas frecuentes", "Respuestas directas a preguntas concretas, marcadas para que una máquina pueda tomar la respuesta tal cual."],
-        ["Enlaces entre entidades", "Su marca vinculada a conceptos reconocidos del sector, con referencias a fuentes que merece la pena citar."],
-        ["Experiencia visible", "Autores con nombre, fechas reales, fuentes de verdad. Las señales que premian las directrices de Google y las que reutilizan los LLM."],
+        ["Marcado de preguntas frecuentes", "Respuestas directas a preguntas concretas, etiquetadas para que una máquina pueda tomar la respuesta tal cual."],
+        ["Enlaces entre entidades", "Su marca vinculada a conceptos reconocidos del sector, con referencias a fuentes que merece la pena mencionar."],
+        ["Experiencia visible", "Autores con nombre, fechas reales, fuentes fiables. Las señales que premian las directrices de Google y las que reutilizan los LLM."],
       ],
       after: [
         "En las búsquedas internacionales, mira cómo gestionan ",
@@ -375,7 +375,7 @@ export const CHECKLIST_COPY: Record<"en" | "fr" | "es", ChecklistCopy> = {
     roadmap: {
       eyebrow: "Quinta fase",
       heading: "Reduce ochenta hallazgos a seis",
-      lede: "Aquí es donde una auditoría se convierte en acción. Ochenta problemas son una lista; seis son un plan. Elige seis: tres arreglos técnicos rápidos, dos huecos de contenido donde un rival posiciona con una página floja y una apuesta estructural que valga uno o dos trimestres.",
+      lede: "Aquí es donde una auditoría se convierte en acción. Ochenta problemas son una lista; seis son un plan. Elige seis: tres soluciones técnicas rápidas, dos huecos de contenido donde un rival posiciona con una página floja y una apuesta estructural que cubra uno o dos trimestres.",
       rows: [
         ["Alta", "Corregir errores técnicos y huecos de datos estructurados en las páginas que venden.", "Un rastreo y una indexación más limpios, con impresiones en páginas que pueden convertir."],
         ["Media", "Crear o reescribir contenido donde un rival posiciona con una página floja.", "Posiciones orgánicas en búsquedas competidas, ganadas a lo largo de meses."],
@@ -386,8 +386,8 @@ export const CHECKLIST_COPY: Record<"en" | "fr" | "es", ChecklistCopy> = {
       eyebrow: "Antes de comprar nada",
       heading: "La primera pasada se hace con herramientas gratuitas",
       paras: [
-        "Casi toda la checklist se puede trabajar con versiones gratuitas antes de contratar herramientas de pago. Ahrefs Webmaster Tools y las versiones gratuitas de Semrush y Ubersuggest sacan a la luz a los competidores orgánicos. La extensión de navegador de Similarweb da una primera lectura del reparto de canales de cualquier dominio. Keyword Planner y tu propio Search Console muestran las búsquedas que ya tocas, y así detectas las que domina un rival y que todavía tienes a tu alcance.",
-        "Pasa a una herramienta de pago cuando el ejercicio haya demostrado que vale la pena. Lo que hace funcionar la checklist es el método, más que la suscripción que hay detrás.",
+        "Puedes completar casi toda la lista con versiones gratuitas antes de contratar herramientas de pago. Ahrefs Webmaster Tools y las versiones gratuitas de Semrush y Ubersuggest descubren a los competidores orgánicos. La extensión de navegador de Similarweb da una primera lectura del reparto de canales de cualquier dominio. Keyword Planner y tu propia Search Console muestran las búsquedas que ya tocas, y así detectas las que domina un rival y todavía tienes a tu alcance.",
+        "Pasa a una herramienta de pago cuando el trabajo haya demostrado que vale la pena. Lo que hace funcionar la lista es el método, más que la suscripción que hay detrás.",
       ],
     },
     related: {

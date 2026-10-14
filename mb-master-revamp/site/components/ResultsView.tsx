@@ -108,7 +108,7 @@ const T = {
     lede: (sites: string, millions: string) =>
       `En las ${sites} webs cuyo posicionamiento llevamos, desde un despacho de abogados de Valencia que trabaja en cuatro idiomas hasta un especialista neerlandés en pintura en polvo, con ${millions} millones de impresiones detrás de los clics. Abre cualquier fila para ver el encargo, el trabajo y el resultado.`,
     sources:
-      "Fuentes: las consultas son una media mensual de mayo a julio de 2026, contada a partir de los registros de formularios de contacto y presupuesto de cada web, solo formularios. Cuando también llegan solicitudes por teléfono o correo, se usa la cifra o el rango del propietario de la web. Los clics y las impresiones cubren los mismos meses, según Google Search Console.",
+      "Fuentes: las consultas son una media mensual de mayo a julio de 2026, calculada a partir de los registros de formularios de contacto y presupuesto de cada web, solo formularios. Cuando también llegan solicitudes por teléfono o correo, se usa la cifra o el rango que indica el propietario de la web. Los clics y las impresiones cubren los mismos meses, según Google Search Console.",
     range: "a",
     words: ["cero", "una", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "diez"],
     owned: ", nuestra propia web",
@@ -117,10 +117,10 @@ const T = {
     reviewsLede: "Todas las reseñas son públicas en nuestro perfil de Google, donde puedes comprobarlas en la fuente.",
     result: {
       "delaguia-y-luzon": "Cuatro idiomas y dos jurisdicciones con el nivel de precisión que exige el derecho, y consultas que llegan por los formularios de la propia web.",
-      c21perdomo: "Cuatro idiomas correctos frente a un stock que cambia cada semana, y consultas que llegan por la web de inmuebles.",
+      c21perdomo: "Cuatro idiomas sin errores frente a una cartera que cambia cada semana, y consultas que llegan por la web inmobiliaria.",
       valenciamove: "Cinco idiomas publicados, cada página escrita desde la experiencia propia de la mudanza, y consultas contadas desde el primer mes.",
-      "tx-international-freight": "Presencia en el pack local de Houston en las búsquedas de carga industrial, con solicitudes de presupuesto contadas desde los formularios de la web.",
-      "bemelman-spuiterij": "Búsqueda local neerlandesa construida para una empresa que había vivido solo de su reputación durante cuarenta y cinco años, y solicitudes que ahora llegan por formulario, teléfono y correo.",
+      "tx-international-freight": "Presencia en el pack local de Houston en las búsquedas de carga industrial, con solicitudes de presupuesto contabilizadas a partir de los formularios de la web.",
+      "bemelman-spuiterij": "Búsqueda local neerlandesa diseñada para una empresa que había vivido solo de su reputación durante cuarenta y cinco años, y solicitudes que ahora llegan por formulario, teléfono y correo.",
     } as Record<string, string>,
   },
 } as const;

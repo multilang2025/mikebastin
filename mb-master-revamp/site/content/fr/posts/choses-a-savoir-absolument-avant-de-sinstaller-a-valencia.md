@@ -18,7 +18,7 @@ L’Espagne fait rêver.
 
 Avec ses plages ensoleillées, sa culture du bon-vivant, sa gastronomie et l’accueil chaleureux de ses habitants, tout francophone habitué à la pluie et au froid pourrait croire qu’il s’agit d’un paradis sans nuances.
 
-**S’installer à Valencia** en tant qu’expatrié francophone, c’est pourtant accepter une courbe d’adaptation bien réelle : administrative, culturelle et climatique.
+**S’installer à Valencia** en tant qu’expatrié francophone, c’est pourtant accepter une période d’adaptation bien réelle : administrative, culturelle et climatique.
 
 Voici un guide pratique des choses à savoir avant de [déménager dans la troisième plus grande ville d’Espagne](https://mikebastin.com/fr/francais-a-valencia/), pour vous préparer sérieusement à votre installation en 2026.
 
@@ -26,13 +26,13 @@ Voici un guide pratique des choses à savoir avant de [déménager dans la trois
 
 ![Climat méditerranéen de Valencia, Espagne : soleil et palmiers toute l'année](/images/legacy/2026/01/image-5.webp)
 
-À Valencia, [ville méditerranéenne en bord de mer, le climat est globalement très doux](https://mikebastin.com/fr/climat-a-valencia/).
+À Valencia, [ville méditerranéenne au bord de la mer](https://mikebastin.com/fr/climat-a-valencia/), le climat est globalement très doux.
 
 Avec plus de 300 jours de soleil par an, des températures qui descendent rarement sous zéro et une végétation luxuriante, la **Communauté valencienne** affiche un bilan climatique enviable.
 
 La **Costa Blanca**, dont Valencia est la capitale régionale, est classée parmi les zones les plus ensoleillées d’Europe occidentale.
 
-La réalité climatique se révèle cependant plus nuancée.
+La réalité climatique est pourtant plus nuancée.
 
 La proximité de la mer génère des rafales inopinées et des épisodes orageux intenses.
 
@@ -40,7 +40,7 @@ Les inondations dramatiques d’octobre 2024, connues sous le nom de **DANA** (D
 
 Certaines zones de la province de Valencia ont reçu l’équivalent d’une année entière de précipitations en quelques heures.
 
-L’isolation thermique des bâtiments espagnols laisse par ailleurs souvent à désirer, rendant pénibles aussi bien les pics de chaleur estivaux (qui dépassent régulièrement 38 °C) que les coups de froid hivernaux.
+L’isolation thermique des bâtiments espagnols laisse souvent à désirer, rendant pénibles aussi bien les pics de chaleur estivaux (qui dépassent régulièrement 38 °C) que les coups de froid hivernaux.
 
 En 2026, une éclipse solaire totale sera observable depuis la péninsule ibérique le 12 août, un phénomène qui ne se reproduira pas avant 2090.
 
@@ -60,7 +60,7 @@ Cette organisation du temps découle directement du **fuseau horaire espagnol**�
 
 Conséquence directe : la plupart des commerces n’ouvrent qu’à partir de 9 h ou 10 h, et ferment de 14 h à 17 h pour la **siesta**, ou _santa siesta_, comme on l’appelle affectueusement ici.
 
-La **sobremesa**, c’est-à-dire le temps passé à table après le repas pour discuter, est une pratique culturelle profondément ancrée, à l’opposé du déjeuner-express que pratiquent bon nombre de Français.
+La **sobremesa**, c’est-à-dire le temps passé à table après le repas pour discuter, est une pratique culturelle profondément ancrée, à l’opposé du déjeuner rapide que prennent bon nombre de Français.
 
 Votre estomac protestera probablement les premières semaines.
 
@@ -76,7 +76,7 @@ Ce dernier est un dialecte roman étroitement apparenté au catalan, dont les ra
 
 Des termes comme _porta_ (porte), _filla_ (fille) ou _parlar_ (parler) seront immédiatement reconnaissables pour un francophone.
 
-Attention cependant : ne dites jamais à un Valencien que sa langue ressemble au catalan.
+Attention : ne dites jamais à un Valencien que sa langue ressemble au catalan.
 
 Les habitants de la **Comunitat Valenciana** tiennent scrupuleusement à distinguer le valencien du catalan, et ce sujet reste politiquement et culturellement sensible.
 
@@ -116,11 +116,11 @@ La région est le berceau de la **paella valenciana** (poulet, lapin, haricots v
 
 Les **tapas**, _patatas bravas_, _boquerones fritos_, _croquetas_, _calamares_, aubergines frites au miel, sont omniprésentes et se consomment à toute heure.
 
-Le **Mercat Central de Valencia**, l’un des plus grands marchés couverts d’Europe avec ses 8 000 m², est le meilleur point d’entrée pour comprendre la richesse des produits locaux : oranges, kakis, artichauds, poissons frais de l’**Albufera**.
+Le **Mercat Central de Valencia**, l’un des plus grands marchés couverts d’Europe avec ses 8 000 m², est la meilleure porte d’entrée pour comprendre la richesse des produits locaux : oranges, kakis, artichauds, poissons frais de l’**Albufera**.
 
 Valencia est régulièrement classée dans le guide gastronomique OAD (Opinionated About Dining), qui répertorie les meilleurs restaurants d’Europe.
 
-Le **festival de la paella de Sueca**, qui se tient à 30 km au sud de Valencia, est la compétition internationale de référence sur ce plat, un repère culturel majeur pour tout expatrié sérieux.
+Le **festival de la paella de Sueca**, qui se tient à 30 km au sud de Valencia, est la compétition internationale de référence sur ce plat, un repère culturel majeur pour tout expatrié qui se respecte.
 
 ## Le système de santé espagnol : public, privé et pharmacies
 
@@ -158,7 +158,7 @@ En 2026, la ville poursuit ses projets de végétalisation : le nouveau **Jard�
 
 Le parc de la **Túria**, 110 hectares d’ancien lit de fleuve reconverti en parc linéaire, reste le poumon vert de la ville et l’une de ses infrastructures les plus emblématiques.
 
-Le tri sélectif reste en revanche un point de friction : malgré cinq types de conteneurs disponibles dans toute la ville, les pratiques restent inégales.
+Le tri sélectif reste en revanche un point de tension : malgré cinq types de conteneurs disponibles dans toute la ville, les pratiques restent inégales.
 
 La forte consommation d’eau en bouteille, liée à la teneur en calcaire de l’eau du robinet, génère par ailleurs une quantité notable de déchets plastiques.
 
@@ -238,6 +238,6 @@ Des alternatives plus abordables existent dans les quartiers périphériques com
 
 ### Comment accéder au système de santé public à Valencia ?
 
-L’accès au Sistema Nacional de Salud nécessite une inscription au Padrón municipal de l’Ayuntamiento de Valencia, puis une demande de tarjeta sanitaria auprès du centre de santé (_centro de salud_) de votre secteur.
+L’accès au Sistema Nacional de Salud nécessite une inscription au Padrón municipal de l’Ayuntamiento de Valencia, puis une demande de carte de santé auprès du centre de santé (_centro de salud_) de votre zone.
 
 Les ressortissants européens peuvent présenter la Carte Européenne d’Assurance Maladie (CEAM) pour les soins urgents avant d’être affiliés.

@@ -40,11 +40,11 @@ const T = {
     eyebrow: "Lo que significa el nombre",
     heading: "BASTIN, en seis ideas.",
     rows: [
-      { letter: "B", word: "Business", desc: "Cada proyecto de búsqueda parte de tus objetivos de negocio, para conseguir el presupuesto que necesita.", slug: "lead" },
+      { letter: "B", word: "Business", desc: "Cada proyecto SEO parte de tus objetivos de negocio para conseguir el presupuesto que necesita.", slug: "lead" },
       { letter: "A", word: "Automatización", desc: "La IA redacta, prueba e informa, y el trabajo no se detiene.", slug: "consultoria-de-inteligencia-artificial" },
       { letter: "S", word: "SEO", desc: "SEO multilingüe, pensado para posicionar tus páginas en el idioma en el que el comprador realmente busca.", slug: "posicionamiento-multilingue" },
       { letter: "T", word: "Traducción", desc: "Textos adaptados al mercado que los lee.", slug: "traduccion-profesional" },
-      { letter: "I", word: "Internacionalización", desc: "El trabajo de base hecho antes del lanzamiento, para que un producto admita un segundo idioma sobre la estructura que ya tiene.", slug: "localizacion-de-aplicaciones" },
+      { letter: "I", word: "Internacionalización", desc: "El trabajo de base hecho antes del lanzamiento para que un producto admita un segundo idioma sobre la estructura que ya tiene.", slug: "localizacion-de-aplicaciones" },
       { letter: "N", word: "Networking", desc: "Más de dos décadas de recomendaciones, en cuatro idiomas, todavía el canal que funciona.", slug: null },
     ] as Row[],
     stats: [
