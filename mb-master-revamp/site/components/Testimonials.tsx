@@ -194,11 +194,14 @@ function Card({
 export default function Testimonials({
   locale = "en",
   initialCount,
-  mobileInitialCount,
+  mobileInitialCount: mobileInitialProp,
+  mobileHideCount,
 }: {
   locale?: Testimonial["lang"];
   initialCount?: number;
   mobileInitialCount?: number;
+  /** On phones, tuck this many of the last reviews under the read more button. */
+  mobileHideCount?: number;
 }) {
   const [filter, setFilter] = useState<(typeof FILTERS)[number]["id"]>("all");
   const [showAll, setShowAll] = useState(false);
@@ -208,6 +211,9 @@ export default function Testimonials({
   const shown =
     filter === "all" ? inLocale : inLocale.filter((t) => t.theme === filter);
   const visible = initialCount === undefined ? shown : showAll ? shown : shown.slice(0, initialCount);
+
+  const mobileInitialCount =
+    mobileHideCount !== undefined ? Math.max(1, shown.length - mobileHideCount) : mobileInitialProp;
 
   // Only offer a theme filter that would actually return something.
   const available = FILTERS.filter(

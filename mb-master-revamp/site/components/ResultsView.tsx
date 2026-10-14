@@ -226,7 +226,7 @@ export default function ResultsView({ locale, path }: { locale: Locale; path: st
             </p>
           </Reveal>
           <Reveal i={2}>
-            <Testimonials locale={locale} />
+            <Testimonials locale={locale} mobileHideCount={2} />
           </Reveal>
         </div>
       </section>

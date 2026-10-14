@@ -382,7 +382,7 @@ export default function LeadGenerationPage() {
             </p>
           </Reveal>
           <Reveal i={2}>
-            <Testimonials />
+            <Testimonials mobileHideCount={2} />
           </Reveal>
         </div>
       </section>
