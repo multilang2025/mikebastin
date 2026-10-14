@@ -3,6 +3,7 @@ import { pageMeta } from "@/lib/meta";
 import { enLanguages } from "@/lib/fr-pages";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import StepBadge from "@/components/StepIcon";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
@@ -155,9 +156,7 @@ export default function HowIWorkPage() {
               <Reveal key={s.name} i={i}>
                 <li className="band flex h-full flex-col gap-3 px-7 py-7" style={{ background: "var(--bg)" }}>
                   <div className="flex items-baseline gap-4">
-                    <span className="display shrink-0 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
+                    <StepBadge text={s.name} />
                     <span className="text-[1.05rem] font-semibold leading-[1.3]">{s.name}</span>
                   </div>
                   <p className="text-[.95rem] leading-[1.6]" style={{ color: "var(--dim)" }}>

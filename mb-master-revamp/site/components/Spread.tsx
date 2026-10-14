@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CaseMark } from "@/components/StepIcon";
 import type { Project } from "@/lib/projects";
 import type { ProjectCopy } from "@/lib/projects-locale";
 
@@ -6,7 +7,7 @@ import type { ProjectCopy } from "@/lib/projects-locale";
  * `copy` replaces the English strings on the FR and ES homepages. The case
  * studies exist in English only, so a localized spread links to none.
  */
-export default function Spread({ d, flip, copy, numeral }: { d: Project; flip: boolean; copy?: ProjectCopy; numeral?: string }) {
+export default function Spread({ d, flip, copy }: { d: Project; flip: boolean; copy?: ProjectCopy }) {
   // The parallax is CSS scroll-driven animation (globals.css .spread-*),
   // so this is a server component with no JavaScript: the previous library
   // version cost a 39 kB chunk and 240 ms long tasks on phones (CWV audit,
@@ -21,13 +22,8 @@ export default function Spread({ d, flip, copy, numeral }: { d: Project; flip: b
           column, so the shot is under the client's name at every width instead
           of merely beside it. */}
       <div className="mb-8">
-        <div className="mb-3 flex items-baseline gap-4">
-          <span
-            className="display text-[1.3rem] font-medium tabular-nums"
-            style={{ color: "var(--berry)" }}
-          >
-            {numeral ?? d.numeral}.
-          </span>
+        <div className="mb-3 flex items-center gap-4">
+          <CaseMark slug={d.slug} />
           <span className="eyebrow">{copy?.angle ?? d.angle}</span>
         </div>
 

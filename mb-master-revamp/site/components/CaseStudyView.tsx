@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import { CaseMark } from "@/components/StepIcon";
 import CountryFlags from "@/components/CountryFlags";
 import { PROJECTS, type Project } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
@@ -117,10 +118,8 @@ export default function CaseStudyView({ project: source, locale }: { project: Pr
           </Reveal>
 
           <Reveal i={1}>
-            <div className="mb-5 flex items-baseline gap-4">
-              <span className="display text-[1.3rem] font-medium tabular-nums" style={{ color: "var(--berry)" }}>
-                {project.numeral}.
-              </span>
+            <div className="mb-5 flex items-center gap-4">
+              <CaseMark slug={project.slug} />
               <span className="eyebrow">{project.angle}</span>
             </div>
           </Reveal>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
+import StepBadge from "@/components/StepIcon";
 import Testimonials from "@/components/Testimonials";
 import Expandables from "@/components/Expandables";
 import SiteFooter from "@/components/SiteFooter";
@@ -399,9 +400,7 @@ export default function LeadGenerationPage() {
             <ol className="mb-14 grid gap-px md:grid-cols-2 lg:grid-cols-3" style={{ background: "var(--rule)" }}>
               {STEPS.map((step, i) => (
                 <li key={step.title} className="band flex flex-col px-7 py-8" style={{ background: "var(--bg)" }}>
-                  <span className="display mb-3 text-[1.6rem] font-semibold" style={{ color: "var(--berry)" }}>
-                    {i + 1}
-                  </span>
+                  <StepBadge text={step.title} className="mb-4" />
                   <p className="display mb-3 text-[1.15rem] font-semibold">{step.title}</p>
                   <p className="text-[.95rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
                     {step.text}

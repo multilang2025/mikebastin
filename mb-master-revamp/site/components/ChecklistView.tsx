@@ -1,6 +1,7 @@
 import Link from "next/link";
 import PostImage from "@/components/PostImage";
 import Reveal from "@/components/Reveal";
+import StepBadge from "@/components/StepIcon";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import { getPostForLocale, getPostRecord, getRelatedPosts, imageSlugFor, postPath } from "@/lib/posts";
@@ -138,10 +139,8 @@ export default function ChecklistView({ locale }: { locale: Locale }) {
           <ol className="grid gap-px" style={{ background: "var(--rule)" }}>
             {c.checklist.items.map((item, i) => (
               <Reveal key={item} i={i}>
-                <li className="band flex items-baseline gap-5 px-7 py-6" style={{ background: "var(--bg)" }}>
-                  <span className="display shrink-0 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
+                <li className="band flex items-center gap-5 px-7 py-6" style={{ background: "var(--bg)" }}>
+                  <StepBadge text={item} />
                   <span className="text-[1rem] leading-[1.5]">{item}</span>
                 </li>
               </Reveal>

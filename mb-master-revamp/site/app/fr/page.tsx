@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
+import StepBadge from "@/components/StepIcon";
 import FounderPortrait from "@/components/FounderPortrait";
 import HomeEvidence from "@/components/HomeEvidence";
 import Testimonials from "@/components/Testimonials";
@@ -245,9 +246,7 @@ export default function FrenchHome() {
             {STEPS.map((s, i) => (
               <Reveal key={i} i={i}>
                 <li className="flex items-start gap-4 text-[1rem] leading-[1.6]">
-                  <span className="display shrink-0 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
+                  <StepBadge text={s} />
                   <span>{s}</span>
                 </li>
               </Reveal>

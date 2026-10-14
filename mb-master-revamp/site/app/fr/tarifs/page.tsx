@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/meta";
 import Reveal from "@/components/Reveal";
+import StepBadge from "@/components/StepIcon";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import LocaleHtmlLang from "@/components/LocaleHtmlLang";
@@ -131,9 +132,7 @@ export default function FrenchTarifsPage() {
             {STAGES.map((s, i) => (
               <Reveal key={s.name} i={i}>
                 <li className="flex items-start gap-4">
-                  <span className="display shrink-0 text-[.9rem] font-semibold tabular-nums" style={{ color: "var(--berry)" }}>
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
+                  <StepBadge text={s.name} />
                   <div>
                     <h3 className="mb-2 text-[1.08rem] font-semibold leading-[1.3]">{s.name}</h3>
                     <p className="text-[.98rem] leading-[1.6]" style={{ color: "var(--dim)" }}>
