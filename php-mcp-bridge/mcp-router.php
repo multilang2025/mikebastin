@@ -209,14 +209,26 @@ function get_remote_tools($site) {
         }
         // Reached WordPress, got 2xx JSON, but not the shape expected --
         // log what actually came back instead of silently guessing why.
-        error_log('AISA bridge: /aisa/v1/tools for ' . ($site['wp_url'] ?? '?') . ' returned unexpected shape: ' . substr(json_encode($res), 0, 500));
+        $reason = 'unexpected shape: ' . substr(json_encode($res), 0, 500);
+        error_log('AISA bridge: /aisa/v1/tools for ' . ($site['wp_url'] ?? '?') . ' returned ' . $reason);
     } catch (Exception $e) {
         // Logged rather than swallowed -- this used to be a silent fallback
         // with no way to tell "older plugin (404)" apart from "WAF block",
         // "auth failure", or "timeout" without a live repro session.
-        error_log('AISA bridge: /aisa/v1/tools fetch failed for ' . ($site['wp_url'] ?? '?') . ': ' . $e->getMessage());
+        $reason = get_class($e) . ': ' . $e->getMessage();
+        error_log('AISA bridge: /aisa/v1/tools fetch failed for ' . ($site['wp_url'] ?? '?') . ': ' . $reason);
     }
-    return get_tools_schema();
+    // TEMPORARY DIAGNOSTIC (remove once the fallback stops triggering
+    // unexpectedly): surface the exact reason as a fake tool entry so it's
+    // visible directly to an MCP client without server log or DB access.
+    $tools   = get_tools_schema();
+    $tools[] = [
+        'name' => '_aisa_debug_tools_fetch_error',
+        'description' => 'DIAGNOSTIC ONLY, not a real tool -- do not call it. The live /aisa/v1/tools catalogue '
+            . 'fetch fell back to this static list because: ' . ( $reason ?? 'unknown (no exception, no unexpected shape -- check error_log)' ),
+        'inputSchema' => ['type' => 'object', 'properties' => []],
+    ];
+    return $tools;
 }
 
 // Claude.ai's remote MCP validator requires JSON Schema objects such as
