@@ -12,6 +12,8 @@ date: "2024-09-29T11:09:22"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/referencement-multilingue/"
 excerpt: "Votre site parle déjà plusieurs langues. Nous donnons à chacune sa stratégie et ses rédacteurs natifs : chaque marché vous envoie ses propres demandes."
+cardTitle: "Référencement multilingue"
+card: "Votre site parle déjà plusieurs langues. Chacune reçoit sa recherche de mots-clés et ses rédacteurs natifs, et vous envoie ses propres demandes."
 ---
 
 <!--

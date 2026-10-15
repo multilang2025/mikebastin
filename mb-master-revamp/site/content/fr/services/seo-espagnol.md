@@ -11,6 +11,8 @@ date: "2024-09-29T11:07:11"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/seo-espagnol/"
 excerpt: "Des pages écrites dans l’espagnol de vos acheteurs, depuis Valencia, pour que vos visiteurs espagnols deviennent des demandes de devis."
+cardTitle: "Vendre en Espagne"
+card: "Nous écrivons vos pages espagnoles depuis Valencia, avec les mots que vos acheteurs tapent vraiment, et l’Amérique latine avec des natifs sur place."
 lede: "Votre entreprise française, belge, suisse ou luxembourgeoise vend déjà en Espagne. Nous écrivons vos pages en espagnol d’Espagne depuis Valencia, confions l’Amérique latine à des rédacteurs natifs basés à Saint-Domingue et pilotons l’ensemble avec vous en français. Chaque marché a ses mots-clés, ses mentions légales et son compte rendu mensuel."
 ---
 

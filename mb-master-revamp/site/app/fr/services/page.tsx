@@ -174,9 +174,9 @@ export default function FrenchServicesIndex() {
                 >
                   <li className="band group h-full" style={{ background: "var(--bg)" }}>
                     <Link href={servicePath("fr", s.slug)} className="flex h-full flex-col px-7 py-8">
-                      <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.title}</span>
+                      <span className="ulink mb-2 text-[1.08rem] font-semibold">{s.cardTitle ?? s.title}</span>
                       <p className="line-clamp-4 text-[.9rem] leading-[1.5]" style={{ color: "var(--dim)" }}>
-                        {s.excerpt}
+                        {s.card ?? s.excerpt}
                       </p>
                     </Link>
                   </li>

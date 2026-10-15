@@ -11,6 +11,8 @@ date: "2024-09-24T16:32:04"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/seo-neerlandais/"
 excerpt: "Des pages écrites en néerlandais pour les Pays-Bas et la Flandre, pour que vos visiteurs néerlandophones deviennent des demandes."
+cardTitle: "Pays-Bas et Flandre"
+card: "Le marché voisin, en néerlandais d’origine. Chaque page commerciale passe par un relecteur natif avant la mise en ligne."
 lede: "Pour une entreprise française, les Pays-Bas sont un marché voisin ; pour une entreprise belge francophone, la Flandre pèse lourd dans le marché national. Nous écrivons vos pages directement en néerlandais, avec un relecteur natif sur chaque page commerciale, et un rapport mensuel suit vos demandes néerlandaises et belges séparément de vos autres marchés."
 ---
 

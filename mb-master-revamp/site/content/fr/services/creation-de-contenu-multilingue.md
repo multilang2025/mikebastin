@@ -12,6 +12,8 @@ date: "2024-10-03T13:52:28"
 modified: "2026-09-29T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/creation-de-contenu-multilingue/"
 excerpt: "Des pages écrites pour vos acheteurs espagnols, allemands ou néerlandais, à partir de leurs recherches, pour qu’ils vous trouvent et vous contactent."
+cardTitle: "Contenu multilingue"
+card: "Vos acheteurs espagnols, allemands ou néerlandais décrivent leurs besoins à leur façon. Nos rédacteurs natifs écrivent à partir de leurs recherches."
 lede: "Vos acheteurs espagnols, allemands ou néerlandais décrivent leurs besoins avec leurs propres mots. Nos rédacteurs natifs écrivent chaque page à partir des recherches réelles de son marché, et un relecteur vérifie le ton et les références culturelles avant la mise en ligne. Vous obtenez des pages bien placées dans chaque langue et un suivi mensuel des demandes, marché par marché."
 ---
 
