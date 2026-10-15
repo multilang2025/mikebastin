@@ -27,11 +27,11 @@ export type FrPage = LocalePage;
 
 export const FR_PAGES: LocalePage[] = [
   { path: "/fr/", en: "/", label: "Accueil", route: "app/fr/page.tsx", nav: true },
+  { path: "/fr/etudes-de-cas/", en: "/projects/", label: "Études de cas", route: "app/fr/etudes-de-cas/page.tsx", nav: true },
   { path: "/fr/services/", en: "/services/", label: "Services", route: "app/fr/services/page.tsx", nav: true },
   { path: "/fr/blog/", en: "/blog/", label: "Articles", route: "app/fr/blog/page.tsx", nav: true },
   { path: "/fr/notre-equipe/", en: "/about-us/", label: "À propos", route: "app/fr/notre-equipe/page.tsx", nav: true },
   { path: "/fr/nous-contacter/", en: "/contact/", label: "Contact", route: "app/fr/nous-contacter/page.tsx", nav: true },
-  { path: "/fr/resultats/", en: "/results/", label: "Résultats", route: "app/fr/resultats/page.tsx" },
   { path: "/fr/checklist-analyse-concurrentielle/", en: "/competitor-analysis-traffic-checklist/", label: "Checklist d’analyse concurrentielle", route: "app/fr/checklist-analyse-concurrentielle/page.tsx" },
   { path: "/fr/tarifs/", en: "/how-i-work/", label: "Tarifs", route: "app/fr/tarifs/page.tsx" },
   { path: "/fr/confidentialite/", en: "/privacy/", label: "Confidentialité et cookies", route: "app/fr/confidentialite/page.tsx" },

@@ -52,7 +52,7 @@ export function pageMeta({
 }: {
   title: string;
   description: string;
-  /** Route path with leading and trailing slash, e.g. "/results/". */
+  /** Route path with leading and trailing slash, e.g. "/projects/". */
   path: string;
   type?: "website" | "article";
   publishedTime?: string;

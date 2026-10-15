@@ -5,7 +5,7 @@ import CountryFlags from "@/components/CountryFlags";
 import { PROJECTS, type Project } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
 import { CASES_ES, CASES_FR } from "@/lib/case-studies-locale";
-import { caseStudyPath } from "@/lib/case-studies";
+import { WORK_PATH, caseStudyPath } from "@/lib/case-studies";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
@@ -22,6 +22,7 @@ type Locale = "en" | "fr" | "es";
 const L = {
   en: {
     home: { name: "Home", href: "/" },
+    work: "Work",
     more: "See more client work",
     visit: (d: string) => `Visit ${d}`,
     needed: (n: string) => `What ${n} needed`,
@@ -39,6 +40,7 @@ const L = {
   },
   fr: {
     home: { name: "Accueil", href: "/fr/" },
+    work: "Études de cas",
     more: "Voir d’autres réalisations",
     visit: (d: string) => `Visiter ${d}`,
     needed: (n: string) => `Ce dont ${n} avait besoin`,
@@ -56,6 +58,7 @@ const L = {
   },
   es: {
     home: { name: "Inicio", href: "/es/" },
+    work: "Casos de éxito",
     more: "Ver más proyectos de clientes",
     visit: (d: string) => `Visitar ${d}`,
     needed: (n: string) => `Lo que ${n} necesitaba`,
@@ -107,12 +110,12 @@ export default function CaseStudyView({ project: source, locale }: { project: Pr
   const extraBands = (project.evidence?.length ?? 0) + (project.countries ? 1 : 0);
   return (
     <main>
-      <JsonLd data={breadcrumbSchema([{ name: t.home.name, url: `${SITE_URL}${t.home.href}` }, { name: project.name, url: `${SITE_URL}${href(project.slug)}` }])} />
+      <JsonLd data={breadcrumbSchema([{ name: t.home.name, url: `${SITE_URL}${t.home.href}` }, { name: t.work, url: `${SITE_URL}${WORK_PATH[locale]}` }, { name: project.name, url: `${SITE_URL}${href(project.slug)}` }])} />
       {/* ============ HERO ============ */}
       <section className="band band-a grain relative overflow-hidden pb-[clamp(32px,4vw,56px)] pt-[clamp(88px,9vw,112px)]">
         <div className="shell relative">
           <Reveal>
-            <Link href={`${t.home.href}#work`} className="ulink mb-8 inline-block text-[.9rem]" style={{ color: "var(--dim)" }}>
+            <Link href={WORK_PATH[locale]} className="ulink mb-8 inline-block text-[.9rem]" style={{ color: "var(--dim)" }}>
               {t.more}
             </Link>
           </Reveal>

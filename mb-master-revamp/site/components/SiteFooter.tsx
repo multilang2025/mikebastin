@@ -17,10 +17,9 @@ export const SOCIALS = [
 
 const LINKS = [
   { href: "/", label: "Home" },
-  { href: "/#work", label: "Work" },
+  { href: "/projects/", label: "Work" },
   { href: "/services/", label: "Services" },
   { href: "/blog/", label: "Journal" },
-  { href: "/results/", label: "Results" },
   { href: "/sitemap/", label: "Sitemap" },
 ];
 
@@ -269,7 +268,7 @@ export default function SiteFooter({
                   {t.ctaButton}
                 </Link>
                 {locale === "en" && (
-                  <Link href="/results/" className="ulink footer-cta-link text-[.98rem]">
+                  <Link href="/projects/" className="ulink footer-cta-link text-[.98rem]">
                     {t.ctaSecondary}
                   </Link>
                 )}
@@ -327,13 +326,8 @@ export default function SiteFooter({
                     </Link>
                   </li>
                   <li>
-                    <Link href="/results/" className="ulink flink">
-                      Results
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/#work" className="ulink flink">
-                      Client work
+                    <Link href="/projects/" className="ulink flink">
+                      Client work and results
                     </Link>
                   </li>
                 </ul>

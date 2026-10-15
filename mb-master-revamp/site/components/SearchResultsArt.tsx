@@ -1,5 +1,5 @@
 /**
- * A line-drawn search results page for the figures band of /results/: a search
+ * A line-drawn search results page for the figures band of /projects/: a search
  * bar, then a short list of results with the top one lifted and a small climb
  * beside it. It says "Google" without borrowing the logo or its colours, and
  * uses only the site's own tokens (berry, ink, rule), so it follows both

@@ -77,7 +77,7 @@ const DELIVERABLES = [
   {
     title: "A monthly report and a next move",
     body: "Enquiries per market every month, what changed, and where the next euro of budget earns the most.",
-    href: "/results/",
+    href: "/projects/",
     link: "See our results",
   },
 ];
@@ -230,7 +230,7 @@ export default function LeadGenerationPage() {
               sites, counted from their contact and quote form records. Where
               enquiries also arrive by phone and email, the figure is the site
               owner&apos;s own.{" "}
-              <Link href="/results/" className="ulink">
+              <Link href="/projects/" className="ulink">
                 See the full breakdown on the results page
               </Link>
               .
