@@ -16,7 +16,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'AISA_VERSION', '2.7.0' );
+define( 'AISA_VERSION', '2.8.0' );
 define( 'AISA_PATH', plugin_dir_path( __FILE__ ) );
 define( 'AISA_URL', plugin_dir_url( __FILE__ ) );
 
