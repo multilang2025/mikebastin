@@ -12,6 +12,9 @@
  *
  *   <slug>.webp      1200x630, the post head
  *   <slug>-640.webp  640x336, cards and narrow screens (srcset)
+ *   <slug>-800.webp  800x420, a full-width card on a phone (CWV pass, 15 Oct
+ *                    2026: at 1.75x a 380px card needs 665px, one over 640, so
+ *                    phones were fetching the 1200 file for every card)
  *
  * Works on the committed files, so it covers every source the set is
  * built from (legacy uploads, Commons, Unsplash, owner-made) without
@@ -50,6 +53,7 @@ async function main() {
   for (const slug of Object.keys(BLOG_IMAGES)) {
     const full = path.join(DIR, `${slug}.webp`);
     const small = path.join(DIR, `${slug}-640.webp`);
+    const mid = path.join(DIR, `${slug}-800.webp`);
     if (!(await exists(full))) continue;
 
     const src = await readFile(full);
@@ -60,6 +64,11 @@ async function main() {
     const th = Math.round((tw * H) / W);
     const rightShape = width === tw && height === th;
     if (!FORCE && rightShape && (await exists(small))) {
+      // Already cut: add only a missing 800 sibling, from the file as it is,
+      // so the 1200 and 640 files are never re-encoded (generation loss).
+      if (tw > 800 && !(await exists(mid))) {
+        await writeFile(mid, await sharp(src).resize(800, Math.round((800 * H) / W)).webp({ quality: 74, effort: 6 }).toBuffer());
+      }
       skipped++;
       continue;
     }
@@ -76,6 +85,7 @@ async function main() {
 
     await writeFile(full, out);
     await writeFile(small, smallOut);
+    if (tw > 800) await writeFile(mid, await sharp(out).resize(800, Math.round((800 * H) / W)).webp({ quality: 74, effort: 6 }).toBuffer());
     before += src.length;
     after += out.length;
     done++;
