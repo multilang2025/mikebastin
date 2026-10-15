@@ -701,22 +701,25 @@ class AISA_Tools {
 				'name'         => 'wp_cli_get',
 				'description'  => 'Read-only site administration lookups (like WP-CLI, but native PHP -- '
 					. 'no shell). command/action pairs: "plugin list", "theme list", "option get" (pass '
-					. 'the option name as args[0]; allowlisted keys only), "user list", "core version".',
+					. 'the option name as args[0]; any option except a security blocklist -- secrets, '
+					. 'auth keys, siteurl/home, active_plugins, etc.), "post meta get" (args[0] = post ID; '
+					. 'args[1] = meta key, or omit it to list every meta key on that post), "user list", '
+					. '"core version".',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
 						'command' => array(
 							'type'        => 'string',
-							'description' => 'plugin, theme, option, user, or core.',
+							'description' => 'plugin, theme, option, post, user, or core.',
 						),
 						'action'  => array(
 							'type'        => 'string',
-							'description' => 'list, get, or version depending on command.',
+							'description' => 'list, get, or version depending on command ("meta get" for command=post).',
 						),
 						'args'    => array(
 							'type'        => 'array',
 							'items'       => array( 'type' => 'string' ),
-							'description' => 'Positional arguments, e.g. the option name for "option get".',
+							'description' => 'Positional arguments, e.g. the option name for "option get", or [post_id, meta_key] for "post meta get".',
 						),
 					),
 					'required'             => array( 'command', 'action' ),
@@ -730,40 +733,56 @@ class AISA_Tools {
 					. 'or other shell-special character showing up inside page-builder content). '
 					. 'command/action pairs: "plugin activate"/"plugin deactivate" (target = plugin file, '
 					. 'e.g. akismet/akismet.php), "theme activate" (target = stylesheet slug), "option '
-					. 'update" (target = option name, allowlisted keys only; value = new value), "search '
-					. 'replace" (old/new -- a WP-CLI-style bulk find/replace across wp_posts, wp_postmeta, '
-					. 'and/or wp_options, serialization-safe like WP-CLI\'s own search-replace, e.g. '
-					. 'migrating a domain or fixing a broken URL sitewide in one call instead of one '
-					. 'bulk_replace_in_posts call per post). ALWAYS run "search replace" with dry_run=true '
-					. 'first and read the row counts before setting dry_run=false.',
+					. 'update" (target = option name, any key except the security blocklist; value = new '
+					. 'value; refuses if the option currently holds a structured/array value -- use "option '
+					. 'patch" for those), "option patch" (target = option name; key_path = dot-separated '
+					. 'path to one field, e.g. "telephone" or "settings.phone"; value = new value for just '
+					. 'that field -- use this for a plugin\'s own settings option instead of overwriting the '
+					. 'whole thing), "post meta update" (target = post ID; meta_key = meta key; value = new '
+					. 'value; same structured-value refusal as option update), "post meta patch" (target = '
+					. 'post ID; meta_key = meta key; key_path = dot-separated path to one field inside that '
+					. 'meta value; value = new value for just that field), "search replace" (old/new -- a '
+					. 'WP-CLI-style bulk find/replace across wp_posts, wp_postmeta, and/or wp_options, '
+					. 'serialization-safe like WP-CLI\'s own search-replace, e.g. migrating a domain or '
+					. 'fixing a broken URL sitewide in one call instead of one bulk_replace_in_posts call per '
+					. 'post). ALWAYS run "search replace" with dry_run=true first and read the row counts '
+					. 'before setting dry_run=false.',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
-						'command' => array(
+						'command'  => array(
 							'type'        => 'string',
-							'description' => 'plugin, theme, option, or search.',
+							'description' => 'plugin, theme, option, post, or search.',
 						),
-						'action'  => array(
+						'action'   => array(
 							'type'        => 'string',
-							'description' => 'activate, deactivate, update, or replace depending on command.',
+							'description' => 'activate, deactivate, update, patch, or replace depending on command ("meta_update"/"meta_patch" for command=post).',
 						),
-						'target'  => array(
+						'target'   => array(
 							'type'        => 'string',
-							'description' => 'Plugin file, theme stylesheet slug, or option name. Unused for "search replace".',
+							'description' => 'Plugin file, theme stylesheet slug, option name, or post ID. Unused for "search replace".',
 						),
-						'value'   => array(
+						'value'    => array(
 							'type'        => 'string',
-							'description' => 'New value, only used for "option update". Unused for "search replace".',
+							'description' => 'New value. Used by "option update", "option patch", "post meta update", "post meta patch". Unused for "search replace".',
 						),
-						'old'     => array(
+						'key_path' => array(
+							'type'        => 'string',
+							'description' => '"option patch" / "post meta patch" only: dot-separated path to the single field to change, e.g. "telephone" or "settings.phone".',
+						),
+						'meta_key' => array(
+							'type'        => 'string',
+							'description' => '"post meta update" / "post meta patch" only: the post meta key to write.',
+						),
+						'old'      => array(
 							'type'        => 'string',
 							'description' => '"search replace" only: exact text to find.',
 						),
-						'new'     => array(
+						'new'      => array(
 							'type'        => 'string',
 							'description' => '"search replace" only: replacement text.',
 						),
-						'tables'  => array(
+						'tables'   => array(
 							'type'        => 'array',
 							'items'       => array(
 								'type' => 'string',
@@ -771,11 +790,11 @@ class AISA_Tools {
 							),
 							'description' => '"search replace" only: which tables to scan (default ["posts"]).',
 						),
-						'dry_run' => array(
+						'dry_run'  => array(
 							'type'        => 'boolean',
 							'description' => '"search replace" only: report matching row counts without writing (default true). Always check this before setting it to false.',
 						),
-						'limit'   => array(
+						'limit'    => array(
 							'type'        => 'integer',
 							'description' => '"search replace" only: max rows scanned per column (default 500, max 2000).',
 						),

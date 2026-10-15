@@ -3,7 +3,7 @@
  * Plugin Name:       AISA Connector
  * Plugin URI:        https://example.com/ai-site-assistant
  * Description:        An AI assistant for WordPress that can read and edit your content using your own Claude API key. No daily limits — you pay your provider per use.
- * Version:           2.7.0
+ * Version:           2.8.0
  * Requires at least: 6.3
  * Requires PHP:      8.1
  * Author:            betranslated

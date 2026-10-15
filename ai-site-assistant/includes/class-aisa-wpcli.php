@@ -23,26 +23,71 @@ defined( 'ABSPATH' ) || exit;
 class AISA_WPCLI {
 
 	/**
-	 * Options writable via wp_cli_set. Kept tight -- this deliberately excludes
-	 * anything that could change who can log in or what code runs (active_plugins,
-	 * template/stylesheet, siteurl/home, users_can_register, default_role, ...).
+	 * Options hard-blocked for BOTH read and write via wp_cli_get/wp_cli_set --
+	 * anything that could leak a secret or let an attacker change who can log
+	 * in or what code runs. Everything else is readable/writable (replaces the
+	 * old narrow OPTION_ALLOWLIST with a blocklist, matching WPVibe's model --
+	 * approved 2026-10-15: an allowlist means every legitimate option name has
+	 * to be anticipated in advance, which is how a plugin's own settings
+	 * option, e.g. `joinchat`, ended up unreachable here even though reading/
+	 * patching one field of it is harmless).
 	 *
 	 * @var string[]
 	 */
-	const OPTION_ALLOWLIST = array(
-		'blogname',
-		'blogdescription',
-		'blog_public',
-		'date_format',
-		'time_format',
-		'start_of_week',
-		'timezone_string',
-		'default_category',
-		'posts_per_page',
-		'permalink_structure',
-		'category_base',
-		'tag_base',
+	const BLOCKED_OPTIONS = array(
+		'siteurl',
+		'home',
+		'active_plugins',
+		'active_sitewide_plugins',
+		'template',
+		'stylesheet',
+		'stylesheet_root',
+		'template_root',
+		'users_can_register',
+		'default_role',
+		'admin_email',
+		'wp_user_roles',
+		'db_version',
+		'initial_db_version',
+		'cron',
+		'recovery_keys',
+		'wpvibe_bypass_approvals',
+		'aisa_bypass_approvals',
 	);
+
+	/**
+	 * Substring match (case-insensitive) against the option name -- covers
+	 * auth_key/auth_salt/logged_in_key/nonce_salt/secure_auth_* and any
+	 * plugin's own *_api_key / *_secret / *_password option without listing
+	 * every one by name.
+	 *
+	 * @var string[]
+	 */
+	const BLOCKED_OPTION_SUBSTRINGS = array(
+		'_key',
+		'_salt',
+		'secret',
+		'password',
+	);
+
+	/**
+	 * True if $name is blocked by BLOCKED_OPTIONS or BLOCKED_OPTION_SUBSTRINGS.
+	 *
+	 * @param string $name Option name.
+	 * @return bool
+	 */
+	private static function is_blocked_option( $name ) {
+		$name = strtolower( (string) $name );
+		if ( in_array( $name, self::BLOCKED_OPTIONS, true ) ) {
+			return true;
+		}
+		foreach ( self::BLOCKED_OPTION_SUBSTRINGS as $needle ) {
+			if ( false !== strpos( $name, $needle ) ) {
+				return true;
+			}
+		}
+		return false;
+	}
 
 	/**
 	 * Options that change what a URL routes to. Writing one of these without
@@ -71,6 +116,9 @@ class AISA_WPCLI {
 		'plugin deactivate',
 		'theme activate',
 		'option update',
+		'option patch',
+		'post meta update',
+		'post meta patch',
 		'search replace',
 	);
 
@@ -156,13 +204,49 @@ class AISA_WPCLI {
 					return self::error( 'Permission denied.' );
 				}
 				$name = sanitize_key( $args[0] ?? '' );
-				if ( ! in_array( $name, self::OPTION_ALLOWLIST, true ) ) {
-					return self::error( 'Option "' . $name . '" is not on the allowlist. Available: ' . implode( ', ', self::OPTION_ALLOWLIST ) . '.' );
+				if ( self::is_blocked_option( $name ) ) {
+					return self::error( 'Option "' . $name . '" is blocked for security (secrets/login/site-identity options are never readable).' );
+				}
+				$value = get_option( $name, null );
+				if ( null === $value ) {
+					return self::error( 'Option "' . $name . '" was not found.' );
 				}
 				return self::ok(
 					array(
 						'name'  => $name,
-						'value' => get_option( $name ),
+						'value' => $value,
+					)
+				);
+
+			case 'post meta get':
+				if ( ! current_user_can( 'edit_posts' ) ) {
+					return self::error( 'Permission denied.' );
+				}
+				$post_id = (int) ( $args[0] ?? 0 );
+				if ( $post_id <= 0 || ! get_post( $post_id ) ) {
+					return self::error( 'Post "' . ( $args[0] ?? '' ) . '" was not found.' );
+				}
+				$meta_key = sanitize_key( $args[1] ?? '' );
+				if ( '' === $meta_key ) {
+					// No key given -- list every meta key on the post (values
+					// truncated so a huge serialized blob doesn't blow the response).
+					$all = get_post_meta( $post_id );
+					foreach ( $all as $key => $values ) {
+						$all[ $key ] = array_map( function ( $v ) {
+							return strlen( $v ) > 300 ? substr( $v, 0, 300 ) . '...[truncated]' : $v;
+						}, $values );
+					}
+					return self::ok( array( 'post_id' => $post_id, 'meta' => $all ) );
+				}
+				$value = get_post_meta( $post_id, $meta_key, true );
+				if ( '' === $value ) {
+					return self::error( 'Meta key "' . $meta_key . '" is empty or not set on post ' . $post_id . '.' );
+				}
+				return self::ok(
+					array(
+						'post_id' => $post_id,
+						'key'     => $meta_key,
+						'value'   => $value,
 					)
 				);
 
@@ -258,17 +342,16 @@ class AISA_WPCLI {
 					return self::error( 'Permission denied.' );
 				}
 				$name = sanitize_key( $target );
-				if ( ! in_array( $name, self::OPTION_ALLOWLIST, true ) ) {
-					return self::error( 'Option "' . $name . '" is not on the allowlist. Available: ' . implode( ', ', self::OPTION_ALLOWLIST ) . '.' );
+				if ( self::is_blocked_option( $name ) ) {
+					return self::error( 'Option "' . $name . '" is blocked for security (secrets/login/site-identity options are never writable). Change it through wp-admin instead.' );
 				}
 				// Refuse a write that would silently flip the option's stored
-				// type (e.g. an array/serialized value overwritten with a
-				// plain string) -- every currently-allowlisted option is a
-				// plain scalar, so this should never actually trigger today,
-				// but it's cheap defensive parity for if the allowlist grows.
+				// type (e.g. an array/serialized value overwritten with a plain
+				// string) -- for a structured option, use `option patch` to
+				// change one field instead of replacing the whole value.
 				$existing = get_option( $name );
 				if ( is_array( $existing ) && ! empty( $existing ) ) {
-					return self::error( 'Option "' . $name . '" currently holds a structured (array) value; wp_cli_set only writes plain text and would silently flip its type. Refusing the write.' );
+					return self::error( 'Option "' . $name . '" currently holds a structured (array) value; wp_cli_set only writes plain text here and would silently flip its type. Use command="option", action="patch" to change one field instead.' );
 				}
 				$value = sanitize_text_field( (string) ( $in['value'] ?? '' ) );
 				update_option( $name, $value );
@@ -288,6 +371,107 @@ class AISA_WPCLI {
 					)
 				);
 
+			case 'option patch':
+				if ( ! current_user_can( 'manage_options' ) ) {
+					return self::error( 'Permission denied.' );
+				}
+				$name = sanitize_key( $target );
+				if ( self::is_blocked_option( $name ) ) {
+					return self::error( 'Option "' . $name . '" is blocked for security.' );
+				}
+				$current = get_option( $name, null );
+				if ( null === $current ) {
+					return self::error( 'Option "' . $name . '" was not found.' );
+				}
+				if ( ! is_array( $current ) && ! is_object( $current ) ) {
+					return self::error( 'Option "' . $name . '" is a plain scalar; use command="option", action="update" instead.' );
+				}
+				$path = array_filter( explode( '.', (string) ( $in['key_path'] ?? '' ) ), function ( $seg ) {
+					return '' !== $seg;
+				} );
+				if ( empty( $path ) ) {
+					return self::error( 'A "key_path" is required, e.g. "telephone" or "nested.field".' );
+				}
+				if ( ! array_key_exists( 'value', $in ) ) {
+					return self::error( 'A "value" is required.' );
+				}
+				$error   = null;
+				$patched = self::patch_structure( $current, array_values( $path ), (string) $in['value'], $error );
+				if ( null !== $error ) {
+					return self::error( $error );
+				}
+				update_option( $name, $patched );
+				$stored = get_option( $name );
+				if ( maybe_serialize( $stored ) !== maybe_serialize( $patched ) ) {
+					return self::error( 'Could not patch option "' . $name . '" -- the stored value does not match. A pre_update_option filter may have rejected the write.' );
+				}
+				AISA_Audit_Log::record( 'wp_cli_option_patch', null, array( 'name' => $name, 'key_path' => implode( '.', $path ) ) );
+				return self::ok( array( 'name' => $name, 'key_path' => implode( '.', $path ), 'value' => $in['value'] ) );
+
+			case 'post meta update':
+				if ( ! current_user_can( 'edit_posts' ) ) {
+					return self::error( 'Permission denied.' );
+				}
+				$post_id = (int) $target;
+				if ( $post_id <= 0 || ! get_post( $post_id ) ) {
+					return self::error( 'Post "' . $target . '" was not found.' );
+				}
+				$meta_key = sanitize_key( (string) ( $in['meta_key'] ?? '' ) );
+				if ( '' === $meta_key ) {
+					return self::error( 'A "meta_key" is required.' );
+				}
+				$existing = get_post_meta( $post_id, $meta_key, true );
+				if ( is_array( $existing ) && ! empty( $existing ) ) {
+					return self::error( 'Meta key "' . $meta_key . '" currently holds a structured (array) value; use command="post", action="meta_patch" with a "key_path" to change one field instead.' );
+				}
+				$value = sanitize_text_field( (string) ( $in['value'] ?? '' ) );
+				update_post_meta( $post_id, $meta_key, $value );
+				AISA_Audit_Log::record( 'wp_cli_post_meta_update', $post_id, array( 'key' => $meta_key ) );
+				return self::ok( array( 'post_id' => $post_id, 'key' => $meta_key, 'value' => $value ) );
+
+			case 'post meta patch':
+				if ( ! current_user_can( 'edit_posts' ) ) {
+					return self::error( 'Permission denied.' );
+				}
+				$post_id = (int) $target;
+				if ( $post_id <= 0 || ! get_post( $post_id ) ) {
+					return self::error( 'Post "' . $target . '" was not found.' );
+				}
+				$meta_key = sanitize_key( (string) ( $in['meta_key'] ?? '' ) );
+				if ( '' === $meta_key ) {
+					return self::error( 'A "meta_key" is required.' );
+				}
+				$current = get_post_meta( $post_id, $meta_key, true );
+				if ( '' === $current || ! ( is_array( $current ) || is_object( $current ) ) ) {
+					return self::error( 'Meta key "' . $meta_key . '" is empty or not a structured (array) value; use command="post", action="meta_update" instead.' );
+				}
+				$path = array_filter( explode( '.', (string) ( $in['key_path'] ?? '' ) ), function ( $seg ) {
+					return '' !== $seg;
+				} );
+				if ( empty( $path ) ) {
+					return self::error( 'A "key_path" is required, e.g. "number" or "nested.field".' );
+				}
+				if ( ! array_key_exists( 'value', $in ) ) {
+					return self::error( 'A "value" is required.' );
+				}
+				$error   = null;
+				$patched = self::patch_structure( $current, array_values( $path ), (string) $in['value'], $error );
+				if ( null !== $error ) {
+					return self::error( $error );
+				}
+				// update_post_meta() serializes a real PHP array itself; passing
+				// the already-decoded $patched array (never a pre-serialized
+				// string) is what keeps this safe -- see the WPVibe incident this
+				// ported from, where re-feeding a serialized-looking STRING back
+				// through a scalar update path got silently double-serialized.
+				update_post_meta( $post_id, $meta_key, $patched );
+				$stored = get_post_meta( $post_id, $meta_key, true );
+				if ( maybe_serialize( $stored ) !== maybe_serialize( $patched ) ) {
+					return self::error( 'Could not patch meta "' . $meta_key . '" on post ' . $post_id . ' -- the stored value does not match.' );
+				}
+				AISA_Audit_Log::record( 'wp_cli_post_meta_patch', $post_id, array( 'key' => $meta_key, 'key_path' => implode( '.', $path ) ) );
+				return self::ok( array( 'post_id' => $post_id, 'key' => $meta_key, 'key_path' => implode( '.', $path ), 'value' => $in['value'] ) );
+
 			case 'search replace':
 				if ( ! current_user_can( 'manage_options' ) ) {
 					return self::error( 'Permission denied. Needs an administrator account.' );
@@ -297,6 +481,51 @@ class AISA_WPCLI {
 			default:
 				return self::error( 'Unknown or unsupported "' . $command . ' ' . $action . '". ' . self::usage() );
 		}
+	}
+
+	/**
+	 * Walk a nested array/stdClass along $path and set the leaf to $value.
+	 * Shared by `option patch` and `post meta patch`. Unlike `option
+	 * update`/`post meta update`, this only ever replaces one leaf, so it
+	 * cannot flip the structure's own type -- the caller is still responsible
+	 * for refusing to patch a plain scalar.
+	 *
+	 * @param mixed    $data  Current array/object value.
+	 * @param string[] $path  Non-empty list of key segments.
+	 * @param string   $value New leaf value.
+	 * @param ?string  $error Set on failure.
+	 * @return mixed Same shape as $data, with the leaf at $path set to $value.
+	 */
+	private static function patch_structure( $data, array $path, $value, &$error ) {
+		$segment = array_shift( $path );
+		$seg_key = is_numeric( $segment ) ? (int) $segment : $segment;
+		$is_obj  = is_object( $data );
+
+		if ( ! is_array( $data ) && ! $is_obj ) {
+			$error = 'Cannot descend into a non-array value at "' . $segment . '".';
+			return $data;
+		}
+
+		if ( empty( $path ) ) {
+			if ( $is_obj ) {
+				$data->{$seg_key} = $value;
+			} else {
+				$data[ $seg_key ] = $value;
+			}
+			return $data;
+		}
+
+		$exists = $is_obj ? property_exists( $data, (string) $seg_key ) : array_key_exists( $seg_key, $data );
+		if ( ! $exists ) {
+			$error = 'No data exists at key "' . $segment . '".';
+			return $data;
+		}
+		if ( $is_obj ) {
+			$data->{$seg_key} = self::patch_structure( $data->{$seg_key}, $path, $value, $error );
+		} else {
+			$data[ $seg_key ] = self::patch_structure( $data[ $seg_key ], $path, $value, $error );
+		}
+		return $data;
 	}
 
 	/**
@@ -445,8 +674,9 @@ class AISA_WPCLI {
 	 */
 	private static function usage() {
 		return 'Supported: plugin list/activate/deactivate, theme list/activate, '
-			. 'option get/update (allowlisted keys only), search replace (old/new, tables/dry_run/limit), '
-			. 'user list, core version.';
+			. 'option get/update/patch (any key except the blocklist; patch changes one field '
+			. 'of a structured option via key_path), post meta get/update/patch (same pattern), '
+			. 'search replace (old/new, tables/dry_run/limit), user list, core version.';
 	}
 
 	/**
