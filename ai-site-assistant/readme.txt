@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.8.0
+Stable tag: 2.8.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,8 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.8.1 =
+* Fix: the 2.8.0 tag shipped without bumping the AISA_VERSION constant (only the header and readme were updated), which failed release.yml's version-match check and silently skipped the GitHub Release. No functional change from 2.8.0 otherwise.
 = 2.8.0 =
 * wp_cli_get/wp_cli_set's `option get`/`option update` now use a security blocklist (secrets, auth keys, siteurl/home, active_plugins, etc.) instead of a narrow allowlist of ~12 known keys -- ported from WPVibe's open-source model (github.com/awesomemotive/wpvibe-ai-mcp) after the allowlist blocked a routine fix (a plugin's own settings option, e.g. Joinchat's `telephone`, was simply never anticipated). Reading/writing a blocked option returns a clear refusal instead of a silent allowlist miss.
 * Added `option patch` and `post meta patch` (command=option|post, action=patch|meta_patch): change one field inside a structured (array) option or post meta value via a dot-separated key_path, without overwriting the whole value -- the safe way to, e.g., update a single phone number buried in a plugin's settings array. `option update`/`post meta update` now explicitly refuse a structured value and point to the patch action instead of silently flipping its type.
