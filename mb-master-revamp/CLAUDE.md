@@ -217,7 +217,7 @@ needs.
   "Your English pages sell. The others only look busy." and had to be
   corrected the same day. Service h1s already satisfy this by being the
   term ("Technical SEO", "Website localisation"); the risk is on the
-  hand-written pages. `/results/` and `/contact/` are the two h1s that do
+  hand-written pages. `/projects/` (work and results) and `/contact/` are the two h1s that do
   not carry their title term, and both target navigational words rather
   than commercial ones, so they are flagged rather than forced.
 - Design tokens (colour, type) come only from HANDOFF.md §2/§22/§23 (Night
@@ -866,7 +866,7 @@ opens. Flagged rather than forgotten, so they are known and deliberate:
   and `lib/case-studies-locale.ts` (the rest), paired through
   `lib/fr-pages-data.ts` / `lib/es-pages-data.ts`, so hreflang, the
   switcher and both sitemaps follow. A new project needs its FR and ES copy
-  in both files. The results page (`/fr/resultats/`, `/es/resultados/`,
+  in both files. The work and results page (`/projects/`, `/fr/etudes-de-cas/`, `/es/casos-de-exito/`,
   `components/ResultsView.tsx`) and the competitor checklist
   (`/fr/checklist-analyse-concurrentielle/`,
   `/es/checklist-analisis-de-competencia/`, copy in `lib/checklist-copy.ts`)

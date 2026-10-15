@@ -174,7 +174,7 @@ export default function Home() {
               <Link href="/contact/" className="btn btn-primary btn-lg">
                 Discuss your project
               </Link>
-              <Link href="/results/" className="ulink text-[.98rem]">
+              <Link href="/projects/" className="ulink text-[.98rem]">
                 See client results
               </Link>
             </div>

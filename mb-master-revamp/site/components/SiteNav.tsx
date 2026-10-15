@@ -12,10 +12,9 @@ import { ES_PAGES } from "@/lib/es-pages-data";
 
 const LINKS = [
   { href: "/", label: "Home" },
-  { href: "/#work", label: "Work" },
+  { href: "/projects/", label: "Work" },
   { href: "/services/", label: "Services" },
   { href: "/blog/", label: "Journal" },
-  { href: "/results/", label: "Results" },
   { href: "/about-us/", label: "About" },
   { href: "/contact/", label: "Contact" },
 ];
@@ -133,7 +132,6 @@ export default function SiteNav() {
         >
           {links.map((l) => {
             const active =
-              l.href !== "/#work" &&
               l.href !== "/#contact" &&
               pathname === l.href;
             return (
@@ -205,7 +203,6 @@ export default function SiteNav() {
             <ul className="flex flex-col">
               {links.map((l, i) => {
                 const active =
-                  l.href !== "/#work" &&
                   l.href !== "/#contact" &&
                   pathname === l.href;
                 return (

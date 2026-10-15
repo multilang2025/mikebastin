@@ -10,12 +10,16 @@ import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import { LEADS_PERIOD, PROJECTS } from "@/lib/projects";
 import { PROJECTS_ES, PROJECTS_FR } from "@/lib/projects-locale";
 import { caseStudyPath } from "@/lib/case-studies";
+import { BtSites, CaseCards } from "@/components/HomeEvidence";
 import { LEADS_HIGH, LEADS_LOW, MILLIONS, SITE_COUNT, TOTAL_CLICKS } from "@/lib/results-totals";
 
 /**
- * The results page in English, French and Spanish (owner, 12 Oct 2026:
- * "translate the results page"). /results/, /fr/resultats/ and
- * /es/resultados/ all render this.
+ * The work and results page in English, French and Spanish: /projects/,
+ * /fr/etudes-de-cas/ and /es/casos-de-exito/ all render this, as the parent
+ * of the case studies (owner, 15 Oct 2026: "merging Results and Work into
+ * the same page makes sense"; it was /results/ until then, and the homepage
+ * "Work" link only reached the #work block). It carries the figures, every
+ * case study and the BeTranslated country sites.
  *
  * Owner, 2 Oct 2026: the page carries the sites we run search for, as totals
  * from the live Search Console figures (lib/results-totals.ts, May to July
@@ -39,12 +43,14 @@ function fmt(n: number, locale: Locale, digits = 0) {
 
 const N = " ";
 
+const capitalise = (w: string) => w.charAt(0).toUpperCase() + w.slice(1);
+
 const T = {
   en: {
     home: { name: "Home", href: "/" },
-    crumb: "Results",
+    crumb: "Work",
     contact: "/contact/",
-    eyebrow: "Results you can count",
+    eyebrow: "Client work and results",
     h1: "Client results you can check against the source",
     h2: "Live search figures from the sites we run, each one linked to the case study that explains the work behind it.",
     cta: "Book a free consultation",
@@ -57,6 +63,9 @@ const T = {
     range: "to",
     words: ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"],
     owned: ", our own site",
+    casesEyebrow: "Case studies",
+    casesHeading: "The work behind the figures.",
+    casesLede: (n: string) => `${n} case studies, each with the brief, the work and what came of it, in the client’s own languages.`,
     reviewsEyebrow: "In their own words",
     reviewsHeading: "Clients review us in their own language.",
     reviewsLede: "Every one is public on the linked Google Business Profile, where it can be checked against the source.",
@@ -70,9 +79,9 @@ const T = {
   },
   fr: {
     home: { name: "Accueil", href: "/fr/" },
-    crumb: "Résultats",
+    crumb: "Études de cas",
     contact: "/fr/nous-contacter/",
-    eyebrow: "Des résultats qui se comptent",
+    eyebrow: "Études de cas et résultats",
     h1: "Des résultats clients vérifiables à la source",
     h2: "Les chiffres de recherche réels des sites que nous gérons, chacun relié à l’étude de cas qui explique le travail réalisé.",
     cta: "Réserver une consultation gratuite",
@@ -84,6 +93,9 @@ const T = {
     range: "à",
     words: ["zéro", "un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix"],
     owned: ", notre propre site",
+    casesEyebrow: "Études de cas",
+    casesHeading: "Le travail derrière les chiffres.",
+    casesLede: (n: string) => `${n} études de cas, chacune avec la demande, le travail réalisé et son résultat, dans les langues du client.`,
     reviewsEyebrow: "Dans leurs mots",
     reviewsHeading: "Nos clients nous évaluent dans leur propre langue.",
     reviewsLede: "Chaque avis est public sur notre fiche Google, où vous pouvez le vérifier directement.",
@@ -97,9 +109,9 @@ const T = {
   },
   es: {
     home: { name: "Inicio", href: "/es/" },
-    crumb: "Resultados",
+    crumb: "Casos de éxito",
     contact: "/es/contactanos/",
-    eyebrow: "Resultados que se pueden contar",
+    eyebrow: "Casos de éxito y resultados",
     h1: "Resultados de clientes que puedes comprobar en la fuente",
     h2: "Cifras de búsqueda reales de las webs que gestionamos, cada una enlazada al caso de éxito que explica el trabajo que hay detrás.",
     cta: "Reserva una consulta gratuita",
@@ -112,6 +124,9 @@ const T = {
     range: "a",
     words: ["cero", "una", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "diez"],
     owned: ", nuestra propia web",
+    casesEyebrow: "Casos de éxito",
+    casesHeading: "El trabajo detrás de las cifras.",
+    casesLede: (n: string) => `${n} casos de éxito, cada uno con el encargo, el trabajo y su resultado, en los idiomas del cliente.`,
     reviewsEyebrow: "En sus propias palabras",
     reviewsHeading: "Nuestros clientes nos valoran en su propio idioma.",
     reviewsLede: "Todas las reseñas son públicas en nuestro perfil de Google, donde puedes comprobarlas en la fuente.",
@@ -215,8 +230,23 @@ export default function ResultsView({ locale, path }: { locale: Locale; path: st
         </div>
       </section>
 
+      {/* ============ EVERY CASE STUDY, THEN THE BETRANSLATED SITES ============ */}
+      <section id="case-studies" className="band band-a py-[clamp(64px,9vw,120px)]">
+        <div className="shell">
+          <Reveal>
+            <p className="eyebrow mb-3">{t.casesEyebrow}</p>
+            <h2 className="mb-5 max-w-[24ch] text-[clamp(1.8rem,3.6vw,2.7rem)] font-semibold leading-[1.1]">{t.casesHeading}</h2>
+            <p className="mb-10 max-w-[56ch] text-[1.05rem]" style={{ color: "var(--dim)" }}>
+              {t.casesLede(capitalise(t.words[PROJECTS.length] ?? String(PROJECTS.length)))}
+            </p>
+          </Reveal>
+          <CaseCards locale={locale} slugs={PROJECTS.map((p) => p.slug)} />
+          <BtSites locale={locale} />
+        </div>
+      </section>
+
       {/* ============ TESTIMONIALS ============ */}
-      <section className="band band-a py-[clamp(56px,8vw,110px)]">
+      <section className="band band-b py-[clamp(56px,8vw,110px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">{t.reviewsEyebrow}</p>
@@ -232,7 +262,7 @@ export default function ResultsView({ locale, path }: { locale: Locale; path: st
       </section>
 
       {/* ============ CONTACT ============ */}
-      <SiteFooter locale={locale} band="b" />
+      <SiteFooter locale={locale} band="a" />
     </main>
   );
 }

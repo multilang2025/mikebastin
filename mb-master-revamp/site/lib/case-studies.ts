@@ -24,6 +24,15 @@ export const CASE_STUDIES: { id: string; name: string; url: Record<Locale, strin
 
 const FOLDER = { en: "/projects/", fr: "/fr/etudes-de-cas/", es: "/es/casos-de-exito/" } as const;
 
+/**
+ * The work and results page in each language: the case study folder itself,
+ * one page that carries the results figures and every case (owner, 15 Oct
+ * 2026: "merging Results and Work into the same page makes sense"). No
+ * legacy WordPress URL had portfolio content to recycle, so the parent of
+ * the case studies is the natural address.
+ */
+export const WORK_PATH: Record<Locale, string> = { ...FOLDER };
+
 /** The URL slugs for one language, for generateStaticParams. */
 export const caseStudySlugs = (locale: Locale) => CASE_STUDIES.map((c) => c.url[locale]);
 

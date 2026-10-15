@@ -69,7 +69,7 @@ const STATIC: { path: string; section: string; label: string }[] = [
   { path: "/", section: "Main pages", label: "Home" },
   { path: "/services/", section: "Main pages", label: "Services" },
   { path: "/blog/", section: "Main pages", label: "Journal" },
-  { path: "/results/", section: "Main pages", label: "Results" },
+  { path: "/projects/", section: "Main pages", label: "Client work and results" },
   { path: "/how-i-work/", section: "Main pages", label: "How we work" },
   { path: "/about-us/", section: "Main pages", label: "About us" },
   { path: "/contact/", section: "Main pages", label: "Contact" },

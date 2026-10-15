@@ -6,7 +6,7 @@ import ReviewText from "@/components/ReviewText";
  *
  * Measured on 20 September 2026: 18 of the 19 service pages carried no
  * proof of any kind, while ten Google reviews sat in lib/testimonials.ts
- * used only on the homepage, /results/ and the one hand-built service
+ * used only on the homepage, /projects/ and the one hand-built service
  * page. A service page with no proof asks to be taken on trust by
  * somebody who has never heard of us, which is the hardest thing any page
  * here has to do and the cheapest to fix.

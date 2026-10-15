@@ -11,7 +11,7 @@
  * Splitting into per-locale root layouts (the pattern valenciamove.com
  * uses) would mean moving every existing route under a route group, which
  * touches files this PR is explicitly told not to touch (four open PRs
- * against app/page.tsx, app/services/page.tsx, app/results/page.tsx,
+ * against app/page.tsx, app/services/page.tsx, app/projects/page.tsx,
  * app/services/[slug]/page.tsx). This mirrors the theme flash-prevention
  * script already in app/layout.tsx: an inline, synchronous script,
  * rendered as early as possible in the page, so it runs before the rest
