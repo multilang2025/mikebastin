@@ -12,6 +12,7 @@ date: "2024-10-10T14:15:34"
 modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/posedicion-de-ia/"
 excerpt: "Traducción automática y posedición en Valencia: un hablante nativo revisa los textos de tu empresa para que lo fluido sea también exacto en cada idioma."
+lede: "Si tu empresa en Valencia traduce su web, sus fichas o sus catálogos con una herramienta automática, un hablante nativo revisa el texto y concentra el esfuerzo donde está el riesgo, como una cláusula de venta o un término técnico. Recibes páginas listas para publicar, con la terminología de tu sector fijada en cada idioma y aplicada en toda tu web."
 ---
 
 ## Traducción automática para tu empresa en Valencia, revisada para que sea exacta

@@ -10,6 +10,7 @@ import PostCard, { POST_GRID } from "@/components/PostCard";
 import { localeTopics, topicPath, topicPosts } from "@/lib/locale-topics";
 import { frLanguages } from "@/lib/fr-pages";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import { cardDate } from "@/lib/post-dates";
 
 // French articles index at the legacy /fr/blog/ URL (docs/FR-REBUILD-PLAN.md).
 // Lists every live French post, newest first. Copy is a draft for the
@@ -27,11 +28,10 @@ export const metadata: Metadata = {
   }),
 };
 
-const DATE = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "long", year: "numeric" });
-
 export default function FrenchBlogIndex() {
-  // Sorted and dated by first publication: `modified` on these posts is the
-  // migration date, the same day for all eight, which reads as no date at all.
+  // Sorted by first publication; each card shows the last edit from git
+  // (lib/last-edited.ts) when there is one, which replaced the migration
+  // `modified` that read as the same day for every post.
   const posts = [...getPostsForLocale("fr")].sort((a, b) => b.date.localeCompare(a.date));
   // Grouped by topic, as the English journal is, newest first inside each;
   // anything filed under no topic closes the page.
@@ -115,7 +115,7 @@ export default function FrenchBlogIndex() {
                       alt=""
                       title={p.title}
                       excerpt={p.excerpt}
-                      date={DATE.format(new Date(p.date))}
+                      date={cardDate(p, "fr")}
                       priority={gi === 0 && i === 0}
                     />
                   </li>

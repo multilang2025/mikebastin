@@ -11,6 +11,7 @@ date: "2024-10-10T14:15:34"
 modified: "2026-09-29T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/postedition-ia/"
 excerpt: "Vos traductions automatiques reprises par un locuteur natif : un texte fluide qui devient juste, terminologie et mots-clés compris."
+lede: "Vos pages sortent d’un outil de traduction automatique et attendent le regard d’un natif. Un relecteur qui connaît votre secteur reprend le sens, la terminologie et le ton, avec une attention renforcée sur les textes qui engagent votre responsabilité. Vous recevez des pages prêtes à publier, et un glossaire par langue pour vos prochains contenus."
 ---
 
 ## Ce que comprend notre post-édition de traductions automatiques

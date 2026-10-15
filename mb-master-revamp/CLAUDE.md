@@ -360,6 +360,14 @@ links to `betranslated.com/it/`; point it at `https://betranslated.it/` in
 `lib/betranslated-sites.ts` (drop `href`) once it serves a page. `design/scenes/render.py` now stops Edge itself once the
 screenshot exists (it used to hang).
 
+**Posts show when they were last edited** (owner, 15 Oct 2026). The date is the
+last commit that touched the post's file (`lib/last-edited.ts`, one `git log` at
+build time), shown as "Updated …" / "Mis à jour le …" / "Actualizado el …" on the
+byline and the cards (`lib/post-dates.ts`) when it falls after publication. The
+frontmatter `modified` is the WordPress date and is only the fallback, so never
+hand-bump it. Both workflows check out with `fetch-depth: 0` for this; a shallow
+clone silently falls back to the frontmatter date.
+
 **Every post opens on an H2** (owner hard rule, 7 Oct 2026: "all Blog posts need to
 start with an H2"). After any picture the post opens on, the first block of the body is an
 H2, in EN, FR and ES. `npm run lint:h2` (`scripts/post-opens-h2-lint.mjs`, in `verify`)

@@ -70,6 +70,9 @@ jobs:
         working-directory: mb-master-revamp/site
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history: lib/last-edited.ts reads each post's last edit date from git.
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:

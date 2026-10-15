@@ -12,6 +12,7 @@ date: "2025-01-06T12:39:08"
 modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/consultoria-de-inteligencia-artificial/"
 excerpt: "Consultoría de inteligencia artificial en Valencia: qué parte de tus contenidos puede llevar la IA y cómo lograr que ChatGPT, Claude o Gemini te citen."
+lede: "Para empresas de Valencia que atienden a clientes en más de un idioma, te entregamos una evaluación escrita de cinco decisiones: qué contenidos automatizar, dónde revisa una persona y cómo medirlo. Trabajamos también para que ChatGPT, Claude, Gemini o Perplexity te citen en cada idioma, y así entras entre las opciones del comprador cuando pregunta."
 ---
 
 ## Lo que la IA ya puede hacer por tu empresa en Valencia

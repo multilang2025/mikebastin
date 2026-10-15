@@ -12,6 +12,7 @@ date: "2026-10-04T12:00:00"
 modified: "2026-10-04T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seo-para-ia-geo/"
 excerpt: "SEO para IA en Valencia: reformulamos tus páginas para que ChatGPT, Perplexity y los AI Overviews de Google te citen, y medimos qué respuestas te nombran."
+lede: "Tus clientes de Valencia y de cada mercado donde vendes preguntan ya a ChatGPT, Perplexity, Claude o Google, y cada respuesta nombra dos o tres fuentes. Empezamos con una auditoría GEO de qué respuestas te nombran hoy, reformulamos tus páginas en torno a afirmaciones citables y seguimos tus citas cada mes. Así entras entre las opciones del comprador cuando pregunta."
 ---
 
 ## Que la respuesta de la IA te cite, además de posicionarte en Google

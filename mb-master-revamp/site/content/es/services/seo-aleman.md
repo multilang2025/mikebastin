@@ -12,6 +12,7 @@ date: "2024-09-24T15:50:08"
 modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seo-aleman/"
 excerpt: "SEO en Alemania para empresas de Valencia: páginas escritas por nativos para que tus visitas de Alemania, Austria y Suiza pidan presupuesto."
+lede: "Si tu empresa de Valencia ya vende en Alemania, Austria o la Suiza alemana, preparamos contigo el plan en español y redactores alemanes nativos escriben tus páginas, revisadas por un segundo nativo. Tu sitio alemán gana la comparación que hace el comprador antes de escribir, y cada página sigue trabajando para ti los trimestres siguientes."
 ---
 
 ## Tu empresa de Valencia ya recibe visitas alemanas: conviértelas en peticiones

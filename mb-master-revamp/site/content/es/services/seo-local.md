@@ -11,6 +11,7 @@ date: "2024-10-10T11:39:41"
 modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seo-local/"
 excerpt: "SEO local en Valencia: tu ficha, tus páginas y tus reseñas trabajadas para que los clientes de tu zona te encuentren primero y te llamen, en su idioma."
+lede: "Quien busca tu servicio en Valencia mira el mapa de Google, compara las reseñas de tres empresas y llama a una. Trabajamos tu Perfil de Empresa de Google, tus páginas por barrio y tus reseñas en castellano, en inglés y en cada idioma de tus clientes. El resultado son unas cuantas llamadas más por semana, que se acumulan mes a mes y medimos ciudad por ciudad."
 ---
 
 ## Ser la primera empresa que tus clientes encuentran cerca de ellos

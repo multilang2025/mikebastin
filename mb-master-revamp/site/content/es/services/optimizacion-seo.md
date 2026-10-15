@@ -12,6 +12,7 @@ date: "2024-09-29T11:07:11"
 modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/optimizacion-seo/"
 excerpt: "Posicionamiento SEO en Valencia con un consultor SEO a tu lado: tu web aparece cuando tus clientes te buscan y sus visitas se convierten en consultas."
+lede: "Para tu empresa en Valencia, que atiende a la ciudad y quizá vende en Francia, Alemania o el Reino Unido, buscamos las palabras que escriben tus clientes en su idioma y encargamos tus páginas a redactores nativos. Llevamos más de 20 años en ello y contamos las consultas idioma por idioma, para que tu presupuesto acompañe a los mercados que responden."
 ---
 
 ## Tu web puede traerte más clientes, en tu ciudad y fuera de ella

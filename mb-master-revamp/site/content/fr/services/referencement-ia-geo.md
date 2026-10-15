@@ -12,6 +12,7 @@ date: "2026-10-04T12:00:00"
 modified: "2026-10-04T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/referencement-ia-geo/"
 excerpt: "Faites citer vos pages par ChatGPT, Perplexity et les AI Overviews de Google sur chaque marché : audit GEO, pages reformulées et suivi mensuel des citations."
+lede: "Vos acheteurs posent désormais leurs questions à ChatGPT, Perplexity, Claude ou Google, et chaque réponse cite deux ou trois sources. Notre audit GEO montre lesquelles citent votre entreprise et lesquelles citent vos concurrents, puis nous retravaillons vos pages prioritaires pour qu’elles soient reprises. Un suivi mensuel, marché par marché, relie ces citations aux demandes reçues."
 ---
 
 ## Être cité dans la réponse de l’IA comme dans les résultats de Google

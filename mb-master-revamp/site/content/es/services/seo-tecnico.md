@@ -12,6 +12,7 @@ date: "2026-09-30T12:00:00"
 modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seo-tecnico/"
 excerpt: "SEO técnico en Valencia: revisamos tu web y corregimos lo que la frena, para que cada cliente llegue a su página y cada idioma te traiga consultas."
+lede: "Tu web en Valencia atiende a clientes que buscan en castellano, residentes internacionales que buscan en inglés y, si exportas, compradores en Francia o Alemania. Auditamos cada versión, corregimos lo que hace falta para que Google muestre a cada cliente su idioma y seguimos cada versión mes a mes. Cada cliente llega a la página escrita para él y tu inversión en contenido trae consultas."
 ---
 
 ## Que cada versión de tu web llegue a sus propios clientes

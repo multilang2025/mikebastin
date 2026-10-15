@@ -12,6 +12,7 @@ date: "2024-10-03T13:52:28"
 modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/redaccion-seo-multilingue/"
 excerpt: "Redacción SEO en Valencia: páginas escritas a partir de lo que buscan tus clientes, en tu ciudad y en tus mercados, para que te encuentren y te contacten."
+lede: "Tu cliente en Valencia te busca en castellano o en inglés, y tu comprador francés formula su problema con otras palabras. Escribimos cada versión de tus páginas a partir de las búsquedas de su propio público, con redactores nativos y un plan de páginas por mercado. Ganas el tráfico y las consultas de cada idioma con un sitio que se posiciona igual que se lee."
 ---
 
 ## Páginas escritas como busca tu cliente en Valencia

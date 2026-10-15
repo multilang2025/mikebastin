@@ -12,6 +12,7 @@ date: "2024-10-08T10:01:51"
 modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/localizacion-de-aplicaciones/"
 excerpt: "Localización de apps en Valencia: traducción de apps y software con una interfaz que cabe en cada idioma y una ficha de tienda que se encuentra."
+lede: "Si desarrollas tu app o tu software en Valencia y tu siguiente paso es Alemania, los Países Bajos o Francia, preparamos el código, traducimos la interfaz y la ficha de tienda y lo probamos en dispositivos reales de cada mercado. Cada idioma nuevo llega como un trabajo de contenido, y cada mercado siguiente te cuesta menos que el anterior."
 ---
 
 ## Tu app hecha en Valencia, lista para cada idioma

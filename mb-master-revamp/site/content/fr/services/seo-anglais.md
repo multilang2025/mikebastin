@@ -11,6 +11,7 @@ date: "2024-10-10T11:49:05"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/seo-anglais/"
 excerpt: "Des pages anglaises écrites directement en anglais pour les acheteurs britanniques et irlandais : votre trafic anglophone devient des demandes."
+lede: "Vos pages anglaises attirent des visiteurs du Royaume-Uni et d’Irlande, et beaucoup gardent encore leur première traduction. Nous les réécrivons directement en anglais britannique, avec les mots que tapent vos acheteurs, et les prix, les références et les avis qui rassurent un acheteur local. L’anglais devient alors un marché qui vous envoie des demandes."
 ---
 
 ## Vos pages anglaises peuvent devenir votre premier marché export

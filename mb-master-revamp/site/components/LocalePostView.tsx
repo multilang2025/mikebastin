@@ -8,6 +8,7 @@ import ShareLinks from "@/components/ShareLinks";
 import { addHeadingIds } from "@/lib/toc";
 import { getPostsForLocale, imageSlugFor, postPath, type LocalePost } from "@/lib/posts";
 import { topicForPost, topicPath, topicPosts } from "@/lib/locale-topics";
+import { cardDate, updatedLine } from "@/lib/post-dates";
 
 const UI = {
   fr: {
@@ -93,6 +94,12 @@ export default function LocalePostView({ locale, post }: { locale: "fr" | "es"; 
               </span>
               <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />
               <span>{fmt(post.date)}</span>
+              {updatedLine(post, locale) && (
+                <>
+                  <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />
+                  <span>{updatedLine(post, locale)}</span>
+                </>
+              )}
             </p>
           </Reveal>
           </div>
@@ -161,7 +168,7 @@ export default function LocalePostView({ locale, post }: { locale: "fr" | "es"; 
                       alt=""
                       title={r.title}
                       excerpt={r.excerpt}
-                      date={fmt(r.date)}
+                      date={cardDate(r, locale)}
                     />
                   </li>
                 </Reveal>

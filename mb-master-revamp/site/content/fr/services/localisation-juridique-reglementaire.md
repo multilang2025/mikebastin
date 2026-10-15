@@ -12,6 +12,7 @@ date: "2024-09-29T16:07:18"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/localisation-juridique-reglementaire/"
 excerpt: "Mentions légales, CGV, cookies et confidentialité dans la langue et le format de chaque pays, pour que vos acheteurs étrangers commandent en confiance."
+lede: "Vous vendez en Espagne, en Allemagne ou au Royaume-Uni, avec des pages légales souvent rédigées pour la France. Votre juriste valide le fond ; nous traduisons vos textes dans la terminologie de chaque pays, les plaçons là où l’acheteur s’attend à les trouver et adaptons le recueil du consentement à chaque version. Vous ouvrez chaque marché à la date prévue, avec des pages légales qui inspirent confiance."
 ---
 
 ## Vos pages légales accompagnent votre site dans chaque pays

@@ -25,6 +25,7 @@ import { getPostMetaDescription, postMetaTitle } from "@/lib/seo";
 import { pageMeta } from "@/lib/meta";
 import { SITE_URL, blogPostingSchema, breadcrumbSchema } from "@/lib/schema";
 import { getBlogImage } from "@/lib/blog-images";
+import { cardDate, updatedLine } from "@/lib/post-dates";
 
 // competitor-analysis-traffic-checklist has its own hand-built route at
 // app/competitor-analysis-traffic-checklist/ (see lib/posts.ts). Excluded
@@ -151,6 +152,12 @@ export default async function BlogPostPage({
               </span>
               <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />
               <span>{formatDate(post.date)}</span>
+              {updatedLine(post) && (
+                <>
+                  <i className="block h-[3px] w-[3px] rounded-full" style={{ background: "var(--berry)" }} />
+                  <span>{updatedLine(post)}</span>
+                </>
+              )}
             </p>
           </Reveal>
           </div>
@@ -229,7 +236,7 @@ export default async function BlogPostPage({
                       cluster={r.cluster}
                       title={r.title}
                       excerpt={r.excerpt}
-                      date={formatDate(r.date)}
+                      date={cardDate(r)}
                     />
                   </li>
                 </Reveal>

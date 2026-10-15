@@ -11,6 +11,7 @@ import { topicSlug, getClusterGroups, UNCATEGORISED } from "@/lib/posts";
 import { getService } from "@/lib/services";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
+import { cardDate } from "@/lib/post-dates";
 
 export const metadata: Metadata = {
   ...pageMeta({
@@ -30,13 +31,6 @@ const INITIAL_POSTS: Record<string, number> = {
   "Language markets": 6,
 };
 
-function formatDate(iso: string) {
-  return new Date(iso).toLocaleDateString("en-GB", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
-}
 
 export default function BlogIndex() {
   const groups = getClusterGroups();
@@ -178,7 +172,7 @@ export default function BlogIndex() {
                           cluster={group.name}
                           title={post.title}
                           excerpt={post.excerpt}
-                          date={formatDate(post.date)}
+                          date={cardDate(post)}
                         />
                       </li>
                     </Reveal>

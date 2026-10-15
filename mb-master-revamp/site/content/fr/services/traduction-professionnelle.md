@@ -12,6 +12,7 @@ date: "2024-09-29T17:45:35"
 modified: "2026-09-29T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/traduction-professionnelle/"
 excerpt: "Des traductions certifiées et assermentées qu’un tribunal, une ambassade ou un régulateur accepte du premier coup, par un traducteur de votre secteur."
+lede: "Vous devez remettre un contrat, un acte de naissance ou un rapport annuel à un tribunal, une ambassade ou une autorité de contrôle. Nous confions chaque document à un traducteur de votre domaine (juridique, médical, financier, académique ou technique), puis le faisons relire avant livraison. Il vous parvient dans le format exigé, avec les termes exacts, prêt à être déposé."
 ---
 
 ## Une traduction acceptée du premier coup

@@ -11,6 +11,7 @@ date: "2024-09-29T12:42:48"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/seo-portugais/"
 excerpt: "Des pages portugaises écrites par des natifs, pour le Portugal comme pour le Brésil, afin que vos visiteurs lusophones deviennent des demandes de devis."
+lede: "Le Portugal et le Brésil partagent une langue, et chaque pays cherche avec ses propres mots. Chaque marché reçoit ses mots-clés, ses pages et ses rédacteurs natifs, ainsi que les moyens de paiement et les règles de protection des données qu’il attend, du RGPD à la LGPD. Vous pilotez l’ensemble avec nous en français."
 ---
 
 ## Ce que vous obtenez : une page portugaise pour chacun des deux marchés

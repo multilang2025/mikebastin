@@ -12,6 +12,7 @@ date: "2025-01-06T12:39:08"
 modified: "2026-09-29T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/conseil-ia/"
 excerpt: "Sachez quelle part de vos contenus étrangers l’IA peut prendre en charge, et gardez la confiance de chaque marché grâce à une relecture native."
+lede: "Vous publiez en allemand, en espagnol ou en néerlandais et souhaitez confier une partie de ce travail à l’IA. Nous vous remettons un diagnostic écrit qui sépare ce que l’IA peut produire de ce qu’un relecteur natif doit garder en main, puis nous mesurons, marché par marché, la qualité, le délai et le coût de chaque page publiée."
 ---
 
 ## Ce que comprend notre conseil en IA pour vos marchés étrangers

@@ -12,6 +12,7 @@ date: "2024-10-08T10:01:51"
 modified: "2026-09-29T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/localisation-applications/"
 excerpt: "Votre logiciel ou votre application prêts pour chaque marché, avec une interface claire et une fiche facile à trouver dans chaque langue."
+lede: "Vous lancez votre application ou votre logiciel en Allemagne, aux Pays-Bas ou en Espagne. Nous préparons le code à accueillir de nouvelles langues, traduisons l’interface et les fiches des stores, puis testons chaque version sur les appareils courants de chaque marché. Votre produit est prêt dans chaque langue dès le lancement, et chaque nouveau marché s’ouvre plus vite que le précédent."
 ---
 
 ## Un produit qui tient dans chaque langue où vous le vendez
