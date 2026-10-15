@@ -11,6 +11,7 @@ date: "2024-09-29T12:42:48"
 modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seo-portugues/"
 excerpt: "SEO en Portugal y Brasil para empresas de Valencia: páginas escritas por nativos con los datos y medios de pago que espera cada comprador."
+lede: "Si tu empresa de Valencia vende en Portugal o se prepara para Brasil, damos a cada mercado sus propias páginas, sus palabras clave y sus redactores nativos. Incluimos los datos de empresa, la protección de datos y los medios de pago que espera cada comprador, como el NIF en Portugal o PIX en Brasil. Decidimos contigo por qué mercado empezar."
 ---
 
 ## Lo que consigues en Portugal y Brasil: páginas para el mercado que las lee

@@ -12,6 +12,7 @@ date: "2024-09-29T17:45:35"
 modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/traduccion-profesional/"
 excerpt: "Traducción jurada en Valencia para juzgados, extranjería y embajadas, hecha por un especialista de tu sector en uno a siete días según el documento."
+lede: "Cuando tu empresa en Valencia presenta un contrato ante un juzgado, o cuando extranjería o una embajada te pide un certificado traducido, confirmamos contigo la fórmula que exige el organismo. Encargamos la traducción a un especialista de tu sector de la red BeTranslated y la revisamos antes de entregarla, para que tu expediente se acepte a la primera."
 ---
 
 ## Traducción jurada en Valencia, lista para el organismo que la recibe

@@ -11,6 +11,7 @@ date: "2024-09-29T11:09:22"
 modified: "2026-10-03T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/posicionamiento-multilingue/"
 excerpt: "SEO multilingüe en Valencia: tu web gana clientes en castellano, inglés y los idiomas a los que exportas, cada uno con su estrategia."
+lede: "Tu web ya habla varios idiomas, y en Valencia tus clientes buscan en castellano, en inglés y en cada lengua a la que exportas. Damos a cada idioma su propia investigación, textos de redactores nativos y sus propias cifras, sobre una misma estructura. Así el trabajo hecho para el inglés beneficia también al francés que añades seis meses después."
 ---
 
 ## Cada idioma de tu web tiene sus propios clientes

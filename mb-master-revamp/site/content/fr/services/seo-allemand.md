@@ -11,6 +11,9 @@ date: "2024-09-24T15:50:08"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/seo-allemand/"
 excerpt: "Des pages allemandes écrites par des natifs et pensées pour la recherche allemande : vos visiteurs germanophones deviennent des demandes de devis."
+cardTitle: "Le marché germanophone"
+card: "Vos acheteurs allemands, autrichiens et suisses comparent avant d’écrire. Des rédacteurs natifs leur donnent des pages qui tiennent la comparaison."
+lede: "Vous vendez en Allemagne, en Autriche ou en Suisse alémanique, à des acheteurs qui comparent plusieurs fournisseurs avant de prendre contact. Nous pilotons la stratégie avec vous en français ; des rédacteurs allemands natifs écrivent vos pages, et un second natif les relit avant la mise en ligne. Chaque mois, un rapport en français suit les demandes venues des pays germanophones."
 ---
 
 ## Des pages allemandes qui transforment vos visiteurs en demandes de devis

@@ -7,6 +7,7 @@ import { imageSlugFor, postPath } from "@/lib/posts";
 import PostCard, { POST_GRID } from "@/components/PostCard";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import { topicPath, topicPosts, type LocaleTopic } from "@/lib/locale-topics";
+import { cardDate } from "@/lib/post-dates";
 
 const UI = {
   fr: {
@@ -74,7 +75,7 @@ export default function LocaleTopicPage({ topic }: { topic: LocaleTopic }) {
                     alt=""
                     title={p.title}
                     excerpt={p.excerpt}
-                    date={new Date(p.date).toLocaleDateString(topic.locale === "fr" ? "fr-FR" : "es-ES", { day: "numeric", month: "long", year: "numeric" })}
+                    date={cardDate(p, topic.locale)}
                   />
                 </li>
               </Reveal>

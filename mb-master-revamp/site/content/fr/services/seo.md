@@ -12,6 +12,9 @@ date: "2024-09-23T14:02:02"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/seo/"
 excerpt: "Vos pages en langues étrangères attirent déjà des visiteurs. Nous en faisons des demandes de devis, pays par pays, avec des textes écrits par des natifs."
+cardTitle: "SEO international"
+card: "Le point de départ si vous vendez déjà dans plusieurs pays : nous comptons les demandes langue par langue et renforçons les marchés qui répondent."
+lede: "Vous vendez déjà en Espagne, en Allemagne, au Royaume-Uni ou au Benelux, et vos demandes arrivent surtout par vos pages en français. Nous cherchons les mots que vos acheteurs tapent dans leur langue, faisons écrire vos pages par des natifs et comptons les demandes langue par langue, pour que chaque marché vous rapporte."
 ---
 
 ## Vos marchés étrangers peuvent vous envoyer davantage de demandes

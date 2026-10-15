@@ -12,6 +12,9 @@ date: "2024-10-08T11:01:23"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/sem-multilingue/"
 excerpt: "Des annonces dans la langue de chaque marché, avec un budget et des résultats par pays, pour investir là où vos demandes arrivent réellement."
+cardTitle: "Google Ads à l’international"
+card: "Des demandes dès ce mois-ci, pays par pays. Votre budget média va directement à Google, et nos honoraires sont facturés à part."
+lede: "Vous vendez en Espagne, en Belgique, en Allemagne ou au Royaume-Uni et voulez des demandes dès maintenant, pendant que votre référencement naturel monte en puissance. Nous rédigeons vos annonces dans la langue de chaque pays, avec une campagne, un budget et un rapport par marché : votre budget média va aux pays qui vous envoient des demandes."
 ---
 
 ## Des annonces qui rapportent des demandes dans chacun de vos marchés

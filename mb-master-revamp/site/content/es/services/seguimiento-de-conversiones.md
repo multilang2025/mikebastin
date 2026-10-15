@@ -12,6 +12,7 @@ date: "2026-10-04T12:00:00"
 modified: "2026-10-04T12:00:00"
 sourceUrl: "https://mikebastin.com/es/services/seguimiento-de-conversiones/"
 excerpt: "Seguimiento de conversiones en Valencia: configuramos GA4, Google Tag Manager y Google Ads para que cada idioma muestre sus consultas y tu informe coincida con ventas."
+lede: "Ya ves qué mercados te traen visitas; con el seguimiento por mercado ves cuáles de esos visitantes, en Valencia y en cada país donde vendes, acaban siendo clientes. Configuramos GA4, Google Tag Manager, Google Ads y tu CRM con las mismas definiciones en cada idioma. Tu presupuesto va hacia los mercados que convierten, con cifras que tu equipo de ventas reconoce."
 ---
 
 ## Una cifra por mercado: qué idioma te trae consultas

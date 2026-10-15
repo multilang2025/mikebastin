@@ -1,7 +1,6 @@
 import { ogSubtitle } from "@/lib/og-card";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
@@ -116,14 +115,7 @@ export default async function FrenchServicePage({
           </Reveal>
           <Reveal i={1}>
             <p className="max-w-[62ch] text-[clamp(1rem,1.4vw,1.15rem)] leading-[1.58]" style={{ color: "var(--dim)" }}>
-              {service.excerpt}
-            </p>
-          </Reveal>
-          <Reveal i={2}>
-            <p className="mt-6">
-              <Link href="/fr/notre-equipe/" className="ulink text-[.9rem]" style={{ color: "var(--dim)" }}>
-                Mike Bastin
-              </Link>
+              {service.lede ?? service.excerpt}
             </p>
           </Reveal>
         </div>

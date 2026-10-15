@@ -9,6 +9,7 @@ import { getTopics, type Topic, topicMetaDescription } from "@/lib/posts";
 import { getService } from "@/lib/services";
 import { SITE_URL, breadcrumbSchema } from "@/lib/schema";
 import JsonLd from "@/components/JsonLd";
+import { cardDate } from "@/lib/post-dates";
 
 /**
  * Topic landing pages, one per cluster.
@@ -105,7 +106,7 @@ export default async function TopicPage({
                     cluster={topic.name}
                     title={post.title}
                     excerpt={post.excerpt}
-                    date={new Date(post.date).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}
+                    date={cardDate(post)}
                   />
                 </li>
               </Reveal>

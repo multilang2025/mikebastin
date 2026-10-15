@@ -60,11 +60,11 @@ export default function PostImage({
     ? `/images/blog/${slug}-thumb.webp${v}`
     : `/images/blog/${slug}.webp${v}`;
   // Every file is cut to the 1200:630 slot (scripts/optimize-blog-images.mjs),
-  // with a 640-wide sibling for cards and phones. A source no wider than
+  // with 640 and 800-wide siblings for cards and phones. A source no wider than
   // 640 has nothing smaller to offer, so it gets a plain src.
   const srcSet = compact || image.width <= 640
     ? undefined
-    : `/images/blog/${slug}-640.webp${v} 640w, ${src} ${image.width}w`;
+    : `/images/blog/${slug}-640.webp${v} 640w, ${image.width > 800 ? `/images/blog/${slug}-800.webp${v} 800w, ` : ""}${src} ${image.width}w`;
 
   return (
     <img

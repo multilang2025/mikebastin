@@ -12,6 +12,9 @@ date: "2024-09-15T10:59:44"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/localisation-de-site-web/"
 excerpt: "Votre site est traduit. Nous l’adaptons à chaque pays, des prix au paiement, pour que vos visiteurs espagnols, allemands ou anglais achètent."
+cardTitle: "Localisation de site web"
+card: "Votre site est traduit ; reste à le rendre local. Prix, paiement, formulaires et images, adaptés à chaque pays."
+lede: "Vos visiteurs espagnols, allemands ou néerlandais comparent votre site à ceux de leurs fournisseurs locaux. Nous adaptons les prix, les formulaires, les moyens de paiement, les images et les mots-clés de chaque version, avec des rédacteurs natifs et un glossaire par langue. Votre site paraît local dans chaque pays, et ses visites se transforment en demandes et en commandes."
 ---
 
 ## Votre site est traduit, il reste à le faire vendre dans chaque pays

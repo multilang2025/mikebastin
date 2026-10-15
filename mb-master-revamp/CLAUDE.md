@@ -360,6 +360,14 @@ links to `betranslated.com/it/`; point it at `https://betranslated.it/` in
 `lib/betranslated-sites.ts` (drop `href`) once it serves a page. `design/scenes/render.py` now stops Edge itself once the
 screenshot exists (it used to hang).
 
+**Posts show when they were last edited** (owner, 15 Oct 2026). The date is the
+last commit that touched the post's file (`lib/last-edited.ts`, one `git log` at
+build time), shown as "Updated …" / "Mis à jour le …" / "Actualizado el …" on the
+byline and the cards (`lib/post-dates.ts`) when it falls after publication. The
+frontmatter `modified` is the WordPress date and is only the fallback, so never
+hand-bump it. Both workflows check out with `fetch-depth: 0` for this; a shallow
+clone silently falls back to the frontmatter date.
+
 **Every post opens on an H2** (owner hard rule, 7 Oct 2026: "all Blog posts need to
 start with an H2"). After any picture the post opens on, the first block of the body is an
 H2, in EN, FR and ES. `npm run lint:h2` (`scripts/post-opens-h2-lint.mjs`, in `verify`)
@@ -417,6 +425,15 @@ and no og:url. Rules that came out of fixing it:
   `lib/locale-href.ts`) instead of a per-page manifest, the TOC rail marks
   the current section without bold (no shift), and contact and team pages
   carry ContactPage and AboutPage schema.
+  **Pass of 15 Oct 2026** (preview, mobile, real throttling): LCP 1.6 to
+  2.2 s on /, /es/, /services/ and /about-us/, /blog/ 2.9 s before its fix.
+  Lighthouse's default simulated throttling reads 4 to 5 s on text LCPs
+  through the session proxy; compare with `--throttling-method=devtools`.
+  Learned: next/image `priority` is deprecated in Next 16 and emits nothing,
+  so an LCP image takes `loading="eager"` and `fetchPriority="high"`; the
+  two fonts are trimmed to the weight ranges `app/layout.tsx` declares; blog
+  pictures have a `-800.webp` sibling because a phone card at 1.75x needs
+  665px and was fetching the 1200 file.
 - **Structured data** (audit, 3 Oct 2026): a WebSite node sitewide, author
   and publisher written out in full, `inLanguage` on posts and services,
   FR and ES breadcrumbs rooted at `/fr/` and `/es/` through the blog or

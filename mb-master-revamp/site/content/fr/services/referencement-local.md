@@ -12,6 +12,9 @@ date: "2024-10-10T11:39:41"
 modified: "2026-09-30T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/referencement-local/"
 excerpt: "Soyez l’entreprise que vos clients trouvent en premier sur la carte, dans chaque ville où vous vendez et dans leur langue."
+cardTitle: "Référencement local"
+card: "En tête de la carte Google dans chaque ville où vous vendez : fiche, avis et pages par ville, dans la langue de vos clients."
+lede: "Vous servez plusieurs villes, autour de votre siège ou là où vous avez une agence, un dépôt ou une clientèle fidèle. Nous travaillons votre fiche Google Business Profile, vos pages par ville et vos avis, dans les langues de vos clients sur place. Chaque mois, le suivi des appels, des demandes d’itinéraire et des formulaires montre ce que rapporte chaque adresse."
 ---
 
 ## Être la première entreprise que vos clients trouvent près de chez eux

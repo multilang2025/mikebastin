@@ -11,6 +11,9 @@ date: "2026-09-29T12:00:00"
 modified: "2026-09-29T12:00:00"
 sourceUrl: "https://mikebastin.com/fr/services/seo-technique/"
 excerpt: "Faites de chaque version linguistique de votre site une source de demandes : chaque marché trouve sa page, et vos langues additionnent leurs résultats."
+cardTitle: "SEO technique multilingue"
+card: "Chaque visiteur arrive sur la page de sa langue, et vos versions linguistiques additionnent leurs résultats."
+lede: "Votre site existe en plusieurs langues, et chaque version doit arriver devant le bon marché. Nous auditons chaque version, corrigeons ce qui doit l’être ou briefons vos développeurs, puis suivons chaque langue mois après mois. Chaque acheteur arrive sur la page de son marché, et vos positions tiennent pendant une refonte."
 ---
 
 ## Ce que comprend notre mission de SEO technique multilingue

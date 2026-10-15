@@ -70,7 +70,10 @@ export default function FounderPortrait({
             alt={alt}
             width={389}
             height={389}
-            priority
+            // The LCP element on every homepage. `priority` is deprecated in Next 16
+            // and no longer marked the request, so it queued behind fonts and JS.
+            loading="eager"
+            fetchPriority="high"
             unoptimized
             className="block h-full w-full object-cover object-center"
           />

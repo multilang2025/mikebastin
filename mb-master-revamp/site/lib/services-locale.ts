@@ -48,6 +48,14 @@ export type ServiceFrontmatter = {
   metaTitle?: string;
   /** Short label for the footer and menus; the h1 is too long there. */
   name?: string;
+  /** The hero intro, two or three sentences under the h1 (owner, 15 Oct
+   * 2026: "expand the text"); the hero falls back to `excerpt`, which stays
+   * the meta description. */
+  lede?: string;
+  /** The card on the services index (owner, 15 Oct 2026: the cards read as a
+   * template). Fall back to `title` and `excerpt`. */
+  cardTitle?: string;
+  card?: string;
 };
 
 export type LocaleService = ServiceFrontmatter & {
