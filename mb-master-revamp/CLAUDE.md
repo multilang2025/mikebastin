@@ -434,6 +434,11 @@ and no og:url. Rules that came out of fixing it:
   two fonts are trimmed to the weight ranges `app/layout.tsx` declares; blog
   pictures have a `-800.webp` sibling because a phone card at 1.75x needs
   665px and was fetching the 1200 file.
+  Same day, after the merge: /blog/ had CLS 0.2 on phones (present before,
+  hidden by simulated throttling). next/font's fallbacks are local(Arial) and
+  local(Times New Roman), which Android and Linux lack, so text reflowed when
+  the fonts arrived. `globals.css` adds metric-matched fallbacks for
+  Liberation and Roboto / Noto Serif in every font stack: CLS 0.2 to 0.
 - **Structured data** (audit, 3 Oct 2026): a WebSite node sitewide, author
   and publisher written out in full, `inLanguage` on posts and services,
   FR and ES breadcrumbs rooted at `/fr/` and `/es/` through the blog or

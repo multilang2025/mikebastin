@@ -7,6 +7,36 @@
    values. Theme toggle flips the mapping, not the markup.
    =========================================================== */
 
+/* Metric-matched fallbacks where next/font's own ones find no font (CWV pass,
+   15 Oct 2026). next/font declares "inter Fallback" as local(Arial) and
+   "fraunces Fallback" as local(Times New Roman); Android and Linux have
+   neither, so text first painted in Roboto or DejaVu at its own width and
+   reflowed when the web fonts arrived (CLS 0.2 on /blog/ on phones). These
+   cover the fonts those systems do have, sized with next/font's own formula
+   (average width of the same sample string, ascent and descent rescaled).
+   Liberation is metric-compatible with Arial and Times, so it takes their
+   figures; Roboto and Noto Serif get their own. */
+@font-face {
+  font-family: "inter Fallback Linux";
+  src: local("Liberation Sans"), local("LiberationSans");
+  ascent-override: 89.79%; descent-override: 22.36%; line-gap-override: 0%; size-adjust: 107.89%;
+}
+@font-face {
+  font-family: "inter Fallback Android";
+  src: local("Roboto"), local("Roboto-Regular");
+  ascent-override: 90.13%; descent-override: 22.44%; line-gap-override: 0%; size-adjust: 107.49%;
+}
+@font-face {
+  font-family: "fraunces Fallback Linux";
+  src: local("Liberation Serif"), local("LiberationSerif");
+  ascent-override: 79.16%; descent-override: 20.64%; line-gap-override: 0%; size-adjust: 123.54%;
+}
+@font-face {
+  font-family: "fraunces Fallback Android";
+  src: local("Noto Serif"), local("NotoSerif-Regular");
+  ascent-override: 94.35%; descent-override: 24.60%; line-gap-override: 0%; size-adjust: 103.65%;
+}
+
 :root,
 .band-a {
   --bg:        #F5F0E4;
@@ -106,8 +136,8 @@
   --color-deep: var(--deep);
   --color-rule: var(--rule);
 
-  --font-display: var(--font-fraunces), "Iowan Old Style", Georgia, serif;
-  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-display: var(--font-fraunces), "fraunces Fallback Linux", "fraunces Fallback Android", "Iowan Old Style", Georgia, serif;
+  --font-sans: var(--font-inter), "inter Fallback Linux", "inter Fallback Android", system-ui, sans-serif;
 }
 
 /* ===========================================================
@@ -209,7 +239,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: var(--font-inter), system-ui, sans-serif;
+  font-family: var(--font-inter), "inter Fallback Linux", "inter Fallback Android", system-ui, sans-serif;
   font-weight: 350;
   line-height: 1.62;
   -webkit-font-smoothing: antialiased;
@@ -255,14 +285,14 @@ body {
    themselves and getting none, which is why so many of them sat flush
    against the paragraph or button below. */
 h1, h2, h3, .display {
-  font-family: var(--font-fraunces), Georgia, serif;
+  font-family: var(--font-fraunces), "fraunces Fallback Linux", "fraunces Fallback Android", Georgia, serif;
   font-optical-sizing: auto;
   text-wrap: balance;
   letter-spacing: -.016em;
 }
 
 .eyebrow {
-  font-family: var(--font-inter), system-ui, sans-serif;
+  font-family: var(--font-inter), "inter Fallback Linux", "inter Fallback Android", system-ui, sans-serif;
   font-size: clamp(1rem, 1.35vw, 1.12rem);
   font-weight: 500;
   line-height: 1.3;
@@ -375,15 +405,15 @@ h1, h2, h3, .display {
 }
 .market-flow-code {
   fill: var(--berry);
-  font: 700 13px var(--font-inter), system-ui, sans-serif;
+  font: 700 13px var(--font-inter), "inter Fallback Linux", "inter Fallback Android", system-ui, sans-serif;
 }
 .market-flow-label {
   fill: var(--dim);
-  font: 500 8px var(--font-inter), system-ui, sans-serif;
+  font: 500 8px var(--font-inter), "inter Fallback Linux", "inter Fallback Android", system-ui, sans-serif;
 }
 .market-flow-caption {
   fill: var(--ink);
-  font: 600 10px var(--font-inter), system-ui, sans-serif;
+  font: 600 10px var(--font-inter), "inter Fallback Linux", "inter Fallback Android", system-ui, sans-serif;
 }
 .bastin-letter-trail {
   pointer-events: none;
@@ -1292,9 +1322,9 @@ html.mb-anim .post-fig-art.reveal:not(.is-in) .mr-art * { animation-play-state: 
 .post-fig .fg-hot    { fill: color-mix(in srgb, var(--berry) 12%, var(--bg)); stroke: var(--berry); stroke-width: 1.2; }
 .post-fig .fg-fill   { fill: var(--dim); opacity: .35; }
 .post-fig .fg-fill-accent { fill: var(--berry); }
-.post-fig .fg-text   { fill: var(--ink); font: 500 16px var(--font-inter), system-ui, sans-serif; }
-.post-fig .fg-label  { fill: var(--dim); font: 400 14px var(--font-inter), system-ui, sans-serif; }
-.post-fig .fg-strong { fill: var(--ink); font: 600 17px var(--font-inter), system-ui, sans-serif; }
+.post-fig .fg-text   { fill: var(--ink); font: 500 16px var(--font-inter), "inter Fallback Linux", "inter Fallback Android", system-ui, sans-serif; }
+.post-fig .fg-label  { fill: var(--dim); font: 400 14px var(--font-inter), "inter Fallback Linux", "inter Fallback Android", system-ui, sans-serif; }
+.post-fig .fg-strong { fill: var(--ink); font: 600 17px var(--font-inter), "inter Fallback Linux", "inter Fallback Android", system-ui, sans-serif; }
 
 .toc-rail {
   position: sticky;
