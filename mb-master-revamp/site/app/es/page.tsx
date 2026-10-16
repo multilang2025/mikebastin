@@ -153,13 +153,8 @@ export default function SpanishHome() {
         </div>
       </section>
 
-      {/* ============ CLIENT EVIDENCE ============ */}
-      {/* Declaudify brief (owner, 3 Oct 2026): dated figures and three cases
-          straight after the hero, in place of all eight spreads. */}
-      <HomeEvidence locale="es" band="b" />
-
       {/* ============ WHAT WE DO ============ */}
-      <section className="band band-a py-[clamp(64px,9vw,128px)]">
+      <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">Lo que hacemos</p>
@@ -206,6 +201,11 @@ export default function SpanishHome() {
           </Reveal>
         </div>
       </section>
+
+      {/* ============ CLIENT EVIDENCE ============ */}
+      {/* Declaudify brief (owner, 3 Oct 2026): dated figures and three cases
+          straight after the hero, in place of all eight spreads. */}
+      <HomeEvidence locale="es" band="a" />
 
       {/* ============ MARKETS ============ */}
       {markets.length > 0 && (
