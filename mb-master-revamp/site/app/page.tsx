@@ -184,14 +184,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ CLIENT EVIDENCE ============ */}
-      {/* Straight after the hero (brief, P1): dated Search Console figures,
-          then three cases chosen for the multilingual positioning, and a
-          link to the rest rather than all eight spreads. */}
-      <HomeEvidence band="b" />
-
       {/* ============ WHAT WE DO AND HOW IT WORKS ============ */}
-      <section className="band band-a py-[clamp(64px,9vw,128px)]">
+      <section className="band band-b py-[clamp(64px,9vw,128px)]">
         <div className="shell">
           <Reveal>
             <p className="eyebrow mb-3">What we do</p>
@@ -296,6 +290,12 @@ export default function Home() {
           </Reveal>
         </div>
       </section>
+
+      {/* ============ CLIENT EVIDENCE ============ */}
+      {/* After What we do (owner, 16 Oct 2026; was straight after the hero per brief P1): dated Search Console figures,
+          then three cases chosen for the multilingual positioning, and a
+          link to the rest rather than all eight spreads. */}
+      <HomeEvidence band="a" />
 
       {/* ============ WHY IT WORKS ============ */}
       <section className="band band-b py-[clamp(64px,9vw,128px)]">
