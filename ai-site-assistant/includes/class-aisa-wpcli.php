@@ -117,8 +117,8 @@ class AISA_WPCLI {
 		'theme activate',
 		'option update',
 		'option patch',
-		'post meta update',
-		'post meta patch',
+		'post meta_update',
+		'post meta_patch',
 		'search replace',
 	);
 
@@ -218,7 +218,7 @@ class AISA_WPCLI {
 					)
 				);
 
-			case 'post meta get':
+			case 'post meta_get':
 				if ( ! current_user_can( 'edit_posts' ) ) {
 					return self::error( 'Permission denied.' );
 				}
@@ -408,7 +408,7 @@ class AISA_WPCLI {
 				AISA_Audit_Log::record( 'wp_cli_option_patch', null, array( 'name' => $name, 'key_path' => implode( '.', $path ) ) );
 				return self::ok( array( 'name' => $name, 'key_path' => implode( '.', $path ), 'value' => $in['value'] ) );
 
-			case 'post meta update':
+			case 'post meta_update':
 				if ( ! current_user_can( 'edit_posts' ) ) {
 					return self::error( 'Permission denied.' );
 				}
@@ -429,7 +429,7 @@ class AISA_WPCLI {
 				AISA_Audit_Log::record( 'wp_cli_post_meta_update', $post_id, array( 'key' => $meta_key ) );
 				return self::ok( array( 'post_id' => $post_id, 'key' => $meta_key, 'value' => $value ) );
 
-			case 'post meta patch':
+			case 'post meta_patch':
 				if ( ! current_user_can( 'edit_posts' ) ) {
 					return self::error( 'Permission denied.' );
 				}
@@ -675,7 +675,8 @@ class AISA_WPCLI {
 	private static function usage() {
 		return 'Supported: plugin list/activate/deactivate, theme list/activate, '
 			. 'option get/update/patch (any key except the blocklist; patch changes one field '
-			. 'of a structured option via key_path), post meta get/update/patch (same pattern), '
+			. 'of a structured option via key_path), command=post action=meta_get/meta_update/meta_patch '
+			. '(same pattern, note the underscore -- not "meta get"), '
 			. 'search replace (old/new, tables/dry_run/limit), user list, core version.';
 	}
 

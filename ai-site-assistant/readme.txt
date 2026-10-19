@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.8.1
+Stable tag: 2.8.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,8 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.8.2 =
+* Fix: the new "post meta get/update/patch" actions added in 2.8.0 were unreachable -- wp_cli_get/wp_cli_set run the action string through sanitize_key(), which silently strips spaces, so "meta get"/"meta update"/"meta patch" collapsed to "metaget"/"metaupdate"/"metapatch" and never matched. The action values are now underscored ("meta_get"/"meta_update"/"meta_patch"), consistent with every other multi-word value in this API, and all tool descriptions/usage text were corrected to match. Caught testing against a live site once discovery of the real tool catalogue (vs. the bridge's static fallback) started working.
 = 2.8.1 =
 * Fix: the 2.8.0 tag shipped without bumping the AISA_VERSION constant (only the header and readme were updated), which failed release.yml's version-match check and silently skipped the GitHub Release. No functional change from 2.8.0 otherwise.
 = 2.8.0 =

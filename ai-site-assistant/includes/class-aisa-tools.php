@@ -702,9 +702,9 @@ class AISA_Tools {
 				'description'  => 'Read-only site administration lookups (like WP-CLI, but native PHP -- '
 					. 'no shell). command/action pairs: "plugin list", "theme list", "option get" (pass '
 					. 'the option name as args[0]; any option except a security blocklist -- secrets, '
-					. 'auth keys, siteurl/home, active_plugins, etc.), "post meta get" (args[0] = post ID; '
-					. 'args[1] = meta key, or omit it to list every meta key on that post), "user list", '
-					. '"core version".',
+					. 'auth keys, siteurl/home, active_plugins, etc.), command=post action=meta_get (args[0] '
+					. '= post ID; args[1] = meta key, or omit it to list every meta key on that post), '
+					. '"user list", "core version".',
 				'input_schema' => array(
 					'type'                 => 'object',
 					'properties'           => array(
@@ -714,12 +714,12 @@ class AISA_Tools {
 						),
 						'action'  => array(
 							'type'        => 'string',
-							'description' => 'list, get, or version depending on command ("meta get" for command=post).',
+							'description' => 'list, get, or version depending on command ("meta_get" for command=post).',
 						),
 						'args'    => array(
 							'type'        => 'array',
 							'items'       => array( 'type' => 'string' ),
-							'description' => 'Positional arguments, e.g. the option name for "option get", or [post_id, meta_key] for "post meta get".',
+							'description' => 'Positional arguments, e.g. the option name for "option get", or [post_id, meta_key] for command=post action=meta_get.',
 						),
 					),
 					'required'             => array( 'command', 'action' ),
@@ -738,10 +738,11 @@ class AISA_Tools {
 					. 'patch" for those), "option patch" (target = option name; key_path = dot-separated '
 					. 'path to one field, e.g. "telephone" or "settings.phone"; value = new value for just '
 					. 'that field -- use this for a plugin\'s own settings option instead of overwriting the '
-					. 'whole thing), "post meta update" (target = post ID; meta_key = meta key; value = new '
-					. 'value; same structured-value refusal as option update), "post meta patch" (target = '
-					. 'post ID; meta_key = meta key; key_path = dot-separated path to one field inside that '
-					. 'meta value; value = new value for just that field), "search replace" (old/new -- a '
+					. 'whole thing), command=post action=meta_update (target = post ID; meta_key = meta key; '
+					. 'value = new value; same structured-value refusal as option update), command=post '
+					. 'action=meta_patch (target = post ID; meta_key = meta key; key_path = dot-separated path '
+					. 'to one field inside that meta value; value = new value for just that field), "search '
+					. 'replace" (old/new -- a '
 					. 'WP-CLI-style bulk find/replace across wp_posts, wp_postmeta, and/or wp_options, '
 					. 'serialization-safe like WP-CLI\'s own search-replace, e.g. migrating a domain or '
 					. 'fixing a broken URL sitewide in one call instead of one bulk_replace_in_posts call per '
@@ -764,15 +765,15 @@ class AISA_Tools {
 						),
 						'value'    => array(
 							'type'        => 'string',
-							'description' => 'New value. Used by "option update", "option patch", "post meta update", "post meta patch". Unused for "search replace".',
+							'description' => 'New value. Used by action=update, action=patch, action=meta_update, action=meta_patch. Unused for "search replace".',
 						),
 						'key_path' => array(
 							'type'        => 'string',
-							'description' => '"option patch" / "post meta patch" only: dot-separated path to the single field to change, e.g. "telephone" or "settings.phone".',
+							'description' => 'action=patch / action=meta_patch only: dot-separated path to the single field to change, e.g. "telephone" or "settings.phone".',
 						),
 						'meta_key' => array(
 							'type'        => 'string',
-							'description' => '"post meta update" / "post meta patch" only: the post meta key to write.',
+							'description' => 'action=meta_update / action=meta_patch only (command=post): the post meta key to write.',
 						),
 						'old'      => array(
 							'type'        => 'string',
