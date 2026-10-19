@@ -218,17 +218,7 @@ function get_remote_tools($site) {
         $reason = get_class($e) . ': ' . $e->getMessage();
         error_log('AISA bridge: /aisa/v1/tools fetch failed for ' . ($site['wp_url'] ?? '?') . ': ' . $reason);
     }
-    // TEMPORARY DIAGNOSTIC (remove once the fallback stops triggering
-    // unexpectedly): surface the exact reason as a fake tool entry so it's
-    // visible directly to an MCP client without server log or DB access.
-    $tools   = get_tools_schema();
-    $tools[] = [
-        'name' => '_aisa_debug_tools_fetch_error',
-        'description' => 'DIAGNOSTIC ONLY, not a real tool -- do not call it. The live /aisa/v1/tools catalogue '
-            . 'fetch fell back to this static list because: ' . ( $reason ?? 'unknown (no exception, no unexpected shape -- check error_log)' ),
-        'inputSchema' => ['type' => 'object', 'properties' => []],
-    ];
-    return $tools;
+    return get_tools_schema();
 }
 
 // Claude.ai's remote MCP validator requires JSON Schema objects such as
