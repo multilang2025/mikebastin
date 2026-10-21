@@ -128,6 +128,24 @@ ALTER DEFAULT PRIVILEGES IN SCHEMA aisa_bridge GRANT ALL PRIVILEGES ON TABLES TO
 GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA aisa_bridge TO aisa_bridge_user;
 ALTER DEFAULT PRIVILEGES IN SCHEMA aisa_bridge GRANT ALL PRIVILEGES ON SEQUENCES TO aisa_bridge_user;
 
+-- This script runs in Supabase's SQL editor, i.e. as the "postgres"
+-- superuser -- so re-running it (e.g. to add a table/column ahead of a
+-- deploy) makes "postgres" the OWNER of anything it just created, even
+-- though the GRANTs above already gave aisa_bridge_user full privileges.
+-- Ownership isn't privileges: operations that require being the owner
+-- (e.g. ALTER TABLE) fail for aisa_bridge_user until this runs. Keeping
+-- this idempotent and after every table/role exists means re-running the
+-- whole script can never reintroduce that mismatch again.
+ALTER TABLE aisa_bridge.sites OWNER TO aisa_bridge_user;
+ALTER TABLE aisa_bridge.requests OWNER TO aisa_bridge_user;
+ALTER TABLE aisa_bridge.oauth_codes OWNER TO aisa_bridge_user;
+ALTER TABLE aisa_bridge.oauth_tokens OWNER TO aisa_bridge_user;
+ALTER TABLE aisa_bridge.oauth_clients OWNER TO aisa_bridge_user;
+ALTER TABLE aisa_bridge.site_switch_log OWNER TO aisa_bridge_user;
+ALTER TABLE aisa_bridge.client_sites OWNER TO aisa_bridge_user;
+ALTER TABLE aisa_bridge.pending_connections OWNER TO aisa_bridge_user;
+ALTER TABLE aisa_bridge.session_sites OWNER TO aisa_bridge_user;
+
 -- Use aisa_bridge_user.<your-project-ref> as DB_USER in config.php when
 -- connecting through Supabase's pooler (the project-ref suffix is only for
 -- the pooler to route the connection; the underlying role is just

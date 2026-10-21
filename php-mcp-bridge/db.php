@@ -37,6 +37,17 @@ function get_db() {
     // against this schema for the rest of the connection.
     $db->exec('SET search_path TO ' . DB_SCHEMA);
 
+    // This is a per-request PHP app (see the note above on EMULATE_PREPARES),
+    // so get_db() runs on every single request. Without this guard, the
+    // full CREATE TABLE block below -- a no-op once the schema exists --
+    // still ran against Postgres every request: 1,000+ times/day in
+    // practice, serializing on catalog locks and amplifying any real DB
+    // hiccup (a restart, a slow query) into a pile-up of blocked DDL that
+    // starved PostgREST's own schema-cache queries. APCu is per-worker
+    // shared memory, so this check costs no DB round-trip at all once set;
+    // worst case (process restart, cache eviction) is one harmless re-run.
+    if (!function_exists('apcu_exists') || !apcu_exists('aisa_bridge_schema_ready')) {
+
     // Fresh database, so every column this bridge has ever needed goes
     // straight into the initial schema -- no incremental ALTER TABLE
     // history to replay like the old SQLite version had to carry forward.
@@ -152,10 +163,16 @@ function get_db() {
     // rows ever exist when this runs -- same defensive intent as before.
     try {
         $db->exec('CREATE UNIQUE INDEX IF NOT EXISTS idx_sites_wp_url ON sites(wp_url)');
+        if (function_exists('apcu_store')) {
+            apcu_store('aisa_bridge_schema_ready', true);
+        }
     } catch (Throwable $e) {
         // Duplicates present -- index creation retried on every request
-        // until they're cleaned up (see dedupe-sites.php).
+        // until they're cleaned up (see dedupe-sites.php). Guard is
+        // deliberately NOT set in this branch, so it keeps retrying too.
     }
+
+    } // end schema-ready guard
 
     return $db;
 }
