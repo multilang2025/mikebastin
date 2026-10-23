@@ -1,5 +1,5 @@
-import { Fragment } from "react";
 import MarketReach from "@/components/MarketReach";
+import RelatedVideo from "@/components/RelatedVideo";
 
 /**
  * A post's rendered markdown, with room for the site's own React art.
@@ -11,7 +11,7 @@ import MarketReach from "@/components/MarketReach";
  * there and the map drawn as a captioned figure. It joins the scroll reveal
  * and its one-time draw waits until it is in view; nothing in it loops.
  */
-const MARKER = /<!--\s*figure:market-reach\s*-->/;
+const MARKER = /(<!--\s*(?:figure:market-reach|video:geo-intro)\s*-->)/;
 
 const CAPTION: Record<string, string> = {
   en: "One strategy at the centre and a route out to each market: every language is planned on its own terms and reported on its own numbers.",
@@ -24,17 +24,18 @@ export default function PostBody({ html, locale = "en", className }: { html: str
   if (parts.length === 1) return <div className={className} dangerouslySetInnerHTML={{ __html: html }} />;
   return (
     <div className={className}>
-      {parts.map((part, i) => (
-        <Fragment key={i}>
-          <div className="contents" dangerouslySetInnerHTML={{ __html: part }} />
-          {i < parts.length - 1 && (
-            <figure className="post-fig post-fig-art reveal">
+      {parts.map((part, i) => {
+        if (/figure:market-reach/.test(part)) {
+          return (
+            <figure key={i} className="post-fig post-fig-art reveal">
               <MarketReach />
               <figcaption>{CAPTION[locale] ?? CAPTION.en}</figcaption>
             </figure>
-          )}
-        </Fragment>
-      ))}
+          );
+        }
+        if (/video:geo-intro/.test(part)) return <RelatedVideo key={i} />;
+        return <div key={i} className="contents" dangerouslySetInnerHTML={{ __html: part }} />;
+      })}
     </div>
   );
 }

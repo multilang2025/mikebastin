@@ -24,6 +24,11 @@ GEO focuses on optimizing content for AI-powered search engines such as [SearchG
 
 As we transition into the AI era, it’s essential to adapt your digital strategy to stay relevant. Here’s how you can pivot from traditional SEO to GEO to maintain and even enhance your online presence.
 
+<figure class="post-photo">
+<img src="/images/posts/geo-search-engine.svg" width="1045" height="984" alt="Diagram showing a query passing through a search engine to retrieve and rank pages from a web index">
+<figcaption>A conventional search engine retrieves and ranks indexed pages before returning results. Diagram by <a href="https://commons.wikimedia.org/wiki/File:MLR-search-engine-example.svg">Weeklyd3, Wikimedia Commons</a>, dedicated to the public domain under CC0.</figcaption>
+</figure>
+
 ### 1\. Embrace Search Everywhere Optimization
 
 Gone are the days when optimizing solely for Google was sufficient.
@@ -46,6 +51,8 @@ AI search engines excel at interpreting conversational queries and delivering pr
 -   **Long-Tail Keywords:** Target specific, conversational phrases that reflect how users naturally ask questions.
 -   **Semantic SEO:** Incorporate related terms and concepts to provide complete answers that satisfy [user intent](https://mikebastin.com/what-is-search-intent-mapping/).
 
+<!-- video:geo-intro -->
+
 ### 3\. Strengthen Content Quality with E-E-A-T
 
 [**Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T)**](https://mikebastin.com/services/multilingual-seo-copywriting/) remain fundamental to ranking well, even in the AI-driven search market.
@@ -59,6 +66,11 @@ To enhance your content quality:
 ### 4\. Use Schema Markup and Structured Data
 
 AI search engines rely heavily on [structured data to understand and categorise content](https://mikebastin.com/technical-seo-audit-checklist/) effectively.
+
+<figure class="post-photo">
+<img src="/images/posts/geo-ai-workflow.webp" width="1200" height="509" alt="Workflow showing data and objectives used to train an AI model, followed by inference that turns new inputs into outputs">
+<figcaption>AI answers are outputs from a model at inference time. The content and sources available to that model shape what it can retrieve and cite. Diagram by <a href="https://commons.wikimedia.org/wiki/File:Workflow_of_a_machine-learning-based_AI_system.png">YOKOTA Kuniteru, Wikimedia Commons</a>, licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; resized and converted to WebP.</figcaption>
+</figure>
 
 ### 5\. Invest in Digital PR and Backlink Strategies
 
@@ -83,6 +95,11 @@ The AI field keeps shifting, with constant advancements and changing algorithms.
 -   **Monitor Trends:** Keep an eye on emerging trends and shifts in [user behaviour](https://mikebastin.com/global-business-trends/) to adjust your strategies accordingly.
 -   **Experimentation:** Continuously test and refine your optimization tactics to discover what works best for your audience.
 -   **Data-Driven Decisions:** Use [analytics tools](https://mikebastin.com/services/analytics-and-tracking/) to track performance and make informed decisions based on data insights.
+
+<figure class="post-photo">
+<img src="/images/posts/geo-ai-observability.webp" width="1200" height="776" alt="Diagram of AI observability across infrastructure, model behaviour and generated outputs">
+<figcaption>GEO measurement belongs at the output layer: record whether an answer mentions the brand, cites the page and represents the facts correctly. Diagram by <a href="https://commons.wikimedia.org/wiki/File:Ai_observability_diagram.png">Martinimarcello00, Wikimedia Commons</a>, licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; resized and converted to WebP.</figcaption>
+</figure>
 
 ### 8\. Monitor Competition and Performance
 
