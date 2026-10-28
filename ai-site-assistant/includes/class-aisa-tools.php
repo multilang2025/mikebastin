@@ -1702,7 +1702,7 @@ class AISA_Tools {
 	private static function get_post( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		$p = get_post( $id );
 		if ( ! $p ) {
@@ -1760,7 +1760,7 @@ class AISA_Tools {
 	private static function update_post( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		$p = get_post( $id );
 		if ( ! $p ) {
@@ -1895,7 +1895,7 @@ class AISA_Tools {
 	private static function publish_post( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		$p = get_post( $id );
 		if ( ! $p ) {
@@ -1948,7 +1948,7 @@ class AISA_Tools {
 		$type_object = get_post_type_object( $p->post_type );
 		$cap         = ( $type_object && isset( $type_object->cap->delete_post ) ) ? $type_object->cap->delete_post : 'delete_post';
 		if ( ! current_user_can( $cap, $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		if ( 'trash' === $action ) {
 			if ( 'trash' === $p->post_status ) {
@@ -2202,7 +2202,7 @@ class AISA_Tools {
 	private static function get_elementor_data( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		$raw = get_post_meta( $id, '_elementor_data', true );
 		if ( '' === (string) $raw ) {
@@ -2227,7 +2227,7 @@ class AISA_Tools {
 	private static function replace_in_elementor( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		$current = get_post_meta( $id, '_elementor_data', true );
 		if ( '' === (string) $current ) {
@@ -2283,7 +2283,7 @@ class AISA_Tools {
 	private static function set_elementor_data( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		$data = $in['data'] ?? null;
 		if ( is_string( $data ) ) {
@@ -2578,7 +2578,7 @@ class AISA_Tools {
 	private static function find_in_post( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		$p = get_post( $id );
 		if ( ! $p ) {
@@ -2838,7 +2838,7 @@ class AISA_Tools {
 	private static function replace_in_post( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		$p = get_post( $id );
 		if ( ! $p ) {
@@ -2940,7 +2940,7 @@ class AISA_Tools {
 	private static function append_to_post( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		$p = get_post( $id );
 		if ( ! $p ) {
@@ -3073,7 +3073,7 @@ class AISA_Tools {
 			return array(
 				'id'      => $id,
 				'status'  => 'failed',
-				'message' => 'Permission denied for this post.',
+				'message' => 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.',
 			);
 		}
 		$p = get_post( $id );
@@ -3223,7 +3223,7 @@ class AISA_Tools {
 	private static function get_seo( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		return array( 'content' => self::safe_json_encode( AISA_SEO::read_fields( $id ) ) );
 	}
@@ -3237,7 +3237,7 @@ class AISA_Tools {
 	private static function set_seo( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		$fields = array();
 		foreach ( array( 'meta_title', 'meta_description', 'focus_keyword', 'canonical', 'og_title', 'og_description', 'twitter_title', 'twitter_description' ) as $field ) {
@@ -3268,7 +3268,7 @@ class AISA_Tools {
 	private static function get_schema( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		return array( 'content' => self::safe_json_encode( AISA_Meta::read_meta( $id, 'rank_math_schema' ) ) );
 	}
@@ -3283,7 +3283,7 @@ class AISA_Tools {
 	private static function set_meta( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		$value = $in['value'] ?? '';
 		if ( is_string( $value ) && '' !== $value && ( '{' === $value[0] || '[' === $value[0] ) ) {
@@ -3604,7 +3604,7 @@ class AISA_Tools {
 	private static function get_page_html( array $in ) {
 		$id = (int) ( $in['id'] ?? 0 );
 		if ( ! current_user_can( 'edit_post', $id ) ) {
-			return self::error( 'Permission denied for this post.' );
+			return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 		}
 		$permalink = get_permalink( $id );
 		if ( ! $permalink ) {
@@ -4477,7 +4477,7 @@ class AISA_Tools {
 		if ( '' === $url && ! empty( $in['id'] ) ) {
 			$post_id = (int) $in['id'];
 			if ( ! current_user_can( 'edit_post', $post_id ) ) {
-				return self::error( 'Permission denied for this post.' );
+				return self::error( 'Permission denied for this post. This usually means the site\'s connection is stale (the connected account was changed, had its password reset, or lost its Application Password) rather than a true role restriction -- ask the user to reconnect the site (connect_site generates a fresh one-click link) and retry before trying a different tool or site.' );
 			}
 			$permalink = get_permalink( $post_id );
 			if ( ! $permalink ) {

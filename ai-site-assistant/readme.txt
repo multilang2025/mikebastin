@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.8.2
+Stable tag: 2.8.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,8 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.8.3 =
+* The "Permission denied for this post." error (returned by replace_in_post, append_to_post, update_post, trash_post, bulk_replace_in_posts, and every other edit_post-gated tool) now tells the agent this is usually a stale site connection -- not a role restriction -- and to have the user reconnect_site/connect_site for a fresh link before trying another tool or site. Found when a delaguialuzon.com post hit this error and the agent fell back to a different connector instead of suggesting a reconnect.
 = 2.8.2 =
 * Fix: the new "post meta get/update/patch" actions added in 2.8.0 were unreachable -- wp_cli_get/wp_cli_set run the action string through sanitize_key(), which silently strips spaces, so "meta get"/"meta update"/"meta patch" collapsed to "metaget"/"metaupdate"/"metapatch" and never matched. The action values are now underscored ("meta_get"/"meta_update"/"meta_patch"), consistent with every other multi-word value in this API, and all tool descriptions/usage text were corrected to match. Caught testing against a live site once discovery of the real tool catalogue (vs. the bridge's static fallback) started working.
 = 2.8.1 =
