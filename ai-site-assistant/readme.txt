@@ -3,7 +3,7 @@ Contributors: betranslated
 Tags: ai, claude, content, assistant
 Requires at least: 6.3
 Requires PHP: 8.1
-Stable tag: 2.8.3
+Stable tag: 2.8.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,8 @@ Tips:
   gate on more precisely.
 
 == Changelog ==
+= 2.8.4 =
+* The bridge's hosted-URL placeholder in the "Connect the AISA Bridge" field now points at the current bridge address instead of the old betranslated.us one, which went dark after that site moved to Vercel (the PHP bridge now runs on a VPS instead). No functional change for already-connected sites -- the saved bridge_url is only reused if "Connect" is clicked again.
 = 2.8.3 =
 * The "Permission denied for this post." error (returned by replace_in_post, append_to_post, update_post, trash_post, bulk_replace_in_posts, and every other edit_post-gated tool) now tells the agent this is usually a stale site connection -- not a role restriction -- and to have the user reconnect_site/connect_site for a fresh link before trying another tool or site. Found when a delaguialuzon.com post hit this error and the agent fell back to a different connector instead of suggesting a reconnect.
 = 2.8.2 =
