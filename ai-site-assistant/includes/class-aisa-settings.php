@@ -694,7 +694,7 @@ class AISA_Settings {
 								<td>
 									<input id="aisa_bridge_url" type="url" class="regular-text"
 										value="<?php echo esc_attr( $bridge_url ); ?>"
-										placeholder="https://www.betranslated.us/php-mcp-bridge" />
+										placeholder="https://aisa.betranslated.net" />
 									<button type="button" class="button button-primary" id="aisa_generate_bridge_btn">
 										<?php esc_html_e( 'Connect', 'ai-site-assistant' ); ?>
 									</button>

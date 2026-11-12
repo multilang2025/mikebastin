@@ -7,7 +7,10 @@ header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 header('Cache-Control: no-store');
 
-$proto      = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+// $_SERVER['HTTPS'] is unset when a reverse proxy (e.g. Traefik) terminates
+// TLS and forwards plain HTTP to this container -- fall back to the
+// X-Forwarded-Proto header the proxy sets in that case.
+$proto      = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || ($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '') === 'https' ? 'https' : 'http';
 $host       = $_SERVER['HTTP_HOST'];
 $script_dir = dirname(__FILE__);
 $doc_root   = rtrim($_SERVER['DOCUMENT_ROOT'], '/\\');

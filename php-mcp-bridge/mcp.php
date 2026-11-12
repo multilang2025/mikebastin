@@ -132,7 +132,9 @@ if ($url_token) {
 }
 
 if (!$token_valid) {
-    $proto      = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+    // $_SERVER['HTTPS'] is unset behind a TLS-terminating reverse proxy
+    // (e.g. Traefik) -- fall back to the X-Forwarded-Proto header it sets.
+    $proto      = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || ($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '') === 'https' ? 'https' : 'http';
     $host       = $_SERVER['HTTP_HOST'];
     $script_dir = dirname($_SERVER['SCRIPT_FILENAME']);
     $doc_root   = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
@@ -223,7 +225,7 @@ if ($bearer) {
     $mcp_session_id = $session_id;
 }
 
-$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || $_SERVER['SERVER_PORT'] == 443 ? 'https://' : 'http://';
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || $_SERVER['SERVER_PORT'] == 443 || ($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '') === 'https' ? 'https://' : 'http://';
 $domainName = $_SERVER['HTTP_HOST'];
 $basePath   = dirname($_SERVER['REQUEST_URI']);
 if ($basePath === '/' || $basePath === '\\') {
