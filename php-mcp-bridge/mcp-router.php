@@ -733,6 +733,13 @@ function resolve_redirect($url) {
 }
 
 function wp_fetch($site, $path, $method = 'GET', $data = []) {
+    // No site bound yet (e.g. a brand-new OAuth client before connect_site) --
+    // fail the same way a real unreachable-host would, instead of emitting
+    // null-array-access warnings that some PHP configs print straight into
+    // the HTTP response body, corrupting the JSON-RPC payload.
+    if (empty($site['wp_url'])) {
+        throw new WpConnectionException('No WordPress site is connected on this connection yet.');
+    }
     $url = rtrim($site['wp_url'], '/') . '/wp-json' . $path;
     if ($method === 'GET' && !empty($data)) {
         $url .= '?' . http_build_query($data);
